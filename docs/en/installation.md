@@ -38,7 +38,7 @@ This creates a `diagram.yaml` template in your current directory.
 ### 4. Start Live Sync
 
 ```bash
-npx figram serve diagram.yaml
+npx figram diagram.yaml
 ```
 
 In the FigJam plugin:
@@ -66,11 +66,13 @@ npx figram build diagram.yaml
 # Output: diagram.json
 ```
 
-### `figram serve <file>`
+### `figram serve <file>` (default)
 
-Start WebSocket server with file watching.
+Start WebSocket server with file watching. This is the default command, so you can omit `serve`:
 
 ```bash
+npx figram diagram.yaml
+# or explicitly:
 npx figram serve diagram.yaml
 ```
 
@@ -122,7 +124,7 @@ project/
 Start the server - icons are automatically discovered:
 
 ```bash
-npx figram serve diagram.yaml
+npx figram diagram.yaml
 ```
 
 #### Option 2: Inline Icons in diagram.yaml

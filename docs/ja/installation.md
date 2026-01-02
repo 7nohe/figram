@@ -38,7 +38,7 @@ npx figram init
 ### 4. ライブ同期の開始
 
 ```bash
-npx figram serve diagram.yaml
+npx figram diagram.yaml
 ```
 
 FigJamプラグイン上で:
@@ -66,11 +66,13 @@ npx figram build diagram.yaml
 # 出力: diagram.json
 ```
 
-### `figram serve <file>`
+### `figram serve <file>`（デフォルト）
 
-ファイル監視付きでWebSocketサーバーを起動します。
+ファイル監視付きでWebSocketサーバーを起動します。デフォルトコマンドのため、`serve`を省略できます:
 
 ```bash
+npx figram diagram.yaml
+# または明示的に:
 npx figram serve diagram.yaml
 ```
 
@@ -122,7 +124,7 @@ project/
 サーバーを起動 - アイコンは自動で検出されます:
 
 ```bash
-npx figram serve diagram.yaml
+npx figram diagram.yaml
 ```
 
 #### オプション2: diagram.yaml内にインライン定義

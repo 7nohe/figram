@@ -51,7 +51,7 @@ function createProgram(): Command {
     });
 
   program
-    .command("serve")
+    .command("serve", { isDefault: true })
     .description("Start WebSocket server with watch")
     .argument("[file]", "Input YAML file", "diagram.yaml")
     .option("-p, --port <port>", "WebSocket server port", "3456")
@@ -133,7 +133,7 @@ function createProgram(): Command {
 async function main() {
   const program = createProgram();
 
-  // Match previous behavior: show usage when no command is given.
+  // Show usage when no command is given.
   if (process.argv.slice(2).length === 0) {
     program.outputHelp();
     return;
