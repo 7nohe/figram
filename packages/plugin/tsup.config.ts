@@ -6,7 +6,7 @@ function getPluginVersion(): string {
   try {
     const pkg = JSON.parse(readFileSync("./package.json", "utf-8"));
     return pkg.version ?? "0.0.0";
-  } catch {
+  } catch (_) {
     return "0.0.0";
   }
 }
@@ -45,7 +45,8 @@ export default defineConfig([
   {
     entry: ["src/code.ts"],
     format: ["iife"],
-    target: "es2019",
+    // Figma's plugin sandbox doesn't fully support ES2019 features like optional catch binding
+    target: "es2018",
     outDir: "dist",
     platform: "browser",
     bundle: true,
@@ -60,7 +61,8 @@ export default defineConfig([
   {
     entry: ["src/ui.ts"],
     format: ["iife"],
-    target: "es2019",
+    // Figma's plugin sandbox doesn't fully support ES2019 features like optional catch binding
+    target: "es2018",
     outDir: "dist",
     platform: "browser",
     bundle: true,

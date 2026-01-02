@@ -44,7 +44,7 @@ function loadStoredInputs() {
     if (storedWsUrl) {
       wsUrlInput.value = storedWsUrl;
     }
-  } catch {
+  } catch (_) {
     // Ignore storage errors (sandboxed environments)
   }
 }
@@ -53,7 +53,7 @@ function persistInputs(docId: string, wsUrl: string) {
   try {
     localStorage.setItem(STORAGE_DOC_ID, docId);
     localStorage.setItem(STORAGE_WS_URL, wsUrl);
-  } catch {
+  } catch (_) {
     // Ignore storage errors (sandboxed environments)
   }
 }
@@ -148,7 +148,7 @@ function connect() {
 
         // Relay message to main thread
         parent.postMessage({ pluginMessage: message }, "*");
-      } catch {
+      } catch (_) {
         console.error("Failed to parse WebSocket message");
       }
     };
@@ -251,7 +251,7 @@ function parseImportedJson(jsonText: string): { ir: IRDocument } | { error: stri
   let raw: unknown;
   try {
     raw = JSON.parse(jsonText);
-  } catch {
+  } catch (_) {
     return { error: "Invalid JSON format" };
   }
 

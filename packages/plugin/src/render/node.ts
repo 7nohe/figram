@@ -342,7 +342,7 @@ async function resolveComponent(
   let componentKey: string | null = null;
   try {
     componentKey = getComponentKey(irNode.provider, irNode.kind);
-  } catch {
+  } catch (_) {
     // Component key not found for this kind
   }
 
