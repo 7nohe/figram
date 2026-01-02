@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/7nohe/figram/raw/main/images/logo.svg" width="300" alt="figram">
+</p>
+
 # figram
 
 YAML-driven architecture diagrams for FigJam. Define your infrastructure as code and sync it live to FigJam.
