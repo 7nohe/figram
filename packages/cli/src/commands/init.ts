@@ -13,8 +13,11 @@ export async function initCommand(): Promise<void> {
     throw new FileExistsError(filename);
   }
 
-  // Read template from ../templates/diagram.yaml (works for src/ and dist/)
-  const templatePath = join(__dirname, "..", "templates", "diagram.yaml");
+  // For bundled (dist/index.js): templates in same directory
+  // For dev (src/commands/init.ts): templates in parent directory
+  const bundledPath = join(__dirname, "templates", "diagram.yaml");
+  const devPath = join(__dirname, "..", "templates", "diagram.yaml");
+  const templatePath = existsSync(bundledPath) ? bundledPath : devPath;
   const template = await readFile(templatePath, "utf-8");
 
   await writeFile(filename, template);
