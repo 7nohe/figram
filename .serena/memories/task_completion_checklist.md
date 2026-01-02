@@ -1,0 +1,1 @@
+Before finishing a task: run bun run build, bun run check, bun run typecheck, bun test. New features should add tests. If modifying core types/validation or CLI/plugin commands, update related docs (docs/en + docs/ja) and CLAUDE.md/skills per doc-sync checklist in CLAUDE.md.

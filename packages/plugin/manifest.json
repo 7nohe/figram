@@ -1,0 +1,14 @@
+{
+  "name": "figram",
+  "id": "figram-diagram-as-code",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figjam"],
+  "networkAccess": {
+    "allowedDomains": ["*"],
+    "reasoning": "WebSocket connection to local CLI server for syncing diagram data"
+  },
+  "documentAccess": "dynamic-page",
+  "permissions": ["currentuser"]
+}

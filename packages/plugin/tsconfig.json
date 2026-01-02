@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["ES2020", "DOM"],
+    "types": ["@figma/plugin-typings"]
+  },
+  "include": ["src/**/*", "src/**/*.json"],
+  "exclude": ["src/**/*.test.ts", "src/debug-keys.ts"],
+  "references": [{ "path": "../core" }]
+}

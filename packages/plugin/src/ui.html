@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>figram</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 12px;
+        padding: 12px;
+        background: #fff;
+      }
+      h2 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 12px;
+      }
+      .form-group {
+        margin-bottom: 12px;
+      }
+      label {
+        display: block;
+        font-weight: 500;
+        margin-bottom: 4px;
+        color: #333;
+      }
+      input {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        font-size: 12px;
+      }
+      input:focus {
+        outline: none;
+        border-color: #18a0fb;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 6px;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        margin-bottom: 8px;
+      }
+      .btn-primary {
+        background: #18a0fb;
+        color: #fff;
+      }
+      .btn-primary:hover {
+        background: #0d8de8;
+      }
+      .btn-primary:disabled {
+        background: #b0b0b0;
+        cursor: not-allowed;
+      }
+      .btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+      }
+      .btn-secondary:hover {
+        background: #e0e0e0;
+      }
+      .status {
+        padding: 8px;
+        border-radius: 6px;
+        margin-bottom: 12px;
+        font-size: 11px;
+      }
+      .status.disconnected {
+        background: #ffebee;
+        color: #c62828;
+      }
+      .status.connecting {
+        background: #fff3e0;
+        color: #e65100;
+      }
+      .status.connected {
+        background: #e8f5e9;
+        color: #2e7d32;
+      }
+      .divider {
+        border-top: 1px solid #e0e0e0;
+        margin: 16px 0;
+      }
+      textarea {
+        width: 100%;
+        height: 120px;
+        padding: 8px;
+        border: 1px solid #e0e0e0;
+        border-radius: 6px;
+        font-size: 11px;
+        font-family: monospace;
+        resize: vertical;
+      }
+      .info {
+        font-size: 11px;
+        color: #666;
+        margin-top: 4px;
+      }
+      .version-info {
+        font-size: 10px;
+        color: #999;
+        text-align: center;
+        margin-top: 16px;
+        padding-top: 12px;
+        border-top: 1px solid #e0e0e0;
+      }
+      .version-info .version {
+        font-family: monospace;
+      }
+      .version-mismatch {
+        background: #fff3e0;
+        color: #e65100;
+        padding: 6px 8px;
+        border-radius: 4px;
+        font-size: 10px;
+        margin-top: 8px;
+        display: none;
+      }
+      .version-mismatch.visible {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>figram</h2>
+
+    <!-- Status -->
+    <div id="status" class="status disconnected">Disconnected</div>
+
+    <!-- Connection Form -->
+    <div class="form-group">
+      <label for="docId">Document ID</label>
+      <input type="text" id="docId" placeholder="my-architecture" value="" />
+    </div>
+
+    <div class="form-group">
+      <label for="wsUrl">WebSocket URL</label>
+      <input type="text" id="wsUrl" placeholder="ws://127.0.0.1:3456" value="ws://127.0.0.1:3456" />
+    </div>
+
+    <div class="form-group">
+      <label for="secret">Secret (optional)</label>
+      <input type="password" id="secret" placeholder="" />
+    </div>
+
+    <button id="connectBtn" class="btn-primary">Connect</button>
+
+    <div class="divider"></div>
+
+    <!-- JSON Import -->
+    <div class="form-group">
+      <label for="jsonImport">Import JSON (IR)</label>
+      <textarea id="jsonImport" placeholder='Paste diagram.json here...'></textarea>
+      <div class="info">CLI: figram build diagram.yaml</div>
+    </div>
+
+    <button id="importBtn" class="btn-secondary">Import JSON</button>
+
+    <!-- Version Info -->
+    <div class="version-info">
+      <div>Plugin: <span id="pluginVersion" class="version">-</span></div>
+      <div>CLI: <span id="cliVersion" class="version">-</span></div>
+      <div id="versionMismatch" class="version-mismatch">
+        ⚠ Version mismatch detected. Consider updating.
+      </div>
+    </div>
+
+    <script src="ui.js"></script>
+  </body>
+</html>

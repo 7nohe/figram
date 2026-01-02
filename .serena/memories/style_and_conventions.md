@@ -1,0 +1,1 @@
+Code style (from CLAUDE.md/biome): 2-space indent, double quotes, semicolons, trailing commas. Files in kebab-case; Types PascalCase; Functions camelCase; Constants UPPER_SNAKE_CASE. Tests co-located as *.test.ts. Plugin constraints: code.ts uses only figma API (no browser APIs); ui.ts can use browser APIs and must postMessage to main thread.

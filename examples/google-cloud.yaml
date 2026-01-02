@@ -1,0 +1,1302 @@
+version: 1
+docId: "gcp-all-shapes"
+title: "GCP All 216 Shapes"
+
+nodes:
+  - id: ai_hub
+    provider: gcp
+    kind: ai.hub
+    label: "ai.hub"
+    layout: { x: 0, y: 0 }
+
+  - id: ai_platform
+    provider: gcp
+    kind: ai.platform
+    label: "ai.platform"
+    layout: { x: 160, y: 0 }
+
+  - id: ai_platform_unified
+    provider: gcp
+    kind: ai.platform_unified
+    label: "ai.platform_unified"
+    layout: { x: 320, y: 0 }
+
+  - id: ai_advanced_agent_modeling
+    provider: gcp
+    kind: ai.advanced_agent_modeling
+    label: "ai.advanced_agent_modeling"
+    layout: { x: 480, y: 0 }
+
+  - id: ai_advanced_solutions_lab
+    provider: gcp
+    kind: ai.advanced_solutions_lab
+    label: "ai.advanced_solutions_lab"
+    layout: { x: 640, y: 0 }
+
+  - id: ai_agent_assist
+    provider: gcp
+    kind: ai.agent_assist
+    label: "ai.agent_assist"
+    layout: { x: 800, y: 0 }
+
+  - id: ai_automl
+    provider: gcp
+    kind: ai.automl
+    label: "ai.automl"
+    layout: { x: 960, y: 0 }
+
+  - id: ai_automl_natural_language
+    provider: gcp
+    kind: ai.automl.natural_language
+    label: "ai.automl.natural_language"
+    layout: { x: 1120, y: 0 }
+
+  - id: ai_automl_tables
+    provider: gcp
+    kind: ai.automl.tables
+    label: "ai.automl.tables"
+    layout: { x: 1280, y: 0 }
+
+  - id: ai_automl_translation
+    provider: gcp
+    kind: ai.automl.translation
+    label: "ai.automl.translation"
+    layout: { x: 1440, y: 0 }
+
+  - id: ai_automl_video_intelligence
+    provider: gcp
+    kind: ai.automl.video_intelligence
+    label: "ai.automl.video_intelligence"
+    layout: { x: 1600, y: 0 }
+
+  - id: ai_automl_vision
+    provider: gcp
+    kind: ai.automl.vision
+    label: "ai.automl.vision"
+    layout: { x: 1760, y: 0 }
+
+  - id: ai_contact_center
+    provider: gcp
+    kind: ai.contact_center
+    label: "ai.contact_center"
+    layout: { x: 1920, y: 0 }
+
+  - id: ai_dialogflow
+    provider: gcp
+    kind: ai.dialogflow
+    label: "ai.dialogflow"
+    layout: { x: 2080, y: 0 }
+
+  - id: ai_dialogflow_cx
+    provider: gcp
+    kind: ai.dialogflow.cx
+    label: "ai.dialogflow.cx"
+    layout: { x: 2240, y: 0 }
+
+  - id: ai_dialogflow_insights
+    provider: gcp
+    kind: ai.dialogflow.insights
+    label: "ai.dialogflow.insights"
+    layout: { x: 0, y: 140 }
+
+  - id: ai_document
+    provider: gcp
+    kind: ai.document
+    label: "ai.document"
+    layout: { x: 160, y: 140 }
+
+  - id: ai_healthcare_nlp
+    provider: gcp
+    kind: ai.healthcare_nlp
+    label: "ai.healthcare_nlp"
+    layout: { x: 320, y: 140 }
+
+  - id: ai_inference
+    provider: gcp
+    kind: ai.inference
+    label: "ai.inference"
+    layout: { x: 480, y: 140 }
+
+  - id: ai_jobs
+    provider: gcp
+    kind: ai.jobs
+    label: "ai.jobs"
+    layout: { x: 640, y: 140 }
+
+  - id: ai_natural_language
+    provider: gcp
+    kind: ai.natural_language
+    label: "ai.natural_language"
+    layout: { x: 800, y: 140 }
+
+  - id: ai_optimization
+    provider: gcp
+    kind: ai.optimization
+    label: "ai.optimization"
+    layout: { x: 960, y: 140 }
+
+  - id: ai_optimization_fleet_routing
+    provider: gcp
+    kind: ai.optimization.fleet_routing
+    label: "ai.optimization.fleet_routing"
+    layout: { x: 1120, y: 140 }
+
+  - id: ai_recommendations
+    provider: gcp
+    kind: ai.recommendations
+    label: "ai.recommendations"
+    layout: { x: 1280, y: 140 }
+
+  - id: ai_retail
+    provider: gcp
+    kind: ai.retail
+    label: "ai.retail"
+    layout: { x: 1440, y: 140 }
+
+  - id: ai_retail_alt
+    provider: gcp
+    kind: ai.retail_alt
+    label: "ai.retail_alt"
+    layout: { x: 1600, y: 140 }
+
+  - id: ai_speech_to_text
+    provider: gcp
+    kind: ai.speech_to_text
+    label: "ai.speech_to_text"
+    layout: { x: 1760, y: 140 }
+
+  - id: ai_tensorflow_enterprise
+    provider: gcp
+    kind: ai.tensorflow_enterprise
+    label: "ai.tensorflow_enterprise"
+    layout: { x: 1920, y: 140 }
+
+  - id: ai_text_to_speech
+    provider: gcp
+    kind: ai.text_to_speech
+    label: "ai.text_to_speech"
+    layout: { x: 2080, y: 140 }
+
+  - id: ai_translation
+    provider: gcp
+    kind: ai.translation
+    label: "ai.translation"
+    layout: { x: 2240, y: 140 }
+
+  - id: ai_vertex
+    provider: gcp
+    kind: ai.vertex
+    label: "ai.vertex"
+    layout: { x: 0, y: 280 }
+
+  - id: ai_video_intelligence
+    provider: gcp
+    kind: ai.video_intelligence
+    label: "ai.video_intelligence"
+    layout: { x: 160, y: 280 }
+
+  - id: ai_vision
+    provider: gcp
+    kind: ai.vision
+    label: "ai.vision"
+    layout: { x: 320, y: 280 }
+
+  - id: ai_visual_inspection
+    provider: gcp
+    kind: ai.visual_inspection
+    label: "ai.visual_inspection"
+    layout: { x: 480, y: 280 }
+
+  - id: analytics_bigquery
+    provider: gcp
+    kind: analytics.bigquery
+    label: "analytics.bigquery"
+    layout: { x: 640, y: 280 }
+
+  - id: analytics_bigtable
+    provider: gcp
+    kind: analytics.bigtable
+    label: "analytics.bigtable"
+    layout: { x: 800, y: 280 }
+
+  - id: analytics_data_catalog
+    provider: gcp
+    kind: analytics.data_catalog
+    label: "analytics.data_catalog"
+    layout: { x: 960, y: 280 }
+
+  - id: analytics_data_fusion
+    provider: gcp
+    kind: analytics.data_fusion
+    label: "analytics.data_fusion"
+    layout: { x: 1120, y: 280 }
+
+  - id: analytics_data_labeling
+    provider: gcp
+    kind: analytics.data_labeling
+    label: "analytics.data_labeling"
+    layout: { x: 1280, y: 280 }
+
+  - id: analytics_data_layers
+    provider: gcp
+    kind: analytics.data_layers
+    label: "analytics.data_layers"
+    layout: { x: 1440, y: 280 }
+
+  - id: analytics_data_studio
+    provider: gcp
+    kind: analytics.data_studio
+    label: "analytics.data_studio"
+    layout: { x: 1600, y: 280 }
+
+  - id: analytics_dataflow
+    provider: gcp
+    kind: analytics.dataflow
+    label: "analytics.dataflow"
+    layout: { x: 1760, y: 280 }
+
+  - id: analytics_datalab
+    provider: gcp
+    kind: analytics.datalab
+    label: "analytics.datalab"
+    layout: { x: 1920, y: 280 }
+
+  - id: analytics_dataplex
+    provider: gcp
+    kind: analytics.dataplex
+    label: "analytics.dataplex"
+    layout: { x: 2080, y: 280 }
+
+  - id: analytics_datapol
+    provider: gcp
+    kind: analytics.datapol
+    label: "analytics.datapol"
+    layout: { x: 2240, y: 280 }
+
+  - id: analytics_dataprep
+    provider: gcp
+    kind: analytics.dataprep
+    label: "analytics.dataprep"
+    layout: { x: 0, y: 420 }
+
+  - id: analytics_dataproc
+    provider: gcp
+    kind: analytics.dataproc
+    label: "analytics.dataproc"
+    layout: { x: 160, y: 420 }
+
+  - id: analytics_dataproc_metastore
+    provider: gcp
+    kind: analytics.dataproc.metastore
+    label: "analytics.dataproc.metastore"
+    layout: { x: 320, y: 420 }
+
+  - id: analytics_datashare
+    provider: gcp
+    kind: analytics.datashare
+    label: "analytics.datashare"
+    layout: { x: 480, y: 420 }
+
+  - id: analytics_datastream
+    provider: gcp
+    kind: analytics.datastream
+    label: "analytics.datastream"
+    layout: { x: 640, y: 420 }
+
+  - id: analytics_hub
+    provider: gcp
+    kind: analytics.hub
+    label: "analytics.hub"
+    layout: { x: 800, y: 420 }
+
+  - id: analytics_looker
+    provider: gcp
+    kind: analytics.looker
+    label: "analytics.looker"
+    layout: { x: 960, y: 420 }
+
+  - id: analytics_pubsub
+    provider: gcp
+    kind: analytics.pubsub
+    label: "analytics.pubsub"
+    layout: { x: 1120, y: 420 }
+
+  - id: analytics_real_world_insights
+    provider: gcp
+    kind: analytics.real_world_insights
+    label: "analytics.real_world_insights"
+    layout: { x: 1280, y: 420 }
+
+  - id: analytics_stream_suite
+    provider: gcp
+    kind: analytics.stream_suite
+    label: "analytics.stream_suite"
+    layout: { x: 1440, y: 420 }
+
+  - id: api_gateway
+    provider: gcp
+    kind: api.gateway
+    label: "api.gateway"
+    layout: { x: 1600, y: 420 }
+
+  - id: api_apis
+    provider: gcp
+    kind: api.apis
+    label: "api.apis"
+    layout: { x: 1760, y: 420 }
+
+  - id: api_api
+    provider: gcp
+    kind: api.api
+    label: "api.api"
+    layout: { x: 1920, y: 420 }
+
+  - id: api_analytics
+    provider: gcp
+    kind: api.analytics
+    label: "api.analytics"
+    layout: { x: 2080, y: 420 }
+
+  - id: api_monetization
+    provider: gcp
+    kind: api.monetization
+    label: "api.monetization"
+    layout: { x: 2240, y: 420 }
+
+  - id: api_apigee
+    provider: gcp
+    kind: api.apigee
+    label: "api.apigee"
+    layout: { x: 0, y: 560 }
+
+  - id: api_apigee_alt
+    provider: gcp
+    kind: api.apigee_alt
+    label: "api.apigee_alt"
+    layout: { x: 160, y: 560 }
+
+  - id: api_apigee_sense
+    provider: gcp
+    kind: api.apigee_sense
+    label: "api.apigee_sense"
+    layout: { x: 320, y: 560 }
+
+  - id: api_endpoints
+    provider: gcp
+    kind: api.endpoints
+    label: "api.endpoints"
+    layout: { x: 480, y: 560 }
+
+  - id: compute_engine
+    provider: gcp
+    kind: compute.engine
+    label: "compute.engine"
+    layout: { x: 640, y: 560 }
+
+  - id: compute_app_engine
+    provider: gcp
+    kind: compute.app_engine
+    label: "compute.app_engine"
+    layout: { x: 800, y: 560 }
+
+  - id: compute_batch
+    provider: gcp
+    kind: compute.batch
+    label: "compute.batch"
+    layout: { x: 960, y: 560 }
+
+  - id: compute_functions
+    provider: gcp
+    kind: compute.functions
+    label: "compute.functions"
+    layout: { x: 1120, y: 560 }
+
+  - id: compute_gpu
+    provider: gcp
+    kind: compute.gpu
+    label: "compute.gpu"
+    layout: { x: 1280, y: 560 }
+
+  - id: compute_run
+    provider: gcp
+    kind: compute.run
+    label: "compute.run"
+    layout: { x: 1440, y: 560 }
+
+  - id: compute_run_for_anthos
+    provider: gcp
+    kind: compute.run_for_anthos
+    label: "compute.run_for_anthos"
+    layout: { x: 1600, y: 560 }
+
+  - id: compute_tpu
+    provider: gcp
+    kind: compute.tpu
+    label: "compute.tpu"
+    layout: { x: 1760, y: 560 }
+
+  - id: compute_vmware_engine
+    provider: gcp
+    kind: compute.vmware_engine
+    label: "compute.vmware_engine"
+    layout: { x: 1920, y: 560 }
+
+  - id: compute_bare_metal
+    provider: gcp
+    kind: compute.bare_metal
+    label: "compute.bare_metal"
+    layout: { x: 2080, y: 560 }
+
+  - id: compute_local_ssd
+    provider: gcp
+    kind: compute.local_ssd
+    label: "compute.local_ssd"
+    layout: { x: 2240, y: 560 }
+
+  - id: compute_persistent_disk
+    provider: gcp
+    kind: compute.persistent_disk
+    label: "compute.persistent_disk"
+    layout: { x: 0, y: 700 }
+
+  - id: compute_gce_systems_management
+    provider: gcp
+    kind: compute.gce_systems_management
+    label: "compute.gce_systems_management"
+    layout: { x: 160, y: 700 }
+
+  - id: container_gke
+    provider: gcp
+    kind: container.gke
+    label: "container.gke"
+    layout: { x: 320, y: 700 }
+
+  - id: container_gke_onprem
+    provider: gcp
+    kind: container.gke_onprem
+    label: "container.gke_onprem"
+    layout: { x: 480, y: 700 }
+
+  - id: container_anthos
+    provider: gcp
+    kind: container.anthos
+    label: "container.anthos"
+    layout: { x: 640, y: 700 }
+
+  - id: container_anthos_config_management
+    provider: gcp
+    kind: container.anthos.config_management
+    label: "container.anthos.config_management"
+    layout: { x: 800, y: 700 }
+
+  - id: container_anthos_service_mesh
+    provider: gcp
+    kind: container.anthos.service_mesh
+    label: "container.anthos.service_mesh"
+    layout: { x: 960, y: 700 }
+
+  - id: container_artifact_registry
+    provider: gcp
+    kind: container.artifact_registry
+    label: "container.artifact_registry"
+    layout: { x: 1120, y: 700 }
+
+  - id: container_container_registry
+    provider: gcp
+    kind: container.container_registry
+    label: "container.container_registry"
+    layout: { x: 1280, y: 700 }
+
+  - id: container_container_optimized_os
+    provider: gcp
+    kind: container.container_optimized_os
+    label: "container.container_optimized_os"
+    layout: { x: 1440, y: 700 }
+
+  - id: container_kuberun
+    provider: gcp
+    kind: container.kuberun
+    label: "container.kuberun"
+    layout: { x: 1600, y: 700 }
+
+  - id: database_sql
+    provider: gcp
+    kind: database.sql
+    label: "database.sql"
+    layout: { x: 1760, y: 700 }
+
+  - id: database_spanner
+    provider: gcp
+    kind: database.spanner
+    label: "database.spanner"
+    layout: { x: 1920, y: 700 }
+
+  - id: database_firestore
+    provider: gcp
+    kind: database.firestore
+    label: "database.firestore"
+    layout: { x: 2080, y: 700 }
+
+  - id: database_datastore
+    provider: gcp
+    kind: database.datastore
+    label: "database.datastore"
+    layout: { x: 2240, y: 700 }
+
+  - id: database_memorystore
+    provider: gcp
+    kind: database.memorystore
+    label: "database.memorystore"
+    layout: { x: 0, y: 840 }
+
+  - id: database_migration_service
+    provider: gcp
+    kind: database.migration_service
+    label: "database.migration_service"
+    layout: { x: 160, y: 840 }
+
+  - id: database_filestore
+    provider: gcp
+    kind: database.filestore
+    label: "database.filestore"
+    layout: { x: 320, y: 840 }
+
+  - id: devtools_build
+    provider: gcp
+    kind: devtools.build
+    label: "devtools.build"
+    layout: { x: 480, y: 840 }
+
+  - id: devtools_code
+    provider: gcp
+    kind: devtools.code
+    label: "devtools.code"
+    layout: { x: 640, y: 840 }
+
+  - id: devtools_deploy
+    provider: gcp
+    kind: devtools.deploy
+    label: "devtools.deploy"
+    layout: { x: 800, y: 840 }
+
+  - id: devtools_deployment_manager
+    provider: gcp
+    kind: devtools.deployment_manager
+    label: "devtools.deployment_manager"
+    layout: { x: 960, y: 840 }
+
+  - id: devtools_debugger
+    provider: gcp
+    kind: devtools.debugger
+    label: "devtools.debugger"
+    layout: { x: 1120, y: 840 }
+
+  - id: devtools_error_reporting
+    provider: gcp
+    kind: devtools.error_reporting
+    label: "devtools.error_reporting"
+    layout: { x: 1280, y: 840 }
+
+  - id: devtools_profiler
+    provider: gcp
+    kind: devtools.profiler
+    label: "devtools.profiler"
+    layout: { x: 1440, y: 840 }
+
+  - id: devtools_scheduler
+    provider: gcp
+    kind: devtools.scheduler
+    label: "devtools.scheduler"
+    layout: { x: 1600, y: 840 }
+
+  - id: devtools_shell
+    provider: gcp
+    kind: devtools.shell
+    label: "devtools.shell"
+    layout: { x: 1760, y: 840 }
+
+  - id: devtools_tasks
+    provider: gcp
+    kind: devtools.tasks
+    label: "devtools.tasks"
+    layout: { x: 1920, y: 840 }
+
+  - id: devtools_test_lab
+    provider: gcp
+    kind: devtools.test_lab
+    label: "devtools.test_lab"
+    layout: { x: 2080, y: 840 }
+
+  - id: devtools_tools_for_powershell
+    provider: gcp
+    kind: devtools.tools_for_powershell
+    label: "devtools.tools_for_powershell"
+    layout: { x: 2240, y: 840 }
+
+  - id: devtools_trace
+    provider: gcp
+    kind: devtools.trace
+    label: "devtools.trace"
+    layout: { x: 0, y: 980 }
+
+  - id: devtools_workflows
+    provider: gcp
+    kind: devtools.workflows
+    label: "devtools.workflows"
+    layout: { x: 160, y: 980 }
+
+  - id: devtools_eventarc
+    provider: gcp
+    kind: devtools.eventarc
+    label: "devtools.eventarc"
+    layout: { x: 320, y: 980 }
+
+  - id: devtools_composer
+    provider: gcp
+    kind: devtools.composer
+    label: "devtools.composer"
+    layout: { x: 480, y: 980 }
+
+  - id: devtools_connectors
+    provider: gcp
+    kind: devtools.connectors
+    label: "devtools.connectors"
+    layout: { x: 640, y: 980 }
+
+  - id: healthcare_api
+    provider: gcp
+    kind: healthcare.api
+    label: "healthcare.api"
+    layout: { x: 800, y: 980 }
+
+  - id: healthcare_marketplace
+    provider: gcp
+    kind: healthcare.marketplace
+    label: "healthcare.marketplace"
+    layout: { x: 960, y: 980 }
+
+  - id: security_iam
+    provider: gcp
+    kind: security.iam
+    label: "security.iam"
+    layout: { x: 1120, y: 980 }
+
+  - id: security_armor
+    provider: gcp
+    kind: security.armor
+    label: "security.armor"
+    layout: { x: 1280, y: 980 }
+
+  - id: security_asset_inventory
+    provider: gcp
+    kind: security.asset_inventory
+    label: "security.asset_inventory"
+    layout: { x: 1440, y: 980 }
+
+  - id: security_audit_logs
+    provider: gcp
+    kind: security.audit_logs
+    label: "security.audit_logs"
+    layout: { x: 1600, y: 980 }
+
+  - id: security_binary_authorization
+    provider: gcp
+    kind: security.binary_authorization
+    label: "security.binary_authorization"
+    layout: { x: 1760, y: 980 }
+
+  - id: security_certificate_authority
+    provider: gcp
+    kind: security.certificate_authority
+    label: "security.certificate_authority"
+    layout: { x: 1920, y: 980 }
+
+  - id: security_certificate_manager
+    provider: gcp
+    kind: security.certificate_manager
+    label: "security.certificate_manager"
+    layout: { x: 2080, y: 980 }
+
+  - id: security_data_loss_prevention
+    provider: gcp
+    kind: security.data_loss_prevention
+    label: "security.data_loss_prevention"
+    layout: { x: 2240, y: 980 }
+
+  - id: security_ekm
+    provider: gcp
+    kind: security.ekm
+    label: "security.ekm"
+    layout: { x: 0, y: 1120 }
+
+  - id: security_hsm
+    provider: gcp
+    kind: security.hsm
+    label: "security.hsm"
+    layout: { x: 160, y: 1120 }
+
+  - id: security_identity_aware_proxy
+    provider: gcp
+    kind: security.identity_aware_proxy
+    label: "security.identity_aware_proxy"
+    layout: { x: 320, y: 1120 }
+
+  - id: security_identity_platform
+    provider: gcp
+    kind: security.identity_platform
+    label: "security.identity_platform"
+    layout: { x: 480, y: 1120 }
+
+  - id: security_ids
+    provider: gcp
+    kind: security.ids
+    label: "security.ids"
+    layout: { x: 640, y: 1120 }
+
+  - id: security_key_access_justifications
+    provider: gcp
+    kind: security.key_access_justifications
+    label: "security.key_access_justifications"
+    layout: { x: 800, y: 1120 }
+
+  - id: security_kms
+    provider: gcp
+    kind: security.kms
+    label: "security.kms"
+    layout: { x: 960, y: 1120 }
+
+  - id: security_phishing_protection
+    provider: gcp
+    kind: security.phishing_protection
+    label: "security.phishing_protection"
+    layout: { x: 1120, y: 1120 }
+
+  - id: security_policy_analyzer
+    provider: gcp
+    kind: security.policy_analyzer
+    label: "security.policy_analyzer"
+    layout: { x: 1280, y: 1120 }
+
+  - id: security_risk_manager
+    provider: gcp
+    kind: security.risk_manager
+    label: "security.risk_manager"
+    layout: { x: 1440, y: 1120 }
+
+  - id: security_secret_manager
+    provider: gcp
+    kind: security.secret_manager
+    label: "security.secret_manager"
+    layout: { x: 1600, y: 1120 }
+
+  - id: security_security
+    provider: gcp
+    kind: security.security
+    label: "security.security"
+    layout: { x: 1760, y: 1120 }
+
+  - id: security_security_command_center
+    provider: gcp
+    kind: security.security_command_center
+    label: "security.security_command_center"
+    layout: { x: 1920, y: 1120 }
+
+  - id: security_security_health_advisor
+    provider: gcp
+    kind: security.security_health_advisor
+    label: "security.security_health_advisor"
+    layout: { x: 2080, y: 1120 }
+
+  - id: security_security_key_enforcement
+    provider: gcp
+    kind: security.security_key_enforcement
+    label: "security.security_key_enforcement"
+    layout: { x: 2240, y: 1120 }
+
+  - id: security_security_scanner
+    provider: gcp
+    kind: security.security_scanner
+    label: "security.security_scanner"
+    layout: { x: 0, y: 1260 }
+
+  - id: security_web_risk
+    provider: gcp
+    kind: security.web_risk
+    label: "security.web_risk"
+    layout: { x: 160, y: 1260 }
+
+  - id: security_web_security_scanner
+    provider: gcp
+    kind: security.web_security_scanner
+    label: "security.web_security_scanner"
+    layout: { x: 320, y: 1260 }
+
+  - id: security_access_context_manager
+    provider: gcp
+    kind: security.access_context_manager
+    label: "security.access_context_manager"
+    layout: { x: 480, y: 1260 }
+
+  - id: security_assured_workloads
+    provider: gcp
+    kind: security.assured_workloads
+    label: "security.assured_workloads"
+    layout: { x: 640, y: 1260 }
+
+  - id: security_beyondcorp
+    provider: gcp
+    kind: security.beyondcorp
+    label: "security.beyondcorp"
+    layout: { x: 800, y: 1260 }
+
+  - id: security_managed_ad
+    provider: gcp
+    kind: security.managed_ad
+    label: "security.managed_ad"
+    layout: { x: 960, y: 1260 }
+
+  - id: security_workload_identity_pool
+    provider: gcp
+    kind: security.workload_identity_pool
+    label: "security.workload_identity_pool"
+    layout: { x: 1120, y: 1260 }
+
+  - id: iot_core
+    provider: gcp
+    kind: iot.core
+    label: "iot.core"
+    layout: { x: 1280, y: 1260 }
+
+  - id: iot_edge
+    provider: gcp
+    kind: iot.edge
+    label: "iot.edge"
+    layout: { x: 1440, y: 1260 }
+
+  - id: iot_fleet_engine
+    provider: gcp
+    kind: iot.fleet_engine
+    label: "iot.fleet_engine"
+    layout: { x: 1600, y: 1260 }
+
+  - id: management_administration
+    provider: gcp
+    kind: management.administration
+    label: "management.administration"
+    layout: { x: 1760, y: 1260 }
+
+  - id: management_billing
+    provider: gcp
+    kind: management.billing
+    label: "management.billing"
+    layout: { x: 1920, y: 1260 }
+
+  - id: management_catalog
+    provider: gcp
+    kind: management.catalog
+    label: "management.catalog"
+    layout: { x: 2080, y: 1260 }
+
+  - id: management_config_management
+    provider: gcp
+    kind: management.config_management
+    label: "management.config_management"
+    layout: { x: 2240, y: 1260 }
+
+  - id: management_early_access_center
+    provider: gcp
+    kind: management.early_access_center
+    label: "management.early_access_center"
+    layout: { x: 0, y: 1400 }
+
+  - id: management_home
+    provider: gcp
+    kind: management.home
+    label: "management.home"
+    layout: { x: 160, y: 1400 }
+
+  - id: management_launcher
+    provider: gcp
+    kind: management.launcher
+    label: "management.launcher"
+    layout: { x: 320, y: 1400 }
+
+  - id: management_logging
+    provider: gcp
+    kind: management.logging
+    label: "management.logging"
+    layout: { x: 480, y: 1400 }
+
+  - id: management_monitoring
+    provider: gcp
+    kind: management.monitoring
+    label: "management.monitoring"
+    layout: { x: 640, y: 1400 }
+
+  - id: management_onboarding
+    provider: gcp
+    kind: management.onboarding
+    label: "management.onboarding"
+    layout: { x: 800, y: 1400 }
+
+  - id: management_ops
+    provider: gcp
+    kind: management.ops
+    label: "management.ops"
+    layout: { x: 960, y: 1400 }
+
+  - id: management_permissions
+    provider: gcp
+    kind: management.permissions
+    label: "management.permissions"
+    layout: { x: 1120, y: 1400 }
+
+  - id: management_project
+    provider: gcp
+    kind: management.project
+    label: "management.project"
+    layout: { x: 1280, y: 1400 }
+
+  - id: management_quotas
+    provider: gcp
+    kind: management.quotas
+    label: "management.quotas"
+    layout: { x: 1440, y: 1400 }
+
+  - id: management_release_notes
+    provider: gcp
+    kind: management.release_notes
+    label: "management.release_notes"
+    layout: { x: 1600, y: 1400 }
+
+  - id: management_runtime_config
+    provider: gcp
+    kind: management.runtime_config
+    label: "management.runtime_config"
+    layout: { x: 1760, y: 1400 }
+
+  - id: management_stackdriver
+    provider: gcp
+    kind: management.stackdriver
+    label: "management.stackdriver"
+    layout: { x: 1920, y: 1400 }
+
+  - id: management_support
+    provider: gcp
+    kind: management.support
+    label: "management.support"
+    layout: { x: 2080, y: 1400 }
+
+  - id: management_user_preferences
+    provider: gcp
+    kind: management.user_preferences
+    label: "management.user_preferences"
+    layout: { x: 2240, y: 1400 }
+
+  - id: management_os_config
+    provider: gcp
+    kind: management.os_config
+    label: "management.os_config"
+    layout: { x: 0, y: 1540 }
+
+  - id: management_os_inventory
+    provider: gcp
+    kind: management.os_inventory
+    label: "management.os_inventory"
+    layout: { x: 160, y: 1540 }
+
+  - id: management_os_patch
+    provider: gcp
+    kind: management.os_patch
+    label: "management.os_patch"
+    layout: { x: 320, y: 1540 }
+
+  - id: management_asset_inventory
+    provider: gcp
+    kind: management.asset_inventory
+    label: "management.asset_inventory"
+    layout: { x: 480, y: 1540 }
+
+  - id: migration_migrate_for_anthos
+    provider: gcp
+    kind: migration.migrate_for_anthos
+    label: "migration.migrate_for_anthos"
+    layout: { x: 640, y: 1540 }
+
+  - id: migration_migrate_for_compute_engine
+    provider: gcp
+    kind: migration.migrate_for_compute_engine
+    label: "migration.migrate_for_compute_engine"
+    layout: { x: 800, y: 1540 }
+
+  - id: migration_transfer
+    provider: gcp
+    kind: migration.transfer
+    label: "migration.transfer"
+    layout: { x: 960, y: 1540 }
+
+  - id: migration_transfer_appliance
+    provider: gcp
+    kind: migration.transfer_appliance
+    label: "migration.transfer_appliance"
+    layout: { x: 1120, y: 1540 }
+
+  - id: migration_data_transfer
+    provider: gcp
+    kind: migration.data_transfer
+    label: "migration.data_transfer"
+    layout: { x: 1280, y: 1540 }
+
+  - id: network_cdn
+    provider: gcp
+    kind: network.cdn
+    label: "network.cdn"
+    layout: { x: 1440, y: 1540 }
+
+  - id: network_dns
+    provider: gcp
+    kind: network.dns
+    label: "network.dns"
+    layout: { x: 1600, y: 1540 }
+
+  - id: network_domains
+    provider: gcp
+    kind: network.domains
+    label: "network.domains"
+    layout: { x: 1760, y: 1540 }
+
+  - id: network_external_ip
+    provider: gcp
+    kind: network.external_ip
+    label: "network.external_ip"
+    layout: { x: 1920, y: 1540 }
+
+  - id: network_firewall_rules
+    provider: gcp
+    kind: network.firewall_rules
+    label: "network.firewall_rules"
+    layout: { x: 2080, y: 1540 }
+
+  - id: network_interconnect
+    provider: gcp
+    kind: network.interconnect
+    label: "network.interconnect"
+    layout: { x: 2240, y: 1540 }
+
+  - id: network_load_balancing
+    provider: gcp
+    kind: network.load_balancing
+    label: "network.load_balancing"
+    layout: { x: 0, y: 1680 }
+
+  - id: network_media_edge
+    provider: gcp
+    kind: network.media_edge
+    label: "network.media_edge"
+    layout: { x: 160, y: 1680 }
+
+  - id: network_nat
+    provider: gcp
+    kind: network.nat
+    label: "network.nat"
+    layout: { x: 320, y: 1680 }
+
+  - id: network_network
+    provider: gcp
+    kind: network.network
+    label: "network.network"
+    layout: { x: 480, y: 1680 }
+
+  - id: network_connectivity_center
+    provider: gcp
+    kind: network.connectivity_center
+    label: "network.connectivity_center"
+    layout: { x: 640, y: 1680 }
+
+  - id: network_connectivity_test
+    provider: gcp
+    kind: network.connectivity_test
+    label: "network.connectivity_test"
+    layout: { x: 800, y: 1680 }
+
+  - id: network_intelligence_center
+    provider: gcp
+    kind: network.intelligence_center
+    label: "network.intelligence_center"
+    layout: { x: 960, y: 1680 }
+
+  - id: network_partner_interconnect
+    provider: gcp
+    kind: network.partner_interconnect
+    label: "network.partner_interconnect"
+    layout: { x: 1120, y: 1680 }
+
+  - id: network_performance_dashboard
+    provider: gcp
+    kind: network.performance_dashboard
+    label: "network.performance_dashboard"
+    layout: { x: 1280, y: 1680 }
+
+  - id: network_premium_tier
+    provider: gcp
+    kind: network.premium_tier
+    label: "network.premium_tier"
+    layout: { x: 1440, y: 1680 }
+
+  - id: network_private_connectivity
+    provider: gcp
+    kind: network.private_connectivity
+    label: "network.private_connectivity"
+    layout: { x: 1600, y: 1680 }
+
+  - id: network_private_service_connect
+    provider: gcp
+    kind: network.private_service_connect
+    label: "network.private_service_connect"
+    layout: { x: 1760, y: 1680 }
+
+  - id: network_router
+    provider: gcp
+    kind: network.router
+    label: "network.router"
+    layout: { x: 1920, y: 1680 }
+
+  - id: network_routes
+    provider: gcp
+    kind: network.routes
+    label: "network.routes"
+    layout: { x: 2080, y: 1680 }
+
+  - id: network_network_security
+    provider: gcp
+    kind: network.network_security
+    label: "network.network_security"
+    layout: { x: 2240, y: 1680 }
+
+  - id: network_standard_tier
+    provider: gcp
+    kind: network.standard_tier
+    label: "network.standard_tier"
+    layout: { x: 0, y: 1820 }
+
+  - id: network_tiers
+    provider: gcp
+    kind: network.tiers
+    label: "network.tiers"
+    layout: { x: 160, y: 1820 }
+
+  - id: network_topology
+    provider: gcp
+    kind: network.topology
+    label: "network.topology"
+    layout: { x: 320, y: 1820 }
+
+  - id: network_traffic_director
+    provider: gcp
+    kind: network.traffic_director
+    label: "network.traffic_director"
+    layout: { x: 480, y: 1820 }
+
+  - id: network_vpc
+    provider: gcp
+    kind: network.vpc
+    label: "network.vpc"
+    layout: { x: 640, y: 1820 }
+
+  - id: network_vpn
+    provider: gcp
+    kind: network.vpn
+    label: "network.vpn"
+    layout: { x: 800, y: 1820 }
+
+  - id: other_generic
+    provider: gcp
+    kind: other.generic
+    label: "other.generic"
+    layout: { x: 960, y: 1820 }
+
+  - id: other_game_servers
+    provider: gcp
+    kind: other.game_servers
+    label: "other.game_servers"
+    layout: { x: 1120, y: 1820 }
+
+  - id: other_genomics
+    provider: gcp
+    kind: other.genomics
+    label: "other.genomics"
+    layout: { x: 1280, y: 1820 }
+
+  - id: other_maps_platform
+    provider: gcp
+    kind: other.maps_platform
+    label: "other.maps_platform"
+    layout: { x: 1440, y: 1820 }
+
+  - id: other_my_cloud
+    provider: gcp
+    kind: other.my_cloud
+    label: "other.my_cloud"
+    layout: { x: 1600, y: 1820 }
+
+  - id: other_quantum_engine
+    provider: gcp
+    kind: other.quantum_engine
+    label: "other.quantum_engine"
+    layout: { x: 1760, y: 1820 }
+
+  - id: other_free_trial
+    provider: gcp
+    kind: other.free_trial
+    label: "other.free_trial"
+    layout: { x: 1920, y: 1820 }
+
+  - id: other_service_discovery
+    provider: gcp
+    kind: other.service_discovery
+    label: "other.service_discovery"
+    layout: { x: 2080, y: 1820 }
+
+  - id: marketplace_marketplace
+    provider: gcp
+    kind: marketplace.marketplace
+    label: "marketplace.marketplace"
+    layout: { x: 2240, y: 1820 }
+
+  - id: marketplace_financial_services
+    provider: gcp
+    kind: marketplace.financial_services
+    label: "marketplace.financial_services"
+    layout: { x: 0, y: 1960 }
+
+  - id: marketplace_for_marketing
+    provider: gcp
+    kind: marketplace.for_marketing
+    label: "marketplace.for_marketing"
+    layout: { x: 160, y: 1960 }
+
+  - id: marketplace_developer_portal
+    provider: gcp
+    kind: marketplace.developer_portal
+    label: "marketplace.developer_portal"
+    layout: { x: 320, y: 1960 }
+
+  - id: marketplace_partner_portal
+    provider: gcp
+    kind: marketplace.partner_portal
+    label: "marketplace.partner_portal"
+    layout: { x: 480, y: 1960 }
+
+  - id: marketplace_producer_portal
+    provider: gcp
+    kind: marketplace.producer_portal
+    label: "marketplace.producer_portal"
+    layout: { x: 640, y: 1960 }
+
+  - id: storage_gcs
+    provider: gcp
+    kind: storage.gcs
+    label: "storage.gcs"
+    layout: { x: 800, y: 1960 }
+
+

@@ -1,0 +1,3567 @@
+version: 1
+docId: aws-all-icons-test
+title: AWS All Icons Test (712 icons)
+
+nodes:
+  - id: analytics_athena
+    provider: aws
+    kind: analytics.athena
+    label: "analytics.athena"
+    layout: { x: 0, y: 0 }
+  - id: analytics_cleanrooms
+    provider: aws
+    kind: analytics.cleanrooms
+    label: "analytics.cleanrooms"
+    layout: { x: 150, y: 0 }
+  - id: analytics_cloudsearch
+    provider: aws
+    kind: analytics.cloudsearch
+    label: "analytics.cloudsearch"
+    layout: { x: 300, y: 0 }
+  - id: analytics_cloudsearch_documents
+    provider: aws
+    kind: analytics.cloudsearch.documents
+    label: "analytics.cloudsearch.documents"
+    layout: { x: 450, y: 0 }
+  - id: analytics_cloudsearch_index
+    provider: aws
+    kind: analytics.cloudsearch.index
+    label: "analytics.cloudsearch.index"
+    layout: { x: 600, y: 0 }
+  - id: analytics_cluster
+    provider: aws
+    kind: analytics.cluster
+    label: "analytics.cluster"
+    layout: { x: 750, y: 0 }
+  - id: analytics_cluster_admin_node
+    provider: aws
+    kind: analytics.cluster.admin_node
+    label: "analytics.cluster.admin_node"
+    layout: { x: 900, y: 0 }
+  - id: analytics_cluster_data_node
+    provider: aws
+    kind: analytics.cluster.data_node
+    label: "analytics.cluster.data_node"
+    layout: { x: 1050, y: 0 }
+  - id: analytics_cluster_dense_compute
+    provider: aws
+    kind: analytics.cluster.dense_compute
+    label: "analytics.cluster.dense_compute"
+    layout: { x: 1200, y: 0 }
+  - id: analytics_cluster_dense_storage
+    provider: aws
+    kind: analytics.cluster.dense_storage
+    label: "analytics.cluster.dense_storage"
+    layout: { x: 1350, y: 0 }
+  - id: analytics_data_lake
+    provider: aws
+    kind: analytics.data_lake
+    label: "analytics.data_lake"
+    layout: { x: 1500, y: 0 }
+  - id: analytics_dataexchange
+    provider: aws
+    kind: analytics.dataexchange
+    label: "analytics.dataexchange"
+    layout: { x: 1650, y: 0 }
+  - id: analytics_dataexchange_apis
+    provider: aws
+    kind: analytics.dataexchange.apis
+    label: "analytics.dataexchange.apis"
+    layout: { x: 1800, y: 0 }
+  - id: analytics_datazone
+    provider: aws
+    kind: analytics.datazone
+    label: "analytics.datazone"
+    layout: { x: 1950, y: 0 }
+  - id: analytics_datazone_catalog
+    provider: aws
+    kind: analytics.datazone.catalog
+    label: "analytics.datazone.catalog"
+    layout: { x: 2100, y: 0 }
+  - id: analytics_datazone_connectors
+    provider: aws
+    kind: analytics.datazone.connectors
+    label: "analytics.datazone.connectors"
+    layout: { x: 2250, y: 0 }
+  - id: analytics_datazone_governance
+    provider: aws
+    kind: analytics.datazone.governance
+    label: "analytics.datazone.governance"
+    layout: { x: 2400, y: 0 }
+  - id: analytics_datazone_portal
+    provider: aws
+    kind: analytics.datazone.portal
+    label: "analytics.datazone.portal"
+    layout: { x: 2550, y: 0 }
+  - id: analytics_datazone_projects
+    provider: aws
+    kind: analytics.datazone.projects
+    label: "analytics.datazone.projects"
+    layout: { x: 2700, y: 0 }
+  - id: analytics_emr
+    provider: aws
+    kind: analytics.emr
+    label: "analytics.emr"
+    layout: { x: 2850, y: 0 }
+  - id: analytics_emr_engine
+    provider: aws
+    kind: analytics.emr.engine
+    label: "analytics.emr.engine"
+    layout: { x: 3000, y: 0 }
+  - id: analytics_emr_hdfs_cluster
+    provider: aws
+    kind: analytics.emr.hdfs_cluster
+    label: "analytics.emr.hdfs_cluster"
+    layout: { x: 3150, y: 0 }
+  - id: analytics_entity_resolution
+    provider: aws
+    kind: analytics.entity_resolution
+    label: "analytics.entity_resolution"
+    layout: { x: 3300, y: 0 }
+  - id: analytics_finspace
+    provider: aws
+    kind: analytics.finspace
+    label: "analytics.finspace"
+    layout: { x: 3450, y: 0 }
+  - id: analytics_firehose
+    provider: aws
+    kind: analytics.firehose
+    label: "analytics.firehose"
+    layout: { x: 3600, y: 0 }
+  - id: analytics_flink
+    provider: aws
+    kind: analytics.flink
+    label: "analytics.flink"
+    layout: { x: 0, y: 150 }
+  - id: analytics_glue
+    provider: aws
+    kind: analytics.glue
+    label: "analytics.glue"
+    layout: { x: 150, y: 150 }
+  - id: analytics_glue_crawler
+    provider: aws
+    kind: analytics.glue.crawler
+    label: "analytics.glue.crawler"
+    layout: { x: 300, y: 150 }
+  - id: analytics_glue_data_catalog
+    provider: aws
+    kind: analytics.glue.data_catalog
+    label: "analytics.glue.data_catalog"
+    layout: { x: 450, y: 150 }
+  - id: analytics_glue_data_quality
+    provider: aws
+    kind: analytics.glue.data_quality
+    label: "analytics.glue.data_quality"
+    layout: { x: 600, y: 150 }
+  - id: analytics_glue_databrew
+    provider: aws
+    kind: analytics.glue.databrew
+    label: "analytics.glue.databrew"
+    layout: { x: 750, y: 150 }
+  - id: analytics_glue_ray
+    provider: aws
+    kind: analytics.glue.ray
+    label: "analytics.glue.ray"
+    layout: { x: 900, y: 150 }
+  - id: analytics_kinesis
+    provider: aws
+    kind: analytics.kinesis
+    label: "analytics.kinesis"
+    layout: { x: 1050, y: 150 }
+  - id: analytics_kinesis_data_streams
+    provider: aws
+    kind: analytics.kinesis.data_streams
+    label: "analytics.kinesis.data_streams"
+    layout: { x: 1200, y: 150 }
+  - id: analytics_kinesis_video_streams
+    provider: aws
+    kind: analytics.kinesis.video_streams
+    label: "analytics.kinesis.video_streams"
+    layout: { x: 1350, y: 150 }
+  - id: analytics_lakeformation
+    provider: aws
+    kind: analytics.lakeformation
+    label: "analytics.lakeformation"
+    layout: { x: 1500, y: 150 }
+  - id: analytics_msk
+    provider: aws
+    kind: analytics.msk
+    label: "analytics.msk"
+    layout: { x: 1650, y: 150 }
+  - id: analytics_msk_connect
+    provider: aws
+    kind: analytics.msk.connect
+    label: "analytics.msk.connect"
+    layout: { x: 1800, y: 150 }
+  - id: analytics_opensearch
+    provider: aws
+    kind: analytics.opensearch
+    label: "analytics.opensearch"
+    layout: { x: 1950, y: 150 }
+  - id: analytics_opensearch_dashboards
+    provider: aws
+    kind: analytics.opensearch.dashboards
+    label: "analytics.opensearch.dashboards"
+    layout: { x: 2100, y: 150 }
+  - id: analytics_opensearch_ingestion
+    provider: aws
+    kind: analytics.opensearch.ingestion
+    label: "analytics.opensearch.ingestion"
+    layout: { x: 2250, y: 150 }
+  - id: analytics_opensearch_observability
+    provider: aws
+    kind: analytics.opensearch.observability
+    label: "analytics.opensearch.observability"
+    layout: { x: 2400, y: 150 }
+  - id: analytics_opensearch_traces
+    provider: aws
+    kind: analytics.opensearch.traces
+    label: "analytics.opensearch.traces"
+    layout: { x: 2550, y: 150 }
+  - id: analytics_opensearch_ultrawarm
+    provider: aws
+    kind: analytics.opensearch.ultrawarm
+    label: "analytics.opensearch.ultrawarm"
+    layout: { x: 2700, y: 150 }
+  - id: analytics_quicksight
+    provider: aws
+    kind: analytics.quicksight
+    label: "analytics.quicksight"
+    layout: { x: 2850, y: 150 }
+  - id: analytics_quicksight_paginated_reports
+    provider: aws
+    kind: analytics.quicksight.paginated_reports
+    label: "analytics.quicksight.paginated_reports"
+    layout: { x: 3000, y: 150 }
+  - id: blockchain_generic
+    provider: aws
+    kind: blockchain.generic
+    label: "blockchain.generic"
+    layout: { x: 3150, y: 150 }
+  - id: blockchain_managed_blockchain
+    provider: aws
+    kind: blockchain.managed_blockchain
+    label: "blockchain.managed_blockchain"
+    layout: { x: 3300, y: 150 }
+  - id: blockchain_qldb
+    provider: aws
+    kind: blockchain.qldb
+    label: "blockchain.qldb"
+    layout: { x: 3450, y: 150 }
+  - id: business_alexa
+    provider: aws
+    kind: business.alexa
+    label: "business.alexa"
+    layout: { x: 3600, y: 150 }
+  - id: business_appfabric
+    provider: aws
+    kind: business.appfabric
+    label: "business.appfabric"
+    layout: { x: 0, y: 300 }
+  - id: business_chime
+    provider: aws
+    kind: business.chime
+    label: "business.chime"
+    layout: { x: 150, y: 300 }
+  - id: business_chime_sdk
+    provider: aws
+    kind: business.chime.sdk
+    label: "business.chime.sdk"
+    layout: { x: 300, y: 300 }
+  - id: business_connect
+    provider: aws
+    kind: business.connect
+    label: "business.connect"
+    layout: { x: 450, y: 300 }
+  - id: business_end_user_messaging
+    provider: aws
+    kind: business.end_user_messaging
+    label: "business.end_user_messaging"
+    layout: { x: 600, y: 300 }
+  - id: business_pinpoint
+    provider: aws
+    kind: business.pinpoint
+    label: "business.pinpoint"
+    layout: { x: 750, y: 300 }
+  - id: business_pinpoint_apis
+    provider: aws
+    kind: business.pinpoint.apis
+    label: "business.pinpoint.apis"
+    layout: { x: 900, y: 300 }
+  - id: business_pinpoint_journey
+    provider: aws
+    kind: business.pinpoint.journey
+    label: "business.pinpoint.journey"
+    layout: { x: 1050, y: 300 }
+  - id: business_ses
+    provider: aws
+    kind: business.ses
+    label: "business.ses"
+    layout: { x: 1200, y: 300 }
+  - id: business_ses_email
+    provider: aws
+    kind: business.ses.email
+    label: "business.ses.email"
+    layout: { x: 1350, y: 300 }
+  - id: business_supply_chain
+    provider: aws
+    kind: business.supply_chain
+    label: "business.supply_chain"
+    layout: { x: 1500, y: 300 }
+  - id: business_wickr
+    provider: aws
+    kind: business.wickr
+    label: "business.wickr"
+    layout: { x: 1650, y: 300 }
+  - id: business_workdocs
+    provider: aws
+    kind: business.workdocs
+    label: "business.workdocs"
+    layout: { x: 1800, y: 300 }
+  - id: business_workdocs_sdk
+    provider: aws
+    kind: business.workdocs.sdk
+    label: "business.workdocs.sdk"
+    layout: { x: 1950, y: 300 }
+  - id: business_workmail
+    provider: aws
+    kind: business.workmail
+    label: "business.workmail"
+    layout: { x: 2100, y: 300 }
+  - id: category_iot
+    provider: aws
+    kind: category.iot
+    label: "category.iot"
+    layout: { x: 2250, y: 300 }
+  - id: category_management_governance
+    provider: aws
+    kind: category.management_governance
+    label: "category.management_governance"
+    layout: { x: 2400, y: 300 }
+  - id: compute_apprunner
+    provider: aws
+    kind: compute.apprunner
+    label: "compute.apprunner"
+    layout: { x: 2550, y: 300 }
+  - id: compute_autoscaling
+    provider: aws
+    kind: compute.autoscaling
+    label: "compute.autoscaling"
+    layout: { x: 2700, y: 300 }
+  - id: compute_batch
+    provider: aws
+    kind: compute.batch
+    label: "compute.batch"
+    layout: { x: 2850, y: 300 }
+  - id: compute_beanstalk
+    provider: aws
+    kind: compute.beanstalk
+    label: "compute.beanstalk"
+    layout: { x: 3000, y: 300 }
+  - id: compute_beanstalk_application
+    provider: aws
+    kind: compute.beanstalk.application
+    label: "compute.beanstalk.application"
+    layout: { x: 3150, y: 300 }
+  - id: compute_beanstalk_deployment
+    provider: aws
+    kind: compute.beanstalk.deployment
+    label: "compute.beanstalk.deployment"
+    layout: { x: 3300, y: 300 }
+  - id: compute_bottlerocket
+    provider: aws
+    kind: compute.bottlerocket
+    label: "compute.bottlerocket"
+    layout: { x: 3450, y: 300 }
+  - id: compute_compute_optimizer
+    provider: aws
+    kind: compute.compute_optimizer
+    label: "compute.compute_optimizer"
+    layout: { x: 3600, y: 300 }
+  - id: compute_container
+    provider: aws
+    kind: compute.container
+    label: "compute.container"
+    layout: { x: 0, y: 450 }
+  - id: compute_container_copilot_cli
+    provider: aws
+    kind: compute.container.copilot_cli
+    label: "compute.container.copilot_cli"
+    layout: { x: 150, y: 450 }
+  - id: compute_container_ecr
+    provider: aws
+    kind: compute.container.ecr
+    label: "compute.container.ecr"
+    layout: { x: 300, y: 450 }
+  - id: compute_container_ecr_image
+    provider: aws
+    kind: compute.container.ecr.image
+    label: "compute.container.ecr.image"
+    layout: { x: 450, y: 450 }
+  - id: compute_container_ecr_registry
+    provider: aws
+    kind: compute.container.ecr.registry
+    label: "compute.container.ecr.registry"
+    layout: { x: 600, y: 450 }
+  - id: compute_container_ecs
+    provider: aws
+    kind: compute.container.ecs
+    label: "compute.container.ecs"
+    layout: { x: 750, y: 450 }
+  - id: compute_container_ecs_anywhere
+    provider: aws
+    kind: compute.container.ecs.anywhere
+    label: "compute.container.ecs.anywhere"
+    layout: { x: 900, y: 450 }
+  - id: compute_container_ecs_service
+    provider: aws
+    kind: compute.container.ecs.service
+    label: "compute.container.ecs.service"
+    layout: { x: 1050, y: 450 }
+  - id: compute_container_ecs_service_connect
+    provider: aws
+    kind: compute.container.ecs.service_connect
+    label: "compute.container.ecs.service_connect"
+    layout: { x: 1200, y: 450 }
+  - id: compute_container_ecs_task
+    provider: aws
+    kind: compute.container.ecs.task
+    label: "compute.container.ecs.task"
+    layout: { x: 1350, y: 450 }
+  - id: compute_container_eks
+    provider: aws
+    kind: compute.container.eks
+    label: "compute.container.eks"
+    layout: { x: 1500, y: 450 }
+  - id: compute_container_eks_anywhere
+    provider: aws
+    kind: compute.container.eks.anywhere
+    label: "compute.container.eks.anywhere"
+    layout: { x: 1650, y: 450 }
+  - id: compute_container_eks_cloud
+    provider: aws
+    kind: compute.container.eks.cloud
+    label: "compute.container.eks.cloud"
+    layout: { x: 1800, y: 450 }
+  - id: compute_container_eks_distro
+    provider: aws
+    kind: compute.container.eks.distro
+    label: "compute.container.eks.distro"
+    layout: { x: 1950, y: 450 }
+  - id: compute_container_eks_outposts
+    provider: aws
+    kind: compute.container.eks.outposts
+    label: "compute.container.eks.outposts"
+    layout: { x: 2100, y: 450 }
+  - id: compute_container_fargate
+    provider: aws
+    kind: compute.container.fargate
+    label: "compute.container.fargate"
+    layout: { x: 2250, y: 450 }
+  - id: compute_container_openshift
+    provider: aws
+    kind: compute.container.openshift
+    label: "compute.container.openshift"
+    layout: { x: 2400, y: 450 }
+  - id: compute_dcv
+    provider: aws
+    kind: compute.dcv
+    label: "compute.dcv"
+    layout: { x: 2550, y: 450 }
+  - id: compute_enginframe
+    provider: aws
+    kind: compute.enginframe
+    label: "compute.enginframe"
+    layout: { x: 2700, y: 450 }
+  - id: compute_lambda
+    provider: aws
+    kind: compute.lambda
+    label: "compute.lambda"
+    layout: { x: 2850, y: 450 }
+  - id: compute_lambda_function
+    provider: aws
+    kind: compute.lambda.function
+    label: "compute.lambda.function"
+    layout: { x: 3000, y: 450 }
+  - id: compute_lightsail
+    provider: aws
+    kind: compute.lightsail
+    label: "compute.lightsail"
+    layout: { x: 3150, y: 450 }
+  - id: compute_lightsail_research
+    provider: aws
+    kind: compute.lightsail.research
+    label: "compute.lightsail.research"
+    layout: { x: 3300, y: 450 }
+  - id: compute_local_zones
+    provider: aws
+    kind: compute.local_zones
+    label: "compute.local_zones"
+    layout: { x: 3450, y: 450 }
+  - id: compute_microservice_extractor
+    provider: aws
+    kind: compute.microservice_extractor
+    label: "compute.microservice_extractor"
+    layout: { x: 3600, y: 450 }
+  - id: compute_nitro_enclaves
+    provider: aws
+    kind: compute.nitro_enclaves
+    label: "compute.nitro_enclaves"
+    layout: { x: 0, y: 600 }
+  - id: compute_outposts
+    provider: aws
+    kind: compute.outposts
+    label: "compute.outposts"
+    layout: { x: 150, y: 600 }
+  - id: compute_outposts_rack
+    provider: aws
+    kind: compute.outposts.rack
+    label: "compute.outposts.rack"
+    layout: { x: 300, y: 600 }
+  - id: compute_outposts_servers
+    provider: aws
+    kind: compute.outposts.servers
+    label: "compute.outposts.servers"
+    layout: { x: 450, y: 600 }
+  - id: compute_parallel_cluster
+    provider: aws
+    kind: compute.parallel_cluster
+    label: "compute.parallel_cluster"
+    layout: { x: 600, y: 600 }
+  - id: compute_parallel_computing_service
+    provider: aws
+    kind: compute.parallel_computing_service
+    label: "compute.parallel_computing_service"
+    layout: { x: 750, y: 600 }
+  - id: compute_serverless_repo
+    provider: aws
+    kind: compute.serverless_repo
+    label: "compute.serverless_repo"
+    layout: { x: 900, y: 600 }
+  - id: compute_simspace_weaver
+    provider: aws
+    kind: compute.simspace_weaver
+    label: "compute.simspace_weaver"
+    layout: { x: 1050, y: 600 }
+  - id: compute_wavelength
+    provider: aws
+    kind: compute.wavelength
+    label: "compute.wavelength"
+    layout: { x: 1200, y: 600 }
+  - id: cost_billing_conductor
+    provider: aws
+    kind: cost.billing_conductor
+    label: "cost.billing_conductor"
+    layout: { x: 1350, y: 600 }
+  - id: cost_budgets
+    provider: aws
+    kind: cost.budgets
+    label: "cost.budgets"
+    layout: { x: 1500, y: 600 }
+  - id: cost_explorer
+    provider: aws
+    kind: cost.explorer
+    label: "cost.explorer"
+    layout: { x: 1650, y: 600 }
+  - id: cost_reserved_instance_reporting
+    provider: aws
+    kind: cost.reserved_instance_reporting
+    label: "cost.reserved_instance_reporting"
+    layout: { x: 1800, y: 600 }
+  - id: cost_savings_plans
+    provider: aws
+    kind: cost.savings_plans
+    label: "cost.savings_plans"
+    layout: { x: 1950, y: 600 }
+  - id: cost_usage_report
+    provider: aws
+    kind: cost.usage_report
+    label: "cost.usage_report"
+    layout: { x: 2100, y: 600 }
+  - id: database_aurora
+    provider: aws
+    kind: database.aurora
+    label: "database.aurora"
+    layout: { x: 2250, y: 600 }
+  - id: database_aurora_instance_alt
+    provider: aws
+    kind: database.aurora.instance_alt
+    label: "database.aurora.instance_alt"
+    layout: { x: 2400, y: 600 }
+  - id: database_dms
+    provider: aws
+    kind: database.dms
+    label: "database.dms"
+    layout: { x: 2550, y: 600 }
+  - id: database_dms_workflow
+    provider: aws
+    kind: database.dms.workflow
+    label: "database.dms.workflow"
+    layout: { x: 2700, y: 600 }
+  - id: database_documentdb
+    provider: aws
+    kind: database.documentdb
+    label: "database.documentdb"
+    layout: { x: 2850, y: 600 }
+  - id: database_documentdb_elastic
+    provider: aws
+    kind: database.documentdb.elastic
+    label: "database.documentdb.elastic"
+    layout: { x: 3000, y: 600 }
+  - id: database_dynamodb
+    provider: aws
+    kind: database.dynamodb
+    label: "database.dynamodb"
+    layout: { x: 3150, y: 600 }
+  - id: database_dynamodb_attribute
+    provider: aws
+    kind: database.dynamodb.attribute
+    label: "database.dynamodb.attribute"
+    layout: { x: 3300, y: 600 }
+  - id: database_dynamodb_attributes
+    provider: aws
+    kind: database.dynamodb.attributes
+    label: "database.dynamodb.attributes"
+    layout: { x: 3450, y: 600 }
+  - id: database_dynamodb_dax
+    provider: aws
+    kind: database.dynamodb.dax
+    label: "database.dynamodb.dax"
+    layout: { x: 3600, y: 600 }
+  - id: database_dynamodb_gsi
+    provider: aws
+    kind: database.dynamodb.gsi
+    label: "database.dynamodb.gsi"
+    layout: { x: 0, y: 750 }
+  - id: database_dynamodb_item
+    provider: aws
+    kind: database.dynamodb.item
+    label: "database.dynamodb.item"
+    layout: { x: 150, y: 750 }
+  - id: database_dynamodb_items
+    provider: aws
+    kind: database.dynamodb.items
+    label: "database.dynamodb.items"
+    layout: { x: 300, y: 750 }
+  - id: database_dynamodb_standard
+    provider: aws
+    kind: database.dynamodb.standard
+    label: "database.dynamodb.standard"
+    layout: { x: 450, y: 750 }
+  - id: database_dynamodb_standard_ia
+    provider: aws
+    kind: database.dynamodb.standard_ia
+    label: "database.dynamodb.standard_ia"
+    layout: { x: 600, y: 750 }
+  - id: database_dynamodb_stream
+    provider: aws
+    kind: database.dynamodb.stream
+    label: "database.dynamodb.stream"
+    layout: { x: 750, y: 750 }
+  - id: database_dynamodb_table
+    provider: aws
+    kind: database.dynamodb.table
+    label: "database.dynamodb.table"
+    layout: { x: 900, y: 750 }
+  - id: database_elasticache
+    provider: aws
+    kind: database.elasticache
+    label: "database.elasticache"
+    layout: { x: 1050, y: 750 }
+  - id: database_elasticache_memcached
+    provider: aws
+    kind: database.elasticache.memcached
+    label: "database.elasticache.memcached"
+    layout: { x: 1200, y: 750 }
+  - id: database_elasticache_node
+    provider: aws
+    kind: database.elasticache.node
+    label: "database.elasticache.node"
+    layout: { x: 1350, y: 750 }
+  - id: database_elasticache_redis
+    provider: aws
+    kind: database.elasticache.redis
+    label: "database.elasticache.redis"
+    layout: { x: 1500, y: 750 }
+  - id: database_elasticache_valkey
+    provider: aws
+    kind: database.elasticache.valkey
+    label: "database.elasticache.valkey"
+    layout: { x: 1650, y: 750 }
+  - id: database_keyspaces
+    provider: aws
+    kind: database.keyspaces
+    label: "database.keyspaces"
+    layout: { x: 1800, y: 750 }
+  - id: database_memorydb
+    provider: aws
+    kind: database.memorydb
+    label: "database.memorydb"
+    layout: { x: 1950, y: 750 }
+  - id: database_neptune
+    provider: aws
+    kind: database.neptune
+    label: "database.neptune"
+    layout: { x: 2100, y: 750 }
+  - id: database_rds
+    provider: aws
+    kind: database.rds
+    label: "database.rds"
+    layout: { x: 2250, y: 750 }
+  - id: database_rds_blue_green
+    provider: aws
+    kind: database.rds.blue_green
+    label: "database.rds.blue_green"
+    layout: { x: 2400, y: 750 }
+  - id: database_rds_instance
+    provider: aws
+    kind: database.rds.instance
+    label: "database.rds.instance"
+    layout: { x: 2550, y: 750 }
+  - id: database_rds_instance_alt
+    provider: aws
+    kind: database.rds.instance_alt
+    label: "database.rds.instance_alt"
+    layout: { x: 2700, y: 750 }
+  - id: database_rds_mariadb
+    provider: aws
+    kind: database.rds.mariadb
+    label: "database.rds.mariadb"
+    layout: { x: 2850, y: 750 }
+  - id: database_rds_mariadb_alt
+    provider: aws
+    kind: database.rds.mariadb_alt
+    label: "database.rds.mariadb_alt"
+    layout: { x: 3000, y: 750 }
+  - id: database_rds_multi_az
+    provider: aws
+    kind: database.rds.multi_az
+    label: "database.rds.multi_az"
+    layout: { x: 3150, y: 750 }
+  - id: database_rds_multi_az_cluster
+    provider: aws
+    kind: database.rds.multi_az_cluster
+    label: "database.rds.multi_az_cluster"
+    layout: { x: 3300, y: 750 }
+  - id: database_rds_mysql
+    provider: aws
+    kind: database.rds.mysql
+    label: "database.rds.mysql"
+    layout: { x: 3450, y: 750 }
+  - id: database_rds_mysql_alt
+    provider: aws
+    kind: database.rds.mysql_alt
+    label: "database.rds.mysql_alt"
+    layout: { x: 3600, y: 750 }
+  - id: database_rds_optimized_writes
+    provider: aws
+    kind: database.rds.optimized_writes
+    label: "database.rds.optimized_writes"
+    layout: { x: 0, y: 900 }
+  - id: database_rds_oracle
+    provider: aws
+    kind: database.rds.oracle
+    label: "database.rds.oracle"
+    layout: { x: 150, y: 900 }
+  - id: database_rds_oracle_alt
+    provider: aws
+    kind: database.rds.oracle_alt
+    label: "database.rds.oracle_alt"
+    layout: { x: 300, y: 900 }
+  - id: database_rds_oracle_dedicated
+    provider: aws
+    kind: database.rds.oracle_dedicated
+    label: "database.rds.oracle_dedicated"
+    layout: { x: 450, y: 900 }
+  - id: database_rds_piops
+    provider: aws
+    kind: database.rds.piops
+    label: "database.rds.piops"
+    layout: { x: 600, y: 900 }
+  - id: database_rds_postgresql
+    provider: aws
+    kind: database.rds.postgresql
+    label: "database.rds.postgresql"
+    layout: { x: 750, y: 900 }
+  - id: database_rds_postgresql_alt
+    provider: aws
+    kind: database.rds.postgresql_alt
+    label: "database.rds.postgresql_alt"
+    layout: { x: 900, y: 900 }
+  - id: database_rds_postgresql_tle
+    provider: aws
+    kind: database.rds.postgresql_tle
+    label: "database.rds.postgresql_tle"
+    layout: { x: 1050, y: 900 }
+  - id: database_rds_proxy
+    provider: aws
+    kind: database.rds.proxy
+    label: "database.rds.proxy"
+    layout: { x: 1200, y: 900 }
+  - id: database_rds_proxy_alt
+    provider: aws
+    kind: database.rds.proxy_alt
+    label: "database.rds.proxy_alt"
+    layout: { x: 1350, y: 900 }
+  - id: database_rds_sqlserver
+    provider: aws
+    kind: database.rds.sqlserver
+    label: "database.rds.sqlserver"
+    layout: { x: 1500, y: 900 }
+  - id: database_rds_sqlserver_alt
+    provider: aws
+    kind: database.rds.sqlserver_alt
+    label: "database.rds.sqlserver_alt"
+    layout: { x: 1650, y: 900 }
+  - id: database_redshift
+    provider: aws
+    kind: database.redshift
+    label: "database.redshift"
+    layout: { x: 1800, y: 900 }
+  - id: database_redshift_ml
+    provider: aws
+    kind: database.redshift.ml
+    label: "database.redshift.ml"
+    layout: { x: 1950, y: 900 }
+  - id: database_redshift_query_editor
+    provider: aws
+    kind: database.redshift.query_editor
+    label: "database.redshift.query_editor"
+    layout: { x: 2100, y: 900 }
+  - id: database_redshift_streaming_ingestion
+    provider: aws
+    kind: database.redshift.streaming_ingestion
+    label: "database.redshift.streaming_ingestion"
+    layout: { x: 2250, y: 900 }
+  - id: database_timestream
+    provider: aws
+    kind: database.timestream
+    label: "database.timestream"
+    layout: { x: 2400, y: 900 }
+  - id: developer_cdk
+    provider: aws
+    kind: developer.cdk
+    label: "developer.cdk"
+    layout: { x: 2550, y: 900 }
+  - id: developer_cli
+    provider: aws
+    kind: developer.cli
+    label: "developer.cli"
+    layout: { x: 2700, y: 900 }
+  - id: developer_cloud_control_api
+    provider: aws
+    kind: developer.cloud_control_api
+    label: "developer.cloud_control_api"
+    layout: { x: 2850, y: 900 }
+  - id: developer_cloudshell
+    provider: aws
+    kind: developer.cloudshell
+    label: "developer.cloudshell"
+    layout: { x: 3000, y: 900 }
+  - id: developer_codeartifact
+    provider: aws
+    kind: developer.codeartifact
+    label: "developer.codeartifact"
+    layout: { x: 3150, y: 900 }
+  - id: developer_codebuild
+    provider: aws
+    kind: developer.codebuild
+    label: "developer.codebuild"
+    layout: { x: 3300, y: 900 }
+  - id: developer_codecatalyst
+    provider: aws
+    kind: developer.codecatalyst
+    label: "developer.codecatalyst"
+    layout: { x: 3450, y: 900 }
+  - id: developer_codecommit
+    provider: aws
+    kind: developer.codecommit
+    label: "developer.codecommit"
+    layout: { x: 3600, y: 900 }
+  - id: developer_codedeploy
+    provider: aws
+    kind: developer.codedeploy
+    label: "developer.codedeploy"
+    layout: { x: 0, y: 1050 }
+  - id: developer_codepipeline
+    provider: aws
+    kind: developer.codepipeline
+    label: "developer.codepipeline"
+    layout: { x: 150, y: 1050 }
+  - id: developer_corretto
+    provider: aws
+    kind: developer.corretto
+    label: "developer.corretto"
+    layout: { x: 300, y: 1050 }
+  - id: developer_device_farm
+    provider: aws
+    kind: developer.device_farm
+    label: "developer.device_farm"
+    layout: { x: 450, y: 1050 }
+  - id: developer_fault_injection
+    provider: aws
+    kind: developer.fault_injection
+    label: "developer.fault_injection"
+    layout: { x: 600, y: 1050 }
+  - id: developer_infrastructure_composer
+    provider: aws
+    kind: developer.infrastructure_composer
+    label: "developer.infrastructure_composer"
+    layout: { x: 750, y: 1050 }
+  - id: developer_tools_sdks
+    provider: aws
+    kind: developer.tools_sdks
+    label: "developer.tools_sdks"
+    layout: { x: 900, y: 1050 }
+  - id: developer_xray
+    provider: aws
+    kind: developer.xray
+    label: "developer.xray"
+    layout: { x: 1050, y: 1050 }
+  - id: enablement_activate
+    provider: aws
+    kind: enablement.activate
+    label: "enablement.activate"
+    layout: { x: 1200, y: 1050 }
+  - id: enablement_iq
+    provider: aws
+    kind: enablement.iq
+    label: "enablement.iq"
+    layout: { x: 1350, y: 1050 }
+  - id: enablement_managed_services
+    provider: aws
+    kind: enablement.managed_services
+    label: "enablement.managed_services"
+    layout: { x: 1500, y: 1050 }
+  - id: enablement_professional_services
+    provider: aws
+    kind: enablement.professional_services
+    label: "enablement.professional_services"
+    layout: { x: 1650, y: 1050 }
+  - id: enablement_repost
+    provider: aws
+    kind: enablement.repost
+    label: "enablement.repost"
+    layout: { x: 1800, y: 1050 }
+  - id: enablement_repost_private
+    provider: aws
+    kind: enablement.repost_private
+    label: "enablement.repost_private"
+    layout: { x: 1950, y: 1050 }
+  - id: enablement_support
+    provider: aws
+    kind: enablement.support
+    label: "enablement.support"
+    layout: { x: 2100, y: 1050 }
+  - id: enablement_training
+    provider: aws
+    kind: enablement.training
+    label: "enablement.training"
+    layout: { x: 2250, y: 1050 }
+  - id: end_user_appstream
+    provider: aws
+    kind: end_user.appstream
+    label: "end_user.appstream"
+    layout: { x: 2400, y: 1050 }
+  - id: end_user_workspaces
+    provider: aws
+    kind: end_user.workspaces
+    label: "end_user.workspaces"
+    layout: { x: 2550, y: 1050 }
+  - id: end_user_workspaces_core
+    provider: aws
+    kind: end_user.workspaces_core
+    label: "end_user.workspaces_core"
+    layout: { x: 2700, y: 1050 }
+  - id: end_user_workspaces_family
+    provider: aws
+    kind: end_user.workspaces_family
+    label: "end_user.workspaces_family"
+    layout: { x: 2850, y: 1050 }
+  - id: end_user_workspaces_secure_browser
+    provider: aws
+    kind: end_user.workspaces_secure_browser
+    label: "end_user.workspaces_secure_browser"
+    layout: { x: 3000, y: 1050 }
+  - id: frontend_amplify
+    provider: aws
+    kind: frontend.amplify
+    label: "frontend.amplify"
+    layout: { x: 3150, y: 1050 }
+  - id: frontend_amplify_studio
+    provider: aws
+    kind: frontend.amplify_studio
+    label: "frontend.amplify_studio"
+    layout: { x: 3300, y: 1050 }
+  - id: frontend_location
+    provider: aws
+    kind: frontend.location
+    label: "frontend.location"
+    layout: { x: 3450, y: 1050 }
+  - id: frontend_location_geofence
+    provider: aws
+    kind: frontend.location.geofence
+    label: "frontend.location.geofence"
+    layout: { x: 3600, y: 1050 }
+  - id: frontend_location_map
+    provider: aws
+    kind: frontend.location.map
+    label: "frontend.location.map"
+    layout: { x: 0, y: 1200 }
+  - id: frontend_location_place
+    provider: aws
+    kind: frontend.location.place
+    label: "frontend.location.place"
+    layout: { x: 150, y: 1200 }
+  - id: frontend_location_routes
+    provider: aws
+    kind: frontend.location.routes
+    label: "frontend.location.routes"
+    layout: { x: 300, y: 1200 }
+  - id: frontend_location_track
+    provider: aws
+    kind: frontend.location.track
+    label: "frontend.location.track"
+    layout: { x: 450, y: 1200 }
+  - id: games_gamelift
+    provider: aws
+    kind: games.gamelift
+    label: "games.gamelift"
+    layout: { x: 600, y: 1200 }
+  - id: generic_alert
+    provider: aws
+    kind: generic.alert
+    label: "generic.alert"
+    layout: { x: 750, y: 1200 }
+  - id: generic_application
+    provider: aws
+    kind: generic.application
+    label: "generic.application"
+    layout: { x: 900, y: 1200 }
+  - id: generic_authenticated_user
+    provider: aws
+    kind: generic.authenticated_user
+    label: "generic.authenticated_user"
+    layout: { x: 1050, y: 1200 }
+  - id: generic_camera
+    provider: aws
+    kind: generic.camera
+    label: "generic.camera"
+    layout: { x: 1200, y: 1200 }
+  - id: generic_chat
+    provider: aws
+    kind: generic.chat
+    label: "generic.chat"
+    layout: { x: 1350, y: 1200 }
+  - id: generic_client
+    provider: aws
+    kind: generic.client
+    label: "generic.client"
+    layout: { x: 1500, y: 1200 }
+  - id: generic_cold_storage
+    provider: aws
+    kind: generic.cold_storage
+    label: "generic.cold_storage"
+    layout: { x: 1650, y: 1200 }
+  - id: generic_credentials
+    provider: aws
+    kind: generic.credentials
+    label: "generic.credentials"
+    layout: { x: 1800, y: 1200 }
+  - id: generic_data_stream
+    provider: aws
+    kind: generic.data_stream
+    label: "generic.data_stream"
+    layout: { x: 1950, y: 1200 }
+  - id: generic_data_table
+    provider: aws
+    kind: generic.data_table
+    label: "generic.data_table"
+    layout: { x: 2100, y: 1200 }
+  - id: generic_database
+    provider: aws
+    kind: generic.database
+    label: "generic.database"
+    layout: { x: 2250, y: 1200 }
+  - id: generic_disk
+    provider: aws
+    kind: generic.disk
+    label: "generic.disk"
+    layout: { x: 2400, y: 1200 }
+  - id: generic_document
+    provider: aws
+    kind: generic.document
+    label: "generic.document"
+    layout: { x: 2550, y: 1200 }
+  - id: generic_documents
+    provider: aws
+    kind: generic.documents
+    label: "generic.documents"
+    layout: { x: 2700, y: 1200 }
+  - id: generic_email
+    provider: aws
+    kind: generic.email
+    label: "generic.email"
+    layout: { x: 2850, y: 1200 }
+  - id: generic_firewall
+    provider: aws
+    kind: generic.firewall
+    label: "generic.firewall"
+    layout: { x: 3000, y: 1200 }
+  - id: generic_folder
+    provider: aws
+    kind: generic.folder
+    label: "generic.folder"
+    layout: { x: 3150, y: 1200 }
+  - id: generic_folders
+    provider: aws
+    kind: generic.folders
+    label: "generic.folders"
+    layout: { x: 3300, y: 1200 }
+  - id: generic_forums
+    provider: aws
+    kind: generic.forums
+    label: "generic.forums"
+    layout: { x: 3450, y: 1200 }
+  - id: generic_gear
+    provider: aws
+    kind: generic.gear
+    label: "generic.gear"
+    layout: { x: 3600, y: 1200 }
+  - id: generic_git_repository
+    provider: aws
+    kind: generic.git_repository
+    label: "generic.git_repository"
+    layout: { x: 0, y: 1350 }
+  - id: generic_globe
+    provider: aws
+    kind: generic.globe
+    label: "generic.globe"
+    layout: { x: 150, y: 1350 }
+  - id: generic_internet
+    provider: aws
+    kind: generic.internet
+    label: "generic.internet"
+    layout: { x: 300, y: 1350 }
+  - id: generic_json_script
+    provider: aws
+    kind: generic.json_script
+    label: "generic.json_script"
+    layout: { x: 450, y: 1350 }
+  - id: generic_logs
+    provider: aws
+    kind: generic.logs
+    label: "generic.logs"
+    layout: { x: 600, y: 1350 }
+  - id: generic_magnifying_glass
+    provider: aws
+    kind: generic.magnifying_glass
+    label: "generic.magnifying_glass"
+    layout: { x: 750, y: 1350 }
+  - id: generic_management_console
+    provider: aws
+    kind: generic.management_console
+    label: "generic.management_console"
+    layout: { x: 900, y: 1350 }
+  - id: generic_marketplace
+    provider: aws
+    kind: generic.marketplace
+    label: "generic.marketplace"
+    layout: { x: 1050, y: 1350 }
+  - id: generic_metrics
+    provider: aws
+    kind: generic.metrics
+    label: "generic.metrics"
+    layout: { x: 1200, y: 1350 }
+  - id: generic_mobile_client
+    provider: aws
+    kind: generic.mobile_client
+    label: "generic.mobile_client"
+    layout: { x: 1350, y: 1350 }
+  - id: generic_multimedia
+    provider: aws
+    kind: generic.multimedia
+    label: "generic.multimedia"
+    layout: { x: 1500, y: 1350 }
+  - id: generic_office_building
+    provider: aws
+    kind: generic.office_building
+    label: "generic.office_building"
+    layout: { x: 1650, y: 1350 }
+  - id: generic_programming_language
+    provider: aws
+    kind: generic.programming_language
+    label: "generic.programming_language"
+    layout: { x: 1800, y: 1350 }
+  - id: generic_question
+    provider: aws
+    kind: generic.question
+    label: "generic.question"
+    layout: { x: 1950, y: 1350 }
+  - id: generic_recover
+    provider: aws
+    kind: generic.recover
+    label: "generic.recover"
+    layout: { x: 2100, y: 1350 }
+  - id: generic_saml_token
+    provider: aws
+    kind: generic.saml_token
+    label: "generic.saml_token"
+    layout: { x: 2250, y: 1350 }
+  - id: generic_sdk
+    provider: aws
+    kind: generic.sdk
+    label: "generic.sdk"
+    layout: { x: 2400, y: 1350 }
+  - id: generic_server
+    provider: aws
+    kind: generic.server
+    label: "generic.server"
+    layout: { x: 2550, y: 1350 }
+  - id: generic_servers
+    provider: aws
+    kind: generic.servers
+    label: "generic.servers"
+    layout: { x: 2700, y: 1350 }
+  - id: generic_shield
+    provider: aws
+    kind: generic.shield
+    label: "generic.shield"
+    layout: { x: 2850, y: 1350 }
+  - id: generic_source_code
+    provider: aws
+    kind: generic.source_code
+    label: "generic.source_code"
+    layout: { x: 3000, y: 1350 }
+  - id: generic_ssl_padlock
+    provider: aws
+    kind: generic.ssl_padlock
+    label: "generic.ssl_padlock"
+    layout: { x: 3150, y: 1350 }
+  - id: generic_tape_storage
+    provider: aws
+    kind: generic.tape_storage
+    label: "generic.tape_storage"
+    layout: { x: 3300, y: 1350 }
+  - id: generic_toolkit
+    provider: aws
+    kind: generic.toolkit
+    label: "generic.toolkit"
+    layout: { x: 3450, y: 1350 }
+  - id: generic_user
+    provider: aws
+    kind: generic.user
+    label: "generic.user"
+    layout: { x: 3600, y: 1350 }
+  - id: generic_users
+    provider: aws
+    kind: generic.users
+    label: "generic.users"
+    layout: { x: 0, y: 1500 }
+  - id: integration_appflow
+    provider: aws
+    kind: integration.appflow
+    label: "integration.appflow"
+    layout: { x: 150, y: 1500 }
+  - id: integration_appsync
+    provider: aws
+    kind: integration.appsync
+    label: "integration.appsync"
+    layout: { x: 300, y: 1500 }
+  - id: integration_eventbridge
+    provider: aws
+    kind: integration.eventbridge
+    label: "integration.eventbridge"
+    layout: { x: 450, y: 1500 }
+  - id: integration_eventbridge_custom_bus
+    provider: aws
+    kind: integration.eventbridge.custom_bus
+    label: "integration.eventbridge.custom_bus"
+    layout: { x: 600, y: 1500 }
+  - id: integration_eventbridge_default_bus
+    provider: aws
+    kind: integration.eventbridge.default_bus
+    label: "integration.eventbridge.default_bus"
+    layout: { x: 750, y: 1500 }
+  - id: integration_eventbridge_event
+    provider: aws
+    kind: integration.eventbridge.event
+    label: "integration.eventbridge.event"
+    layout: { x: 900, y: 1500 }
+  - id: integration_eventbridge_pipes
+    provider: aws
+    kind: integration.eventbridge.pipes
+    label: "integration.eventbridge.pipes"
+    layout: { x: 1050, y: 1500 }
+  - id: integration_eventbridge_rule
+    provider: aws
+    kind: integration.eventbridge.rule
+    label: "integration.eventbridge.rule"
+    layout: { x: 1200, y: 1500 }
+  - id: integration_eventbridge_saas_partner
+    provider: aws
+    kind: integration.eventbridge.saas_partner
+    label: "integration.eventbridge.saas_partner"
+    layout: { x: 1350, y: 1500 }
+  - id: integration_eventbridge_scheduler
+    provider: aws
+    kind: integration.eventbridge.scheduler
+    label: "integration.eventbridge.scheduler"
+    layout: { x: 1500, y: 1500 }
+  - id: integration_eventbridge_schema
+    provider: aws
+    kind: integration.eventbridge.schema
+    label: "integration.eventbridge.schema"
+    layout: { x: 1650, y: 1500 }
+  - id: integration_eventbridge_schema_registry
+    provider: aws
+    kind: integration.eventbridge.schema_registry
+    label: "integration.eventbridge.schema_registry"
+    layout: { x: 1800, y: 1500 }
+  - id: integration_mq
+    provider: aws
+    kind: integration.mq
+    label: "integration.mq"
+    layout: { x: 1950, y: 1500 }
+  - id: integration_mq_broker
+    provider: aws
+    kind: integration.mq.broker
+    label: "integration.mq.broker"
+    layout: { x: 2100, y: 1500 }
+  - id: integration_mwaa
+    provider: aws
+    kind: integration.mwaa
+    label: "integration.mwaa"
+    layout: { x: 2250, y: 1500 }
+  - id: integration_sns
+    provider: aws
+    kind: integration.sns
+    label: "integration.sns"
+    layout: { x: 2400, y: 1500 }
+  - id: integration_sns_email
+    provider: aws
+    kind: integration.sns.email
+    label: "integration.sns.email"
+    layout: { x: 2550, y: 1500 }
+  - id: integration_sns_http
+    provider: aws
+    kind: integration.sns.http
+    label: "integration.sns.http"
+    layout: { x: 2700, y: 1500 }
+  - id: integration_sns_topic
+    provider: aws
+    kind: integration.sns.topic
+    label: "integration.sns.topic"
+    layout: { x: 2850, y: 1500 }
+  - id: integration_sqs
+    provider: aws
+    kind: integration.sqs
+    label: "integration.sqs"
+    layout: { x: 3000, y: 1500 }
+  - id: integration_sqs_message
+    provider: aws
+    kind: integration.sqs.message
+    label: "integration.sqs.message"
+    layout: { x: 3150, y: 1500 }
+  - id: integration_sqs_queue
+    provider: aws
+    kind: integration.sqs.queue
+    label: "integration.sqs.queue"
+    layout: { x: 3300, y: 1500 }
+  - id: integration_stepfunctions
+    provider: aws
+    kind: integration.stepfunctions
+    label: "integration.stepfunctions"
+    layout: { x: 3450, y: 1500 }
+  - id: integration_stepfunctions_express
+    provider: aws
+    kind: integration.stepfunctions.express
+    label: "integration.stepfunctions.express"
+    layout: { x: 3600, y: 1500 }
+  - id: iot_action
+    provider: aws
+    kind: iot.action
+    label: "iot.action"
+    layout: { x: 0, y: 1650 }
+  - id: iot_actuator
+    provider: aws
+    kind: iot.actuator
+    label: "iot.actuator"
+    layout: { x: 150, y: 1650 }
+  - id: iot_alexa_echo
+    provider: aws
+    kind: iot.alexa.echo
+    label: "iot.alexa.echo"
+    layout: { x: 300, y: 1650 }
+  - id: iot_alexa_enabled_device
+    provider: aws
+    kind: iot.alexa.enabled_device
+    label: "iot.alexa.enabled_device"
+    layout: { x: 450, y: 1650 }
+  - id: iot_alexa_fire_tv
+    provider: aws
+    kind: iot.alexa.fire_tv
+    label: "iot.alexa.fire_tv"
+    layout: { x: 600, y: 1650 }
+  - id: iot_alexa_fire_tv_stick
+    provider: aws
+    kind: iot.alexa.fire_tv_stick
+    label: "iot.alexa.fire_tv_stick"
+    layout: { x: 750, y: 1650 }
+  - id: iot_alexa_skill
+    provider: aws
+    kind: iot.alexa.skill
+    label: "iot.alexa.skill"
+    layout: { x: 900, y: 1650 }
+  - id: iot_alexa_voice_service
+    provider: aws
+    kind: iot.alexa.voice_service
+    label: "iot.alexa.voice_service"
+    layout: { x: 1050, y: 1650 }
+  - id: iot_analytics
+    provider: aws
+    kind: iot.analytics
+    label: "iot.analytics"
+    layout: { x: 1200, y: 1650 }
+  - id: iot_analytics_channel
+    provider: aws
+    kind: iot.analytics.channel
+    label: "iot.analytics.channel"
+    layout: { x: 1350, y: 1650 }
+  - id: iot_analytics_data_protection
+    provider: aws
+    kind: iot.analytics.data_protection
+    label: "iot.analytics.data_protection"
+    layout: { x: 1500, y: 1650 }
+  - id: iot_analytics_data_store
+    provider: aws
+    kind: iot.analytics.data_store
+    label: "iot.analytics.data_store"
+    layout: { x: 1650, y: 1650 }
+  - id: iot_analytics_dataset
+    provider: aws
+    kind: iot.analytics.dataset
+    label: "iot.analytics.dataset"
+    layout: { x: 1800, y: 1650 }
+  - id: iot_button
+    provider: aws
+    kind: iot.button
+    label: "iot.button"
+    layout: { x: 1950, y: 1650 }
+  - id: iot_certificate
+    provider: aws
+    kind: iot.certificate
+    label: "iot.certificate"
+    layout: { x: 2100, y: 1650 }
+  - id: iot_core
+    provider: aws
+    kind: iot.core
+    label: "iot.core"
+    layout: { x: 2250, y: 1650 }
+  - id: iot_desired_state
+    provider: aws
+    kind: iot.desired_state
+    label: "iot.desired_state"
+    layout: { x: 2400, y: 1650 }
+  - id: iot_device_advisor
+    provider: aws
+    kind: iot.device_advisor
+    label: "iot.device_advisor"
+    layout: { x: 2550, y: 1650 }
+  - id: iot_device_defender
+    provider: aws
+    kind: iot.device_defender
+    label: "iot.device_defender"
+    layout: { x: 2700, y: 1650 }
+  - id: iot_device_gateway
+    provider: aws
+    kind: iot.device_gateway
+    label: "iot.device_gateway"
+    layout: { x: 2850, y: 1650 }
+  - id: iot_device_jobs
+    provider: aws
+    kind: iot.device_jobs
+    label: "iot.device_jobs"
+    layout: { x: 3000, y: 1650 }
+  - id: iot_device_location
+    provider: aws
+    kind: iot.device_location
+    label: "iot.device_location"
+    layout: { x: 3150, y: 1650 }
+  - id: iot_device_management
+    provider: aws
+    kind: iot.device_management
+    label: "iot.device_management"
+    layout: { x: 3300, y: 1650 }
+  - id: iot_device_tester
+    provider: aws
+    kind: iot.device_tester
+    label: "iot.device_tester"
+    layout: { x: 3450, y: 1650 }
+  - id: iot_events
+    provider: aws
+    kind: iot.events
+    label: "iot.events"
+    layout: { x: 3600, y: 1650 }
+  - id: iot_expresslink
+    provider: aws
+    kind: iot.expresslink
+    label: "iot.expresslink"
+    layout: { x: 0, y: 1800 }
+  - id: iot_fleet_hub
+    provider: aws
+    kind: iot.fleet_hub
+    label: "iot.fleet_hub"
+    layout: { x: 150, y: 1800 }
+  - id: iot_fleetwise
+    provider: aws
+    kind: iot.fleetwise
+    label: "iot.fleetwise"
+    layout: { x: 300, y: 1800 }
+  - id: iot_freertos
+    provider: aws
+    kind: iot.freertos
+    label: "iot.freertos"
+    layout: { x: 450, y: 1800 }
+  - id: iot_greengrass
+    provider: aws
+    kind: iot.greengrass
+    label: "iot.greengrass"
+    layout: { x: 600, y: 1800 }
+  - id: iot_greengrass_component
+    provider: aws
+    kind: iot.greengrass.component
+    label: "iot.greengrass.component"
+    layout: { x: 750, y: 1800 }
+  - id: iot_greengrass_component_ml
+    provider: aws
+    kind: iot.greengrass.component.ml
+    label: "iot.greengrass.component.ml"
+    layout: { x: 900, y: 1800 }
+  - id: iot_greengrass_component_nucleus
+    provider: aws
+    kind: iot.greengrass.component.nucleus
+    label: "iot.greengrass.component.nucleus"
+    layout: { x: 1050, y: 1800 }
+  - id: iot_greengrass_component_private
+    provider: aws
+    kind: iot.greengrass.component.private
+    label: "iot.greengrass.component.private"
+    layout: { x: 1200, y: 1800 }
+  - id: iot_greengrass_component_public
+    provider: aws
+    kind: iot.greengrass.component.public
+    label: "iot.greengrass.component.public"
+    layout: { x: 1350, y: 1800 }
+  - id: iot_greengrass_connector
+    provider: aws
+    kind: iot.greengrass.connector
+    label: "iot.greengrass.connector"
+    layout: { x: 1500, y: 1800 }
+  - id: iot_greengrass_interprocess_communication
+    provider: aws
+    kind: iot.greengrass.interprocess_communication
+    label: "iot.greengrass.interprocess_communication"
+    layout: { x: 1650, y: 1800 }
+  - id: iot_hardware_board
+    provider: aws
+    kind: iot.hardware.board
+    label: "iot.hardware.board"
+    layout: { x: 1800, y: 1800 }
+  - id: iot_lambda
+    provider: aws
+    kind: iot.lambda
+    label: "iot.lambda"
+    layout: { x: 1950, y: 1800 }
+  - id: iot_over_air_update
+    provider: aws
+    kind: iot.over_air_update
+    label: "iot.over_air_update"
+    layout: { x: 2100, y: 1800 }
+  - id: iot_policy
+    provider: aws
+    kind: iot.policy
+    label: "iot.policy"
+    layout: { x: 2250, y: 1800 }
+  - id: iot_protocol_http
+    provider: aws
+    kind: iot.protocol.http
+    label: "iot.protocol.http"
+    layout: { x: 2400, y: 1800 }
+  - id: iot_protocol_lorawan
+    provider: aws
+    kind: iot.protocol.lorawan
+    label: "iot.protocol.lorawan"
+    layout: { x: 2550, y: 1800 }
+  - id: iot_protocol_mqtt
+    provider: aws
+    kind: iot.protocol.mqtt
+    label: "iot.protocol.mqtt"
+    layout: { x: 2700, y: 1800 }
+  - id: iot_reported_state
+    provider: aws
+    kind: iot.reported_state
+    label: "iot.reported_state"
+    layout: { x: 2850, y: 1800 }
+  - id: iot_rule
+    provider: aws
+    kind: iot.rule
+    label: "iot.rule"
+    layout: { x: 3000, y: 1800 }
+  - id: iot_sensor
+    provider: aws
+    kind: iot.sensor
+    label: "iot.sensor"
+    layout: { x: 3150, y: 1800 }
+  - id: iot_servo
+    provider: aws
+    kind: iot.servo
+    label: "iot.servo"
+    layout: { x: 3300, y: 1800 }
+  - id: iot_shadow
+    provider: aws
+    kind: iot.shadow
+    label: "iot.shadow"
+    layout: { x: 3450, y: 1800 }
+  - id: iot_simulator
+    provider: aws
+    kind: iot.simulator
+    label: "iot.simulator"
+    layout: { x: 3600, y: 1800 }
+  - id: iot_sitewise
+    provider: aws
+    kind: iot.sitewise
+    label: "iot.sitewise"
+    layout: { x: 0, y: 1950 }
+  - id: iot_sitewise_asset
+    provider: aws
+    kind: iot.sitewise.asset
+    label: "iot.sitewise.asset"
+    layout: { x: 150, y: 1950 }
+  - id: iot_sitewise_asset_hierarchy
+    provider: aws
+    kind: iot.sitewise.asset_hierarchy
+    label: "iot.sitewise.asset_hierarchy"
+    layout: { x: 300, y: 1950 }
+  - id: iot_sitewise_asset_model
+    provider: aws
+    kind: iot.sitewise.asset_model
+    label: "iot.sitewise.asset_model"
+    layout: { x: 450, y: 1950 }
+  - id: iot_sitewise_asset_properties
+    provider: aws
+    kind: iot.sitewise.asset_properties
+    label: "iot.sitewise.asset_properties"
+    layout: { x: 600, y: 1950 }
+  - id: iot_sitewise_data_store
+    provider: aws
+    kind: iot.sitewise.data_store
+    label: "iot.sitewise.data_store"
+    layout: { x: 750, y: 1950 }
+  - id: iot_thing_bank
+    provider: aws
+    kind: iot.thing.bank
+    label: "iot.thing.bank"
+    layout: { x: 900, y: 1950 }
+  - id: iot_thing_bicycle
+    provider: aws
+    kind: iot.thing.bicycle
+    label: "iot.thing.bicycle"
+    layout: { x: 1050, y: 1950 }
+  - id: iot_thing_camera
+    provider: aws
+    kind: iot.thing.camera
+    label: "iot.thing.camera"
+    layout: { x: 1200, y: 1950 }
+  - id: iot_thing_car
+    provider: aws
+    kind: iot.thing.car
+    label: "iot.thing.car"
+    layout: { x: 1350, y: 1950 }
+  - id: iot_thing_cart
+    provider: aws
+    kind: iot.thing.cart
+    label: "iot.thing.cart"
+    layout: { x: 1500, y: 1950 }
+  - id: iot_thing_coffee_pot
+    provider: aws
+    kind: iot.thing.coffee_pot
+    label: "iot.thing.coffee_pot"
+    layout: { x: 1650, y: 1950 }
+  - id: iot_thing_door_lock
+    provider: aws
+    kind: iot.thing.door_lock
+    label: "iot.thing.door_lock"
+    layout: { x: 1800, y: 1950 }
+  - id: iot_thing_factory
+    provider: aws
+    kind: iot.thing.factory
+    label: "iot.thing.factory"
+    layout: { x: 1950, y: 1950 }
+  - id: iot_thing_freertos_device
+    provider: aws
+    kind: iot.thing.freertos_device
+    label: "iot.thing.freertos_device"
+    layout: { x: 2100, y: 1950 }
+  - id: iot_thing_generic
+    provider: aws
+    kind: iot.thing.generic
+    label: "iot.thing.generic"
+    layout: { x: 2250, y: 1950 }
+  - id: iot_thing_house
+    provider: aws
+    kind: iot.thing.house
+    label: "iot.thing.house"
+    layout: { x: 2400, y: 1950 }
+  - id: iot_thing_humidity_sensor
+    provider: aws
+    kind: iot.thing.humidity_sensor
+    label: "iot.thing.humidity_sensor"
+    layout: { x: 2550, y: 1950 }
+  - id: iot_thing_industrial_pc
+    provider: aws
+    kind: iot.thing.industrial_pc
+    label: "iot.thing.industrial_pc"
+    layout: { x: 2700, y: 1950 }
+  - id: iot_thing_lightbulb
+    provider: aws
+    kind: iot.thing.lightbulb
+    label: "iot.thing.lightbulb"
+    layout: { x: 2850, y: 1950 }
+  - id: iot_thing_medical_emergency
+    provider: aws
+    kind: iot.thing.medical_emergency
+    label: "iot.thing.medical_emergency"
+    layout: { x: 3000, y: 1950 }
+  - id: iot_thing_plc
+    provider: aws
+    kind: iot.thing.plc
+    label: "iot.thing.plc"
+    layout: { x: 3150, y: 1950 }
+  - id: iot_thing_police_emergency
+    provider: aws
+    kind: iot.thing.police_emergency
+    label: "iot.thing.police_emergency"
+    layout: { x: 3300, y: 1950 }
+  - id: iot_thing_relay
+    provider: aws
+    kind: iot.thing.relay
+    label: "iot.thing.relay"
+    layout: { x: 3450, y: 1950 }
+  - id: iot_thing_sailboat
+    provider: aws
+    kind: iot.thing.sailboat
+    label: "iot.thing.sailboat"
+    layout: { x: 3600, y: 1950 }
+  - id: iot_thing_stacklight
+    provider: aws
+    kind: iot.thing.stacklight
+    label: "iot.thing.stacklight"
+    layout: { x: 0, y: 2100 }
+  - id: iot_thing_temperature_humidity_sensor
+    provider: aws
+    kind: iot.thing.temperature_humidity_sensor
+    label: "iot.thing.temperature_humidity_sensor"
+    layout: { x: 150, y: 2100 }
+  - id: iot_thing_temperature_sensor
+    provider: aws
+    kind: iot.thing.temperature_sensor
+    label: "iot.thing.temperature_sensor"
+    layout: { x: 300, y: 2100 }
+  - id: iot_thing_temperature_vibration_sensor
+    provider: aws
+    kind: iot.thing.temperature_vibration_sensor
+    label: "iot.thing.temperature_vibration_sensor"
+    layout: { x: 450, y: 2100 }
+  - id: iot_thing_thermostat
+    provider: aws
+    kind: iot.thing.thermostat
+    label: "iot.thing.thermostat"
+    layout: { x: 600, y: 2100 }
+  - id: iot_thing_travel
+    provider: aws
+    kind: iot.thing.travel
+    label: "iot.thing.travel"
+    layout: { x: 750, y: 2100 }
+  - id: iot_thing_utility
+    provider: aws
+    kind: iot.thing.utility
+    label: "iot.thing.utility"
+    layout: { x: 900, y: 2100 }
+  - id: iot_thing_vibration_sensor
+    provider: aws
+    kind: iot.thing.vibration_sensor
+    label: "iot.thing.vibration_sensor"
+    layout: { x: 1050, y: 2100 }
+  - id: iot_thing_windfarm
+    provider: aws
+    kind: iot.thing.windfarm
+    label: "iot.thing.windfarm"
+    layout: { x: 1200, y: 2100 }
+  - id: iot_topic
+    provider: aws
+    kind: iot.topic
+    label: "iot.topic"
+    layout: { x: 1350, y: 2100 }
+  - id: iot_twinmaker
+    provider: aws
+    kind: iot.twinmaker
+    label: "iot.twinmaker"
+    layout: { x: 1500, y: 2100 }
+  - id: management_account
+    provider: aws
+    kind: management.account
+    label: "management.account"
+    layout: { x: 1650, y: 2100 }
+  - id: management_app_auto_scaling
+    provider: aws
+    kind: management.app_auto_scaling
+    label: "management.app_auto_scaling"
+    layout: { x: 1800, y: 2100 }
+  - id: management_appconfig
+    provider: aws
+    kind: management.appconfig
+    label: "management.appconfig"
+    layout: { x: 1950, y: 2100 }
+  - id: management_artifact
+    provider: aws
+    kind: management.artifact
+    label: "management.artifact"
+    layout: { x: 2100, y: 2100 }
+  - id: management_auto_scaling
+    provider: aws
+    kind: management.auto_scaling
+    label: "management.auto_scaling"
+    layout: { x: 2250, y: 2100 }
+  - id: management_backint_agent
+    provider: aws
+    kind: management.backint_agent
+    label: "management.backint_agent"
+    layout: { x: 2400, y: 2100 }
+  - id: management_chatbot
+    provider: aws
+    kind: management.chatbot
+    label: "management.chatbot"
+    layout: { x: 2550, y: 2100 }
+  - id: management_cloudformation
+    provider: aws
+    kind: management.cloudformation
+    label: "management.cloudformation"
+    layout: { x: 2700, y: 2100 }
+  - id: management_cloudformation_changeset
+    provider: aws
+    kind: management.cloudformation.changeset
+    label: "management.cloudformation.changeset"
+    layout: { x: 2850, y: 2100 }
+  - id: management_cloudformation_stack
+    provider: aws
+    kind: management.cloudformation.stack
+    label: "management.cloudformation.stack"
+    layout: { x: 3000, y: 2100 }
+  - id: management_cloudtrail
+    provider: aws
+    kind: management.cloudtrail
+    label: "management.cloudtrail"
+    layout: { x: 3150, y: 2100 }
+  - id: management_cloudtrail_lake
+    provider: aws
+    kind: management.cloudtrail.lake
+    label: "management.cloudtrail.lake"
+    layout: { x: 3300, y: 2100 }
+  - id: management_config
+    provider: aws
+    kind: management.config
+    label: "management.config"
+    layout: { x: 3450, y: 2100 }
+  - id: management_console
+    provider: aws
+    kind: management.console
+    label: "management.console"
+    layout: { x: 3600, y: 2100 }
+  - id: management_console_mobile
+    provider: aws
+    kind: management.console_mobile
+    label: "management.console_mobile"
+    layout: { x: 0, y: 2250 }
+  - id: management_control_tower
+    provider: aws
+    kind: management.control_tower
+    label: "management.control_tower"
+    layout: { x: 150, y: 2250 }
+  - id: management_health
+    provider: aws
+    kind: management.health
+    label: "management.health"
+    layout: { x: 300, y: 2250 }
+  - id: management_launch_wizard
+    provider: aws
+    kind: management.launch_wizard
+    label: "management.launch_wizard"
+    layout: { x: 450, y: 2250 }
+  - id: management_license_blending
+    provider: aws
+    kind: management.license_blending
+    label: "management.license_blending"
+    layout: { x: 600, y: 2250 }
+  - id: management_license_manager
+    provider: aws
+    kind: management.license_manager
+    label: "management.license_manager"
+    layout: { x: 750, y: 2250 }
+  - id: management_management_account
+    provider: aws
+    kind: management.management_account
+    label: "management.management_account"
+    layout: { x: 900, y: 2250 }
+  - id: management_organizational_unit
+    provider: aws
+    kind: management.organizational_unit
+    label: "management.organizational_unit"
+    layout: { x: 1050, y: 2250 }
+  - id: management_organizations
+    provider: aws
+    kind: management.organizations
+    label: "management.organizations"
+    layout: { x: 1200, y: 2250 }
+  - id: management_otel
+    provider: aws
+    kind: management.otel
+    label: "management.otel"
+    layout: { x: 1350, y: 2250 }
+  - id: management_proton
+    provider: aws
+    kind: management.proton
+    label: "management.proton"
+    layout: { x: 1500, y: 2250 }
+  - id: management_resilience_hub
+    provider: aws
+    kind: management.resilience_hub
+    label: "management.resilience_hub"
+    layout: { x: 1650, y: 2250 }
+  - id: management_resource_explorer
+    provider: aws
+    kind: management.resource_explorer
+    label: "management.resource_explorer"
+    layout: { x: 1800, y: 2250 }
+  - id: management_service_catalog
+    provider: aws
+    kind: management.service_catalog
+    label: "management.service_catalog"
+    layout: { x: 1950, y: 2250 }
+  - id: management_service_mgmt_connector
+    provider: aws
+    kind: management.service_mgmt_connector
+    label: "management.service_mgmt_connector"
+    layout: { x: 2100, y: 2250 }
+  - id: management_systems_manager
+    provider: aws
+    kind: management.systems_manager
+    label: "management.systems_manager"
+    layout: { x: 2250, y: 2250 }
+  - id: management_systems_manager_application_discovery
+    provider: aws
+    kind: management.systems_manager.application_discovery
+    label: "management.systems_manager.application_discovery"
+    layout: { x: 2400, y: 2250 }
+  - id: management_systems_manager_application_manager
+    provider: aws
+    kind: management.systems_manager.application_manager
+    label: "management.systems_manager.application_manager"
+    layout: { x: 2550, y: 2250 }
+  - id: management_systems_manager_automation
+    provider: aws
+    kind: management.systems_manager.automation
+    label: "management.systems_manager.automation"
+    layout: { x: 2700, y: 2250 }
+  - id: management_systems_manager_change_calendar
+    provider: aws
+    kind: management.systems_manager.change_calendar
+    label: "management.systems_manager.change_calendar"
+    layout: { x: 2850, y: 2250 }
+  - id: management_systems_manager_change_manager
+    provider: aws
+    kind: management.systems_manager.change_manager
+    label: "management.systems_manager.change_manager"
+    layout: { x: 3000, y: 2250 }
+  - id: management_systems_manager_compliance
+    provider: aws
+    kind: management.systems_manager.compliance
+    label: "management.systems_manager.compliance"
+    layout: { x: 3150, y: 2250 }
+  - id: management_systems_manager_distributor
+    provider: aws
+    kind: management.systems_manager.distributor
+    label: "management.systems_manager.distributor"
+    layout: { x: 3300, y: 2250 }
+  - id: management_systems_manager_documents
+    provider: aws
+    kind: management.systems_manager.documents
+    label: "management.systems_manager.documents"
+    layout: { x: 3450, y: 2250 }
+  - id: management_systems_manager_incident_manager
+    provider: aws
+    kind: management.systems_manager.incident_manager
+    label: "management.systems_manager.incident_manager"
+    layout: { x: 3600, y: 2250 }
+  - id: management_systems_manager_inventory
+    provider: aws
+    kind: management.systems_manager.inventory
+    label: "management.systems_manager.inventory"
+    layout: { x: 0, y: 2400 }
+  - id: management_systems_manager_maintenance_windows
+    provider: aws
+    kind: management.systems_manager.maintenance_windows
+    label: "management.systems_manager.maintenance_windows"
+    layout: { x: 150, y: 2400 }
+  - id: management_systems_manager_opscenter
+    provider: aws
+    kind: management.systems_manager.opscenter
+    label: "management.systems_manager.opscenter"
+    layout: { x: 300, y: 2400 }
+  - id: management_systems_manager_parameter_store
+    provider: aws
+    kind: management.systems_manager.parameter_store
+    label: "management.systems_manager.parameter_store"
+    layout: { x: 450, y: 2400 }
+  - id: management_systems_manager_patch_manager
+    provider: aws
+    kind: management.systems_manager.patch_manager
+    label: "management.systems_manager.patch_manager"
+    layout: { x: 600, y: 2400 }
+  - id: management_systems_manager_run_command
+    provider: aws
+    kind: management.systems_manager.run_command
+    label: "management.systems_manager.run_command"
+    layout: { x: 750, y: 2400 }
+  - id: management_systems_manager_session_manager
+    provider: aws
+    kind: management.systems_manager.session_manager
+    label: "management.systems_manager.session_manager"
+    layout: { x: 900, y: 2400 }
+  - id: management_systems_manager_state_manager
+    provider: aws
+    kind: management.systems_manager.state_manager
+    label: "management.systems_manager.state_manager"
+    layout: { x: 1050, y: 2400 }
+  - id: management_telco_network_builder
+    provider: aws
+    kind: management.telco_network_builder
+    label: "management.telco_network_builder"
+    layout: { x: 1200, y: 2400 }
+  - id: management_trusted_advisor
+    provider: aws
+    kind: management.trusted_advisor
+    label: "management.trusted_advisor"
+    layout: { x: 1350, y: 2400 }
+  - id: management_trusted_advisor_checklist
+    provider: aws
+    kind: management.trusted_advisor.checklist
+    label: "management.trusted_advisor.checklist"
+    layout: { x: 1500, y: 2400 }
+  - id: management_trusted_advisor_checklist_cost
+    provider: aws
+    kind: management.trusted_advisor.checklist.cost
+    label: "management.trusted_advisor.checklist.cost"
+    layout: { x: 1650, y: 2400 }
+  - id: management_trusted_advisor_checklist_fault_tolerant
+    provider: aws
+    kind: management.trusted_advisor.checklist.fault_tolerant
+    label: "management.trusted_advisor.checklist.fault_tolerant"
+    layout: { x: 1800, y: 2400 }
+  - id: management_trusted_advisor_checklist_performance
+    provider: aws
+    kind: management.trusted_advisor.checklist.performance
+    label: "management.trusted_advisor.checklist.performance"
+    layout: { x: 1950, y: 2400 }
+  - id: management_trusted_advisor_checklist_security
+    provider: aws
+    kind: management.trusted_advisor.checklist.security
+    label: "management.trusted_advisor.checklist.security"
+    layout: { x: 2100, y: 2400 }
+  - id: management_user_notifications
+    provider: aws
+    kind: management.user_notifications
+    label: "management.user_notifications"
+    layout: { x: 2250, y: 2400 }
+  - id: management_well_architected_tool
+    provider: aws
+    kind: management.well_architected_tool
+    label: "management.well_architected_tool"
+    layout: { x: 2400, y: 2400 }
+  - id: media_deadline_cloud
+    provider: aws
+    kind: media.deadline_cloud
+    label: "media.deadline_cloud"
+    layout: { x: 2550, y: 2400 }
+  - id: media_elastic_transcoder
+    provider: aws
+    kind: media.elastic_transcoder
+    label: "media.elastic_transcoder"
+    layout: { x: 2700, y: 2400 }
+  - id: media_elemental_appliances
+    provider: aws
+    kind: media.elemental.appliances
+    label: "media.elemental.appliances"
+    layout: { x: 2850, y: 2400 }
+  - id: media_elemental_conductor
+    provider: aws
+    kind: media.elemental.conductor
+    label: "media.elemental.conductor"
+    layout: { x: 3000, y: 2400 }
+  - id: media_elemental_delta
+    provider: aws
+    kind: media.elemental.delta
+    label: "media.elemental.delta"
+    layout: { x: 3150, y: 2400 }
+  - id: media_elemental_link
+    provider: aws
+    kind: media.elemental.link
+    label: "media.elemental.link"
+    layout: { x: 3300, y: 2400 }
+  - id: media_elemental_live
+    provider: aws
+    kind: media.elemental.live
+    label: "media.elemental.live"
+    layout: { x: 3450, y: 2400 }
+  - id: media_elemental_mediaconnect
+    provider: aws
+    kind: media.elemental.mediaconnect
+    label: "media.elemental.mediaconnect"
+    layout: { x: 3600, y: 2400 }
+  - id: media_elemental_mediaconnect_gateway
+    provider: aws
+    kind: media.elemental.mediaconnect.gateway
+    label: "media.elemental.mediaconnect.gateway"
+    layout: { x: 0, y: 2550 }
+  - id: media_elemental_mediaconvert
+    provider: aws
+    kind: media.elemental.mediaconvert
+    label: "media.elemental.mediaconvert"
+    layout: { x: 150, y: 2550 }
+  - id: media_elemental_medialive
+    provider: aws
+    kind: media.elemental.medialive
+    label: "media.elemental.medialive"
+    layout: { x: 300, y: 2550 }
+  - id: media_elemental_mediapackage
+    provider: aws
+    kind: media.elemental.mediapackage
+    label: "media.elemental.mediapackage"
+    layout: { x: 450, y: 2550 }
+  - id: media_elemental_mediastore
+    provider: aws
+    kind: media.elemental.mediastore
+    label: "media.elemental.mediastore"
+    layout: { x: 600, y: 2550 }
+  - id: media_elemental_mediatailor
+    provider: aws
+    kind: media.elemental.mediatailor
+    label: "media.elemental.mediatailor"
+    layout: { x: 750, y: 2550 }
+  - id: media_elemental_server
+    provider: aws
+    kind: media.elemental.server
+    label: "media.elemental.server"
+    layout: { x: 900, y: 2550 }
+  - id: media_interactive_video_service
+    provider: aws
+    kind: media.interactive_video_service
+    label: "media.interactive_video_service"
+    layout: { x: 1050, y: 2550 }
+  - id: media_kinesis_video_streams
+    provider: aws
+    kind: media.kinesis_video_streams
+    label: "media.kinesis_video_streams"
+    layout: { x: 1200, y: 2550 }
+  - id: media_thinkbox_deadline
+    provider: aws
+    kind: media.thinkbox.deadline
+    label: "media.thinkbox.deadline"
+    layout: { x: 1350, y: 2550 }
+  - id: media_thinkbox_frost
+    provider: aws
+    kind: media.thinkbox.frost
+    label: "media.thinkbox.frost"
+    layout: { x: 1500, y: 2550 }
+  - id: media_thinkbox_krakatoa
+    provider: aws
+    kind: media.thinkbox.krakatoa
+    label: "media.thinkbox.krakatoa"
+    layout: { x: 1650, y: 2550 }
+  - id: media_thinkbox_sequoia
+    provider: aws
+    kind: media.thinkbox.sequoia
+    label: "media.thinkbox.sequoia"
+    layout: { x: 1800, y: 2550 }
+  - id: media_thinkbox_stoke
+    provider: aws
+    kind: media.thinkbox.stoke
+    label: "media.thinkbox.stoke"
+    layout: { x: 1950, y: 2550 }
+  - id: media_thinkbox_xmesh
+    provider: aws
+    kind: media.thinkbox.xmesh
+    label: "media.thinkbox.xmesh"
+    layout: { x: 2100, y: 2550 }
+  - id: migration_agent
+    provider: aws
+    kind: migration.agent
+    label: "migration.agent"
+    layout: { x: 2250, y: 2550 }
+  - id: migration_app_migration_service
+    provider: aws
+    kind: migration.app_migration_service
+    label: "migration.app_migration_service"
+    layout: { x: 2400, y: 2550 }
+  - id: migration_application_discovery
+    provider: aws
+    kind: migration.application_discovery
+    label: "migration.application_discovery"
+    layout: { x: 2550, y: 2550 }
+  - id: migration_cloud_digital_interface
+    provider: aws
+    kind: migration.cloud_digital_interface
+    label: "migration.cloud_digital_interface"
+    layout: { x: 2700, y: 2550 }
+  - id: migration_data_transfer_terminal
+    provider: aws
+    kind: migration.data_transfer_terminal
+    label: "migration.data_transfer_terminal"
+    layout: { x: 2850, y: 2550 }
+  - id: migration_datasync
+    provider: aws
+    kind: migration.datasync
+    label: "migration.datasync"
+    layout: { x: 3000, y: 2550 }
+  - id: migration_discovery
+    provider: aws
+    kind: migration.discovery
+    label: "migration.discovery"
+    layout: { x: 3150, y: 2550 }
+  - id: migration_discovery_agent
+    provider: aws
+    kind: migration.discovery.agent
+    label: "migration.discovery.agent"
+    layout: { x: 3300, y: 2550 }
+  - id: migration_discovery_agentless_collector
+    provider: aws
+    kind: migration.discovery.agentless_collector
+    label: "migration.discovery.agentless_collector"
+    layout: { x: 3450, y: 2550 }
+  - id: migration_elastic_vmware_service
+    provider: aws
+    kind: migration.elastic_vmware_service
+    label: "migration.elastic_vmware_service"
+    layout: { x: 3600, y: 2550 }
+  - id: migration_evaluator_collector
+    provider: aws
+    kind: migration.evaluator.collector
+    label: "migration.evaluator.collector"
+    layout: { x: 0, y: 2700 }
+  - id: migration_mainframe_modernization
+    provider: aws
+    kind: migration.mainframe_modernization
+    label: "migration.mainframe_modernization"
+    layout: { x: 150, y: 2700 }
+  - id: migration_mainframe_modernization_analyzer
+    provider: aws
+    kind: migration.mainframe_modernization.analyzer
+    label: "migration.mainframe_modernization.analyzer"
+    layout: { x: 300, y: 2700 }
+  - id: migration_mainframe_modernization_compiler
+    provider: aws
+    kind: migration.mainframe_modernization.compiler
+    label: "migration.mainframe_modernization.compiler"
+    layout: { x: 450, y: 2700 }
+  - id: migration_mainframe_modernization_converter
+    provider: aws
+    kind: migration.mainframe_modernization.converter
+    label: "migration.mainframe_modernization.converter"
+    layout: { x: 600, y: 2700 }
+  - id: migration_mainframe_modernization_developer
+    provider: aws
+    kind: migration.mainframe_modernization.developer
+    label: "migration.mainframe_modernization.developer"
+    layout: { x: 750, y: 2700 }
+  - id: migration_mainframe_modernization_runtime
+    provider: aws
+    kind: migration.mainframe_modernization.runtime
+    label: "migration.mainframe_modernization.runtime"
+    layout: { x: 900, y: 2700 }
+  - id: migration_migration_evaluator
+    provider: aws
+    kind: migration.migration_evaluator
+    label: "migration.migration_evaluator"
+    layout: { x: 1050, y: 2700 }
+  - id: migration_migration_hub
+    provider: aws
+    kind: migration.migration_hub
+    label: "migration.migration_hub"
+    layout: { x: 1200, y: 2700 }
+  - id: migration_refactor_spaces_applications
+    provider: aws
+    kind: migration.refactor_spaces.applications
+    label: "migration.refactor_spaces.applications"
+    layout: { x: 1350, y: 2700 }
+  - id: migration_refactor_spaces_environments
+    provider: aws
+    kind: migration.refactor_spaces.environments
+    label: "migration.refactor_spaces.environments"
+    layout: { x: 1500, y: 2700 }
+  - id: migration_refactor_spaces_services
+    provider: aws
+    kind: migration.refactor_spaces.services
+    label: "migration.refactor_spaces.services"
+    layout: { x: 1650, y: 2700 }
+  - id: migration_transfer_ftp
+    provider: aws
+    kind: migration.transfer.ftp
+    label: "migration.transfer.ftp"
+    layout: { x: 1800, y: 2700 }
+  - id: migration_transfer_ftps
+    provider: aws
+    kind: migration.transfer.ftps
+    label: "migration.transfer.ftps"
+    layout: { x: 1950, y: 2700 }
+  - id: migration_transfer_sftp
+    provider: aws
+    kind: migration.transfer.sftp
+    label: "migration.transfer.sftp"
+    layout: { x: 2100, y: 2700 }
+  - id: migration_transfer_family
+    provider: aws
+    kind: migration.transfer_family
+    label: "migration.transfer_family"
+    layout: { x: 2250, y: 2700 }
+  - id: ml_app_studio
+    provider: aws
+    kind: ml.app_studio
+    label: "ml.app_studio"
+    layout: { x: 2400, y: 2700 }
+  - id: ml_augmented_ai
+    provider: aws
+    kind: ml.augmented_ai
+    label: "ml.augmented_ai"
+    layout: { x: 2550, y: 2700 }
+  - id: ml_bedrock
+    provider: aws
+    kind: ml.bedrock
+    label: "ml.bedrock"
+    layout: { x: 2700, y: 2700 }
+  - id: ml_codeguru
+    provider: aws
+    kind: ml.codeguru
+    label: "ml.codeguru"
+    layout: { x: 2850, y: 2700 }
+  - id: ml_codewhisperer
+    provider: aws
+    kind: ml.codewhisperer
+    label: "ml.codewhisperer"
+    layout: { x: 3000, y: 2700 }
+  - id: ml_comprehend
+    provider: aws
+    kind: ml.comprehend
+    label: "ml.comprehend"
+    layout: { x: 3150, y: 2700 }
+  - id: ml_comprehend_medical
+    provider: aws
+    kind: ml.comprehend_medical
+    label: "ml.comprehend_medical"
+    layout: { x: 3300, y: 2700 }
+  - id: ml_deep_learning_amis
+    provider: aws
+    kind: ml.deep_learning_amis
+    label: "ml.deep_learning_amis"
+    layout: { x: 3450, y: 2700 }
+  - id: ml_deep_learning_containers
+    provider: aws
+    kind: ml.deep_learning_containers
+    label: "ml.deep_learning_containers"
+    layout: { x: 3600, y: 2700 }
+  - id: ml_deepcomposer
+    provider: aws
+    kind: ml.deepcomposer
+    label: "ml.deepcomposer"
+    layout: { x: 0, y: 2850 }
+  - id: ml_deeplens
+    provider: aws
+    kind: ml.deeplens
+    label: "ml.deeplens"
+    layout: { x: 150, y: 2850 }
+  - id: ml_deepracer
+    provider: aws
+    kind: ml.deepracer
+    label: "ml.deepracer"
+    layout: { x: 300, y: 2850 }
+  - id: ml_devops_guru
+    provider: aws
+    kind: ml.devops_guru
+    label: "ml.devops_guru"
+    layout: { x: 450, y: 2850 }
+  - id: ml_elastic_inference
+    provider: aws
+    kind: ml.elastic_inference
+    label: "ml.elastic_inference"
+    layout: { x: 600, y: 2850 }
+  - id: ml_forecast
+    provider: aws
+    kind: ml.forecast
+    label: "ml.forecast"
+    layout: { x: 750, y: 2850 }
+  - id: ml_fraud_detector
+    provider: aws
+    kind: ml.fraud_detector
+    label: "ml.fraud_detector"
+    layout: { x: 900, y: 2850 }
+  - id: ml_healthimaging
+    provider: aws
+    kind: ml.healthimaging
+    label: "ml.healthimaging"
+    layout: { x: 1050, y: 2850 }
+  - id: ml_healthlake
+    provider: aws
+    kind: ml.healthlake
+    label: "ml.healthlake"
+    layout: { x: 1200, y: 2850 }
+  - id: ml_healthomics
+    provider: aws
+    kind: ml.healthomics
+    label: "ml.healthomics"
+    layout: { x: 1350, y: 2850 }
+  - id: ml_healthscribe
+    provider: aws
+    kind: ml.healthscribe
+    label: "ml.healthscribe"
+    layout: { x: 1500, y: 2850 }
+  - id: ml_kendra
+    provider: aws
+    kind: ml.kendra
+    label: "ml.kendra"
+    layout: { x: 1650, y: 2850 }
+  - id: ml_lex
+    provider: aws
+    kind: ml.lex
+    label: "ml.lex"
+    layout: { x: 1800, y: 2850 }
+  - id: ml_lookout_equipment
+    provider: aws
+    kind: ml.lookout_equipment
+    label: "ml.lookout_equipment"
+    layout: { x: 1950, y: 2850 }
+  - id: ml_lookout_metrics
+    provider: aws
+    kind: ml.lookout_metrics
+    label: "ml.lookout_metrics"
+    layout: { x: 2100, y: 2850 }
+  - id: ml_lookout_vision
+    provider: aws
+    kind: ml.lookout_vision
+    label: "ml.lookout_vision"
+    layout: { x: 2250, y: 2850 }
+  - id: ml_monitron
+    provider: aws
+    kind: ml.monitron
+    label: "ml.monitron"
+    layout: { x: 2400, y: 2850 }
+  - id: ml_mxnet
+    provider: aws
+    kind: ml.mxnet
+    label: "ml.mxnet"
+    layout: { x: 2550, y: 2850 }
+  - id: ml_neuron
+    provider: aws
+    kind: ml.neuron
+    label: "ml.neuron"
+    layout: { x: 2700, y: 2850 }
+  - id: ml_nova
+    provider: aws
+    kind: ml.nova
+    label: "ml.nova"
+    layout: { x: 2850, y: 2850 }
+  - id: ml_panorama
+    provider: aws
+    kind: ml.panorama
+    label: "ml.panorama"
+    layout: { x: 3000, y: 2850 }
+  - id: ml_personalize
+    provider: aws
+    kind: ml.personalize
+    label: "ml.personalize"
+    layout: { x: 3150, y: 2850 }
+  - id: ml_polly
+    provider: aws
+    kind: ml.polly
+    label: "ml.polly"
+    layout: { x: 3300, y: 2850 }
+  - id: ml_pytorch
+    provider: aws
+    kind: ml.pytorch
+    label: "ml.pytorch"
+    layout: { x: 3450, y: 2850 }
+  - id: ml_q
+    provider: aws
+    kind: ml.q
+    label: "ml.q"
+    layout: { x: 3600, y: 2850 }
+  - id: ml_rekognition
+    provider: aws
+    kind: ml.rekognition
+    label: "ml.rekognition"
+    layout: { x: 0, y: 3000 }
+  - id: ml_rekognition_image
+    provider: aws
+    kind: ml.rekognition.image
+    label: "ml.rekognition.image"
+    layout: { x: 150, y: 3000 }
+  - id: ml_rekognition_video
+    provider: aws
+    kind: ml.rekognition.video
+    label: "ml.rekognition.video"
+    layout: { x: 300, y: 3000 }
+  - id: ml_sagemaker
+    provider: aws
+    kind: ml.sagemaker
+    label: "ml.sagemaker"
+    layout: { x: 450, y: 3000 }
+  - id: ml_sagemaker_canvas
+    provider: aws
+    kind: ml.sagemaker.canvas
+    label: "ml.sagemaker.canvas"
+    layout: { x: 600, y: 3000 }
+  - id: ml_sagemaker_geospatial
+    provider: aws
+    kind: ml.sagemaker.geospatial
+    label: "ml.sagemaker.geospatial"
+    layout: { x: 750, y: 3000 }
+  - id: ml_sagemaker_ground_truth
+    provider: aws
+    kind: ml.sagemaker.ground_truth
+    label: "ml.sagemaker.ground_truth"
+    layout: { x: 900, y: 3000 }
+  - id: ml_sagemaker_insights
+    provider: aws
+    kind: ml.sagemaker.insights
+    label: "ml.sagemaker.insights"
+    layout: { x: 1050, y: 3000 }
+  - id: ml_sagemaker_model
+    provider: aws
+    kind: ml.sagemaker.model
+    label: "ml.sagemaker.model"
+    layout: { x: 1200, y: 3000 }
+  - id: ml_sagemaker_notebook
+    provider: aws
+    kind: ml.sagemaker.notebook
+    label: "ml.sagemaker.notebook"
+    layout: { x: 1350, y: 3000 }
+  - id: ml_sagemaker_shadow_testing
+    provider: aws
+    kind: ml.sagemaker.shadow_testing
+    label: "ml.sagemaker.shadow_testing"
+    layout: { x: 1500, y: 3000 }
+  - id: ml_sagemaker_studio_lab
+    provider: aws
+    kind: ml.sagemaker.studio_lab
+    label: "ml.sagemaker.studio_lab"
+    layout: { x: 1650, y: 3000 }
+  - id: ml_sagemaker_train
+    provider: aws
+    kind: ml.sagemaker.train
+    label: "ml.sagemaker.train"
+    layout: { x: 1800, y: 3000 }
+  - id: ml_tensorflow
+    provider: aws
+    kind: ml.tensorflow
+    label: "ml.tensorflow"
+    layout: { x: 1950, y: 3000 }
+  - id: ml_textract
+    provider: aws
+    kind: ml.textract
+    label: "ml.textract"
+    layout: { x: 2100, y: 3000 }
+  - id: ml_textract_analyze_lending
+    provider: aws
+    kind: ml.textract.analyze_lending
+    label: "ml.textract.analyze_lending"
+    layout: { x: 2250, y: 3000 }
+  - id: ml_transcribe
+    provider: aws
+    kind: ml.transcribe
+    label: "ml.transcribe"
+    layout: { x: 2400, y: 3000 }
+  - id: ml_translate
+    provider: aws
+    kind: ml.translate
+    label: "ml.translate"
+    layout: { x: 2550, y: 3000 }
+  - id: monitoring_cloudwatch
+    provider: aws
+    kind: monitoring.cloudwatch
+    label: "monitoring.cloudwatch"
+    layout: { x: 2700, y: 3000 }
+  - id: monitoring_cloudwatch_alarm
+    provider: aws
+    kind: monitoring.cloudwatch.alarm
+    label: "monitoring.cloudwatch.alarm"
+    layout: { x: 2850, y: 3000 }
+  - id: monitoring_cloudwatch_cross_account
+    provider: aws
+    kind: monitoring.cloudwatch.cross_account
+    label: "monitoring.cloudwatch.cross_account"
+    layout: { x: 3000, y: 3000 }
+  - id: monitoring_cloudwatch_event_event_based
+    provider: aws
+    kind: monitoring.cloudwatch.event.event_based
+    label: "monitoring.cloudwatch.event.event_based"
+    layout: { x: 3150, y: 3000 }
+  - id: monitoring_cloudwatch_event_time_based
+    provider: aws
+    kind: monitoring.cloudwatch.event.time_based
+    label: "monitoring.cloudwatch.event.time_based"
+    layout: { x: 3300, y: 3000 }
+  - id: monitoring_cloudwatch_evidently
+    provider: aws
+    kind: monitoring.cloudwatch.evidently
+    label: "monitoring.cloudwatch.evidently"
+    layout: { x: 3450, y: 3000 }
+  - id: monitoring_cloudwatch_logs
+    provider: aws
+    kind: monitoring.cloudwatch.logs
+    label: "monitoring.cloudwatch.logs"
+    layout: { x: 3600, y: 3000 }
+  - id: monitoring_cloudwatch_metrics_insights
+    provider: aws
+    kind: monitoring.cloudwatch.metrics_insights
+    label: "monitoring.cloudwatch.metrics_insights"
+    layout: { x: 0, y: 3150 }
+  - id: monitoring_cloudwatch_rule
+    provider: aws
+    kind: monitoring.cloudwatch.rule
+    label: "monitoring.cloudwatch.rule"
+    layout: { x: 150, y: 3150 }
+  - id: monitoring_cloudwatch_rum
+    provider: aws
+    kind: monitoring.cloudwatch.rum
+    label: "monitoring.cloudwatch.rum"
+    layout: { x: 300, y: 3150 }
+  - id: monitoring_cloudwatch_synthetics
+    provider: aws
+    kind: monitoring.cloudwatch.synthetics
+    label: "monitoring.cloudwatch.synthetics"
+    layout: { x: 450, y: 3150 }
+  - id: monitoring_grafana
+    provider: aws
+    kind: monitoring.grafana
+    label: "monitoring.grafana"
+    layout: { x: 600, y: 3150 }
+  - id: monitoring_prometheus
+    provider: aws
+    kind: monitoring.prometheus
+    label: "monitoring.prometheus"
+    layout: { x: 750, y: 3150 }
+  - id: network_api_gateway
+    provider: aws
+    kind: network.api_gateway
+    label: "network.api_gateway"
+    layout: { x: 900, y: 3150 }
+  - id: network_app_mesh
+    provider: aws
+    kind: network.app_mesh
+    label: "network.app_mesh"
+    layout: { x: 1050, y: 3150 }
+  - id: network_app_mesh_mesh
+    provider: aws
+    kind: network.app_mesh.mesh
+    label: "network.app_mesh.mesh"
+    layout: { x: 1200, y: 3150 }
+  - id: network_app_mesh_virtual_gateway
+    provider: aws
+    kind: network.app_mesh.virtual_gateway
+    label: "network.app_mesh.virtual_gateway"
+    layout: { x: 1350, y: 3150 }
+  - id: network_app_mesh_virtual_node
+    provider: aws
+    kind: network.app_mesh.virtual_node
+    label: "network.app_mesh.virtual_node"
+    layout: { x: 1500, y: 3150 }
+  - id: network_app_mesh_virtual_router
+    provider: aws
+    kind: network.app_mesh.virtual_router
+    label: "network.app_mesh.virtual_router"
+    layout: { x: 1650, y: 3150 }
+  - id: network_app_mesh_virtual_service
+    provider: aws
+    kind: network.app_mesh.virtual_service
+    label: "network.app_mesh.virtual_service"
+    layout: { x: 1800, y: 3150 }
+  - id: network_app_recovery_controller
+    provider: aws
+    kind: network.app_recovery_controller
+    label: "network.app_recovery_controller"
+    layout: { x: 1950, y: 3150 }
+  - id: network_app_recovery_controller_readiness_checks
+    provider: aws
+    kind: network.app_recovery_controller.readiness_checks
+    label: "network.app_recovery_controller.readiness_checks"
+    layout: { x: 2100, y: 3150 }
+  - id: network_app_recovery_controller_routing_controls
+    provider: aws
+    kind: network.app_recovery_controller.routing_controls
+    label: "network.app_recovery_controller.routing_controls"
+    layout: { x: 2250, y: 3150 }
+  - id: network_cloud_map
+    provider: aws
+    kind: network.cloud_map
+    label: "network.cloud_map"
+    layout: { x: 2400, y: 3150 }
+  - id: network_cloud_map_namespace
+    provider: aws
+    kind: network.cloud_map.namespace
+    label: "network.cloud_map.namespace"
+    layout: { x: 2550, y: 3150 }
+  - id: network_cloud_map_service
+    provider: aws
+    kind: network.cloud_map.service
+    label: "network.cloud_map.service"
+    layout: { x: 2700, y: 3150 }
+  - id: network_cloud_wan
+    provider: aws
+    kind: network.cloud_wan
+    label: "network.cloud_wan"
+    layout: { x: 2850, y: 3150 }
+  - id: network_cloud_wan_core_network_edge
+    provider: aws
+    kind: network.cloud_wan.core_network_edge
+    label: "network.cloud_wan.core_network_edge"
+    layout: { x: 3000, y: 3150 }
+  - id: network_cloud_wan_segment_network
+    provider: aws
+    kind: network.cloud_wan.segment_network
+    label: "network.cloud_wan.segment_network"
+    layout: { x: 3150, y: 3150 }
+  - id: network_cloudfront
+    provider: aws
+    kind: network.cloudfront
+    label: "network.cloudfront"
+    layout: { x: 3300, y: 3150 }
+  - id: network_cloudfront_download_distribution
+    provider: aws
+    kind: network.cloudfront.download_distribution
+    label: "network.cloudfront.download_distribution"
+    layout: { x: 3450, y: 3150 }
+  - id: network_cloudfront_edge_location
+    provider: aws
+    kind: network.cloudfront.edge_location
+    label: "network.cloudfront.edge_location"
+    layout: { x: 3600, y: 3150 }
+  - id: network_cloudfront_functions
+    provider: aws
+    kind: network.cloudfront.functions
+    label: "network.cloudfront.functions"
+    layout: { x: 0, y: 3300 }
+  - id: network_cloudfront_streaming_distribution
+    provider: aws
+    kind: network.cloudfront.streaming_distribution
+    label: "network.cloudfront.streaming_distribution"
+    layout: { x: 150, y: 3300 }
+  - id: network_direct_connect
+    provider: aws
+    kind: network.direct_connect
+    label: "network.direct_connect"
+    layout: { x: 300, y: 3300 }
+  - id: network_direct_connect_gateway
+    provider: aws
+    kind: network.direct_connect.gateway
+    label: "network.direct_connect.gateway"
+    layout: { x: 450, y: 3300 }
+  - id: network_elastic_network_adapter
+    provider: aws
+    kind: network.elastic_network_adapter
+    label: "network.elastic_network_adapter"
+    layout: { x: 600, y: 3300 }
+  - id: network_elastic_network_interface
+    provider: aws
+    kind: network.elastic_network_interface
+    label: "network.elastic_network_interface"
+    layout: { x: 750, y: 3300 }
+  - id: network_elb
+    provider: aws
+    kind: network.elb
+    label: "network.elb"
+    layout: { x: 900, y: 3300 }
+  - id: network_elb_application
+    provider: aws
+    kind: network.elb.application
+    label: "network.elb.application"
+    layout: { x: 1050, y: 3300 }
+  - id: network_elb_classic
+    provider: aws
+    kind: network.elb.classic
+    label: "network.elb.classic"
+    layout: { x: 1200, y: 3300 }
+  - id: network_elb_gateway
+    provider: aws
+    kind: network.elb.gateway
+    label: "network.elb.gateway"
+    layout: { x: 1350, y: 3300 }
+  - id: network_elb_network
+    provider: aws
+    kind: network.elb.network
+    label: "network.elb.network"
+    layout: { x: 1500, y: 3300 }
+  - id: network_global_accelerator
+    provider: aws
+    kind: network.global_accelerator
+    label: "network.global_accelerator"
+    layout: { x: 1650, y: 3300 }
+  - id: network_lattice
+    provider: aws
+    kind: network.lattice
+    label: "network.lattice"
+    layout: { x: 1800, y: 3300 }
+  - id: network_privatelink
+    provider: aws
+    kind: network.privatelink
+    label: "network.privatelink"
+    layout: { x: 1950, y: 3300 }
+  - id: network_resource
+    provider: aws
+    kind: network.resource
+    label: "network.resource"
+    layout: { x: 2100, y: 3300 }
+  - id: network_transit_gateway
+    provider: aws
+    kind: network.transit_gateway
+    label: "network.transit_gateway"
+    layout: { x: 2250, y: 3300 }
+  - id: network_transit_gateway_attachment
+    provider: aws
+    kind: network.transit_gateway.attachment
+    label: "network.transit_gateway.attachment"
+    layout: { x: 2400, y: 3300 }
+  - id: network_transit_gateway_route_table_attachment
+    provider: aws
+    kind: network.transit_gateway.route_table_attachment
+    label: "network.transit_gateway.route_table_attachment"
+    layout: { x: 2550, y: 3300 }
+  - id: network_verified_access
+    provider: aws
+    kind: network.verified_access
+    label: "network.verified_access"
+    layout: { x: 2700, y: 3300 }
+  - id: network_vpc
+    provider: aws
+    kind: network.vpc
+    label: "network.vpc"
+    layout: { x: 2850, y: 3300 }
+  - id: network_vpc_carrier_gateway
+    provider: aws
+    kind: network.vpc.carrier_gateway
+    label: "network.vpc.carrier_gateway"
+    layout: { x: 3000, y: 3300 }
+  - id: network_vpc_customer_gateway
+    provider: aws
+    kind: network.vpc.customer_gateway
+    label: "network.vpc.customer_gateway"
+    layout: { x: 3150, y: 3300 }
+  - id: network_vpc_endpoint
+    provider: aws
+    kind: network.vpc.endpoint
+    label: "network.vpc.endpoint"
+    layout: { x: 3300, y: 3300 }
+  - id: network_vpc_endpoints
+    provider: aws
+    kind: network.vpc.endpoints
+    label: "network.vpc.endpoints"
+    layout: { x: 3450, y: 3300 }
+  - id: network_vpc_flow_logs
+    provider: aws
+    kind: network.vpc.flow_logs
+    label: "network.vpc.flow_logs"
+    layout: { x: 3600, y: 3300 }
+  - id: network_vpc_internet_gateway
+    provider: aws
+    kind: network.vpc.internet_gateway
+    label: "network.vpc.internet_gateway"
+    layout: { x: 0, y: 3450 }
+  - id: network_vpc_nat_gateway
+    provider: aws
+    kind: network.vpc.nat_gateway
+    label: "network.vpc.nat_gateway"
+    layout: { x: 150, y: 3450 }
+  - id: network_vpc_network_access_analyzer
+    provider: aws
+    kind: network.vpc.network_access_analyzer
+    label: "network.vpc.network_access_analyzer"
+    layout: { x: 300, y: 3450 }
+  - id: network_vpc_network_acl
+    provider: aws
+    kind: network.vpc.network_acl
+    label: "network.vpc.network_acl"
+    layout: { x: 450, y: 3450 }
+  - id: network_vpc_peering_connection
+    provider: aws
+    kind: network.vpc.peering_connection
+    label: "network.vpc.peering_connection"
+    layout: { x: 600, y: 3450 }
+  - id: network_vpc_reachability_analyzer
+    provider: aws
+    kind: network.vpc.reachability_analyzer
+    label: "network.vpc.reachability_analyzer"
+    layout: { x: 750, y: 3450 }
+  - id: network_vpc_route_table
+    provider: aws
+    kind: network.vpc.route_table
+    label: "network.vpc.route_table"
+    layout: { x: 900, y: 3450 }
+  - id: network_vpc_traffic_mirroring
+    provider: aws
+    kind: network.vpc.traffic_mirroring
+    label: "network.vpc.traffic_mirroring"
+    layout: { x: 1050, y: 3450 }
+  - id: network_vpc_virtual_private_cloud
+    provider: aws
+    kind: network.vpc.virtual_private_cloud
+    label: "network.vpc.virtual_private_cloud"
+    layout: { x: 1200, y: 3450 }
+  - id: network_vpn_client
+    provider: aws
+    kind: network.vpn.client
+    label: "network.vpn.client"
+    layout: { x: 1350, y: 3450 }
+  - id: network_vpn_connection
+    provider: aws
+    kind: network.vpn.connection
+    label: "network.vpn.connection"
+    layout: { x: 1500, y: 3450 }
+  - id: network_vpn_gateway
+    provider: aws
+    kind: network.vpn.gateway
+    label: "network.vpn.gateway"
+    layout: { x: 1650, y: 3450 }
+  - id: network_vpn_site_to_site
+    provider: aws
+    kind: network.vpn.site_to_site
+    label: "network.vpn.site_to_site"
+    layout: { x: 1800, y: 3450 }
+  - id: quantum_braket
+    provider: aws
+    kind: quantum.braket
+    label: "quantum.braket"
+    layout: { x: 1950, y: 3450 }
+  - id: quantum_braket_chip
+    provider: aws
+    kind: quantum.braket.chip
+    label: "quantum.braket.chip"
+    layout: { x: 2100, y: 3450 }
+  - id: quantum_braket_qpu
+    provider: aws
+    kind: quantum.braket.qpu
+    label: "quantum.braket.qpu"
+    layout: { x: 2250, y: 3450 }
+  - id: quantum_simulation
+    provider: aws
+    kind: quantum.simulation
+    label: "quantum.simulation"
+    layout: { x: 2400, y: 3450 }
+  - id: quantum_simulator
+    provider: aws
+    kind: quantum.simulator
+    label: "quantum.simulator"
+    layout: { x: 2550, y: 3450 }
+  - id: quantum_simulator_chandelier
+    provider: aws
+    kind: quantum.simulator.chandelier
+    label: "quantum.simulator.chandelier"
+    layout: { x: 2700, y: 3450 }
+  - id: quantum_simulator_noise
+    provider: aws
+    kind: quantum.simulator.noise
+    label: "quantum.simulator.noise"
+    layout: { x: 2850, y: 3450 }
+  - id: quantum_simulator_state_vector
+    provider: aws
+    kind: quantum.simulator.state_vector
+    label: "quantum.simulator.state_vector"
+    layout: { x: 3000, y: 3450 }
+  - id: quantum_simulator_tensor_network
+    provider: aws
+    kind: quantum.simulator.tensor_network
+    label: "quantum.simulator.tensor_network"
+    layout: { x: 3150, y: 3450 }
+  - id: robotics_robomaker
+    provider: aws
+    kind: robotics.robomaker
+    label: "robotics.robomaker"
+    layout: { x: 3300, y: 3450 }
+  - id: robotics_robomaker_cloud_extensions_ros
+    provider: aws
+    kind: robotics.robomaker.cloud_extensions_ros
+    label: "robotics.robomaker.cloud_extensions_ros"
+    layout: { x: 3450, y: 3450 }
+  - id: robotics_robomaker_development_environment
+    provider: aws
+    kind: robotics.robomaker.development_environment
+    label: "robotics.robomaker.development_environment"
+    layout: { x: 3600, y: 3450 }
+  - id: robotics_robomaker_embedded_simulator
+    provider: aws
+    kind: robotics.robomaker.embedded_simulator
+    label: "robotics.robomaker.embedded_simulator"
+    layout: { x: 0, y: 3600 }
+  - id: robotics_robomaker_fleet_management
+    provider: aws
+    kind: robotics.robomaker.fleet_management
+    label: "robotics.robomaker.fleet_management"
+    layout: { x: 150, y: 3600 }
+  - id: robotics_robomaker_simulation
+    provider: aws
+    kind: robotics.robomaker.simulation
+    label: "robotics.robomaker.simulation"
+    layout: { x: 300, y: 3600 }
+  - id: satellite_ground_station
+    provider: aws
+    kind: satellite.ground_station
+    label: "satellite.ground_station"
+    layout: { x: 450, y: 3600 }
+  - id: security_agent
+    provider: aws
+    kind: security.agent
+    label: "security.agent"
+    layout: { x: 600, y: 3600 }
+  - id: security_artifact
+    provider: aws
+    kind: security.artifact
+    label: "security.artifact"
+    layout: { x: 750, y: 3600 }
+  - id: security_audit_manager
+    provider: aws
+    kind: security.audit_manager
+    label: "security.audit_manager"
+    layout: { x: 900, y: 3600 }
+  - id: security_certificate_manager
+    provider: aws
+    kind: security.certificate_manager
+    label: "security.certificate_manager"
+    layout: { x: 1050, y: 3600 }
+  - id: security_cloud_directory
+    provider: aws
+    kind: security.cloud_directory
+    label: "security.cloud_directory"
+    layout: { x: 1200, y: 3600 }
+  - id: security_cloudhsm
+    provider: aws
+    kind: security.cloudhsm
+    label: "security.cloudhsm"
+    layout: { x: 1350, y: 3600 }
+  - id: security_cognito
+    provider: aws
+    kind: security.cognito
+    label: "security.cognito"
+    layout: { x: 1500, y: 3600 }
+  - id: security_detective
+    provider: aws
+    kind: security.detective
+    label: "security.detective"
+    layout: { x: 1650, y: 3600 }
+  - id: security_directory_service
+    provider: aws
+    kind: security.directory_service
+    label: "security.directory_service"
+    layout: { x: 1800, y: 3600 }
+  - id: security_directory_service_ad_connector
+    provider: aws
+    kind: security.directory_service.ad_connector
+    label: "security.directory_service.ad_connector"
+    layout: { x: 1950, y: 3600 }
+  - id: security_directory_service_managed_microsoft_ad
+    provider: aws
+    kind: security.directory_service.managed_microsoft_ad
+    label: "security.directory_service.managed_microsoft_ad"
+    layout: { x: 2100, y: 3600 }
+  - id: security_directory_service_simple_ad
+    provider: aws
+    kind: security.directory_service.simple_ad
+    label: "security.directory_service.simple_ad"
+    layout: { x: 2250, y: 3600 }
+  - id: security_endpoints
+    provider: aws
+    kind: security.endpoints
+    label: "security.endpoints"
+    layout: { x: 2400, y: 3600 }
+  - id: security_finding
+    provider: aws
+    kind: security.finding
+    label: "security.finding"
+    layout: { x: 2550, y: 3600 }
+  - id: security_firewall_manager
+    provider: aws
+    kind: security.firewall_manager
+    label: "security.firewall_manager"
+    layout: { x: 2700, y: 3600 }
+  - id: security_guardduty
+    provider: aws
+    kind: security.guardduty
+    label: "security.guardduty"
+    layout: { x: 2850, y: 3600 }
+  - id: security_iam
+    provider: aws
+    kind: security.iam
+    label: "security.iam"
+    layout: { x: 3000, y: 3600 }
+  - id: security_iam_access_analyzer
+    provider: aws
+    kind: security.iam.access_analyzer
+    label: "security.iam.access_analyzer"
+    layout: { x: 3150, y: 3600 }
+  - id: security_iam_identity_center
+    provider: aws
+    kind: security.iam.identity_center
+    label: "security.iam.identity_center"
+    layout: { x: 3300, y: 3600 }
+  - id: security_iam_long_term_credential
+    provider: aws
+    kind: security.iam.long_term_credential
+    label: "security.iam.long_term_credential"
+    layout: { x: 3450, y: 3600 }
+  - id: security_iam_mfa_token
+    provider: aws
+    kind: security.iam.mfa_token
+    label: "security.iam.mfa_token"
+    layout: { x: 3600, y: 3600 }
+  - id: security_iam_permissions
+    provider: aws
+    kind: security.iam.permissions
+    label: "security.iam.permissions"
+    layout: { x: 0, y: 3750 }
+  - id: security_iam_role
+    provider: aws
+    kind: security.iam.role
+    label: "security.iam.role"
+    layout: { x: 150, y: 3750 }
+  - id: security_iam_roles_anywhere
+    provider: aws
+    kind: security.iam.roles_anywhere
+    label: "security.iam.roles_anywhere"
+    layout: { x: 300, y: 3750 }
+  - id: security_iam_temporary_credential
+    provider: aws
+    kind: security.iam.temporary_credential
+    label: "security.iam.temporary_credential"
+    layout: { x: 450, y: 3750 }
+  - id: security_incident_response
+    provider: aws
+    kind: security.incident_response
+    label: "security.incident_response"
+    layout: { x: 600, y: 3750 }
+  - id: security_inspector
+    provider: aws
+    kind: security.inspector
+    label: "security.inspector"
+    layout: { x: 750, y: 3750 }
+  - id: security_kms
+    provider: aws
+    kind: security.kms
+    label: "security.kms"
+    layout: { x: 900, y: 3750 }
+  - id: security_kms_data_encryption_key
+    provider: aws
+    kind: security.kms.data_encryption_key
+    label: "security.kms.data_encryption_key"
+    layout: { x: 1050, y: 3750 }
+  - id: security_kms_encrypted_data
+    provider: aws
+    kind: security.kms.encrypted_data
+    label: "security.kms.encrypted_data"
+    layout: { x: 1200, y: 3750 }
+  - id: security_kms_external_key_store
+    provider: aws
+    kind: security.kms.external_key_store
+    label: "security.kms.external_key_store"
+    layout: { x: 1350, y: 3750 }
+  - id: security_macie
+    provider: aws
+    kind: security.macie
+    label: "security.macie"
+    layout: { x: 1500, y: 3750 }
+  - id: security_network_firewall
+    provider: aws
+    kind: security.network_firewall
+    label: "security.network_firewall"
+    layout: { x: 1650, y: 3750 }
+  - id: security_payment_cryptography
+    provider: aws
+    kind: security.payment_cryptography
+    label: "security.payment_cryptography"
+    layout: { x: 1800, y: 3750 }
+  - id: security_private_ca
+    provider: aws
+    kind: security.private_ca
+    label: "security.private_ca"
+    layout: { x: 1950, y: 3750 }
+  - id: security_private_ca_certificate_authority
+    provider: aws
+    kind: security.private_ca.certificate_authority
+    label: "security.private_ca.certificate_authority"
+    layout: { x: 2100, y: 3750 }
+  - id: security_private_ca_template
+    provider: aws
+    kind: security.private_ca.template
+    label: "security.private_ca.template"
+    layout: { x: 2250, y: 3750 }
+  - id: security_resource_access_manager
+    provider: aws
+    kind: security.resource_access_manager
+    label: "security.resource_access_manager"
+    layout: { x: 2400, y: 3750 }
+  - id: security_secrets_manager
+    provider: aws
+    kind: security.secrets_manager
+    label: "security.secrets_manager"
+    layout: { x: 2550, y: 3750 }
+  - id: security_security_hub
+    provider: aws
+    kind: security.security_hub
+    label: "security.security_hub"
+    layout: { x: 2700, y: 3750 }
+  - id: security_security_lake
+    provider: aws
+    kind: security.security_lake
+    label: "security.security_lake"
+    layout: { x: 2850, y: 3750 }
+  - id: security_shield
+    provider: aws
+    kind: security.shield
+    label: "security.shield"
+    layout: { x: 3000, y: 3750 }
+  - id: security_shield_advanced
+    provider: aws
+    kind: security.shield.advanced
+    label: "security.shield.advanced"
+    layout: { x: 3150, y: 3750 }
+  - id: security_signer
+    provider: aws
+    kind: security.signer
+    label: "security.signer"
+    layout: { x: 3300, y: 3750 }
+  - id: security_sts
+    provider: aws
+    kind: security.sts
+    label: "security.sts"
+    layout: { x: 3450, y: 3750 }
+  - id: security_sts_alternate
+    provider: aws
+    kind: security.sts.alternate
+    label: "security.sts.alternate"
+    layout: { x: 3600, y: 3750 }
+  - id: security_verified_permissions
+    provider: aws
+    kind: security.verified_permissions
+    label: "security.verified_permissions"
+    layout: { x: 0, y: 3900 }
+  - id: security_waf
+    provider: aws
+    kind: security.waf
+    label: "security.waf"
+    layout: { x: 150, y: 3900 }
+  - id: security_waf_bad_bot
+    provider: aws
+    kind: security.waf.bad_bot
+    label: "security.waf.bad_bot"
+    layout: { x: 300, y: 3900 }
+  - id: security_waf_bot
+    provider: aws
+    kind: security.waf.bot
+    label: "security.waf.bot"
+    layout: { x: 450, y: 3900 }
+  - id: security_waf_bot_control
+    provider: aws
+    kind: security.waf.bot_control
+    label: "security.waf.bot_control"
+    layout: { x: 600, y: 3900 }
+  - id: security_waf_filtering_rule
+    provider: aws
+    kind: security.waf.filtering_rule
+    label: "security.waf.filtering_rule"
+    layout: { x: 750, y: 3900 }
+  - id: security_waf_labels
+    provider: aws
+    kind: security.waf.labels
+    label: "security.waf.labels"
+    layout: { x: 900, y: 3900 }
+  - id: security_waf_managed_rule
+    provider: aws
+    kind: security.waf.managed_rule
+    label: "security.waf.managed_rule"
+    layout: { x: 1050, y: 3900 }
+  - id: security_waf_rule
+    provider: aws
+    kind: security.waf.rule
+    label: "security.waf.rule"
+    layout: { x: 1200, y: 3900 }
+
+
+  - id: compute_virtual_machine
+    provider: aws
+    kind: compute.virtual_machine
+    label: "compute.virtual_machine"
+    layout: { x: 600, y: 4050 }
+  - id: compute_virtual_machine_monitor
+    provider: aws
+    kind: compute.virtual_machine_monitor
+    label: "compute.virtual_machine_monitor"
+    layout: { x: 750, y: 4050 }
+  - id: management_compute_optimizer
+    provider: aws
+    kind: management.compute_optimizer
+    label: "management.compute_optimizer"
+    layout: { x: 900, y: 4050 }
+  - id: migration_datasync_hybrid_nfs_linked_datasets
+    provider: aws
+    kind: migration.datasync.hybrid_nfs_linked_datasets
+    label: "migration.datasync.hybrid_nfs_linked_datasets"
+    layout: { x: 1050, y: 4050 }
+  - id: migration_datasync_on_premises_nfs_linked_datasets
+    provider: aws
+    kind: migration.datasync.on_premises_nfs_linked_datasets
+    label: "migration.datasync.on_premises_nfs_linked_datasets"
+    layout: { x: 1200, y: 4050 }
+  - id: migration_datasync_s3_linked_datasets
+    provider: aws
+    kind: migration.datasync.s3_linked_datasets
+    label: "migration.datasync.s3_linked_datasets"
+    layout: { x: 1350, y: 4050 }
+  - id: migration_snowball_import_export
+    provider: aws
+    kind: migration.snowball.import_export
+    label: "migration.snowball.import_export"
+    layout: { x: 1500, y: 4050 }
+  - id: security_compliance_reporting
+    provider: aws
+    kind: security.compliance_reporting
+    label: "security.compliance_reporting"
+    layout: { x: 1650, y: 4050 }
+  - id: storage_backup_auto_copy
+    provider: aws
+    kind: storage.backup.auto_copy
+    label: "storage.backup.auto_copy"
+    layout: { x: 1800, y: 4050 }
+  - id: storage_backup_cloudformation
+    provider: aws
+    kind: storage.backup.cloudformation
+    label: "storage.backup.cloudformation"
+    layout: { x: 1950, y: 4050 }
+  - id: storage_backup_fsx_ontap
+    provider: aws
+    kind: storage.backup.fsx_ontap
+    label: "storage.backup.fsx_ontap"
+    layout: { x: 2100, y: 4050 }
+  - id: storage_backup_legal_hold
+    provider: aws
+    kind: storage.backup.legal_hold
+    label: "storage.backup.legal_hold"
+    layout: { x: 2250, y: 4050 }
+  - id: storage_backup_plan
+    provider: aws
+    kind: storage.backup.plan
+    label: "storage.backup.plan"
+    layout: { x: 2400, y: 4050 }
+  - id: storage_backup_recovery_point_objective
+    provider: aws
+    kind: storage.backup.recovery_point_objective
+    label: "storage.backup.recovery_point_objective"
+    layout: { x: 2550, y: 4050 }
+  - id: storage_backup_recovery_time_objective
+    provider: aws
+    kind: storage.backup.recovery_time_objective
+    label: "storage.backup.recovery_time_objective"
+    layout: { x: 2700, y: 4050 }
+  - id: storage_backup_restore
+    provider: aws
+    kind: storage.backup.restore
+    label: "storage.backup.restore"
+    layout: { x: 2850, y: 4050 }
+  - id: storage_backup_s3
+    provider: aws
+    kind: storage.backup.s3
+    label: "storage.backup.s3"
+    layout: { x: 3000, y: 4050 }
+  - id: storage_backup_vault
+    provider: aws
+    kind: storage.backup.vault
+    label: "storage.backup.vault"
+    layout: { x: 3150, y: 4050 }
+  - id: storage_backup_vault_lock
+    provider: aws
+    kind: storage.backup.vault_lock
+    label: "storage.backup.vault_lock"
+    layout: { x: 3300, y: 4050 }
+  - id: storage_backup_vmware
+    provider: aws
+    kind: storage.backup.vmware
+    label: "storage.backup.vmware"
+    layout: { x: 3450, y: 4050 }
+  - id: storage_ebs_volume_gp3
+    provider: aws
+    kind: storage.ebs.volume_gp3
+    label: "storage.ebs.volume_gp3"
+    layout: { x: 3600, y: 4050 }
+  - id: storage_efs_elastic_throughput
+    provider: aws
+    kind: storage.efs.elastic_throughput
+    label: "storage.efs.elastic_throughput"
+    layout: { x: 3750, y: 4050 }
+  - id: storage_efs_one_zone
+    provider: aws
+    kind: storage.efs.one_zone
+    label: "storage.efs.one_zone"
+    layout: { x: 0, y: 4200 }
+  - id: storage_efs_one_zone_ia
+    provider: aws
+    kind: storage.efs.one_zone_ia
+    label: "storage.efs.one_zone_ia"
+    layout: { x: 150, y: 4200 }
+  - id: storage_efs_standard
+    provider: aws
+    kind: storage.efs.standard
+    label: "storage.efs.standard"
+    layout: { x: 300, y: 4200 }
+  - id: storage_efs_standard_ia
+    provider: aws
+    kind: storage.efs.standard_ia
+    label: "storage.efs.standard_ia"
+    layout: { x: 450, y: 4200 }
+  - id: storage_file_system
+    provider: aws
+    kind: storage.file_system
+    label: "storage.file_system"
+    layout: { x: 600, y: 4200 }
+  - id: storage_multiple_volumes
+    provider: aws
+    kind: storage.multiple_volumes
+    label: "storage.multiple_volumes"
+    layout: { x: 750, y: 4200 }
+  - id: storage_s3_batch_operations
+    provider: aws
+    kind: storage.s3.batch_operations
+    label: "storage.s3.batch_operations"
+    layout: { x: 900, y: 4200 }
+  - id: storage_s3_directory_bucket
+    provider: aws
+    kind: storage.s3.directory_bucket
+    label: "storage.s3.directory_bucket"
+    layout: { x: 1050, y: 4200 }
+  - id: storage_s3_express_one_zone
+    provider: aws
+    kind: storage.s3.express_one_zone
+    label: "storage.s3.express_one_zone"
+    layout: { x: 1200, y: 4200 }
+  - id: storage_s3_general_access_points
+    provider: aws
+    kind: storage.s3.general_access_points
+    label: "storage.s3.general_access_points"
+    layout: { x: 1350, y: 4200 }
+  - id: storage_s3_glacier_deep_archive
+    provider: aws
+    kind: storage.s3.glacier.deep_archive
+    label: "storage.s3.glacier.deep_archive"
+    layout: { x: 1500, y: 4200 }
+  - id: storage_s3_glacier_flexible_retrieval
+    provider: aws
+    kind: storage.s3.glacier.flexible_retrieval
+    label: "storage.s3.glacier.flexible_retrieval"
+    layout: { x: 1650, y: 4200 }
+  - id: storage_s3_glacier_instant_retrieval
+    provider: aws
+    kind: storage.s3.glacier.instant_retrieval
+    label: "storage.s3.glacier.instant_retrieval"
+    layout: { x: 1800, y: 4200 }
+  - id: storage_s3_object_lambda
+    provider: aws
+    kind: storage.s3.object_lambda
+    label: "storage.s3.object_lambda"
+    layout: { x: 1950, y: 4200 }
+  - id: storage_s3_object_lambda_access_points
+    provider: aws
+    kind: storage.s3.object_lambda_access_points
+    label: "storage.s3.object_lambda_access_points"
+    layout: { x: 2100, y: 4200 }
+  - id: storage_s3_object_lock
+    provider: aws
+    kind: storage.s3.object_lock
+    label: "storage.s3.object_lock"
+    layout: { x: 2250, y: 4200 }
+  - id: storage_s3_on_outposts
+    provider: aws
+    kind: storage.s3.on_outposts
+    label: "storage.s3.on_outposts"
+    layout: { x: 2400, y: 4200 }
+  - id: storage_s3_replication
+    provider: aws
+    kind: storage.s3.replication
+    label: "storage.s3.replication"
+    layout: { x: 2550, y: 4200 }
+  - id: storage_s3_replication_time_control
+    provider: aws
+    kind: storage.s3.replication_time_control
+    label: "storage.s3.replication_time_control"
+    layout: { x: 2700, y: 4200 }
+  - id: storage_s3_select
+    provider: aws
+    kind: storage.s3.select
+    label: "storage.s3.select"
+    layout: { x: 2850, y: 4200 }
+  - id: storage_s3_storage_lens
+    provider: aws
+    kind: storage.s3.storage_lens
+    label: "storage.s3.storage_lens"
+    layout: { x: 3000, y: 4200 }
+  - id: storage_s3_tables
+    provider: aws
+    kind: storage.s3.tables
+    label: "storage.s3.tables"
+    layout: { x: 3150, y: 4200 }
+  - id: storage_s3_vpc_access_points
+    provider: aws
+    kind: storage.s3.vpc_access_points
+    label: "storage.s3.vpc_access_points"
+    layout: { x: 3300, y: 4200 }
+  - id: storage_snapshot
+    provider: aws
+    kind: storage.snapshot
+    label: "storage.snapshot"
+    layout: { x: 3450, y: 4200 }
+  - id: storage_storage_gateway_cached_volume
+    provider: aws
+    kind: storage.storage_gateway.cached_volume
+    label: "storage.storage_gateway.cached_volume"
+    layout: { x: 3600, y: 4200 }
+  - id: storage_storage_gateway_file_gateway
+    provider: aws
+    kind: storage.storage_gateway.file_gateway
+    label: "storage.storage_gateway.file_gateway"
+    layout: { x: 3750, y: 4200 }
+  - id: storage_storage_gateway_noncached_volume
+    provider: aws
+    kind: storage.storage_gateway.noncached_volume
+    label: "storage.storage_gateway.noncached_volume"
+    layout: { x: 0, y: 4350 }
+  - id: storage_storage_gateway_tape_gateway
+    provider: aws
+    kind: storage.storage_gateway.tape_gateway
+    label: "storage.storage_gateway.tape_gateway"
+    layout: { x: 150, y: 4350 }
+  - id: storage_storage_gateway_virtual_tape_library
+    provider: aws
+    kind: storage.storage_gateway.virtual_tape_library
+    label: "storage.storage_gateway.virtual_tape_library"
+    layout: { x: 300, y: 4350 }
+  - id: storage_storage_gateway_volume_gateway
+    provider: aws
+    kind: storage.storage_gateway.volume_gateway
+    label: "storage.storage_gateway.volume_gateway"
+    layout: { x: 450, y: 4350 }
+  - id: storage_volume
+    provider: aws
+    kind: storage.volume
+    label: "storage.volume"
+    layout: { x: 600, y: 4350 }

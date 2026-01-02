@@ -1,0 +1,46 @@
+{
+  "name": "figram",
+  "version": "0.1.0",
+  "description": "YAML-driven architecture diagrams for FigJam",
+  "type": "module",
+  "bin": {
+    "figram": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsup && cp -r src/templates dist/",
+    "dev": "bun run ./src/index.ts",
+    "prepack": "bun run build"
+  },
+  "keywords": [
+    "figjam",
+    "figma",
+    "diagram",
+    "architecture",
+    "yaml",
+    "aws"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/7nohe/figram.git",
+    "directory": "packages/cli"
+  },
+  "dependencies": {
+    "commander": "^14.0.2",
+    "ws": "^8.18.3",
+    "yaml": "^2.8.2"
+  },
+  "devDependencies": {
+    "@figram/core": "workspace:*",
+    "@types/bun": "^1.1.14",
+    "@types/ws": "^8.18.1",
+    "tsup": "^8.5.1"
+  }
+}

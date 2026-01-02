@@ -1,0 +1,57 @@
+# Custom Icons Example
+# This example demonstrates how to use custom icons with figram.
+# Perfect for FigJam Free Plan users who don't have access to built-in FigJam icons.
+
+version: 1
+docId: "custom-icons-demo"
+
+# Inline icon definitions (relative paths from this file)
+# Note: Only PNG, JPG, GIF, WebP are supported (SVG is NOT supported)
+icons:
+  aws:
+    "compute.ec2": "./icons/server.png"
+    "database.rds": "./icons/database.png"
+    "storage.s3": "./icons/bucket.png"
+
+nodes:
+  # VPC Container
+  - id: vpc
+    provider: aws
+    kind: network.vpc
+    label: "Production VPC"
+    layout: { x: 0, y: 0, w: 600, h: 400 }
+
+  # Web Server (uses custom server.svg icon)
+  - id: web
+    provider: aws
+    kind: compute.ec2
+    label: "Web Server"
+    parent: vpc
+    layout: { x: 50, y: 80 }
+
+  # Database (uses custom database.svg icon)
+  - id: db
+    provider: aws
+    kind: database.rds
+    label: "MySQL Database"
+    parent: vpc
+    layout: { x: 250, y: 80 }
+
+  # S3 Bucket (uses custom bucket.svg icon)
+  - id: assets
+    provider: aws
+    kind: storage.s3
+    label: "Static Assets"
+    parent: vpc
+    layout: { x: 250, y: 180 }
+
+edges:
+  - id: web-to-db
+    from: web
+    to: db
+    label: "Query"
+
+  - id: web-to-s3
+    from: web
+    to: assets
+    label: "Read Assets"

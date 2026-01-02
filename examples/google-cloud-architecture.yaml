@@ -1,0 +1,187 @@
+version: 1
+docId: "google-cloud-architecture"
+title: "GCP Web Application Architecture"
+
+nodes:
+  # VPC Container
+  - id: vpc
+    provider: gcp
+    kind: network.vpc
+    label: "VPC (10.0.0.0/16)"
+    layout: { x: 0, y: 0, w: 1000, h: 900 }
+
+  # Cloud Load Balancer (top center)
+  - id: lb
+    provider: gcp
+    kind: network.load_balancing
+    label: "Cloud Load Balancer"
+    parent: vpc
+    layout: { x: 420, y: 200 }
+
+  # Compute Layer (row 1)
+  - id: gke
+    provider: gcp
+    kind: container.gke
+    label: "GKE Cluster"
+    parent: vpc
+    layout: { x: 260, y: 80 }
+
+  - id: cloudrun
+    provider: gcp
+    kind: compute.run
+    label: "Cloud Run (API)"
+    parent: vpc
+    layout: { x: 420, y: 400 }
+
+  - id: functions
+    provider: gcp
+    kind: compute.functions
+    label: "Cloud Functions"
+    parent: vpc
+    layout: { x: 340, y: 300 }
+
+  # Database Layer (row 2)
+  - id: cloudsql
+    provider: gcp
+    kind: database.sql
+    label: "Cloud SQL"
+    parent: vpc
+    layout: { x: 100, y: 420 }
+
+  - id: spanner
+    provider: gcp
+    kind: database.spanner
+    label: "Cloud Spanner"
+    parent: vpc
+    layout: { x: 400, y: 740 }
+
+  - id: redis
+    provider: gcp
+    kind: database.memorystore
+    label: "Memorystore"
+    parent: vpc
+    layout: { x: 100, y: 60 }
+
+  # Messaging & Analytics Layer (row 3)
+  - id: pubsub
+    provider: gcp
+    kind: analytics.pubsub
+    label: "Pub/Sub"
+    parent: vpc
+    layout: { x: 160, y: 760 }
+
+  - id: bigquery
+    provider: gcp
+    kind: analytics.bigquery
+    label: "BigQuery"
+    parent: vpc
+    layout: { x: 580, y: 660 }
+
+  # External Services (right column, outside VPC)
+  - id: gcs
+    provider: gcp
+    kind: storage.gcs
+    label: "Cloud Storage"
+    layout: { x: 1150, y: 80 }
+
+  - id: cdn
+    provider: gcp
+    kind: network.cdn
+    label: "Cloud CDN"
+    layout: { x: 1150, y: 280 }
+
+  - id: secrets
+    provider: gcp
+    kind: security.secret_manager
+    label: "Secret Manager"
+    layout: { x: 1150, y: 480 }
+
+  - id: monitoring
+    provider: gcp
+    kind: management.monitoring
+    label: "Cloud Monitoring"
+    layout: { x: 1150, y: 680 }
+
+edges:
+  # Load Balancer to services
+  - id: lb_to_gke
+    from: lb
+    to: gke
+    label: "HTTPS"
+    color: "#4285F4"
+
+  - id: lb_to_cloudrun
+    from: lb
+    to: cloudrun
+    label: "HTTPS"
+    color: "#4285F4"
+
+  # Service to Database
+  - id: gke_to_sql
+    from: gke
+    to: cloudsql
+    label: "SQL"
+    color: "#34A853"
+
+  - id: cloudrun_to_spanner
+    from: cloudrun
+    to: spanner
+    label: "SQL"
+    color: "#34A853"
+
+  - id: gke_to_redis
+    from: gke
+    to: redis
+    label: "Redis"
+    color: "#EA4335"
+
+  # Pub/Sub integrations
+  - id: cloudrun_to_pubsub
+    from: cloudrun
+    to: pubsub
+    label: "Publish"
+    color: "#FBBC04"
+
+  - id: pubsub_to_functions
+    from: pubsub
+    to: functions
+    label: "Trigger"
+    color: "#FBBC04"
+
+  # BigQuery analytics
+  - id: functions_to_bigquery
+    from: functions
+    to: bigquery
+    label: "Insert"
+    color: "#4285F4"
+
+  # External service connections
+  - id: cloudrun_to_gcs
+    from: cloudrun
+    to: gcs
+    label: "Read/Write"
+    color: "#34A853"
+
+  - id: lb_to_cdn
+    from: lb
+    to: cdn
+    label: "Cache"
+    color: "#4285F4"
+
+  - id: gke_to_secrets
+    from: gke
+    to: secrets
+    label: "Fetch secrets"
+    color: "#EA4335"
+
+  - id: gke_to_monitoring
+    from: gke
+    to: monitoring
+    label: "Metrics"
+    color: "#9E9E9E"
+
+  - id: cloudrun_to_monitoring
+    from: cloudrun
+    to: monitoring
+    label: "Metrics"
+    color: "#9E9E9E"

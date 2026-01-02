@@ -1,0 +1,19 @@
+{
+  "name": "@figram/plugin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsup",
+    "build:debug": "tsup src/debug-keys.ts --format iife --target es2019 --outDir debug-plugin/dist --platform browser",
+    "watch": "tsup --watch"
+  },
+  "dependencies": {
+    "@figram/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.104.0",
+    "@types/bun": "^1.1.14",
+    "tsup": "^8.5.1"
+  }
+}

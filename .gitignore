@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Bun
+bun.lockb
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Test coverage
+coverage/
+
+# Generated files
+*.generated.*
+
+# Source AWS icons (downloaded manually, not committed)
+packages/plugin/icons/
+
+.agents
+
+# Claude Code local settings (keep commands/ and skills/ tracked)
+.claude/settings.local.json

@@ -1,0 +1,13 @@
+{
+  "name": "Figram Debug - Get Shape Keys",
+  "id": "figram-debug-keys",
+  "api": "1.0.0",
+  "main": "dist/debug-keys.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figjam"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": ["none"]
+  }
+}

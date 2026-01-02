@@ -1,0 +1,280 @@
+version: 1
+docId: "aws-architecture"
+title: "Multi-AZ Production Architecture"
+
+nodes:
+  # VPC - size adjusted for 3x2 subnet auto-layout
+  - id: vpc
+    provider: aws
+    kind: network.vpc
+    label: "VPC 10.0.0.0/16"
+    layout: { x: 0, y: 0, w: 1510, h: 920 }
+
+  - id: subnet_private_db_a
+    provider: aws
+    kind: network.subnet
+    label: "Private DB Subnet 1a (10.0.20.0/24)"
+    parent: vpc
+    # Auto-layout: col 2, row 0 -> x:880, y:40
+
+  # Availability Zone A - Subnets (auto-layout: 3 columns)
+  - id: subnet_private_app_a
+    provider: aws
+    kind: network.subnet
+    label: "Private App Subnet 1a (10.0.10.0/24)"
+    parent: vpc
+    # Auto-layout: col 0, row 0 -> x:40, y:40
+
+  - id: subnet_public_a
+    provider: aws
+    kind: network.subnet
+    label: "Public Subnet 1a (10.0.1.0/24)"
+    parent: vpc
+    # Auto-layout: col 1, row 0 -> x:460, y:40
+
+
+  - id: subnet_private_db_c
+    provider: aws
+    kind: network.subnet
+    label: "Private DB Subnet 1c (10.0.21.0/24)"
+    parent: vpc
+    # Auto-layout: col 2, row 1 -> x:880, y:410
+
+
+
+  # Availability Zone C - Subnets (auto-layout: row 1)
+  - id: subnet_private_app_c
+    provider: aws
+    kind: network.subnet
+    label: "Private App Subnet 1c (10.0.11.0/24)"
+    parent: vpc
+    # Auto-layout: col 0, row 1 -> x:40, y:410
+
+  - id: subnet_public_c
+    provider: aws
+    kind: network.subnet
+    label: "Public Subnet 1c (10.0.2.0/24)"
+    parent: vpc
+    # Auto-layout: col 1, row 1 -> x:460, y:410
+
+  # External Services (top-level, require explicit layout - right of VPC)
+  - id: cloudfront
+    provider: aws
+    kind: network.cloudfront
+    label: "CloudFront CDN"
+    layout: { x: 1580, y: 40 }
+
+  - id: route53
+    provider: aws
+    kind: network.route53
+    label: "Route 53"
+    layout: { x: 1830, y: 60 }
+
+  - id: s3_static
+    provider: aws
+    kind: storage.s3
+    label: "S3 Static Assets"
+    layout: { x: 1680, y: 500 }
+
+  - id: s3_logs
+    provider: aws
+    kind: storage.s3
+    label: "S3 Access Logs"
+    layout: { x: 680, y: 1000 }
+
+  - id: cloudwatch
+    provider: aws
+    kind: monitoring.cloudwatch
+    label: "CloudWatch"
+    layout: { x: 300, y: 1000 }
+
+  # AZ-A Private App Resources (auto-layout within subnet)
+  - id: ecs_a
+    provider: aws
+    kind: compute.container.ecs_service
+    label: "ECS Service 1a"
+    parent: subnet_private_app_a
+
+  - id: ecr
+    provider: aws
+    kind: compute.container.ecr
+    label: "ECR Repository"
+    parent: subnet_private_app_a
+    layout: { x: 260, y: 200 }
+
+  - id: elasticache_a
+    provider: aws
+    kind: database.elasticache
+    label: "ElastiCache Redis 1a"
+    parent: subnet_private_app_a
+
+  # AZ-A Public Resources (auto-layout within subnet)
+  - id: nat_gateway_a
+    provider: aws
+    kind: network.natgateway
+    label: "NAT Gateway 1a"
+    parent: subnet_public_a
+    layout:
+      x: 200
+      y: 160
+
+  - id: bastion_a
+    provider: aws
+    kind: compute.ec2
+    label: "Bastion Host 1a"
+    parent: subnet_public_a
+    layout:
+      x: 340
+      y: 300
+
+  # AZ-A DB Resources (auto-layout within subnet)
+  - id: rds_primary
+    provider: aws
+    kind: database.rds
+    label: "RDS PostgreSQL Primary"
+    parent: subnet_private_db_a
+
+  # AZ-C Private App Resources (auto-layout within subnet)
+  - id: ecs_c
+    provider: aws
+    kind: compute.container.ecs_service
+    label: "ECS Service 1c"
+    parent: subnet_private_app_c
+    layout: { x: 260, y: 60 }
+
+  - id: elasticache_c
+    provider: aws
+    kind: database.elasticache
+    label: "ElastiCache Redis 1c"
+    parent: subnet_private_app_c
+    layout: { x: 360, y: 200 }
+
+  # AZ-C Public Resources (auto-layout within subnet)
+  - id: nat_gateway_c
+    provider: aws
+    kind: network.natgateway
+    label: "NAT Gateway 1c"
+    parent: subnet_public_c
+    layout:
+      x: 200
+      y: 160
+
+  # AZ-C DB Resources (auto-layout within subnet)
+  - id: rds_standby
+    provider: aws
+    kind: database.rds
+    label: "RDS PostgreSQL Standby"
+    parent: subnet_private_db_c
+    layout: { x: 60, y: 200 }
+
+edges:
+  # External Traffic Flow (Blue)
+  - id: e1
+    from: route53
+    to: cloudfront
+    label: "DNS"
+    color: "#3498DB"
+
+  - id: e2
+    from: cloudfront
+    to: ecs_a
+    label: "HTTPS:443"
+    color: "#2980B9"
+
+  - id: e3
+    from: cloudfront
+    to: s3_static
+    label: "Static Content"
+    color: "#3498DB"
+
+  # Traffic to ECS Services (Blue)
+  - id: e4
+    from: cloudfront
+    to: ecs_c
+    label: "HTTPS:443"
+    color: "#2980B9"
+
+  # ECS to ECR (Purple)
+  - id: e6
+    from: ecs_a
+    to: ecr
+    label: "Pull Images"
+    color: "#9B59B6"
+
+  - id: e7
+    from: ecs_c
+    to: ecr
+    label: "Pull Images"
+    color: "#9B59B6"
+
+  # ECS to Cache (Orange)
+  - id: e8
+    from: ecs_a
+    to: elasticache_a
+    label: "Redis:6379"
+    color: "#E67E22"
+
+  - id: e9
+    from: ecs_c
+    to: elasticache_c
+    label: "Redis:6379"
+    color: "#E67E22"
+
+  # ECS to RDS (Green)
+  - id: e10
+    from: ecs_a
+    to: rds_primary
+    label: "PostgreSQL:5432"
+    color: "#27AE60"
+
+  - id: e11
+    from: ecs_c
+    to: rds_primary
+    label: "PostgreSQL:5432"
+    color: "#27AE60"
+
+  # RDS Replication (Dark Green)
+  - id: e12
+    from: rds_primary
+    to: rds_standby
+    label: "Replication"
+    color: "#1E8449"
+
+  # NAT Gateway for outbound traffic (Gray)
+  - id: e13
+    from: ecs_a
+    to: nat_gateway_a
+    label: "Outbound"
+    color: "#7F8C8D"
+
+  - id: e14
+    from: ecs_c
+    to: nat_gateway_c
+    label: "Outbound"
+    color: "#7F8C8D"
+
+  # Logging (Amber)
+  - id: e15
+    from: ecs_a
+    to: s3_logs
+    label: "Access Logs"
+    color: "#F39C12"
+
+  # Monitoring (Cyan)
+  - id: e16
+    from: ecs_a
+    to: cloudwatch
+    label: "Metrics"
+    color: "#1ABC9C"
+
+  - id: e17
+    from: ecs_c
+    to: cloudwatch
+    label: "Metrics"
+    color: "#1ABC9C"
+
+  - id: e18
+    from: rds_primary
+    to: cloudwatch
+    label: "Metrics"
+    color: "#1ABC9C"

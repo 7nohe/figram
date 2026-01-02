@@ -1,0 +1,60 @@
+version: 1
+docId: "my-architecture"
+title: "My Architecture Diagram"
+
+nodes:
+  # VPC (container)
+  - id: vpc
+    provider: aws
+    kind: network.vpc
+    label: "VPC 10.0.0.0/16"
+    layout: { x: 0, y: 0, w: 800, h: 500 }
+
+  # Public Subnet (nested container)
+  - id: subnet_public
+    provider: aws
+    kind: network.subnet
+    label: "Public Subnet"
+    parent: vpc
+    layout: { x: 40, y: 60, w: 360, h: 380 }
+
+  # Private Subnet (nested container)
+  - id: subnet_private
+    provider: aws
+    kind: network.subnet
+    label: "Private Subnet"
+    parent: vpc
+    layout: { x: 420, y: 60, w: 360, h: 380 }
+
+  # Resources
+  - id: alb
+    provider: aws
+    kind: compute.lb.alb
+    label: "ALB"
+    parent: subnet_public
+    layout: { x: 100, y: 120 }
+
+  - id: ecs
+    provider: aws
+    kind: compute.container.ecs_service
+    label: "ECS Service"
+    parent: subnet_private
+    layout: { x: 100, y: 120 }
+
+  - id: rds
+    provider: aws
+    kind: database.rds
+    label: "RDS PostgreSQL"
+    parent: subnet_private
+    layout: { x: 100, y: 260 }
+
+edges:
+  - id: alb_to_ecs
+    from: alb
+    to: ecs
+    label: "HTTP:80"
+
+  - id: ecs_to_rds
+    from: ecs
+    to: rds
+    label: "PostgreSQL:5432"

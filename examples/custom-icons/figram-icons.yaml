@@ -1,0 +1,16 @@
+# External Icons File Example
+# This file is auto-discovered when placed alongside diagram.yaml
+# You can also specify it explicitly: figram serve diagram.yaml --icons ./my-icons.yaml
+
+version: 1
+# Note: Only PNG, JPG, GIF, WebP are supported (SVG is NOT supported by FigJam)
+icons:
+  aws:
+    # Compute services
+    "compute.ec2": "./icons/server.png"
+
+    # Database services
+    "database.rds": "./icons/database.png"
+
+    # Storage services
+    "storage.s3": "./icons/bucket.png"

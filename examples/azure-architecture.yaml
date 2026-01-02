@@ -1,0 +1,225 @@
+version: 1
+docId: "azure-architecture"
+title: "Azure Web Application Architecture"
+
+nodes:
+  # VNet Container
+  - id: vnet
+    provider: azure
+    kind: virtual_networks
+    label: "VNet (10.0.0.0/16)"
+    layout: { x: 0, y: 100, w: 1400, h: 900 }
+
+  # Subnet: Web Tier
+  - id: subnet_web
+    provider: azure
+    kind: subnet
+    label: "Web Subnet (10.0.1.0/24)"
+    parent: vnet
+    layout: { x: 40, y: 40, w: 400, h: 380 }
+
+  # Subnet: App Tier
+  - id: subnet_app
+    provider: azure
+    kind: subnet
+    label: "App Subnet (10.0.2.0/24)"
+    parent: vnet
+    layout: { x: 500, y: 40, w: 400, h: 380 }
+
+  # Subnet: Data Tier
+  - id: subnet_data
+    provider: azure
+    kind: subnet
+    label: "Data Subnet (10.0.3.0/24)"
+    parent: vnet
+    layout: { x: 960, y: 40, w: 400, h: 380 }
+
+  # Subnet: Integration
+  - id: subnet_integration
+    provider: azure
+    kind: subnet
+    label: "Integration Subnet (10.0.4.0/24)"
+    parent: vnet
+    layout: { x: 40, y: 480, w: 860, h: 300 }
+
+  # Web Tier Resources
+  - id: appgw
+    provider: azure
+    kind: application_gateways
+    label: "App Gateway"
+    parent: subnet_web
+    layout: { x: 60, y: 80 }
+
+  - id: app_service
+    provider: azure
+    kind: app_services
+    label: "App Service"
+    parent: subnet_web
+    layout: { x: 220, y: 200 }
+
+  # App Tier Resources
+  - id: function_app
+    provider: azure
+    kind: function_apps
+    label: "Functions"
+    parent: subnet_app
+    layout: { x: 60, y: 80 }
+
+  - id: aks
+    provider: azure
+    kind: kubernetes_services
+    label: "AKS"
+    parent: subnet_app
+    layout: { x: 220, y: 200 }
+
+  # Data Tier Resources
+  - id: sql_db
+    provider: azure
+    kind: azure_sql
+    label: "SQL Database"
+    parent: subnet_data
+    layout: { x: 60, y: 60 }
+
+  - id: cosmos_db
+    provider: azure
+    kind: azure_cosmos_db
+    label: "Cosmos DB"
+    parent: subnet_data
+    layout: { x: 220, y: 160 }
+
+  - id: redis
+    provider: azure
+    kind: cache_redis
+    label: "Redis"
+    parent: subnet_data
+    layout: { x: 60, y: 260 }
+
+  # Integration Resources
+  - id: service_bus
+    provider: azure
+    kind: azure_service_bus
+    label: "Service Bus"
+    parent: subnet_integration
+    layout: { x: 150, y: 100 }
+
+  - id: event_hubs
+    provider: azure
+    kind: event_hubs
+    label: "Event Hubs"
+    parent: subnet_integration
+    layout: { x: 550, y: 100 }
+
+  # External Services (outside VNet)
+  - id: front_door
+    provider: azure
+    kind: front_door_and_cdn_profiles
+    label: "Front Door"
+    layout: { x: 600, y: 0 }
+
+  - id: storage
+    provider: azure
+    kind: storage_accounts
+    label: "Storage"
+    layout: { x: 1550, y: 150 }
+
+  - id: key_vault
+    provider: azure
+    kind: key_vaults
+    label: "Key Vault"
+    layout: { x: 1550, y: 400 }
+
+  - id: entra
+    provider: azure
+    kind: entra_domain_services
+    label: "Entra ID"
+    layout: { x: 1550, y: 650 }
+
+  - id: app_insights
+    provider: azure
+    kind: application_insights
+    label: "App Insights"
+    layout: { x: 1550, y: 900 }
+
+edges:
+  # Entry
+  - id: fd_to_appgw
+    from: front_door
+    to: appgw
+    label: "HTTPS:443"
+    color: "#0078D4"
+
+  # Web to App
+  - id: appgw_to_func
+    from: appgw
+    to: function_app
+    label: "HTTP:80"
+    color: "#0078D4"
+
+  - id: appgw_to_aks
+    from: appgw
+    to: aks
+    label: "HTTP:80"
+    color: "#0078D4"
+
+  - id: app_to_func
+    from: app_service
+    to: function_app
+    label: "Internal"
+    color: "#0078D4"
+
+  # App to Data
+  - id: func_to_cosmos
+    from: function_app
+    to: cosmos_db
+    label: "NoSQL:443"
+    color: "#50E6FF"
+
+  - id: aks_to_sql
+    from: aks
+    to: sql_db
+    label: "SQL:1433"
+    color: "#50E6FF"
+
+  - id: aks_to_redis
+    from: aks
+    to: redis
+    label: "Redis:6379"
+    color: "#FF6F61"
+
+  # App to Integration
+  - id: func_to_servicebus
+    from: function_app
+    to: service_bus
+    label: "AMQP"
+    color: "#FFB900"
+
+  - id: aks_to_eventhubs
+    from: aks
+    to: event_hubs
+    label: "Kafka"
+    color: "#FFB900"
+
+  # External Services
+  - id: app_to_storage
+    from: app_service
+    to: storage
+    label: "Blob"
+    color: "#00BCF2"
+
+  - id: aks_to_keyvault
+    from: aks
+    to: key_vault
+    label: "Secrets"
+    color: "#E74856"
+
+  - id: func_to_entra
+    from: function_app
+    to: entra
+    label: "OAuth"
+    color: "#773ADC"
+
+  - id: aks_to_insights
+    from: aks
+    to: app_insights
+    label: "Telemetry"
+    color: "#9E9E9E"
