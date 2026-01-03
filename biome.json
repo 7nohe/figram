@@ -9,7 +9,8 @@
       "!**/dist",
       "!**/node_modules",
       "!**/*.d.ts",
-      "!.agents"
+      "!.agents",
+      "!**/.astro"
     ],
     "ignoreUnknown": true
   },
