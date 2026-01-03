@@ -1,0 +1,75 @@
+---
+title: Overview
+description: Overview of figram - YAML-driven architecture diagrams for FigJam
+template: splash
+hero:
+  title: "YAML-Driven Architecture for FigJam"
+  tagline: "Define architecture diagrams as code and sync to FigJam in real time."
+  image:
+    file: ../../../assets/logo.svg
+  actions:
+    - text: Get started
+      icon: right-arrow
+      link: /en/installation/
+    - text: Figma Community
+      icon: external
+      variant: minimal
+      link: https://www.figma.com/community/plugin/1588833479203267078/figram
+    - text: GitHub
+      icon: external
+      variant: minimal
+      link: https://github.com/7nohe/figram
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+figram lets you define cloud architecture diagrams in YAML and keep FigJam in sync via WebSocket.
+
+## Features
+
+<CardGrid stagger>
+	<Card title="Diagram as Code" icon="document">
+		Define diagrams in a simple YAML DSL with a clear schema.
+	</Card>
+	<Card title="Live Sync" icon="rocket">
+		Changes sync to FigJam instantly over WebSocket.
+	</Card>
+	<Card title="Multi-Provider Support" icon="puzzle">
+		AWS, GCP, and Azure icons with provider-specific kinds.
+	</Card>
+	<Card title="Incremental Updates" icon="setting">
+		Only changes are applied, preserving manual adjustments.
+	</Card>
+	<Card title="Containers & Nesting" icon="laptop">
+		VPC/Subnet/VNet frames with automatic nesting support.
+	</Card>
+	<Card title="Connectors" icon="approve-check">
+		Automatic arrows between related resources.
+	</Card>
+</CardGrid>
+
+## How it works
+
+<CardGrid>
+	<Card title="1. Write YAML" icon="pencil">
+		Create a `diagram.yaml` file with your architecture.
+	</Card>
+	<Card title="2. Run the CLI" icon="rocket">
+		Start `figram serve` to watch and sync changes.
+	</Card>
+	<Card title="3. Open the Plugin" icon="puzzle">
+		Connect the FigJam plugin to your `docId`.
+	</Card>
+	<Card title="4. Sync & Iterate" icon="approve-check">
+		See updates land in FigJam as you edit.
+	</Card>
+</CardGrid>
+
+## Get Started
+
+<CardGrid>
+	<LinkCard title="Installation" href="/en/installation/" />
+	<LinkCard title="Quick Start" href="/en/quick-start/" />
+	<LinkCard title="Examples" href="/en/examples/" />
+	<LinkCard title="YAML Specs" href="/en/yaml-specs/" />
+</CardGrid>

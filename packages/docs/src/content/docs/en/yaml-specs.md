@@ -1,4 +1,7 @@
-# YAML Specs
+---
+title: YAML Specs
+description: YAML DSL specification for defining architecture diagrams
+---
 
 This document describes the YAML DSL (Domain Specific Language) for defining architecture diagrams.
 

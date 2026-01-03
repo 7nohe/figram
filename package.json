@@ -15,7 +15,10 @@
     "format:check": "biome format .",
     "check": "biome check .",
     "check:fix": "biome check --write .",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "docs:dev": "bun run --filter '@figram/docs' dev",
+    "docs:build": "bun run --filter '@figram/docs' build",
+    "docs:preview": "bun run --filter '@figram/docs' preview"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.3.9",
