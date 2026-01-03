@@ -1,4 +1,7 @@
-# Installation
+---
+title: Installation
+description: How to install and set up Figram
+---
 
 This guide covers how to install and set up Figram.
 
@@ -31,7 +34,7 @@ This creates a `diagram.yaml` template in your current directory.
 
 ### 3. Install FigJam Plugin
 
-1. Install from [Figma Community](https://www.figma.com/community/plugin/figram) (coming soon)
+1. Install from [Figma Community](https://www.figma.com/community/plugin/1588833479203267078/figram)
 2. Open a FigJam file
 3. Run the figram plugin from the plugins menu
 
@@ -212,4 +215,4 @@ Clients must enter the secret in the plugin to connect.
 ### YAML Validation Errors
 
 - Run `npx figram build diagram.yaml` to see detailed error messages
-- Ensure all required fields are present (see [YAML Specs](./yaml-specs.md))
+- Ensure all required fields are present (see [YAML Specs](/en/yaml-specs/))

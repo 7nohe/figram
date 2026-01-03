@@ -1,0 +1,75 @@
+---
+title: Overview
+description: figram の概要 - FigJam向けYAML駆動アーキテクチャ図ツール
+template: splash
+hero:
+  title: "YAMLでクラウド構成図を作る"
+  tagline: "アーキテクチャ図をコードで定義し、FigJamへリアルタイム同期。"
+  image:
+    file: ../../../assets/logo.svg
+  actions:
+    - text: はじめる
+      icon: right-arrow
+      link: /ja/installation/
+    - text: Figma Community
+      icon: external
+      variant: minimal
+      link: https://www.figma.com/community/plugin/1588833479203267078/figram
+    - text: GitHub
+      icon: external
+      variant: minimal
+      link: https://github.com/7nohe/figram
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+figram は YAML で構成図を定義し、WebSocket 経由で FigJam と同期します。
+
+## 特長
+
+<CardGrid stagger>
+	<Card title="Diagram as Code" icon="document">
+		シンプルな YAML DSL で構成図を定義します。
+	</Card>
+	<Card title="ライブ同期" icon="rocket">
+		WebSocket で FigJam に即時反映します。
+	</Card>
+	<Card title="マルチクラウド対応" icon="puzzle">
+		AWS/GCP/Azure のアイコンと kind を用意。
+	</Card>
+	<Card title="差分更新" icon="setting">
+		変更点のみ適用し、手動調整を維持します。
+	</Card>
+	<Card title="コンテナとネスト" icon="laptop">
+		VPC/Subnet/VNet などの入れ子をサポート。
+	</Card>
+	<Card title="コネクタ自動生成" icon="approve-check">
+		リソース間の矢印を自動生成します。
+	</Card>
+</CardGrid>
+
+## 使い方
+
+<CardGrid>
+	<Card title="1. YAMLを書く" icon="pencil">
+		`diagram.yaml` に構成を記述します。
+	</Card>
+	<Card title="2. CLIを起動" icon="rocket">
+		`figram serve` で同期を開始します。
+	</Card>
+	<Card title="3. プラグイン接続" icon="puzzle">
+		FigJam プラグインで `docId` を指定します。
+	</Card>
+	<Card title="4. 同期して調整" icon="approve-check">
+		編集内容が FigJam に反映されます。
+	</Card>
+</CardGrid>
+
+## はじめる
+
+<CardGrid>
+	<LinkCard title="インストール" href="/ja/installation/" />
+	<LinkCard title="クイックスタート" href="/ja/quick-start/" />
+	<LinkCard title="例" href="/ja/examples/" />
+	<LinkCard title="YAML 仕様" href="/ja/yaml-specs/" />
+</CardGrid>

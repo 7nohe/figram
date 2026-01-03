@@ -1,4 +1,7 @@
-# インストール
+---
+title: インストール
+description: Figramのインストールとセットアップ方法
+---
 
 このガイドでは、Figramのインストールとセットアップ方法を説明します。
 
@@ -31,7 +34,7 @@ npx figram init
 
 ### 3. FigJamプラグインのインストール
 
-1. [Figma Community](https://www.figma.com/community/plugin/figram)からインストール（近日公開）
+1. [Figma Community](https://www.figma.com/community/plugin/1588833479203267078/figram)からインストール
 2. FigJamファイルを開く
 3. プラグインメニューからfigramプラグインを実行
 
@@ -212,4 +215,4 @@ npx figram serve diagram.yaml --allow-remote --secret my-secret
 ### YAMLバリデーションエラー
 
 - `npx figram build diagram.yaml`で詳細なエラーメッセージを確認
-- 必須フィールドがすべて存在することを確認（[YAML仕様](./yaml-specs.md)を参照）
+- 必須フィールドがすべて存在することを確認（[YAML仕様](/ja/yaml-specs/)を参照）
