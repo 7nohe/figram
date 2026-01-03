@@ -102,6 +102,10 @@ export async function applyFull(
     await renderNode(node);
   }
 
+  // Center content BEFORE rendering edges so magnet calculations use final positions
+  // (elbowed connectors calculate their routing when created and may not update when nodes move)
+  centerContentInSection();
+
   // Reset magnet usage tracking for fresh render
   resetMagnetUsage();
 
@@ -109,8 +113,6 @@ export async function applyFull(
   for (const edge of Object.values(ir.edges)) {
     await renderEdge(edge, buildIndex);
   }
-
-  centerContentInSection();
 
   figma.notify(`Loaded: ${ir.title}`);
 }
