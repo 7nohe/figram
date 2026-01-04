@@ -2,7 +2,7 @@ import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 
 export default defineConfig({
-  site: "https://figram.vercel.app",
+  site: "https://figram.7nohe.dev",
   integrations: [
     starlight({
       title: {
@@ -72,14 +72,14 @@ export default defineConfig({
           tag: "meta",
           attrs: {
             property: "og:image",
-            content: "https://figram.vercel.app/og-image.png",
+            content: "https://figram.7nohe.dev/og-image.png",
           },
         },
         {
           tag: "meta",
           attrs: {
             property: "twitter:image",
-            content: "https://figram.vercel.app/og-image.png",
+            content: "https://figram.7nohe.dev/og-image.png",
           },
         },
       ],
