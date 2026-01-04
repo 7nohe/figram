@@ -1,6 +1,6 @@
 {
   "name": "figram",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "YAML-driven architecture diagrams for FigJam",
   "type": "module",
   "bin": {
