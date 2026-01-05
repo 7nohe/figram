@@ -59,6 +59,32 @@ export default defineConfig({
               slug: "yaml-specs",
             },
             {
+              label: "Supported Icons",
+              translations: { ja: "対応アイコン" },
+              items: [
+                {
+                  label: "Overview",
+                  translations: { ja: "概要" },
+                  slug: "supported-icons",
+                },
+                {
+                  label: "AWS Icons",
+                  translations: { ja: "AWS アイコン" },
+                  slug: "icons-aws",
+                },
+                {
+                  label: "Azure Icons",
+                  translations: { ja: "Azure アイコン" },
+                  slug: "icons-azure",
+                },
+                {
+                  label: "GCP Icons",
+                  translations: { ja: "GCP アイコン" },
+                  slug: "icons-gcp",
+                },
+              ],
+            },
+            {
               label: "Examples",
               translations: { ja: "サンプル集" },
               slug: "examples",
