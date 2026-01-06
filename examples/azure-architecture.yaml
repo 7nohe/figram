@@ -6,14 +6,14 @@ nodes:
   # VNet Container
   - id: vnet
     provider: azure
-    kind: virtual_networks
+    kind: networking.virtual_networks
     label: "VNet (10.0.0.0/16)"
     layout: { x: 0, y: 100, w: 1400, h: 900 }
 
   # Subnet: Web Tier
   - id: subnet_web
     provider: azure
-    kind: subnet
+    kind: networking.subnet
     label: "Web Subnet (10.0.1.0/24)"
     parent: vnet
     layout: { x: 40, y: 40, w: 400, h: 380 }
@@ -21,7 +21,7 @@ nodes:
   # Subnet: App Tier
   - id: subnet_app
     provider: azure
-    kind: subnet
+    kind: networking.subnet
     label: "App Subnet (10.0.2.0/24)"
     parent: vnet
     layout: { x: 500, y: 40, w: 400, h: 380 }
@@ -29,7 +29,7 @@ nodes:
   # Subnet: Data Tier
   - id: subnet_data
     provider: azure
-    kind: subnet
+    kind: networking.subnet
     label: "Data Subnet (10.0.3.0/24)"
     parent: vnet
     layout: { x: 960, y: 40, w: 400, h: 380 }
@@ -37,7 +37,7 @@ nodes:
   # Subnet: Integration
   - id: subnet_integration
     provider: azure
-    kind: subnet
+    kind: networking.subnet
     label: "Integration Subnet (10.0.4.0/24)"
     parent: vnet
     layout: { x: 40, y: 480, w: 860, h: 300 }
@@ -45,14 +45,14 @@ nodes:
   # Web Tier Resources
   - id: appgw
     provider: azure
-    kind: application_gateways
+    kind: networking.application_gateways
     label: "App Gateway"
     parent: subnet_web
     layout: { x: 60, y: 80 }
 
   - id: app_service
     provider: azure
-    kind: app_services
+    kind: web.app_services
     label: "App Service"
     parent: subnet_web
     layout: { x: 220, y: 200 }
@@ -60,14 +60,14 @@ nodes:
   # App Tier Resources
   - id: function_app
     provider: azure
-    kind: function_apps
+    kind: web.function_apps
     label: "Functions"
     parent: subnet_app
     layout: { x: 60, y: 80 }
 
   - id: aks
     provider: azure
-    kind: kubernetes_services
+    kind: containers.kubernetes_services
     label: "AKS"
     parent: subnet_app
     layout: { x: 220, y: 200 }
@@ -75,21 +75,21 @@ nodes:
   # Data Tier Resources
   - id: sql_db
     provider: azure
-    kind: azure_sql
+    kind: databases.azure_sql
     label: "SQL Database"
     parent: subnet_data
     layout: { x: 60, y: 60 }
 
   - id: cosmos_db
     provider: azure
-    kind: azure_cosmos_db
+    kind: databases.azure_cosmos_db
     label: "Cosmos DB"
     parent: subnet_data
     layout: { x: 220, y: 160 }
 
   - id: redis
     provider: azure
-    kind: cache_redis
+    kind: storage.cache_redis
     label: "Redis"
     parent: subnet_data
     layout: { x: 60, y: 260 }
@@ -97,14 +97,14 @@ nodes:
   # Integration Resources
   - id: service_bus
     provider: azure
-    kind: azure_service_bus
+    kind: integration.azure_service_bus
     label: "Service Bus"
     parent: subnet_integration
     layout: { x: 150, y: 100 }
 
   - id: event_hubs
     provider: azure
-    kind: event_hubs
+    kind: integration.event_hubs
     label: "Event Hubs"
     parent: subnet_integration
     layout: { x: 550, y: 100 }
@@ -112,31 +112,31 @@ nodes:
   # External Services (outside VNet)
   - id: front_door
     provider: azure
-    kind: front_door_and_cdn_profiles
+    kind: networking.front_door_and_cdn_profiles
     label: "Front Door"
     layout: { x: 600, y: 0 }
 
   - id: storage
     provider: azure
-    kind: storage_accounts
+    kind: storage.storage_accounts
     label: "Storage"
     layout: { x: 1550, y: 150 }
 
   - id: key_vault
     provider: azure
-    kind: key_vaults
+    kind: security.key_vaults
     label: "Key Vault"
     layout: { x: 1550, y: 400 }
 
   - id: entra
     provider: azure
-    kind: entra_domain_services
+    kind: identity.entra_domain_services
     label: "Entra ID"
     layout: { x: 1550, y: 650 }
 
   - id: app_insights
     provider: azure
-    kind: application_insights
+    kind: monitor.application_insights
     label: "App Insights"
     layout: { x: 1550, y: 900 }
 

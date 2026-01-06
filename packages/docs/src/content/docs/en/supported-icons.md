@@ -10,7 +10,7 @@ Figram supports **1,725 cloud service icons** out of the box across three major 
 | Provider | Icons | Description |
 |----------|-------|-------------|
 | [AWS](./icons-aws/) | 873 | Amazon Web Services icons organized by category |
-| [Azure](./icons-azure/) | 636 | Microsoft Azure service icons |
+| [Azure](./icons-azure/) | 636 | Microsoft Azure service icons organized by category |
 | [GCP](./icons-gcp/) | 216 | Google Cloud Platform icons organized by category |
 
 ## Usage
@@ -35,25 +35,22 @@ nodes:
 
 ## Icon Naming Conventions
 
-### AWS & GCP
-Icons use hierarchical naming with categories:
+All providers use hierarchical naming with categories:
 ```
-category.service
-category.service.variant
+category.service_name
 ```
 
-Examples:
+### AWS Examples
 - `compute.ec2` - Amazon EC2
 - `database.rds` - Amazon RDS
-- `container.gke` - Google Kubernetes Engine
+- `networking.vpc` - Amazon VPC
 
-### Azure
-Icons use flat naming without category prefixes:
-```
-service_name
-```
+### Azure Examples
+- `compute.virtual_machine` - Virtual Machine
+- `storage.storage_accounts` - Storage Account
+- `web.app_services` - App Service
 
-Examples:
-- `virtual_machine` - Virtual Machine
-- `storage_account` - Storage Account
-- `app_service` - App Service
+### GCP Examples
+- `compute.compute_engine` - Compute Engine
+- `databases.cloud_sql` - Cloud SQL
+- `networking.cloud_dns` - Cloud DNS

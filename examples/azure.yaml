@@ -3,3820 +3,3819 @@ docId: "azure-all-shapes"
 title: "Azure All 636 Shapes"
 
 nodes:
-  - id: abs_member
+  - id: ai_machine_learning_ai_at_edge
     provider: azure
-    kind: abs_member
-    label: "abs_member"
+    kind: ai_machine_learning.ai_at_edge
+    label: "ai_machine_learning.ai_at_edge"
     layout: { x: 0, y: 0 }
 
-  - id: ai_studio
+  - id: ai_machine_learning_ai_studio
     provider: azure
-    kind: ai_studio
-    label: "ai_studio"
+    kind: ai_machine_learning.ai_studio
+    label: "ai_machine_learning.ai_studio"
     layout: { x: 160, y: 0 }
 
-  - id: ai_at_edge
+  - id: ai_machine_learning_anomaly_detector
     provider: azure
-    kind: ai_at_edge
-    label: "ai_at_edge"
+    kind: ai_machine_learning.anomaly_detector
+    label: "ai_machine_learning.anomaly_detector"
     layout: { x: 320, y: 0 }
 
-  - id: aks_automatic
+  - id: ai_machine_learning_aquila
     provider: azure
-    kind: aks_automatic
-    label: "aks_automatic"
+    kind: ai_machine_learning.aquila
+    label: "ai_machine_learning.aquila"
     layout: { x: 480, y: 0 }
 
-  - id: aks_istio
+  - id: ai_machine_learning_azure_applied_ai_services
     provider: azure
-    kind: aks_istio
-    label: "aks_istio"
+    kind: ai_machine_learning.azure_applied_ai_services
+    label: "ai_machine_learning.azure_applied_ai_services"
     layout: { x: 640, y: 0 }
 
-  - id: api_center
+  - id: ai_machine_learning_azure_openai
     provider: azure
-    kind: api_center
-    label: "api_center"
+    kind: ai_machine_learning.azure_openai
+    label: "ai_machine_learning.azure_openai"
     layout: { x: 800, y: 0 }
 
-  - id: api_connections
+  - id: ai_machine_learning_azure_video_indexer
     provider: azure
-    kind: api_connections
-    label: "api_connections"
+    kind: ai_machine_learning.azure_video_indexer
+    label: "ai_machine_learning.azure_video_indexer"
     layout: { x: 960, y: 0 }
 
-  - id: api_connections_1
+  - id: ai_machine_learning_bonsai
     provider: azure
-    kind: api_connections_1
-    label: "api_connections_1"
+    kind: ai_machine_learning.bonsai
+    label: "ai_machine_learning.bonsai"
     layout: { x: 1120, y: 0 }
 
-  - id: api_connections_2
+  - id: ai_machine_learning_bot_services
     provider: azure
-    kind: api_connections_2
-    label: "api_connections_2"
+    kind: ai_machine_learning.bot_services
+    label: "ai_machine_learning.bot_services"
     layout: { x: 1280, y: 0 }
 
-  - id: api_management_services
+  - id: ai_machine_learning_ceres
     provider: azure
-    kind: api_management_services
-    label: "api_management_services"
+    kind: ai_machine_learning.ceres
+    label: "ai_machine_learning.ceres"
     layout: { x: 1440, y: 0 }
 
-  - id: api_management_services_1
+  - id: ai_machine_learning_cognitive_search
     provider: azure
-    kind: api_management_services_1
-    label: "api_management_services_1"
-    layout: { x: 1600, y: 0 }
+    kind: ai_machine_learning.cognitive_search
+    label: "ai_machine_learning.cognitive_search"
+    layout: { x: 0, y: 160 }
 
-  - id: api_management_services_2
+  - id: ai_machine_learning_cognitive_search_1
     provider: azure
-    kind: api_management_services_2
-    label: "api_management_services_2"
-    layout: { x: 1760, y: 0 }
+    kind: ai_machine_learning.cognitive_search_1
+    label: "ai_machine_learning.cognitive_search_1"
+    layout: { x: 160, y: 160 }
 
-  - id: api_proxy
+  - id: ai_machine_learning_cognitive_search_2
     provider: azure
-    kind: api_proxy
-    label: "api_proxy"
-    layout: { x: 1920, y: 0 }
+    kind: ai_machine_learning.cognitive_search_2
+    label: "ai_machine_learning.cognitive_search_2"
+    layout: { x: 320, y: 160 }
 
-  - id: atm_multistack
+  - id: ai_machine_learning_cognitive_services
     provider: azure
-    kind: atm_multistack
-    label: "atm_multistack"
-    layout: { x: 2080, y: 0 }
+    kind: ai_machine_learning.cognitive_services
+    label: "ai_machine_learning.cognitive_services"
+    layout: { x: 480, y: 160 }
 
-  - id: avs_vm
+  - id: ai_machine_learning_cognitive_services_1
     provider: azure
-    kind: avs_vm
-    label: "avs_vm"
-    layout: { x: 2240, y: 0 }
+    kind: ai_machine_learning.cognitive_services_1
+    label: "ai_machine_learning.cognitive_services_1"
+    layout: { x: 640, y: 160 }
 
-  - id: active_directory_connect_health
+  - id: ai_machine_learning_cognitive_services_decisions
     provider: azure
-    kind: active_directory_connect_health
-    label: "active_directory_connect_health"
-    layout: { x: 0, y: 140 }
+    kind: ai_machine_learning.cognitive_services_decisions
+    label: "ai_machine_learning.cognitive_services_decisions"
+    layout: { x: 800, y: 160 }
 
-  - id: activity_log
+  - id: ai_machine_learning_computer_vision
     provider: azure
-    kind: activity_log
-    label: "activity_log"
-    layout: { x: 160, y: 140 }
+    kind: ai_machine_learning.computer_vision
+    label: "ai_machine_learning.computer_vision"
+    layout: { x: 960, y: 160 }
 
-  - id: activity_log_1
+  - id: ai_machine_learning_content_moderators
     provider: azure
-    kind: activity_log_1
-    label: "activity_log_1"
-    layout: { x: 320, y: 140 }
+    kind: ai_machine_learning.content_moderators
+    label: "ai_machine_learning.content_moderators"
+    layout: { x: 1120, y: 160 }
 
-  - id: administrative_units
+  - id: ai_machine_learning_content_safety
     provider: azure
-    kind: administrative_units
-    label: "administrative_units"
-    layout: { x: 480, y: 140 }
+    kind: ai_machine_learning.content_safety
+    label: "ai_machine_learning.content_safety"
+    layout: { x: 1280, y: 160 }
 
-  - id: advisor
+  - id: ai_machine_learning_custom_vision
     provider: azure
-    kind: advisor
-    label: "advisor"
-    layout: { x: 640, y: 140 }
+    kind: ai_machine_learning.custom_vision
+    label: "ai_machine_learning.custom_vision"
+    layout: { x: 1440, y: 160 }
 
-  - id: alerts
+  - id: ai_machine_learning_face_apis
     provider: azure
-    kind: alerts
-    label: "alerts"
-    layout: { x: 800, y: 140 }
+    kind: ai_machine_learning.face_apis
+    label: "ai_machine_learning.face_apis"
+    layout: { x: 0, y: 320 }
 
-  - id: all_resources
+  - id: ai_machine_learning_fiji
     provider: azure
-    kind: all_resources
-    label: "all_resources"
-    layout: { x: 960, y: 140 }
+    kind: ai_machine_learning.fiji
+    label: "ai_machine_learning.fiji"
+    layout: { x: 160, y: 320 }
 
-  - id: analysis_services
+  - id: ai_machine_learning_form_recognizers
     provider: azure
-    kind: analysis_services
-    label: "analysis_services"
-    layout: { x: 1120, y: 140 }
+    kind: ai_machine_learning.form_recognizers
+    label: "ai_machine_learning.form_recognizers"
+    layout: { x: 320, y: 320 }
 
-  - id: anomaly_detector
+  - id: ai_machine_learning_genomics
     provider: azure
-    kind: anomaly_detector
-    label: "anomaly_detector"
-    layout: { x: 1280, y: 140 }
+    kind: ai_machine_learning.genomics
+    label: "ai_machine_learning.genomics"
+    layout: { x: 480, y: 320 }
 
-  - id: app_compliance_automation
+  - id: ai_machine_learning_genomics_accounts
     provider: azure
-    kind: app_compliance_automation
-    label: "app_compliance_automation"
-    layout: { x: 1440, y: 140 }
+    kind: ai_machine_learning.genomics_accounts
+    label: "ai_machine_learning.genomics_accounts"
+    layout: { x: 640, y: 320 }
 
-  - id: app_configuration
+  - id: ai_machine_learning_immersive_readers
     provider: azure
-    kind: app_configuration
-    label: "app_configuration"
-    layout: { x: 1600, y: 140 }
+    kind: ai_machine_learning.immersive_readers
+    label: "ai_machine_learning.immersive_readers"
+    layout: { x: 800, y: 320 }
 
-  - id: app_registrations
+  - id: ai_machine_learning_language
     provider: azure
-    kind: app_registrations
-    label: "app_registrations"
-    layout: { x: 1760, y: 140 }
+    kind: ai_machine_learning.language
+    label: "ai_machine_learning.language"
+    layout: { x: 960, y: 320 }
 
-  - id: app_registrations_1
+  - id: ai_machine_learning_language_understanding
     provider: azure
-    kind: app_registrations_1
-    label: "app_registrations_1"
-    layout: { x: 1920, y: 140 }
+    kind: ai_machine_learning.language_understanding
+    label: "ai_machine_learning.language_understanding"
+    layout: { x: 1120, y: 320 }
 
-  - id: app_service_certificates
+  - id: ai_machine_learning_machine_learning
     provider: azure
-    kind: app_service_certificates
-    label: "app_service_certificates"
-    layout: { x: 2080, y: 140 }
+    kind: ai_machine_learning.machine_learning
+    label: "ai_machine_learning.machine_learning"
+    layout: { x: 1280, y: 320 }
 
-  - id: app_service_certificates_1
+  - id: ai_machine_learning_machine_learning_studio_classic_web_services
     provider: azure
-    kind: app_service_certificates_1
-    label: "app_service_certificates_1"
-    layout: { x: 2240, y: 140 }
+    kind: ai_machine_learning.machine_learning_studio_classic_web_services
+    label: "ai_machine_learning.machine_learning_studio_classic_web_services"
+    layout: { x: 1440, y: 320 }
 
-  - id: app_service_domains
+  - id: ai_machine_learning_machine_learning_studio_classic_web_services_1
     provider: azure
-    kind: app_service_domains
-    label: "app_service_domains"
-    layout: { x: 0, y: 280 }
+    kind: ai_machine_learning.machine_learning_studio_classic_web_services_1
+    label: "ai_machine_learning.machine_learning_studio_classic_web_services_1"
+    layout: { x: 0, y: 480 }
 
-  - id: app_service_domains_1
+  - id: ai_machine_learning_machine_learning_studio_web_service_plans
     provider: azure
-    kind: app_service_domains_1
-    label: "app_service_domains_1"
-    layout: { x: 160, y: 280 }
+    kind: ai_machine_learning.machine_learning_studio_web_service_plans
+    label: "ai_machine_learning.machine_learning_studio_web_service_plans"
+    layout: { x: 160, y: 480 }
 
-  - id: app_service_environments
+  - id: ai_machine_learning_machine_learning_studio_web_service_plans_1
     provider: azure
-    kind: app_service_environments
-    label: "app_service_environments"
-    layout: { x: 320, y: 280 }
+    kind: ai_machine_learning.machine_learning_studio_web_service_plans_1
+    label: "ai_machine_learning.machine_learning_studio_web_service_plans_1"
+    layout: { x: 320, y: 480 }
 
-  - id: app_service_environments_1
+  - id: ai_machine_learning_machine_learning_studio_workspaces
     provider: azure
-    kind: app_service_environments_1
-    label: "app_service_environments_1"
-    layout: { x: 480, y: 280 }
+    kind: ai_machine_learning.machine_learning_studio_workspaces
+    label: "ai_machine_learning.machine_learning_studio_workspaces"
+    layout: { x: 480, y: 480 }
 
-  - id: app_service_plans
+  - id: ai_machine_learning_machine_learning_studio_workspaces_1
     provider: azure
-    kind: app_service_plans
-    label: "app_service_plans"
-    layout: { x: 640, y: 280 }
+    kind: ai_machine_learning.machine_learning_studio_workspaces_1
+    label: "ai_machine_learning.machine_learning_studio_workspaces_1"
+    layout: { x: 640, y: 480 }
 
-  - id: app_service_plans_1
+  - id: ai_machine_learning_metrics_advisor
     provider: azure
-    kind: app_service_plans_1
-    label: "app_service_plans_1"
-    layout: { x: 800, y: 280 }
+    kind: ai_machine_learning.metrics_advisor
+    label: "ai_machine_learning.metrics_advisor"
+    layout: { x: 800, y: 480 }
 
-  - id: app_services
+  - id: ai_machine_learning_metrics_advisor_1
     provider: azure
-    kind: app_services
-    label: "app_services"
-    layout: { x: 960, y: 280 }
+    kind: ai_machine_learning.metrics_advisor_1
+    label: "ai_machine_learning.metrics_advisor_1"
+    layout: { x: 960, y: 480 }
 
-  - id: app_services_1
+  - id: ai_machine_learning_personalizers
     provider: azure
-    kind: app_services_1
-    label: "app_services_1"
-    layout: { x: 1120, y: 280 }
+    kind: ai_machine_learning.personalizers
+    label: "ai_machine_learning.personalizers"
+    layout: { x: 1120, y: 480 }
 
-  - id: app_services_2
+  - id: ai_machine_learning_qna_makers
     provider: azure
-    kind: app_services_2
-    label: "app_services_2"
-    layout: { x: 1280, y: 280 }
+    kind: ai_machine_learning.qna_makers
+    label: "ai_machine_learning.qna_makers"
+    layout: { x: 1280, y: 480 }
 
-  - id: app_services_3
+  - id: ai_machine_learning_speech_services
     provider: azure
-    kind: app_services_3
-    label: "app_services_3"
-    layout: { x: 1440, y: 280 }
+    kind: ai_machine_learning.speech_services
+    label: "ai_machine_learning.speech_services"
+    layout: { x: 1440, y: 480 }
 
-  - id: app_services_4
+  - id: ai_machine_learning_translator_text
     provider: azure
-    kind: app_services_4
-    label: "app_services_4"
-    layout: { x: 1600, y: 280 }
+    kind: ai_machine_learning.translator_text
+    label: "ai_machine_learning.translator_text"
+    layout: { x: 0, y: 640 }
 
-  - id: app_space
+  - id: ai_machine_learning_video_analyzers
     provider: azure
-    kind: app_space
-    label: "app_space"
-    layout: { x: 1760, y: 280 }
+    kind: ai_machine_learning.video_analyzers
+    label: "ai_machine_learning.video_analyzers"
+    layout: { x: 160, y: 640 }
 
-  - id: app_space_component
+  - id: analytics_analysis_services
     provider: azure
-    kind: app_space_component
-    label: "app_space_component"
-    layout: { x: 1920, y: 280 }
+    kind: analytics.analysis_services
+    label: "analytics.analysis_services"
+    layout: { x: 320, y: 640 }
 
-  - id: applens
+  - id: analytics_azure_databricks
     provider: azure
-    kind: applens
-    label: "applens"
-    layout: { x: 2080, y: 280 }
+    kind: analytics.azure_databricks
+    label: "analytics.azure_databricks"
+    layout: { x: 480, y: 640 }
 
-  - id: application_gateway_containers
+  - id: analytics_azure_experimentation_studio
     provider: azure
-    kind: application_gateway_containers
-    label: "application_gateway_containers"
-    layout: { x: 2240, y: 280 }
+    kind: analytics.azure_experimentation_studio
+    label: "analytics.azure_experimentation_studio"
+    layout: { x: 640, y: 640 }
 
-  - id: application_gateways
+  - id: analytics_azure_synapse_analytics
     provider: azure
-    kind: application_gateways
-    label: "application_gateways"
-    layout: { x: 0, y: 420 }
+    kind: analytics.azure_synapse_analytics
+    label: "analytics.azure_synapse_analytics"
+    layout: { x: 800, y: 640 }
 
-  - id: application_group
+  - id: analytics_azure_synapse_analytics_1
     provider: azure
-    kind: application_group
-    label: "application_group"
-    layout: { x: 160, y: 420 }
+    kind: analytics.azure_synapse_analytics_1
+    label: "analytics.azure_synapse_analytics_1"
+    layout: { x: 960, y: 640 }
 
-  - id: application_insights
+  - id: analytics_data_share_invitations
     provider: azure
-    kind: application_insights
-    label: "application_insights"
-    layout: { x: 320, y: 420 }
+    kind: analytics.data_share_invitations
+    label: "analytics.data_share_invitations"
+    layout: { x: 1120, y: 640 }
 
-  - id: application_insights_1
+  - id: analytics_data_shares
     provider: azure
-    kind: application_insights_1
-    label: "application_insights_1"
-    layout: { x: 480, y: 420 }
+    kind: analytics.data_shares
+    label: "analytics.data_shares"
+    layout: { x: 1280, y: 640 }
 
-  - id: application_insights_2
+  - id: analytics_endpoint_analytics
     provider: azure
-    kind: application_insights_2
-    label: "application_insights_2"
-    layout: { x: 640, y: 420 }
+    kind: analytics.endpoint_analytics
+    label: "analytics.endpoint_analytics"
+    layout: { x: 1440, y: 640 }
 
-  - id: application_security_groups
+  - id: analytics_hd_insight_clusters
     provider: azure
-    kind: application_security_groups
-    label: "application_security_groups"
-    layout: { x: 800, y: 420 }
+    kind: analytics.hd_insight_clusters
+    label: "analytics.hd_insight_clusters"
+    layout: { x: 0, y: 800 }
 
-  - id: aquila
+  - id: analytics_hdi_aks_cluster
     provider: azure
-    kind: aquila
-    label: "aquila"
-    layout: { x: 960, y: 420 }
+    kind: analytics.hdi_aks_cluster
+    label: "analytics.hdi_aks_cluster"
+    layout: { x: 160, y: 800 }
 
-  - id: arc_data_services
+  - id: analytics_power_bi_embedded
     provider: azure
-    kind: arc_data_services
-    label: "arc_data_services"
-    layout: { x: 1120, y: 420 }
+    kind: analytics.power_bi_embedded
+    label: "analytics.power_bi_embedded"
+    layout: { x: 320, y: 800 }
 
-  - id: arc_kubernetes
+  - id: analytics_stream_analytics_jobs
     provider: azure
-    kind: arc_kubernetes
-    label: "arc_kubernetes"
-    layout: { x: 1280, y: 420 }
+    kind: analytics.stream_analytics_jobs
+    label: "analytics.stream_analytics_jobs"
+    layout: { x: 480, y: 800 }
 
-  - id: arc_machines
+  - id: analytics_stream_analytics_jobs_1
     provider: azure
-    kind: arc_machines
-    label: "arc_machines"
-    layout: { x: 1440, y: 420 }
+    kind: analytics.stream_analytics_jobs_1
+    label: "analytics.stream_analytics_jobs_1"
+    layout: { x: 640, y: 800 }
 
-  - id: arc_postgresql
+  - id: blockchain_abs_member
     provider: azure
-    kind: arc_postgresql
-    label: "arc_postgresql"
-    layout: { x: 1600, y: 420 }
+    kind: blockchain.abs_member
+    label: "blockchain.abs_member"
+    layout: { x: 800, y: 800 }
 
-  - id: arc_sql_managed_instance
+  - id: blockchain_azure_blockchain_service
     provider: azure
-    kind: arc_sql_managed_instance
-    label: "arc_sql_managed_instance"
-    layout: { x: 1760, y: 420 }
+    kind: blockchain.azure_blockchain_service
+    label: "blockchain.azure_blockchain_service"
+    layout: { x: 960, y: 800 }
 
-  - id: arc_sql_server
+  - id: blockchain_azure_token_service
     provider: azure
-    kind: arc_sql_server
-    label: "arc_sql_server"
-    layout: { x: 1920, y: 420 }
+    kind: blockchain.azure_token_service
+    label: "blockchain.azure_token_service"
+    layout: { x: 1120, y: 800 }
 
-  - id: auto_scale
+  - id: blockchain_blockchain_applications
     provider: azure
-    kind: auto_scale
-    label: "auto_scale"
-    layout: { x: 2080, y: 420 }
+    kind: blockchain.blockchain_applications
+    label: "blockchain.blockchain_applications"
+    layout: { x: 1280, y: 800 }
 
-  - id: automanaged_vm
+  - id: blockchain_confidential_ledgers
     provider: azure
-    kind: automanaged_vm
-    label: "automanaged_vm"
-    layout: { x: 2240, y: 420 }
+    kind: blockchain.confidential_ledgers
+    label: "blockchain.confidential_ledgers"
+    layout: { x: 1440, y: 800 }
 
-  - id: automation_accounts
+  - id: blockchain_consortium
     provider: azure
-    kind: automation_accounts
-    label: "automation_accounts"
-    layout: { x: 0, y: 560 }
+    kind: blockchain.consortium
+    label: "blockchain.consortium"
+    layout: { x: 0, y: 960 }
 
-  - id: availability_sets
+  - id: compute_application_group
     provider: azure
-    kind: availability_sets
-    label: "availability_sets"
-    layout: { x: 160, y: 560 }
+    kind: compute.application_group
+    label: "compute.application_group"
+    layout: { x: 160, y: 960 }
 
-  - id: azure_a
+  - id: compute_automanaged_vm
     provider: azure
-    kind: azure_a
-    label: "azure_a"
-    layout: { x: 320, y: 560 }
+    kind: compute.automanaged_vm
+    label: "compute.automanaged_vm"
+    layout: { x: 320, y: 960 }
 
-  - id: azure_ad_b2c
+  - id: compute_availability_sets
     provider: azure
-    kind: azure_ad_b2c
-    label: "azure_ad_b2c"
-    layout: { x: 480, y: 560 }
+    kind: compute.availability_sets
+    label: "compute.availability_sets"
+    layout: { x: 480, y: 960 }
 
-  - id: azure_api_for_fhir
+  - id: compute_avs_vm
     provider: azure
-    kind: azure_api_for_fhir
-    label: "azure_api_for_fhir"
-    layout: { x: 640, y: 560 }
+    kind: compute.avs_vm
+    label: "compute.avs_vm"
+    layout: { x: 640, y: 960 }
 
-  - id: azure_applied_ai_services
+  - id: compute_azure_compute_galleries
     provider: azure
-    kind: azure_applied_ai_services
-    label: "azure_applied_ai_services"
-    layout: { x: 800, y: 560 }
+    kind: compute.azure_compute_galleries
+    label: "compute.azure_compute_galleries"
+    layout: { x: 800, y: 960 }
 
-  - id: azure_arc
+  - id: compute_azure_compute_galleries_1
     provider: azure
-    kind: azure_arc
-    label: "azure_arc"
-    layout: { x: 960, y: 560 }
+    kind: compute.azure_compute_galleries_1
+    label: "compute.azure_compute_galleries_1"
+    layout: { x: 960, y: 960 }
 
-  - id: azure_attestation
+  - id: compute_azure_hpc_workbenches
     provider: azure
-    kind: azure_attestation
-    label: "azure_attestation"
-    layout: { x: 1120, y: 560 }
+    kind: compute.azure_hpc_workbenches
+    label: "compute.azure_hpc_workbenches"
+    layout: { x: 1120, y: 960 }
 
-  - id: azure_backup_center
+  - id: compute_azure_virtual_desktop
     provider: azure
-    kind: azure_backup_center
-    label: "azure_backup_center"
-    layout: { x: 1280, y: 560 }
+    kind: compute.azure_virtual_desktop
+    label: "compute.azure_virtual_desktop"
+    layout: { x: 1280, y: 960 }
 
-  - id: azure_blockchain_service
+  - id: compute_azure_vmware_solution
     provider: azure
-    kind: azure_blockchain_service
-    label: "azure_blockchain_service"
-    layout: { x: 1440, y: 560 }
+    kind: compute.azure_vmware_solution
+    label: "compute.azure_vmware_solution"
+    layout: { x: 1440, y: 960 }
 
-  - id: azure_center_for_sap
+  - id: compute_bare_metal_infrastructure
     provider: azure
-    kind: azure_center_for_sap
-    label: "azure_center_for_sap"
-    layout: { x: 1600, y: 560 }
-
-  - id: azure_chaos_studio
-    provider: azure
-    kind: azure_chaos_studio
-    label: "azure_chaos_studio"
-    layout: { x: 1760, y: 560 }
-
-  - id: azure_cloud_shell
-    provider: azure
-    kind: azure_cloud_shell
-    label: "azure_cloud_shell"
-    layout: { x: 1920, y: 560 }
-
-  - id: azure_communication_services
-    provider: azure
-    kind: azure_communication_services
-    label: "azure_communication_services"
-    layout: { x: 2080, y: 560 }
-
-  - id: azure_communications_gateway
-    provider: azure
-    kind: azure_communications_gateway
-    label: "azure_communications_gateway"
-    layout: { x: 2240, y: 560 }
-
-  - id: azure_compute_galleries
-    provider: azure
-    kind: azure_compute_galleries
-    label: "azure_compute_galleries"
-    layout: { x: 0, y: 700 }
-
-  - id: azure_compute_galleries_1
-    provider: azure
-    kind: azure_compute_galleries_1
-    label: "azure_compute_galleries_1"
-    layout: { x: 160, y: 700 }
-
-  - id: azure_cosmos_db
-    provider: azure
-    kind: azure_cosmos_db
-    label: "azure_cosmos_db"
-    layout: { x: 320, y: 700 }
-
-  - id: azure_cosmos_db_1
-    provider: azure
-    kind: azure_cosmos_db_1
-    label: "azure_cosmos_db_1"
-    layout: { x: 480, y: 700 }
-
-  - id: azure_data_catalog
-    provider: azure
-    kind: azure_data_catalog
-    label: "azure_data_catalog"
-    layout: { x: 640, y: 700 }
-
-  - id: azure_data_explorer_clusters
-    provider: azure
-    kind: azure_data_explorer_clusters
-    label: "azure_data_explorer_clusters"
-    layout: { x: 800, y: 700 }
-
-  - id: azure_data_explorer_clusters_1
-    provider: azure
-    kind: azure_data_explorer_clusters_1
-    label: "azure_data_explorer_clusters_1"
-    layout: { x: 960, y: 700 }
-
-  - id: azure_database_mariadb_server
-    provider: azure
-    kind: azure_database_mariadb_server
-    label: "azure_database_mariadb_server"
-    layout: { x: 1120, y: 700 }
-
-  - id: azure_database_migration_services
-    provider: azure
-    kind: azure_database_migration_services
-    label: "azure_database_migration_services"
-    layout: { x: 1280, y: 700 }
-
-  - id: azure_database_migration_services_1
-    provider: azure
-    kind: azure_database_migration_services_1
-    label: "azure_database_migration_services_1"
-    layout: { x: 1440, y: 700 }
-
-  - id: azure_database_mysql_server
-    provider: azure
-    kind: azure_database_mysql_server
-    label: "azure_database_mysql_server"
-    layout: { x: 1600, y: 700 }
-
-  - id: azure_database_postgresql_server
-    provider: azure
-    kind: azure_database_postgresql_server
-    label: "azure_database_postgresql_server"
-    layout: { x: 1760, y: 700 }
-
-  - id: azure_database_postgresql_server_group
-    provider: azure
-    kind: azure_database_postgresql_server_group
-    label: "azure_database_postgresql_server_group"
-    layout: { x: 1920, y: 700 }
-
-  - id: azure_databox_gateway
-    provider: azure
-    kind: azure_databox_gateway
-    label: "azure_databox_gateway"
-    layout: { x: 2080, y: 700 }
-
-  - id: azure_databox_gateway_1
-    provider: azure
-    kind: azure_databox_gateway_1
-    label: "azure_databox_gateway_1"
-    layout: { x: 2240, y: 700 }
-
-  - id: azure_databox_gateway_2
-    provider: azure
-    kind: azure_databox_gateway_2
-    label: "azure_databox_gateway_2"
-    layout: { x: 0, y: 840 }
-
-  - id: azure_databox_gateway_3
-    provider: azure
-    kind: azure_databox_gateway_3
-    label: "azure_databox_gateway_3"
-    layout: { x: 160, y: 840 }
-
-  - id: azure_databricks
-    provider: azure
-    kind: azure_databricks
-    label: "azure_databricks"
-    layout: { x: 320, y: 840 }
-
-  - id: azure_deployment_environments
-    provider: azure
-    kind: azure_deployment_environments
-    label: "azure_deployment_environments"
-    layout: { x: 480, y: 840 }
-
-  - id: azure_dev_tunnels
-    provider: azure
-    kind: azure_dev_tunnels
-    label: "azure_dev_tunnels"
-    layout: { x: 640, y: 840 }
-
-  - id: azure_devops
-    provider: azure
-    kind: azure_devops
-    label: "azure_devops"
-    layout: { x: 800, y: 840 }
-
-  - id: azure_edge_hardware_center
-    provider: azure
-    kind: azure_edge_hardware_center
-    label: "azure_edge_hardware_center"
-    layout: { x: 960, y: 840 }
-
-  - id: azure_experimentation_studio
-    provider: azure
-    kind: azure_experimentation_studio
-    label: "azure_experimentation_studio"
-    layout: { x: 1120, y: 840 }
-
-  - id: azure_fileshares
-    provider: azure
-    kind: azure_fileshares
-    label: "azure_fileshares"
-    layout: { x: 1280, y: 840 }
-
-  - id: azure_firewall_manager
-    provider: azure
-    kind: azure_firewall_manager
-    label: "azure_firewall_manager"
-    layout: { x: 1440, y: 840 }
-
-  - id: azure_firewall_policy
-    provider: azure
-    kind: azure_firewall_policy
-    label: "azure_firewall_policy"
-    layout: { x: 1600, y: 840 }
-
-  - id: azure_hcp_cache
-    provider: azure
-    kind: azure_hcp_cache
-    label: "azure_hcp_cache"
-    layout: { x: 1760, y: 840 }
-
-  - id: azure_hpc_workbenches
-    provider: azure
-    kind: azure_hpc_workbenches
-    label: "azure_hpc_workbenches"
-    layout: { x: 1920, y: 840 }
-
-  - id: azure_hybrid_center
-    provider: azure
-    kind: azure_hybrid_center
-    label: "azure_hybrid_center"
-    layout: { x: 2080, y: 840 }
-
-  - id: azure_information_protection
-    provider: azure
-    kind: azure_information_protection
-    label: "azure_information_protection"
-    layout: { x: 2240, y: 840 }
-
-  - id: azure_information_protection_1
-    provider: azure
-    kind: azure_information_protection_1
-    label: "azure_information_protection_1"
-    layout: { x: 0, y: 980 }
-
-  - id: azure_iot_operations
-    provider: azure
-    kind: azure_iot_operations
-    label: "azure_iot_operations"
-    layout: { x: 160, y: 980 }
-
-  - id: azure_lighthouse
-    provider: azure
-    kind: azure_lighthouse
-    label: "azure_lighthouse"
-    layout: { x: 320, y: 980 }
-
-  - id: azure_load_testing
-    provider: azure
-    kind: azure_load_testing
-    label: "azure_load_testing"
-    layout: { x: 480, y: 980 }
-
-  - id: azure_managed_grafana
-    provider: azure
-    kind: azure_managed_grafana
-    label: "azure_managed_grafana"
-    layout: { x: 640, y: 980 }
-
-  - id: azure_managed_redis
-    provider: azure
-    kind: azure_managed_redis
-    label: "azure_managed_redis"
-    layout: { x: 800, y: 980 }
-
-  - id: azure_maps_accounts
-    provider: azure
-    kind: azure_maps_accounts
-    label: "azure_maps_accounts"
-    layout: { x: 960, y: 980 }
-
-  - id: azure_media_service
-    provider: azure
-    kind: azure_media_service
-    label: "azure_media_service"
-    layout: { x: 1120, y: 980 }
-
-  - id: azure_migrate
-    provider: azure
-    kind: azure_migrate
-    label: "azure_migrate"
-    layout: { x: 1280, y: 980 }
-
-  - id: azure_monitor_dashboard
-    provider: azure
-    kind: azure_monitor_dashboard
-    label: "azure_monitor_dashboard"
-    layout: { x: 1440, y: 980 }
-
-  - id: azure_monitor_pipeline
-    provider: azure
-    kind: azure_monitor_pipeline
-    label: "azure_monitor_pipeline"
-    layout: { x: 1600, y: 980 }
-
-  - id: azure_monitors_for_sap_solutions
-    provider: azure
-    kind: azure_monitors_for_sap_solutions
-    label: "azure_monitors_for_sap_solutions"
-    layout: { x: 1760, y: 980 }
-
-  - id: azure_netapp_files
-    provider: azure
-    kind: azure_netapp_files
-    label: "azure_netapp_files"
-    layout: { x: 1920, y: 980 }
-
-  - id: azure_network_function_manager
-    provider: azure
-    kind: azure_network_function_manager
-    label: "azure_network_function_manager"
-    layout: { x: 2080, y: 980 }
-
-  - id: azure_network_function_manager_functions
-    provider: azure
-    kind: azure_network_function_manager_functions
-    label: "azure_network_function_manager_functions"
-    layout: { x: 2240, y: 980 }
-
-  - id: azure_object_understanding
-    provider: azure
-    kind: azure_object_understanding
-    label: "azure_object_understanding"
+    kind: compute.bare_metal_infrastructure
+    label: "compute.bare_metal_infrastructure"
     layout: { x: 0, y: 1120 }
 
-  - id: azure_openai
+  - id: compute_batch_accounts
     provider: azure
-    kind: azure_openai
-    label: "azure_openai"
+    kind: compute.batch_accounts
+    label: "compute.batch_accounts"
     layout: { x: 160, y: 1120 }
 
-  - id: azure_operator_5g_core
+  - id: compute_batch_accounts_1
     provider: azure
-    kind: azure_operator_5g_core
-    label: "azure_operator_5g_core"
+    kind: compute.batch_accounts_1
+    label: "compute.batch_accounts_1"
     layout: { x: 320, y: 1120 }
 
-  - id: azure_operator_insights
+  - id: compute_batch_ai
     provider: azure
-    kind: azure_operator_insights
-    label: "azure_operator_insights"
+    kind: compute.batch_ai
+    label: "compute.batch_ai"
     layout: { x: 480, y: 1120 }
 
-  - id: azure_operator_nexus
+  - id: compute_breeze
     provider: azure
-    kind: azure_operator_nexus
-    label: "azure_operator_nexus"
+    kind: compute.breeze
+    label: "compute.breeze"
     layout: { x: 640, y: 1120 }
 
-  - id: azure_operator_service_manager
+  - id: compute_capacity_reservation_groups
     provider: azure
-    kind: azure_operator_service_manager
-    label: "azure_operator_service_manager"
+    kind: compute.capacity_reservation_groups
+    label: "compute.capacity_reservation_groups"
     layout: { x: 800, y: 1120 }
 
-  - id: azure_orbital
+  - id: compute_central_service_instance_for_sap
     provider: azure
-    kind: azure_orbital
-    label: "azure_orbital"
+    kind: compute.central_service_instance_for_sap
+    label: "compute.central_service_instance_for_sap"
     layout: { x: 960, y: 1120 }
 
-  - id: azure_programmable_connectivity
+  - id: compute_cloud_services_classic
     provider: azure
-    kind: azure_programmable_connectivity
-    label: "azure_programmable_connectivity"
+    kind: compute.cloud_services_classic
+    label: "compute.cloud_services_classic"
     layout: { x: 1120, y: 1120 }
 
-  - id: azure_purview_accounts
+  - id: compute_cloud_services_extended_support
     provider: azure
-    kind: azure_purview_accounts
-    label: "azure_purview_accounts"
+    kind: compute.cloud_services_extended_support
+    label: "compute.cloud_services_extended_support"
     layout: { x: 1280, y: 1120 }
 
-  - id: azure_quotas
+  - id: compute_community_images
     provider: azure
-    kind: azure_quotas
-    label: "azure_quotas"
+    kind: compute.community_images
+    label: "compute.community_images"
     layout: { x: 1440, y: 1120 }
 
-  - id: azure_red_hat_openshift
+  - id: compute_compute_fleet
     provider: azure
-    kind: azure_red_hat_openshift
-    label: "azure_red_hat_openshift"
-    layout: { x: 1600, y: 1120 }
+    kind: compute.compute_fleet
+    label: "compute.compute_fleet"
+    layout: { x: 0, y: 1280 }
 
-  - id: azure_sql
+  - id: compute_disks
     provider: azure
-    kind: azure_sql
-    label: "azure_sql"
-    layout: { x: 1760, y: 1120 }
+    kind: compute.disks
+    label: "compute.disks"
+    layout: { x: 160, y: 1280 }
 
-  - id: azure_sql_edge
+  - id: compute_disks_classic
     provider: azure
-    kind: azure_sql_edge
-    label: "azure_sql_edge"
-    layout: { x: 1920, y: 1120 }
+    kind: compute.disks_classic
+    label: "compute.disks_classic"
+    layout: { x: 320, y: 1280 }
 
-  - id: azure_sql_server_stretch_databases
+  - id: compute_disks_snapshots
     provider: azure
-    kind: azure_sql_server_stretch_databases
-    label: "azure_sql_server_stretch_databases"
-    layout: { x: 2080, y: 1120 }
+    kind: compute.disks_snapshots
+    label: "compute.disks_snapshots"
+    layout: { x: 480, y: 1280 }
 
-  - id: azure_sql_server_stretch_databases_1
+  - id: compute_host_groups
     provider: azure
-    kind: azure_sql_server_stretch_databases_1
-    label: "azure_sql_server_stretch_databases_1"
-    layout: { x: 2240, y: 1120 }
+    kind: compute.host_groups
+    label: "compute.host_groups"
+    layout: { x: 640, y: 1280 }
 
-  - id: azure_sql_vm
+  - id: compute_host_pools
     provider: azure
-    kind: azure_sql_vm
-    label: "azure_sql_vm"
-    layout: { x: 0, y: 1260 }
+    kind: compute.host_pools
+    label: "compute.host_pools"
+    layout: { x: 800, y: 1280 }
 
-  - id: azure_sentinel
+  - id: compute_hosts
     provider: azure
-    kind: azure_sentinel
-    label: "azure_sentinel"
-    layout: { x: 160, y: 1260 }
+    kind: compute.hosts
+    label: "compute.hosts"
+    layout: { x: 960, y: 1280 }
 
-  - id: azure_service_bus
+  - id: compute_image
     provider: azure
-    kind: azure_service_bus
-    label: "azure_service_bus"
-    layout: { x: 320, y: 1260 }
+    kind: compute.image
+    label: "compute.image"
+    layout: { x: 1120, y: 1280 }
 
-  - id: azure_sphere
+  - id: compute_image_definitions
     provider: azure
-    kind: azure_sphere
-    label: "azure_sphere"
-    layout: { x: 480, y: 1260 }
+    kind: compute.image_definitions
+    label: "compute.image_definitions"
+    layout: { x: 1280, y: 1280 }
 
-  - id: azure_spring_apps
+  - id: compute_image_templates
     provider: azure
-    kind: azure_spring_apps
-    label: "azure_spring_apps"
-    layout: { x: 640, y: 1260 }
+    kind: compute.image_templates
+    label: "compute.image_templates"
+    layout: { x: 1440, y: 1280 }
 
-  - id: azure_spring_apps_1
+  - id: compute_image_versions
     provider: azure
-    kind: azure_spring_apps_1
-    label: "azure_spring_apps_1"
-    layout: { x: 800, y: 1260 }
+    kind: compute.image_versions
+    label: "compute.image_versions"
+    layout: { x: 0, y: 1440 }
 
-  - id: azure_stack
+  - id: compute_images
     provider: azure
-    kind: azure_stack
-    label: "azure_stack"
-    layout: { x: 960, y: 1260 }
+    kind: compute.images
+    label: "compute.images"
+    layout: { x: 160, y: 1440 }
 
-  - id: azure_stack_edge
+  - id: compute_managed_service_fabric
     provider: azure
-    kind: azure_stack_edge
-    label: "azure_stack_edge"
-    layout: { x: 1120, y: 1260 }
+    kind: compute.managed_service_fabric
+    label: "compute.managed_service_fabric"
+    layout: { x: 320, y: 1440 }
 
-  - id: azure_stack_edge_1
+  - id: compute_mesh_applications
     provider: azure
-    kind: azure_stack_edge_1
-    label: "azure_stack_edge_1"
-    layout: { x: 1280, y: 1260 }
+    kind: compute.mesh_applications
+    label: "compute.mesh_applications"
+    layout: { x: 480, y: 1440 }
 
-  - id: azure_stack_edge_2
+  - id: compute_modular_data_center
     provider: azure
-    kind: azure_stack_edge_2
-    label: "azure_stack_edge_2"
-    layout: { x: 1440, y: 1260 }
+    kind: compute.modular_data_center
+    label: "compute.modular_data_center"
+    layout: { x: 640, y: 1440 }
 
-  - id: azure_stack_hci_sizer
+  - id: compute_os_images_classic
     provider: azure
-    kind: azure_stack_hci_sizer
-    label: "azure_stack_hci_sizer"
-    layout: { x: 1600, y: 1260 }
+    kind: compute.os_images_classic
+    label: "compute.os_images_classic"
+    layout: { x: 800, y: 1440 }
 
-  - id: azure_storage_mover
+  - id: compute_proximity_placement_groups
     provider: azure
-    kind: azure_storage_mover
-    label: "azure_storage_mover"
-    layout: { x: 1760, y: 1260 }
+    kind: compute.proximity_placement_groups
+    label: "compute.proximity_placement_groups"
+    layout: { x: 960, y: 1440 }
 
-  - id: azure_support_center_blue
+  - id: compute_service_fabric_clusters
     provider: azure
-    kind: azure_support_center_blue
-    label: "azure_support_center_blue"
-    layout: { x: 1920, y: 1260 }
+    kind: compute.service_fabric_clusters
+    label: "compute.service_fabric_clusters"
+    layout: { x: 1120, y: 1440 }
 
-  - id: azure_sustainability
+  - id: compute_service_fabric_clusters_1
     provider: azure
-    kind: azure_sustainability
-    label: "azure_sustainability"
-    layout: { x: 2080, y: 1260 }
+    kind: compute.service_fabric_clusters_1
+    label: "compute.service_fabric_clusters_1"
+    layout: { x: 1280, y: 1440 }
 
-  - id: azure_synapse_analytics
+  - id: compute_shared_image_galleries
     provider: azure
-    kind: azure_synapse_analytics
-    label: "azure_synapse_analytics"
-    layout: { x: 2240, y: 1260 }
+    kind: compute.shared_image_galleries
+    label: "compute.shared_image_galleries"
+    layout: { x: 1440, y: 1440 }
 
-  - id: azure_synapse_analytics_1
+  - id: compute_spot_vm
     provider: azure
-    kind: azure_synapse_analytics_1
-    label: "azure_synapse_analytics_1"
-    layout: { x: 0, y: 1400 }
+    kind: compute.spot_vm
+    label: "compute.spot_vm"
+    layout: { x: 0, y: 1600 }
 
-  - id: azure_token_service
+  - id: compute_spot_vmss
     provider: azure
-    kind: azure_token_service
-    label: "azure_token_service"
-    layout: { x: 160, y: 1400 }
+    kind: compute.spot_vmss
+    label: "compute.spot_vmss"
+    layout: { x: 160, y: 1600 }
 
-  - id: azure_vmware_solution
+  - id: compute_virtual_instance_for_sap
     provider: azure
-    kind: azure_vmware_solution
-    label: "azure_vmware_solution"
-    layout: { x: 320, y: 1400 }
+    kind: compute.virtual_instance_for_sap
+    label: "compute.virtual_instance_for_sap"
+    layout: { x: 320, y: 1600 }
 
-  - id: azure_video_indexer
+  - id: compute_virtual_machine
     provider: azure
-    kind: azure_video_indexer
-    label: "azure_video_indexer"
-    layout: { x: 480, y: 1400 }
+    kind: compute.virtual_machine
+    label: "compute.virtual_machine"
+    layout: { x: 480, y: 1600 }
 
-  - id: azure_virtual_desktop
+  - id: compute_virtual_machines_classic
     provider: azure
-    kind: azure_virtual_desktop
-    label: "azure_virtual_desktop"
-    layout: { x: 640, y: 1400 }
+    kind: compute.virtual_machines_classic
+    label: "compute.virtual_machines_classic"
+    layout: { x: 640, y: 1600 }
 
-  - id: azure_workbooks
+  - id: compute_vm_app_definitions
     provider: azure
-    kind: azure_workbooks
-    label: "azure_workbooks"
-    layout: { x: 800, y: 1400 }
+    kind: compute.vm_app_definitions
+    label: "compute.vm_app_definitions"
+    layout: { x: 800, y: 1600 }
 
-  - id: azure_workbooks_1
+  - id: compute_vm_app_versions
     provider: azure
-    kind: azure_workbooks_1
-    label: "azure_workbooks_1"
-    layout: { x: 960, y: 1400 }
+    kind: compute.vm_app_versions
+    label: "compute.vm_app_versions"
+    layout: { x: 960, y: 1600 }
 
-  - id: azurite
+  - id: compute_vm_image_version
     provider: azure
-    kind: azurite
-    label: "azurite"
-    layout: { x: 1120, y: 1400 }
+    kind: compute.vm_image_version
+    label: "compute.vm_image_version"
+    layout: { x: 1120, y: 1600 }
 
-  - id: backlog
+  - id: compute_vm_images_classic
     provider: azure
-    kind: backlog
-    label: "backlog"
-    layout: { x: 1280, y: 1400 }
+    kind: compute.vm_images_classic
+    label: "compute.vm_images_classic"
+    layout: { x: 1280, y: 1600 }
 
-  - id: backup_vault
+  - id: compute_vm_scale_sets
     provider: azure
-    kind: backup_vault
-    label: "backup_vault"
-    layout: { x: 1440, y: 1400 }
+    kind: compute.vm_scale_sets
+    label: "compute.vm_scale_sets"
+    layout: { x: 1440, y: 1600 }
 
-  - id: bare_metal_infrastructure
+  - id: containers_aks_automatic
     provider: azure
-    kind: bare_metal_infrastructure
-    label: "bare_metal_infrastructure"
-    layout: { x: 1600, y: 1400 }
+    kind: containers.aks_automatic
+    label: "containers.aks_automatic"
+    layout: { x: 0, y: 1760 }
 
-  - id: bastions
+  - id: containers_aks_istio
     provider: azure
-    kind: bastions
-    label: "bastions"
-    layout: { x: 1760, y: 1400 }
+    kind: containers.aks_istio
+    label: "containers.aks_istio"
+    layout: { x: 160, y: 1760 }
 
-  - id: batch_ai
+  - id: containers_azure_red_hat_openshift
     provider: azure
-    kind: batch_ai
-    label: "batch_ai"
-    layout: { x: 1920, y: 1400 }
+    kind: containers.azure_red_hat_openshift
+    label: "containers.azure_red_hat_openshift"
+    layout: { x: 320, y: 1760 }
 
-  - id: batch_accounts
+  - id: containers_container_apps_environments
     provider: azure
-    kind: batch_accounts
-    label: "batch_accounts"
-    layout: { x: 2080, y: 1400 }
+    kind: containers.container_apps_environments
+    label: "containers.container_apps_environments"
+    layout: { x: 480, y: 1760 }
 
-  - id: batch_accounts_1
+  - id: containers_container_instances
     provider: azure
-    kind: batch_accounts_1
-    label: "batch_accounts_1"
-    layout: { x: 2240, y: 1400 }
+    kind: containers.container_instances
+    label: "containers.container_instances"
+    layout: { x: 640, y: 1760 }
 
-  - id: biz_talk
+  - id: containers_container_instances_1
     provider: azure
-    kind: biz_talk
-    label: "biz_talk"
-    layout: { x: 0, y: 1540 }
+    kind: containers.container_instances_1
+    label: "containers.container_instances_1"
+    layout: { x: 800, y: 1760 }
 
-  - id: blob_block
+  - id: containers_container_registries
     provider: azure
-    kind: blob_block
-    label: "blob_block"
-    layout: { x: 160, y: 1540 }
+    kind: containers.container_registries
+    label: "containers.container_registries"
+    layout: { x: 960, y: 1760 }
 
-  - id: blob_page
+  - id: containers_container_services_deprecated
     provider: azure
-    kind: blob_page
-    label: "blob_page"
-    layout: { x: 320, y: 1540 }
+    kind: containers.container_services_deprecated
+    label: "containers.container_services_deprecated"
+    layout: { x: 1120, y: 1760 }
 
-  - id: blockchain_applications
+  - id: containers_kubernetes_fleet_manager
     provider: azure
-    kind: blockchain_applications
-    label: "blockchain_applications"
-    layout: { x: 480, y: 1540 }
+    kind: containers.kubernetes_fleet_manager
+    label: "containers.kubernetes_fleet_manager"
+    layout: { x: 1280, y: 1760 }
 
-  - id: blueprints
+  - id: containers_kubernetes_services
     provider: azure
-    kind: blueprints
-    label: "blueprints"
-    layout: { x: 640, y: 1540 }
+    kind: containers.kubernetes_services
+    label: "containers.kubernetes_services"
+    layout: { x: 1440, y: 1760 }
 
-  - id: bonsai
+  - id: containers_kubernetes_services_1
     provider: azure
-    kind: bonsai
-    label: "bonsai"
-    layout: { x: 800, y: 1540 }
+    kind: containers.kubernetes_services_1
+    label: "containers.kubernetes_services_1"
+    layout: { x: 0, y: 1920 }
 
-  - id: bot_services
+  - id: containers_worker_container_app
     provider: azure
-    kind: bot_services
-    label: "bot_services"
-    layout: { x: 960, y: 1540 }
+    kind: containers.worker_container_app
+    label: "containers.worker_container_app"
+    layout: { x: 160, y: 1920 }
 
-  - id: branch
+  - id: databases_azure_cosmos_db
     provider: azure
-    kind: branch
-    label: "branch"
-    layout: { x: 1120, y: 1540 }
+    kind: databases.azure_cosmos_db
+    label: "databases.azure_cosmos_db"
+    layout: { x: 320, y: 1920 }
 
-  - id: breeze
+  - id: databases_azure_cosmos_db_1
     provider: azure
-    kind: breeze
-    label: "breeze"
-    layout: { x: 1280, y: 1540 }
+    kind: databases.azure_cosmos_db_1
+    label: "databases.azure_cosmos_db_1"
+    layout: { x: 480, y: 1920 }
 
-  - id: browser
+  - id: databases_azure_data_catalog
     provider: azure
-    kind: browser
-    label: "browser"
-    layout: { x: 1440, y: 1540 }
+    kind: databases.azure_data_catalog
+    label: "databases.azure_data_catalog"
+    layout: { x: 640, y: 1920 }
 
-  - id: bug
+  - id: databases_azure_data_explorer_clusters
     provider: azure
-    kind: bug
-    label: "bug"
-    layout: { x: 1600, y: 1540 }
+    kind: databases.azure_data_explorer_clusters
+    label: "databases.azure_data_explorer_clusters"
+    layout: { x: 800, y: 1920 }
 
-  - id: builds
+  - id: databases_azure_data_explorer_clusters_1
     provider: azure
-    kind: builds
-    label: "builds"
-    layout: { x: 1760, y: 1540 }
+    kind: databases.azure_data_explorer_clusters_1
+    label: "databases.azure_data_explorer_clusters_1"
+    layout: { x: 960, y: 1920 }
 
-  - id: business_process_tracking
+  - id: databases_azure_database_mariadb_server
     provider: azure
-    kind: business_process_tracking
-    label: "business_process_tracking"
-    layout: { x: 1920, y: 1540 }
+    kind: databases.azure_database_mariadb_server
+    label: "databases.azure_database_mariadb_server"
+    layout: { x: 1120, y: 1920 }
 
-  - id: cdn_profiles
+  - id: databases_azure_database_migration_services
     provider: azure
-    kind: cdn_profiles
-    label: "cdn_profiles"
-    layout: { x: 2080, y: 1540 }
+    kind: databases.azure_database_migration_services
+    label: "databases.azure_database_migration_services"
+    layout: { x: 1280, y: 1920 }
 
-  - id: cdn_profiles_1
+  - id: databases_azure_database_migration_services_1
     provider: azure
-    kind: cdn_profiles_1
-    label: "cdn_profiles_1"
-    layout: { x: 2240, y: 1540 }
+    kind: databases.azure_database_migration_services_1
+    label: "databases.azure_database_migration_services_1"
+    layout: { x: 1440, y: 1920 }
 
-  - id: cache
+  - id: databases_azure_database_mysql_server
     provider: azure
-    kind: cache
-    label: "cache"
-    layout: { x: 0, y: 1680 }
+    kind: databases.azure_database_mysql_server
+    label: "databases.azure_database_mysql_server"
+    layout: { x: 0, y: 2080 }
 
-  - id: cache_redis
+  - id: databases_azure_database_postgresql_server
     provider: azure
-    kind: cache_redis
-    label: "cache_redis"
-    layout: { x: 160, y: 1680 }
+    kind: databases.azure_database_postgresql_server
+    label: "databases.azure_database_postgresql_server"
+    layout: { x: 160, y: 2080 }
 
-  - id: capacity
+  - id: databases_azure_database_postgresql_server_group
     provider: azure
-    kind: capacity
-    label: "capacity"
-    layout: { x: 320, y: 1680 }
+    kind: databases.azure_database_postgresql_server_group
+    label: "databases.azure_database_postgresql_server_group"
+    layout: { x: 320, y: 2080 }
 
-  - id: capacity_reservation_groups
+  - id: databases_azure_purview_accounts
     provider: azure
-    kind: capacity_reservation_groups
-    label: "capacity_reservation_groups"
-    layout: { x: 480, y: 1680 }
+    kind: databases.azure_purview_accounts
+    label: "databases.azure_purview_accounts"
+    layout: { x: 480, y: 2080 }
 
-  - id: central_service_instance_for_sap
+  - id: databases_azure_sql
     provider: azure
-    kind: central_service_instance_for_sap
-    label: "central_service_instance_for_sap"
-    layout: { x: 640, y: 1680 }
+    kind: databases.azure_sql
+    label: "databases.azure_sql"
+    layout: { x: 640, y: 2080 }
 
-  - id: ceres
+  - id: databases_azure_sql_edge
     provider: azure
-    kind: ceres
-    label: "ceres"
-    layout: { x: 800, y: 1680 }
+    kind: databases.azure_sql_edge
+    label: "databases.azure_sql_edge"
+    layout: { x: 800, y: 2080 }
 
-  - id: change_analysis
+  - id: databases_azure_sql_server_stretch_databases
     provider: azure
-    kind: change_analysis
-    label: "change_analysis"
-    layout: { x: 960, y: 1680 }
+    kind: databases.azure_sql_server_stretch_databases
+    label: "databases.azure_sql_server_stretch_databases"
+    layout: { x: 960, y: 2080 }
 
-  - id: change_analysis_1
+  - id: databases_azure_sql_server_stretch_databases_1
     provider: azure
-    kind: change_analysis_1
-    label: "change_analysis_1"
-    layout: { x: 1120, y: 1680 }
+    kind: databases.azure_sql_server_stretch_databases_1
+    label: "databases.azure_sql_server_stretch_databases_1"
+    layout: { x: 1120, y: 2080 }
 
-  - id: client_apps
+  - id: databases_azure_sql_vm
     provider: azure
-    kind: client_apps
-    label: "client_apps"
-    layout: { x: 1280, y: 1680 }
+    kind: databases.azure_sql_vm
+    label: "databases.azure_sql_vm"
+    layout: { x: 1280, y: 2080 }
 
-  - id: cloud_services_classic
+  - id: databases_data_factories
     provider: azure
-    kind: cloud_services_classic
-    label: "cloud_services_classic"
-    layout: { x: 1440, y: 1680 }
+    kind: databases.data_factories
+    label: "databases.data_factories"
+    layout: { x: 1440, y: 2080 }
 
-  - id: cloud_services_extended_support
+  - id: databases_data_factories_1
     provider: azure
-    kind: cloud_services_extended_support
-    label: "cloud_services_extended_support"
-    layout: { x: 1600, y: 1680 }
-
-  - id: cloudtest
-    provider: azure
-    kind: cloudtest
-    label: "cloudtest"
-    layout: { x: 1760, y: 1680 }
-
-  - id: code
-    provider: azure
-    kind: code
-    label: "code"
-    layout: { x: 1920, y: 1680 }
-
-  - id: code_optimization
-    provider: azure
-    kind: code_optimization
-    label: "code_optimization"
-    layout: { x: 2080, y: 1680 }
-
-  - id: cognitive_search
-    provider: azure
-    kind: cognitive_search
-    label: "cognitive_search"
-    layout: { x: 2240, y: 1680 }
-
-  - id: cognitive_search_1
-    provider: azure
-    kind: cognitive_search_1
-    label: "cognitive_search_1"
-    layout: { x: 0, y: 1820 }
-
-  - id: cognitive_search_2
-    provider: azure
-    kind: cognitive_search_2
-    label: "cognitive_search_2"
-    layout: { x: 160, y: 1820 }
-
-  - id: cognitive_services
-    provider: azure
-    kind: cognitive_services
-    label: "cognitive_services"
-    layout: { x: 320, y: 1820 }
-
-  - id: cognitive_services_1
-    provider: azure
-    kind: cognitive_services_1
-    label: "cognitive_services_1"
-    layout: { x: 480, y: 1820 }
-
-  - id: cognitive_services_decisions
-    provider: azure
-    kind: cognitive_services_decisions
-    label: "cognitive_services_decisions"
-    layout: { x: 640, y: 1820 }
-
-  - id: collaborative_service
-    provider: azure
-    kind: collaborative_service
-    label: "collaborative_service"
-    layout: { x: 800, y: 1820 }
-
-  - id: commit
-    provider: azure
-    kind: commit
-    label: "commit"
-    layout: { x: 960, y: 1820 }
-
-  - id: community_images
-    provider: azure
-    kind: community_images
-    label: "community_images"
-    layout: { x: 1120, y: 1820 }
-
-  - id: compliance
-    provider: azure
-    kind: compliance
-    label: "compliance"
-    layout: { x: 1280, y: 1820 }
-
-  - id: compliance_center
-    provider: azure
-    kind: compliance_center
-    label: "compliance_center"
-    layout: { x: 1440, y: 1820 }
-
-  - id: compute_fleet
-    provider: azure
-    kind: compute_fleet
-    label: "compute_fleet"
-    layout: { x: 1600, y: 1820 }
-
-  - id: computer_vision
-    provider: azure
-    kind: computer_vision
-    label: "computer_vision"
-    layout: { x: 1760, y: 1820 }
-
-  - id: conditional_access
-    provider: azure
-    kind: conditional_access
-    label: "conditional_access"
-    layout: { x: 1920, y: 1820 }
-
-  - id: confidential_ledgers
-    provider: azure
-    kind: confidential_ledgers
-    label: "confidential_ledgers"
-    layout: { x: 2080, y: 1820 }
-
-  - id: connected_cache
-    provider: azure
-    kind: connected_cache
-    label: "connected_cache"
-    layout: { x: 2240, y: 1820 }
-
-  - id: connected_vehicle_platform
-    provider: azure
-    kind: connected_vehicle_platform
-    label: "connected_vehicle_platform"
-    layout: { x: 0, y: 1960 }
-
-  - id: connections
-    provider: azure
-    kind: connections
-    label: "connections"
-    layout: { x: 160, y: 1960 }
-
-  - id: consortium
-    provider: azure
-    kind: consortium
-    label: "consortium"
-    layout: { x: 320, y: 1960 }
-
-  - id: container_apps_environments
-    provider: azure
-    kind: container_apps_environments
-    label: "container_apps_environments"
-    layout: { x: 480, y: 1960 }
-
-  - id: container_instances
-    provider: azure
-    kind: container_instances
-    label: "container_instances"
-    layout: { x: 640, y: 1960 }
-
-  - id: container_instances_1
-    provider: azure
-    kind: container_instances_1
-    label: "container_instances_1"
-    layout: { x: 800, y: 1960 }
-
-  - id: container_registries
-    provider: azure
-    kind: container_registries
-    label: "container_registries"
-    layout: { x: 960, y: 1960 }
-
-  - id: container_services_deprecated
-    provider: azure
-    kind: container_services_deprecated
-    label: "container_services_deprecated"
-    layout: { x: 1120, y: 1960 }
-
-  - id: content_moderators
-    provider: azure
-    kind: content_moderators
-    label: "content_moderators"
-    layout: { x: 1280, y: 1960 }
-
-  - id: content_safety
-    provider: azure
-    kind: content_safety
-    label: "content_safety"
-    layout: { x: 1440, y: 1960 }
-
-  - id: controls
-    provider: azure
-    kind: controls
-    label: "controls"
-    layout: { x: 1600, y: 1960 }
-
-  - id: controls_horizontal
-    provider: azure
-    kind: controls_horizontal
-    label: "controls_horizontal"
-    layout: { x: 1760, y: 1960 }
-
-  - id: cost_alerts
-    provider: azure
-    kind: cost_alerts
-    label: "cost_alerts"
-    layout: { x: 1920, y: 1960 }
-
-  - id: cost_analysis
-    provider: azure
-    kind: cost_analysis
-    label: "cost_analysis"
-    layout: { x: 2080, y: 1960 }
-
-  - id: cost_budgets
-    provider: azure
-    kind: cost_budgets
-    label: "cost_budgets"
-    layout: { x: 2240, y: 1960 }
-
-  - id: cost_export
-    provider: azure
-    kind: cost_export
-    label: "cost_export"
-    layout: { x: 0, y: 2100 }
-
-  - id: cost_management
-    provider: azure
-    kind: cost_management
-    label: "cost_management"
-    layout: { x: 160, y: 2100 }
-
-  - id: cost_management_and_billing
-    provider: azure
-    kind: cost_management_and_billing
-    label: "cost_management_and_billing"
-    layout: { x: 320, y: 2100 }
-
-  - id: cost_management_and_billing_1
-    provider: azure
-    kind: cost_management_and_billing_1
-    label: "cost_management_and_billing_1"
-    layout: { x: 480, y: 2100 }
-
-  - id: cost_management_and_billing_2
-    provider: azure
-    kind: cost_management_and_billing_2
-    label: "cost_management_and_billing_2"
-    layout: { x: 640, y: 2100 }
-
-  - id: counter
-    provider: azure
-    kind: counter
-    label: "counter"
-    layout: { x: 800, y: 2100 }
-
-  - id: cubes
-    provider: azure
-    kind: cubes
-    label: "cubes"
-    layout: { x: 960, y: 2100 }
-
-  - id: custom_ip_prefix
-    provider: azure
-    kind: custom_ip_prefix
-    label: "custom_ip_prefix"
-    layout: { x: 1120, y: 2100 }
-
-  - id: custom_vision
-    provider: azure
-    kind: custom_vision
-    label: "custom_vision"
-    layout: { x: 1280, y: 2100 }
-
-  - id: customer_lockbox_for_microsoft_azure
-    provider: azure
-    kind: customer_lockbox_for_microsoft_azure
-    label: "customer_lockbox_for_microsoft_azure"
-    layout: { x: 1440, y: 2100 }
-
-  - id: ddos_protection_plans
-    provider: azure
-    kind: ddos_protection_plans
-    label: "ddos_protection_plans"
-    layout: { x: 1600, y: 2100 }
-
-  - id: dns_multistack
-    provider: azure
-    kind: dns_multistack
-    label: "dns_multistack"
-    layout: { x: 1760, y: 2100 }
-
-  - id: dns_private_resolver
-    provider: azure
-    kind: dns_private_resolver
-    label: "dns_private_resolver"
-    layout: { x: 1920, y: 2100 }
-
-  - id: dns_security_policy
-    provider: azure
-    kind: dns_security_policy
-    label: "dns_security_policy"
-    layout: { x: 2080, y: 2100 }
-
-  - id: dns_zones
-    provider: azure
-    kind: dns_zones
-    label: "dns_zones"
-    layout: { x: 2240, y: 2100 }
-
-  - id: dashboard
-    provider: azure
-    kind: dashboard
-    label: "dashboard"
+    kind: databases.data_factories_1
+    label: "databases.data_factories_1"
     layout: { x: 0, y: 2240 }
 
-  - id: dashboard_hub
+  - id: databases_data_factories_2
     provider: azure
-    kind: dashboard_hub
-    label: "dashboard_hub"
+    kind: databases.data_factories_2
+    label: "databases.data_factories_2"
     layout: { x: 160, y: 2240 }
 
-  - id: data_box
+  - id: databases_data_lake_analytics
     provider: azure
-    kind: data_box
-    label: "data_box"
+    kind: databases.data_lake_analytics
+    label: "databases.data_lake_analytics"
     layout: { x: 320, y: 2240 }
 
-  - id: data_box_1
+  - id: databases_data_lake_storage_gen1
     provider: azure
-    kind: data_box_1
-    label: "data_box_1"
+    kind: databases.data_lake_storage_gen1
+    label: "databases.data_lake_storage_gen1"
     layout: { x: 480, y: 2240 }
 
-  - id: data_collection_rules
+  - id: databases_data_lake_store_gen1
     provider: azure
-    kind: data_collection_rules
-    label: "data_collection_rules"
+    kind: databases.data_lake_store_gen1
+    label: "databases.data_lake_store_gen1"
     layout: { x: 640, y: 2240 }
 
-  - id: data_factories
+  - id: databases_database_instance_for_sap
     provider: azure
-    kind: data_factories
-    label: "data_factories"
+    kind: databases.database_instance_for_sap
+    label: "databases.database_instance_for_sap"
     layout: { x: 800, y: 2240 }
 
-  - id: data_factories_1
+  - id: databases_elastic_job_agents
     provider: azure
-    kind: data_factories_1
-    label: "data_factories_1"
+    kind: databases.elastic_job_agents
+    label: "databases.elastic_job_agents"
     layout: { x: 960, y: 2240 }
 
-  - id: data_factories_2
+  - id: databases_instance_pools
     provider: azure
-    kind: data_factories_2
-    label: "data_factories_2"
+    kind: databases.instance_pools
+    label: "databases.instance_pools"
     layout: { x: 1120, y: 2240 }
 
-  - id: data_lake_analytics
+  - id: databases_instance_pools_1
     provider: azure
-    kind: data_lake_analytics
-    label: "data_lake_analytics"
+    kind: databases.instance_pools_1
+    label: "databases.instance_pools_1"
     layout: { x: 1280, y: 2240 }
 
-  - id: data_lake_storage_gen1
+  - id: databases_managed_database
     provider: azure
-    kind: data_lake_storage_gen1
-    label: "data_lake_storage_gen1"
+    kind: databases.managed_database
+    label: "databases.managed_database"
     layout: { x: 1440, y: 2240 }
 
-  - id: data_lake_store_gen1
+  - id: databases_managed_instance_apache_cassandra
     provider: azure
-    kind: data_lake_store_gen1
-    label: "data_lake_store_gen1"
-    layout: { x: 1600, y: 2240 }
+    kind: databases.managed_instance_apache_cassandra
+    label: "databases.managed_instance_apache_cassandra"
+    layout: { x: 0, y: 2400 }
 
-  - id: data_share_invitations
+  - id: databases_oracle_database
     provider: azure
-    kind: data_share_invitations
-    label: "data_share_invitations"
-    layout: { x: 1760, y: 2240 }
+    kind: databases.oracle_database
+    label: "databases.oracle_database"
+    layout: { x: 160, y: 2400 }
 
-  - id: data_shares
+  - id: databases_serverless_search
     provider: azure
-    kind: data_shares
-    label: "data_shares"
-    layout: { x: 1920, y: 2240 }
+    kind: databases.serverless_search
+    label: "databases.serverless_search"
+    layout: { x: 320, y: 2400 }
 
-  - id: database_instance_for_sap
+  - id: databases_sql_data_warehouses
     provider: azure
-    kind: database_instance_for_sap
-    label: "database_instance_for_sap"
-    layout: { x: 2080, y: 2240 }
+    kind: databases.sql_data_warehouses
+    label: "databases.sql_data_warehouses"
+    layout: { x: 480, y: 2400 }
 
-  - id: dedicated_hsm
+  - id: databases_sql_data_warehouses_1
     provider: azure
-    kind: dedicated_hsm
-    label: "dedicated_hsm"
-    layout: { x: 2240, y: 2240 }
+    kind: databases.sql_data_warehouses_1
+    label: "databases.sql_data_warehouses_1"
+    layout: { x: 640, y: 2400 }
 
-  - id: defender_cm_local_manager
+  - id: databases_sql_database
     provider: azure
-    kind: defender_cm_local_manager
-    label: "defender_cm_local_manager"
-    layout: { x: 0, y: 2380 }
+    kind: databases.sql_database
+    label: "databases.sql_database"
+    layout: { x: 800, y: 2400 }
 
-  - id: defender_dcs_controller
+  - id: databases_sql_elastic_pools
     provider: azure
-    kind: defender_dcs_controller
-    label: "defender_dcs_controller"
-    layout: { x: 160, y: 2380 }
+    kind: databases.sql_elastic_pools
+    label: "databases.sql_elastic_pools"
+    layout: { x: 960, y: 2400 }
 
-  - id: defender_distributer_control_system
+  - id: databases_sql_managed_instance
     provider: azure
-    kind: defender_distributer_control_system
-    label: "defender_distributer_control_system"
-    layout: { x: 320, y: 2380 }
+    kind: databases.sql_managed_instance
+    label: "databases.sql_managed_instance"
+    layout: { x: 1120, y: 2400 }
 
-  - id: defender_engineering_station
+  - id: databases_sql_server
     provider: azure
-    kind: defender_engineering_station
-    label: "defender_engineering_station"
-    layout: { x: 480, y: 2380 }
+    kind: databases.sql_server
+    label: "databases.sql_server"
+    layout: { x: 1280, y: 2400 }
 
-  - id: defender_external_management
+  - id: databases_sql_server_registries
     provider: azure
-    kind: defender_external_management
-    label: "defender_external_management"
-    layout: { x: 640, y: 2380 }
+    kind: databases.sql_server_registries
+    label: "databases.sql_server_registries"
+    layout: { x: 1440, y: 2400 }
 
-  - id: defender_freezer_monitor
+  - id: databases_ssis_lift_and_shift_ir
     provider: azure
-    kind: defender_freezer_monitor
-    label: "defender_freezer_monitor"
-    layout: { x: 800, y: 2380 }
+    kind: databases.ssis_lift_and_shift_ir
+    label: "databases.ssis_lift_and_shift_ir"
+    layout: { x: 0, y: 2560 }
 
-  - id: defender_hmi
+  - id: databases_virtual_clusters
     provider: azure
-    kind: defender_hmi
-    label: "defender_hmi"
-    layout: { x: 960, y: 2380 }
+    kind: databases.virtual_clusters
+    label: "databases.virtual_clusters"
+    layout: { x: 160, y: 2560 }
 
-  - id: defender_historian
+  - id: devops_applens
     provider: azure
-    kind: defender_historian
-    label: "defender_historian"
-    layout: { x: 1120, y: 2380 }
+    kind: devops.applens
+    label: "devops.applens"
+    layout: { x: 320, y: 2560 }
 
-  - id: defender_industrial_packaging_system
+  - id: devops_azure_chaos_studio
     provider: azure
-    kind: defender_industrial_packaging_system
-    label: "defender_industrial_packaging_system"
-    layout: { x: 1280, y: 2380 }
+    kind: devops.azure_chaos_studio
+    label: "devops.azure_chaos_studio"
+    layout: { x: 480, y: 2560 }
 
-  - id: defender_industrial_printer
+  - id: devops_azure_cloud_shell
     provider: azure
-    kind: defender_industrial_printer
-    label: "defender_industrial_printer"
-    layout: { x: 1440, y: 2380 }
+    kind: devops.azure_cloud_shell
+    label: "devops.azure_cloud_shell"
+    layout: { x: 640, y: 2560 }
 
-  - id: defender_industrial_robot
+  - id: devops_azure_deployment_environments
     provider: azure
-    kind: defender_industrial_robot
-    label: "defender_industrial_robot"
-    layout: { x: 1600, y: 2380 }
+    kind: devops.azure_deployment_environments
+    label: "devops.azure_deployment_environments"
+    layout: { x: 800, y: 2560 }
 
-  - id: defender_industrial_scale_system
+  - id: devops_azure_dev_tunnels
     provider: azure
-    kind: defender_industrial_scale_system
-    label: "defender_industrial_scale_system"
-    layout: { x: 1760, y: 2380 }
+    kind: devops.azure_dev_tunnels
+    label: "devops.azure_dev_tunnels"
+    layout: { x: 960, y: 2560 }
 
-  - id: defender_marquee
+  - id: devops_azure_devops
     provider: azure
-    kind: defender_marquee
-    label: "defender_marquee"
-    layout: { x: 1920, y: 2380 }
+    kind: devops.azure_devops
+    label: "devops.azure_devops"
+    layout: { x: 1120, y: 2560 }
 
-  - id: defender_meter
+  - id: devops_azure_load_testing
     provider: azure
-    kind: defender_meter
-    label: "defender_meter"
-    layout: { x: 2080, y: 2380 }
+    kind: devops.azure_load_testing
+    label: "devops.azure_load_testing"
+    layout: { x: 1280, y: 2560 }
 
-  - id: defender_plc
+  - id: devops_cloudtest
     provider: azure
-    kind: defender_plc
-    label: "defender_plc"
-    layout: { x: 2240, y: 2380 }
+    kind: devops.cloudtest
+    label: "devops.cloudtest"
+    layout: { x: 1440, y: 2560 }
 
-  - id: defender_pneumatic_device
+  - id: devops_code
     provider: azure
-    kind: defender_pneumatic_device
-    label: "defender_pneumatic_device"
-    layout: { x: 0, y: 2520 }
+    kind: devops.code
+    label: "devops.code"
+    layout: { x: 0, y: 2720 }
 
-  - id: defender_programable_board
+  - id: devops_code_optimization
     provider: azure
-    kind: defender_programable_board
-    label: "defender_programable_board"
-    layout: { x: 160, y: 2520 }
+    kind: devops.code_optimization
+    label: "devops.code_optimization"
+    layout: { x: 160, y: 2720 }
 
-  - id: defender_rtu
+  - id: devops_dev_console
     provider: azure
-    kind: defender_rtu
-    label: "defender_rtu"
-    layout: { x: 320, y: 2520 }
+    kind: devops.dev_console
+    label: "devops.dev_console"
+    layout: { x: 320, y: 2720 }
 
-  - id: defender_relay
+  - id: devops_devops_starter
     provider: azure
-    kind: defender_relay
-    label: "defender_relay"
-    layout: { x: 480, y: 2520 }
+    kind: devops.devops_starter
+    label: "devops.devops_starter"
+    layout: { x: 480, y: 2720 }
 
-  - id: defender_robot_controller
+  - id: devops_devtest_labs
     provider: azure
-    kind: defender_robot_controller
-    label: "defender_robot_controller"
-    layout: { x: 640, y: 2520 }
+    kind: devops.devtest_labs
+    label: "devops.devtest_labs"
+    layout: { x: 640, y: 2720 }
 
-  - id: defender_sensor
+  - id: devops_lab_accounts
     provider: azure
-    kind: defender_sensor
-    label: "defender_sensor"
-    layout: { x: 800, y: 2520 }
+    kind: devops.lab_accounts
+    label: "devops.lab_accounts"
+    layout: { x: 800, y: 2720 }
 
-  - id: defender_slot
+  - id: devops_lab_services
     provider: azure
-    kind: defender_slot
-    label: "defender_slot"
-    layout: { x: 960, y: 2520 }
+    kind: devops.lab_services
+    label: "devops.lab_services"
+    layout: { x: 960, y: 2720 }
 
-  - id: defender_web_guiding_system
+  - id: devops_load_test
     provider: azure
-    kind: defender_web_guiding_system
-    label: "defender_web_guiding_system"
-    layout: { x: 1120, y: 2520 }
+    kind: devops.load_test
+    label: "devops.load_test"
+    layout: { x: 1120, y: 2720 }
 
-  - id: detonation
+  - id: devops_load_testing
     provider: azure
-    kind: detonation
-    label: "detonation"
-    layout: { x: 1280, y: 2520 }
+    kind: devops.load_testing
+    label: "devops.load_testing"
+    layout: { x: 1280, y: 2720 }
 
-  - id: dev_console
+  - id: devops_managed_devops_pools
     provider: azure
-    kind: dev_console
-    label: "dev_console"
-    layout: { x: 1440, y: 2520 }
+    kind: devops.managed_devops_pools
+    label: "devops.managed_devops_pools"
+    layout: { x: 1440, y: 2720 }
 
-  - id: devops_starter
+  - id: devops_microsoft_dev_box
     provider: azure
-    kind: devops_starter
-    label: "devops_starter"
-    layout: { x: 1600, y: 2520 }
+    kind: devops.microsoft_dev_box
+    label: "devops.microsoft_dev_box"
+    layout: { x: 0, y: 2880 }
 
-  - id: devtest_labs
+  - id: devops_test_base
     provider: azure
-    kind: devtest_labs
-    label: "devtest_labs"
-    layout: { x: 1760, y: 2520 }
+    kind: devops.test_base
+    label: "devops.test_base"
+    layout: { x: 160, y: 2880 }
 
-  - id: device_compliance
+  - id: devops_toolchain_orchestrator
     provider: azure
-    kind: device_compliance
-    label: "device_compliance"
-    layout: { x: 1920, y: 2520 }
+    kind: devops.toolchain_orchestrator
+    label: "devops.toolchain_orchestrator"
+    layout: { x: 320, y: 2880 }
 
-  - id: device_configuration
+  - id: devops_workspace_gateway
     provider: azure
-    kind: device_configuration
-    label: "device_configuration"
-    layout: { x: 2080, y: 2520 }
+    kind: devops.workspace_gateway
+    label: "devops.workspace_gateway"
+    layout: { x: 480, y: 2880 }
 
-  - id: device_enrollment
+  - id: general_all_resources
     provider: azure
-    kind: device_enrollment
-    label: "device_enrollment"
-    layout: { x: 2240, y: 2520 }
+    kind: general.all_resources
+    label: "general.all_resources"
+    layout: { x: 640, y: 2880 }
 
-  - id: device_provisioning_services
+  - id: general_azure_a
     provider: azure
-    kind: device_provisioning_services
-    label: "device_provisioning_services"
-    layout: { x: 0, y: 2660 }
+    kind: general.azure_a
+    label: "general.azure_a"
+    layout: { x: 800, y: 2880 }
 
-  - id: device_security_apple
+  - id: general_backlog
     provider: azure
-    kind: device_security_apple
-    label: "device_security_apple"
-    layout: { x: 160, y: 2660 }
+    kind: general.backlog
+    label: "general.backlog"
+    layout: { x: 960, y: 2880 }
 
-  - id: device_security_google
+  - id: general_branch
     provider: azure
-    kind: device_security_google
-    label: "device_security_google"
-    layout: { x: 320, y: 2660 }
+    kind: general.branch
+    label: "general.branch"
+    layout: { x: 1120, y: 2880 }
 
-  - id: device_security_windows
+  - id: general_browser
     provider: azure
-    kind: device_security_windows
-    label: "device_security_windows"
-    layout: { x: 480, y: 2660 }
+    kind: general.browser
+    label: "general.browser"
+    layout: { x: 1280, y: 2880 }
 
-  - id: device_update_iot_hub
+  - id: general_bug
     provider: azure
-    kind: device_update_iot_hub
-    label: "device_update_iot_hub"
-    layout: { x: 640, y: 2660 }
+    kind: general.bug
+    label: "general.bug"
+    layout: { x: 1440, y: 2880 }
 
-  - id: devices
+  - id: general_builds
     provider: azure
-    kind: devices
-    label: "devices"
-    layout: { x: 800, y: 2660 }
+    kind: general.builds
+    label: "general.builds"
+    layout: { x: 0, y: 3040 }
 
-  - id: diagnostics_settings
+  - id: general_commit
     provider: azure
-    kind: diagnostics_settings
-    label: "diagnostics_settings"
-    layout: { x: 960, y: 2660 }
+    kind: general.commit
+    label: "general.commit"
+    layout: { x: 160, y: 3040 }
 
-  - id: diagnostics_settings_1
+  - id: general_controls
     provider: azure
-    kind: diagnostics_settings_1
-    label: "diagnostics_settings_1"
-    layout: { x: 1120, y: 2660 }
+    kind: general.controls
+    label: "general.controls"
+    layout: { x: 320, y: 3040 }
 
-  - id: digital_twins
+  - id: general_controls_horizontal
     provider: azure
-    kind: digital_twins
-    label: "digital_twins"
-    layout: { x: 1280, y: 2660 }
+    kind: general.controls_horizontal
+    label: "general.controls_horizontal"
+    layout: { x: 480, y: 3040 }
 
-  - id: disk_encryption_sets
+  - id: general_counter
     provider: azure
-    kind: disk_encryption_sets
-    label: "disk_encryption_sets"
-    layout: { x: 1440, y: 2660 }
+    kind: general.counter
+    label: "general.counter"
+    layout: { x: 640, y: 3040 }
 
-  - id: disk_pool
+  - id: general_cubes
     provider: azure
-    kind: disk_pool
-    label: "disk_pool"
-    layout: { x: 1600, y: 2660 }
+    kind: general.cubes
+    label: "general.cubes"
+    layout: { x: 800, y: 3040 }
 
-  - id: disks
+  - id: general_dashboard
     provider: azure
-    kind: disks
-    label: "disks"
-    layout: { x: 1760, y: 2660 }
+    kind: general.dashboard
+    label: "general.dashboard"
+    layout: { x: 960, y: 3040 }
 
-  - id: disks_classic
+  - id: general_dashboard_hub
     provider: azure
-    kind: disks_classic
-    label: "disks_classic"
-    layout: { x: 1920, y: 2660 }
+    kind: general.dashboard_hub
+    label: "general.dashboard_hub"
+    layout: { x: 1120, y: 3040 }
 
-  - id: disks_snapshots
+  - id: general_download
     provider: azure
-    kind: disks_snapshots
-    label: "disks_snapshots"
-    layout: { x: 2080, y: 2660 }
+    kind: general.download
+    label: "general.download"
+    layout: { x: 1280, y: 3040 }
 
-  - id: download
+  - id: general_error
     provider: azure
-    kind: download
-    label: "download"
-    layout: { x: 2240, y: 2660 }
+    kind: general.error
+    label: "general.error"
+    layout: { x: 1440, y: 3040 }
 
-  - id: edge_actions
+  - id: general_extensions
     provider: azure
-    kind: edge_actions
-    label: "edge_actions"
-    layout: { x: 0, y: 2800 }
+    kind: general.extensions
+    label: "general.extensions"
+    layout: { x: 0, y: 3200 }
 
-  - id: edge_management
+  - id: general_feature_previews
     provider: azure
-    kind: edge_management
-    label: "edge_management"
-    layout: { x: 160, y: 2800 }
+    kind: general.feature_previews
+    label: "general.feature_previews"
+    layout: { x: 160, y: 3200 }
 
-  - id: edge_storage_accelerator
+  - id: general_folder_blank
     provider: azure
-    kind: edge_storage_accelerator
-    label: "edge_storage_accelerator"
-    layout: { x: 320, y: 2800 }
+    kind: general.folder_blank
+    label: "general.folder_blank"
+    layout: { x: 320, y: 3200 }
 
-  - id: education
+  - id: general_folder_website
     provider: azure
-    kind: education
-    label: "education"
-    layout: { x: 480, y: 2800 }
+    kind: general.folder_website
+    label: "general.folder_website"
+    layout: { x: 480, y: 3200 }
 
-  - id: elastic_job_agents
+  - id: general_ftp
     provider: azure
-    kind: elastic_job_agents
-    label: "elastic_job_agents"
-    layout: { x: 640, y: 2800 }
+    kind: general.ftp
+    label: "general.ftp"
+    layout: { x: 640, y: 3200 }
 
-  - id: elastic_san
+  - id: general_gear
     provider: azure
-    kind: elastic_san
-    label: "elastic_san"
-    layout: { x: 800, y: 2800 }
+    kind: general.gear
+    label: "general.gear"
+    layout: { x: 800, y: 3200 }
 
-  - id: endpoint_analytics
+  - id: general_globe_error
     provider: azure
-    kind: endpoint_analytics
-    label: "endpoint_analytics"
-    layout: { x: 960, y: 2800 }
+    kind: general.globe_error
+    label: "general.globe_error"
+    layout: { x: 960, y: 3200 }
 
-  - id: enterprise_applications
+  - id: general_globe_success
     provider: azure
-    kind: enterprise_applications
-    label: "enterprise_applications"
-    layout: { x: 1120, y: 2800 }
+    kind: general.globe_success
+    label: "general.globe_success"
+    layout: { x: 1120, y: 3200 }
 
-  - id: entra_connect
+  - id: general_globe_warning
     provider: azure
-    kind: entra_connect
-    label: "entra_connect"
-    layout: { x: 1280, y: 2800 }
+    kind: general.globe_warning
+    label: "general.globe_warning"
+    layout: { x: 1280, y: 3200 }
 
-  - id: entra_connect_health
+  - id: general_guide
     provider: azure
-    kind: entra_connect_health
-    label: "entra_connect_health"
-    layout: { x: 1440, y: 2800 }
+    kind: general.guide
+    label: "general.guide"
+    layout: { x: 1440, y: 3200 }
 
-  - id: entra_connect_sync
+  - id: general_heart
     provider: azure
-    kind: entra_connect_sync
-    label: "entra_connect_sync"
-    layout: { x: 1600, y: 2800 }
-
-  - id: entra_domain_services
-    provider: azure
-    kind: entra_domain_services
-    label: "entra_domain_services"
-    layout: { x: 1760, y: 2800 }
-
-  - id: entra_global_secure_access
-    provider: azure
-    kind: entra_global_secure_access
-    label: "entra_global_secure_access"
-    layout: { x: 1920, y: 2800 }
-
-  - id: entra_id_protection
-    provider: azure
-    kind: entra_id_protection
-    label: "entra_id_protection"
-    layout: { x: 2080, y: 2800 }
-
-  - id: entra_identity_custom_roles
-    provider: azure
-    kind: entra_identity_custom_roles
-    label: "entra_identity_custom_roles"
-    layout: { x: 2240, y: 2800 }
-
-  - id: entra_identity_licenses
-    provider: azure
-    kind: entra_identity_licenses
-    label: "entra_identity_licenses"
-    layout: { x: 0, y: 2940 }
-
-  - id: entra_identity_licenses_1
-    provider: azure
-    kind: entra_identity_licenses_1
-    label: "entra_identity_licenses_1"
-    layout: { x: 160, y: 2940 }
-
-  - id: entra_identity_risky_signins
-    provider: azure
-    kind: entra_identity_risky_signins
-    label: "entra_identity_risky_signins"
-    layout: { x: 320, y: 2940 }
-
-  - id: entra_identity_risky_users
-    provider: azure
-    kind: entra_identity_risky_users
-    label: "entra_identity_risky_users"
-    layout: { x: 480, y: 2940 }
-
-  - id: entra_identity_roles_and_administrators
-    provider: azure
-    kind: entra_identity_roles_and_administrators
-    label: "entra_identity_roles_and_administrators"
-    layout: { x: 640, y: 2940 }
-
-  - id: entra_identity_roles_and_administrators_1
-    provider: azure
-    kind: entra_identity_roles_and_administrators_1
-    label: "entra_identity_roles_and_administrators_1"
-    layout: { x: 800, y: 2940 }
-
-  - id: entra_internet_access
-    provider: azure
-    kind: entra_internet_access
-    label: "entra_internet_access"
-    layout: { x: 960, y: 2940 }
-
-  - id: entra_managed_identities
-    provider: azure
-    kind: entra_managed_identities
-    label: "entra_managed_identities"
-    layout: { x: 1120, y: 2940 }
-
-  - id: entra_private_access
-    provider: azure
-    kind: entra_private_access
-    label: "entra_private_access"
-    layout: { x: 1280, y: 2940 }
-
-  - id: entra_privleged_identity_management
-    provider: azure
-    kind: entra_privleged_identity_management
-    label: "entra_privleged_identity_management"
-    layout: { x: 1440, y: 2940 }
-
-  - id: entra_verified_id
-    provider: azure
-    kind: entra_verified_id
-    label: "entra_verified_id"
-    layout: { x: 1600, y: 2940 }
-
-  - id: error
-    provider: azure
-    kind: error
-    label: "error"
-    layout: { x: 1760, y: 2940 }
-
-  - id: event_grid_domains
-    provider: azure
-    kind: event_grid_domains
-    label: "event_grid_domains"
-    layout: { x: 1920, y: 2940 }
-
-  - id: event_grid_subscriptions
-    provider: azure
-    kind: event_grid_subscriptions
-    label: "event_grid_subscriptions"
-    layout: { x: 2080, y: 2940 }
-
-  - id: event_grid_subscriptions_1
-    provider: azure
-    kind: event_grid_subscriptions_1
-    label: "event_grid_subscriptions_1"
-    layout: { x: 2240, y: 2940 }
-
-  - id: event_grid_topics
-    provider: azure
-    kind: event_grid_topics
-    label: "event_grid_topics"
-    layout: { x: 0, y: 3080 }
-
-  - id: event_hub_clusters
-    provider: azure
-    kind: event_hub_clusters
-    label: "event_hub_clusters"
-    layout: { x: 160, y: 3080 }
-
-  - id: event_hub_clusters_1
-    provider: azure
-    kind: event_hub_clusters_1
-    label: "event_hub_clusters_1"
-    layout: { x: 320, y: 3080 }
-
-  - id: event_hubs
-    provider: azure
-    kind: event_hubs
-    label: "event_hubs"
-    layout: { x: 480, y: 3080 }
-
-  - id: event_hubs_1
-    provider: azure
-    kind: event_hubs_1
-    label: "event_hubs_1"
-    layout: { x: 640, y: 3080 }
-
-  - id: exchange_access
-    provider: azure
-    kind: exchange_access
-    label: "exchange_access"
-    layout: { x: 800, y: 3080 }
-
-  - id: exchange_on_premises_access
-    provider: azure
-    kind: exchange_on_premises_access
-    label: "exchange_on_premises_access"
-    layout: { x: 960, y: 3080 }
-
-  - id: express_route_direct
-    provider: azure
-    kind: express_route_direct
-    label: "express_route_direct"
-    layout: { x: 1120, y: 3080 }
-
-  - id: express_route_traffic_collector
-    provider: azure
-    kind: express_route_traffic_collector
-    label: "express_route_traffic_collector"
-    layout: { x: 1280, y: 3080 }
-
-  - id: expressroute_circuits
-    provider: azure
-    kind: expressroute_circuits
-    label: "expressroute_circuits"
-    layout: { x: 1440, y: 3080 }
-
-  - id: extended_security_updates
-    provider: azure
-    kind: extended_security_updates
-    label: "extended_security_updates"
-    layout: { x: 1600, y: 3080 }
-
-  - id: extensions
-    provider: azure
-    kind: extensions
-    label: "extensions"
-    layout: { x: 1760, y: 3080 }
-
-  - id: external_id
-    provider: azure
-    kind: external_id
-    label: "external_id"
-    layout: { x: 1920, y: 3080 }
-
-  - id: external_id_modified
-    provider: azure
-    kind: external_id_modified
-    label: "external_id_modified"
-    layout: { x: 2080, y: 3080 }
-
-  - id: external_identities
-    provider: azure
-    kind: external_identities
-    label: "external_identities"
-    layout: { x: 2240, y: 3080 }
-
-  - id: fhir_service
-    provider: azure
-    kind: fhir_service
-    label: "fhir_service"
-    layout: { x: 0, y: 3220 }
-
-  - id: ftp
-    provider: azure
-    kind: ftp
-    label: "ftp"
-    layout: { x: 160, y: 3220 }
-
-  - id: face_apis
-    provider: azure
-    kind: face_apis
-    label: "face_apis"
-    layout: { x: 320, y: 3220 }
-
-  - id: feature_previews
-    provider: azure
-    kind: feature_previews
-    label: "feature_previews"
-    layout: { x: 480, y: 3220 }
-
-  - id: fiji
-    provider: azure
-    kind: fiji
-    label: "fiji"
-    layout: { x: 640, y: 3220 }
-
-  - id: file
-    provider: azure
-    kind: file
-    label: "file"
-    layout: { x: 800, y: 3220 }
-
-  - id: files
-    provider: azure
-    kind: files
-    label: "files"
-    layout: { x: 960, y: 3220 }
-
-  - id: firewalls
-    provider: azure
-    kind: firewalls
-    label: "firewalls"
-    layout: { x: 1120, y: 3220 }
-
-  - id: folder_blank
-    provider: azure
-    kind: folder_blank
-    label: "folder_blank"
-    layout: { x: 1280, y: 3220 }
-
-  - id: folder_website
-    provider: azure
-    kind: folder_website
-    label: "folder_website"
-    layout: { x: 1440, y: 3220 }
-
-  - id: form_recognizers
-    provider: azure
-    kind: form_recognizers
-    label: "form_recognizers"
-    layout: { x: 1600, y: 3220 }
-
-  - id: free_services
-    provider: azure
-    kind: free_services
-    label: "free_services"
-    layout: { x: 1760, y: 3220 }
-
-  - id: front_door_and_cdn_profiles
-    provider: azure
-    kind: front_door_and_cdn_profiles
-    label: "front_door_and_cdn_profiles"
-    layout: { x: 1920, y: 3220 }
-
-  - id: front_door_and_cdn_profiles_1
-    provider: azure
-    kind: front_door_and_cdn_profiles_1
-    label: "front_door_and_cdn_profiles_1"
-    layout: { x: 2080, y: 3220 }
-
-  - id: function_apps
-    provider: azure
-    kind: function_apps
-    label: "function_apps"
-    layout: { x: 2240, y: 3220 }
-
-  - id: function_apps_1
-    provider: azure
-    kind: function_apps_1
-    label: "function_apps_1"
+    kind: general.heart
+    label: "general.heart"
     layout: { x: 0, y: 3360 }
 
-  - id: gear
+  - id: general_help_and_support
     provider: azure
-    kind: gear
-    label: "gear"
+    kind: general.help_and_support
+    label: "general.help_and_support"
     layout: { x: 160, y: 3360 }
 
-  - id: genomics
+  - id: general_icm_troubleshooting
     provider: azure
-    kind: genomics
-    label: "genomics"
+    kind: general.icm_troubleshooting
+    label: "general.icm_troubleshooting"
     layout: { x: 320, y: 3360 }
 
-  - id: genomics_accounts
+  - id: general_information
     provider: azure
-    kind: genomics_accounts
-    label: "genomics_accounts"
+    kind: general.information
+    label: "general.information"
     layout: { x: 480, y: 3360 }
 
-  - id: globe_error
+  - id: general_input_output
     provider: azure
-    kind: globe_error
-    label: "globe_error"
+    kind: general.input_output
+    label: "general.input_output"
     layout: { x: 640, y: 3360 }
 
-  - id: globe_success
+  - id: general_journey_hub
     provider: azure
-    kind: globe_success
-    label: "globe_success"
+    kind: general.journey_hub
+    label: "general.journey_hub"
     layout: { x: 800, y: 3360 }
 
-  - id: globe_warning
+  - id: general_launch_portal
     provider: azure
-    kind: globe_warning
-    label: "globe_warning"
+    kind: general.launch_portal
+    label: "general.launch_portal"
     layout: { x: 960, y: 3360 }
 
-  - id: groups
+  - id: general_learn
     provider: azure
-    kind: groups
-    label: "groups"
+    kind: general.learn
+    label: "general.learn"
     layout: { x: 1120, y: 3360 }
 
-  - id: guide
+  - id: general_location
     provider: azure
-    kind: guide
-    label: "guide"
+    kind: general.location
+    label: "general.location"
     layout: { x: 1280, y: 3360 }
 
-  - id: hd_insight_clusters
+  - id: general_log_streaming
     provider: azure
-    kind: hd_insight_clusters
-    label: "hd_insight_clusters"
+    kind: general.log_streaming
+    label: "general.log_streaming"
     layout: { x: 1440, y: 3360 }
 
-  - id: hdi_aks_cluster
+  - id: general_media
     provider: azure
-    kind: hdi_aks_cluster
-    label: "hdi_aks_cluster"
-    layout: { x: 1600, y: 3360 }
+    kind: general.media
+    label: "general.media"
+    layout: { x: 0, y: 3520 }
 
-  - id: heart
+  - id: general_media_file
     provider: azure
-    kind: heart
-    label: "heart"
-    layout: { x: 1760, y: 3360 }
+    kind: general.media_file
+    label: "general.media_file"
+    layout: { x: 160, y: 3520 }
 
-  - id: help_and_support
+  - id: general_offers
     provider: azure
-    kind: help_and_support
-    label: "help_and_support"
-    layout: { x: 1920, y: 3360 }
+    kind: general.offers
+    label: "general.offers"
+    layout: { x: 320, y: 3520 }
 
-  - id: host_groups
+  - id: general_outbound_connection
     provider: azure
-    kind: host_groups
-    label: "host_groups"
-    layout: { x: 2080, y: 3360 }
+    kind: general.outbound_connection
+    label: "general.outbound_connection"
+    layout: { x: 480, y: 3520 }
 
-  - id: host_pools
+  - id: general_plans
     provider: azure
-    kind: host_pools
-    label: "host_pools"
-    layout: { x: 2240, y: 3360 }
+    kind: general.plans
+    label: "general.plans"
+    layout: { x: 640, y: 3520 }
 
-  - id: hosts
+  - id: general_power_platform
     provider: azure
-    kind: hosts
-    label: "hosts"
-    layout: { x: 0, y: 3500 }
+    kind: general.power_platform
+    label: "general.power_platform"
+    layout: { x: 800, y: 3520 }
 
-  - id: ip_address_manager
+  - id: general_power_platform_1
     provider: azure
-    kind: ip_address_manager
-    label: "ip_address_manager"
-    layout: { x: 160, y: 3500 }
+    kind: general.power_platform_1
+    label: "general.power_platform_1"
+    layout: { x: 960, y: 3520 }
 
-  - id: ip_groups
+  - id: general_power_platform_2
     provider: azure
-    kind: ip_groups
-    label: "ip_groups"
-    layout: { x: 320, y: 3500 }
+    kind: general.power_platform_2
+    label: "general.power_platform_2"
+    layout: { x: 1120, y: 3520 }
 
-  - id: icm_troubleshooting
+  - id: general_power_platform_3
     provider: azure
-    kind: icm_troubleshooting
-    label: "icm_troubleshooting"
-    layout: { x: 480, y: 3500 }
+    kind: general.power_platform_3
+    label: "general.power_platform_3"
+    layout: { x: 1280, y: 3520 }
 
-  - id: identity_governance
+  - id: general_resources_provider
     provider: azure
-    kind: identity_governance
-    label: "identity_governance"
-    layout: { x: 640, y: 3500 }
+    kind: general.resources_provider
+    label: "general.resources_provider"
+    layout: { x: 1440, y: 3520 }
 
-  - id: identity_secure_score
+  - id: general_restore_points
     provider: azure
-    kind: identity_secure_score
-    label: "identity_secure_score"
-    layout: { x: 800, y: 3500 }
+    kind: general.restore_points
+    label: "general.restore_points"
+    layout: { x: 0, y: 3680 }
 
-  - id: image
+  - id: general_restore_points_collections
     provider: azure
-    kind: image
-    label: "image"
-    layout: { x: 960, y: 3500 }
+    kind: general.restore_points_collections
+    label: "general.restore_points_collections"
+    layout: { x: 160, y: 3680 }
 
-  - id: image_definitions
+  - id: general_security
     provider: azure
-    kind: image_definitions
-    label: "image_definitions"
-    layout: { x: 1120, y: 3500 }
+    kind: general.security
+    label: "general.security"
+    layout: { x: 320, y: 3680 }
 
-  - id: image_templates
+  - id: general_software_as_a_service
     provider: azure
-    kind: image_templates
-    label: "image_templates"
-    layout: { x: 1280, y: 3500 }
+    kind: general.software_as_a_service
+    label: "general.software_as_a_service"
+    layout: { x: 480, y: 3680 }
 
-  - id: image_versions
+  - id: general_sonic_dash
     provider: azure
-    kind: image_versions
-    label: "image_versions"
-    layout: { x: 1440, y: 3500 }
+    kind: general.sonic_dash
+    label: "general.sonic_dash"
+    layout: { x: 640, y: 3680 }
 
-  - id: images
+  - id: general_ssh_keys
     provider: azure
-    kind: images
-    label: "images"
-    layout: { x: 1600, y: 3500 }
+    kind: general.ssh_keys
+    label: "general.ssh_keys"
+    layout: { x: 800, y: 3680 }
 
-  - id: immersive_readers
+  - id: general_targets_management
     provider: azure
-    kind: immersive_readers
-    label: "immersive_readers"
-    layout: { x: 1760, y: 3500 }
+    kind: general.targets_management
+    label: "general.targets_management"
+    layout: { x: 960, y: 3680 }
 
-  - id: import_export_jobs
+  - id: general_updates
     provider: azure
-    kind: import_export_jobs
-    label: "import_export_jobs"
-    layout: { x: 1920, y: 3500 }
+    kind: general.updates
+    label: "general.updates"
+    layout: { x: 1120, y: 3680 }
 
-  - id: industrial_iot
+  - id: general_user_settings
     provider: azure
-    kind: industrial_iot
-    label: "industrial_iot"
-    layout: { x: 2080, y: 3500 }
+    kind: general.user_settings
+    label: "general.user_settings"
+    layout: { x: 1280, y: 3680 }
 
-  - id: information
+  - id: general_wac
     provider: azure
-    kind: information
-    label: "information"
-    layout: { x: 2240, y: 3500 }
+    kind: general.wac
+    label: "general.wac"
+    layout: { x: 1440, y: 3680 }
 
-  - id: infrastructure_backup
+  - id: general_wac_installer
     provider: azure
-    kind: infrastructure_backup
-    label: "infrastructure_backup"
-    layout: { x: 0, y: 3640 }
+    kind: general.wac_installer
+    label: "general.wac_installer"
+    layout: { x: 0, y: 3840 }
 
-  - id: input_output
+  - id: general_windows10_core_services
     provider: azure
-    kind: input_output
-    label: "input_output"
-    layout: { x: 160, y: 3640 }
+    kind: general.windows10_core_services
+    label: "general.windows10_core_services"
+    layout: { x: 160, y: 3840 }
 
-  - id: instance_pools
+  - id: general_windows_notification_services
     provider: azure
-    kind: instance_pools
-    label: "instance_pools"
-    layout: { x: 320, y: 3640 }
+    kind: general.windows_notification_services
+    label: "general.windows_notification_services"
+    layout: { x: 320, y: 3840 }
 
-  - id: instance_pools_1
+  - id: general_workspaces
     provider: azure
-    kind: instance_pools_1
-    label: "instance_pools_1"
-    layout: { x: 480, y: 3640 }
+    kind: general.workspaces
+    label: "general.workspaces"
+    layout: { x: 480, y: 3840 }
 
-  - id: integration_accounts
+  - id: hybrid_multicloud_arc_data_services
     provider: azure
-    kind: integration_accounts
-    label: "integration_accounts"
-    layout: { x: 640, y: 3640 }
+    kind: hybrid_multicloud.arc_data_services
+    label: "hybrid_multicloud.arc_data_services"
+    layout: { x: 640, y: 3840 }
 
-  - id: integration_environments
+  - id: hybrid_multicloud_arc_kubernetes
     provider: azure
-    kind: integration_environments
-    label: "integration_environments"
-    layout: { x: 800, y: 3640 }
+    kind: hybrid_multicloud.arc_kubernetes
+    label: "hybrid_multicloud.arc_kubernetes"
+    layout: { x: 800, y: 3840 }
 
-  - id: integration_service_environments
+  - id: hybrid_multicloud_arc_machines
     provider: azure
-    kind: integration_service_environments
-    label: "integration_service_environments"
-    layout: { x: 960, y: 3640 }
+    kind: hybrid_multicloud.arc_machines
+    label: "hybrid_multicloud.arc_machines"
+    layout: { x: 960, y: 3840 }
 
-  - id: internet_analyzer_profiles
+  - id: hybrid_multicloud_arc_postgresql
     provider: azure
-    kind: internet_analyzer_profiles
-    label: "internet_analyzer_profiles"
-    layout: { x: 1120, y: 3640 }
+    kind: hybrid_multicloud.arc_postgresql
+    label: "hybrid_multicloud.arc_postgresql"
+    layout: { x: 1120, y: 3840 }
 
-  - id: intune
+  - id: hybrid_multicloud_arc_sql_managed_instance
     provider: azure
-    kind: intune
-    label: "intune"
-    layout: { x: 1280, y: 3640 }
+    kind: hybrid_multicloud.arc_sql_managed_instance
+    label: "hybrid_multicloud.arc_sql_managed_instance"
+    layout: { x: 1280, y: 3840 }
 
-  - id: intune_app_protection
+  - id: hybrid_multicloud_arc_sql_server
     provider: azure
-    kind: intune_app_protection
-    label: "intune_app_protection"
-    layout: { x: 1440, y: 3640 }
+    kind: hybrid_multicloud.arc_sql_server
+    label: "hybrid_multicloud.arc_sql_server"
+    layout: { x: 1440, y: 3840 }
 
-  - id: intune_for_education
+  - id: hybrid_multicloud_azure_arc
     provider: azure
-    kind: intune_for_education
-    label: "intune_for_education"
-    layout: { x: 1600, y: 3640 }
+    kind: hybrid_multicloud.azure_arc
+    label: "hybrid_multicloud.azure_arc"
+    layout: { x: 0, y: 4000 }
 
-  - id: intune_trends
+  - id: hybrid_multicloud_azure_edge_hardware_center
     provider: azure
-    kind: intune_trends
-    label: "intune_trends"
-    layout: { x: 1760, y: 3640 }
+    kind: hybrid_multicloud.azure_edge_hardware_center
+    label: "hybrid_multicloud.azure_edge_hardware_center"
+    layout: { x: 160, y: 4000 }
 
-  - id: iot_central_applications
+  - id: hybrid_multicloud_azure_hybrid_center
     provider: azure
-    kind: iot_central_applications
-    label: "iot_central_applications"
-    layout: { x: 1920, y: 3640 }
+    kind: hybrid_multicloud.azure_hybrid_center
+    label: "hybrid_multicloud.azure_hybrid_center"
+    layout: { x: 320, y: 4000 }
 
-  - id: iot_edge
+  - id: hybrid_multicloud_azure_stack
     provider: azure
-    kind: iot_edge
-    label: "iot_edge"
-    layout: { x: 2080, y: 3640 }
+    kind: hybrid_multicloud.azure_stack
+    label: "hybrid_multicloud.azure_stack"
+    layout: { x: 480, y: 4000 }
 
-  - id: iot_hub
+  - id: hybrid_multicloud_azure_stack_edge
     provider: azure
-    kind: iot_hub
-    label: "iot_hub"
-    layout: { x: 2240, y: 3640 }
+    kind: hybrid_multicloud.azure_stack_edge
+    label: "hybrid_multicloud.azure_stack_edge"
+    layout: { x: 640, y: 4000 }
 
-  - id: journey_hub
+  - id: hybrid_multicloud_azure_stack_edge_1
     provider: azure
-    kind: journey_hub
-    label: "journey_hub"
-    layout: { x: 0, y: 3780 }
+    kind: hybrid_multicloud.azure_stack_edge_1
+    label: "hybrid_multicloud.azure_stack_edge_1"
+    layout: { x: 800, y: 4000 }
 
-  - id: key_vaults
+  - id: hybrid_multicloud_azure_stack_edge_2
     provider: azure
-    kind: key_vaults
-    label: "key_vaults"
-    layout: { x: 160, y: 3780 }
+    kind: hybrid_multicloud.azure_stack_edge_2
+    label: "hybrid_multicloud.azure_stack_edge_2"
+    layout: { x: 960, y: 4000 }
 
-  - id: keys
+  - id: hybrid_multicloud_azure_stack_hci_sizer
     provider: azure
-    kind: keys
-    label: "keys"
-    layout: { x: 320, y: 3780 }
+    kind: hybrid_multicloud.azure_stack_hci_sizer
+    label: "hybrid_multicloud.azure_stack_hci_sizer"
+    layout: { x: 1120, y: 4000 }
 
-  - id: kubernetes_fleet_manager
+  - id: hybrid_multicloud_capacity
     provider: azure
-    kind: kubernetes_fleet_manager
-    label: "kubernetes_fleet_manager"
-    layout: { x: 480, y: 3780 }
+    kind: hybrid_multicloud.capacity
+    label: "hybrid_multicloud.capacity"
+    layout: { x: 1280, y: 4000 }
 
-  - id: kubernetes_services
+  - id: hybrid_multicloud_infrastructure_backup
     provider: azure
-    kind: kubernetes_services
-    label: "kubernetes_services"
-    layout: { x: 640, y: 3780 }
+    kind: hybrid_multicloud.infrastructure_backup
+    label: "hybrid_multicloud.infrastructure_backup"
+    layout: { x: 1440, y: 4000 }
 
-  - id: kubernetes_services_1
+  - id: hybrid_multicloud_machinesazurearc
     provider: azure
-    kind: kubernetes_services_1
-    label: "kubernetes_services_1"
-    layout: { x: 800, y: 3780 }
+    kind: hybrid_multicloud.machinesazurearc
+    label: "hybrid_multicloud.machinesazurearc"
+    layout: { x: 0, y: 4160 }
 
-  - id: lab_accounts
+  - id: hybrid_multicloud_multi_tenancy
     provider: azure
-    kind: lab_accounts
-    label: "lab_accounts"
-    layout: { x: 960, y: 3780 }
+    kind: hybrid_multicloud.multi_tenancy
+    label: "hybrid_multicloud.multi_tenancy"
+    layout: { x: 160, y: 4160 }
 
-  - id: lab_services
+  - id: hybrid_multicloud_scvmm_management_servers
     provider: azure
-    kind: lab_services
-    label: "lab_services"
-    layout: { x: 1120, y: 3780 }
+    kind: hybrid_multicloud.scvmm_management_servers
+    label: "hybrid_multicloud.scvmm_management_servers"
+    layout: { x: 320, y: 4160 }
 
-  - id: landing_zone
+  - id: hybrid_multicloud_user_subscriptions
     provider: azure
-    kind: landing_zone
-    label: "landing_zone"
-    layout: { x: 1280, y: 3780 }
+    kind: hybrid_multicloud.user_subscriptions
+    label: "hybrid_multicloud.user_subscriptions"
+    layout: { x: 480, y: 4160 }
 
-  - id: language
+  - id: identity_active_directory_connect_health
     provider: azure
-    kind: language
-    label: "language"
-    layout: { x: 1440, y: 3780 }
+    kind: identity.active_directory_connect_health
+    label: "identity.active_directory_connect_health"
+    layout: { x: 640, y: 4160 }
 
-  - id: language_understanding
+  - id: identity_administrative_units
     provider: azure
-    kind: language_understanding
-    label: "language_understanding"
-    layout: { x: 1600, y: 3780 }
+    kind: identity.administrative_units
+    label: "identity.administrative_units"
+    layout: { x: 800, y: 4160 }
 
-  - id: launch_portal
+  - id: identity_app_registrations
     provider: azure
-    kind: launch_portal
-    label: "launch_portal"
-    layout: { x: 1760, y: 3780 }
+    kind: identity.app_registrations
+    label: "identity.app_registrations"
+    layout: { x: 960, y: 4160 }
 
-  - id: learn
+  - id: identity_app_registrations_1
     provider: azure
-    kind: learn
-    label: "learn"
-    layout: { x: 1920, y: 3780 }
+    kind: identity.app_registrations_1
+    label: "identity.app_registrations_1"
+    layout: { x: 1120, y: 4160 }
 
-  - id: load_balancer_hub
+  - id: identity_azure_ad_b2c
     provider: azure
-    kind: load_balancer_hub
-    label: "load_balancer_hub"
-    layout: { x: 2080, y: 3780 }
+    kind: identity.azure_ad_b2c
+    label: "identity.azure_ad_b2c"
+    layout: { x: 1280, y: 4160 }
 
-  - id: load_balancers
+  - id: identity_conditional_access
     provider: azure
-    kind: load_balancers
-    label: "load_balancers"
-    layout: { x: 2240, y: 3780 }
+    kind: identity.conditional_access
+    label: "identity.conditional_access"
+    layout: { x: 1440, y: 4160 }
 
-  - id: load_test
+  - id: identity_enterprise_applications
     provider: azure
-    kind: load_test
-    label: "load_test"
-    layout: { x: 0, y: 3920 }
+    kind: identity.enterprise_applications
+    label: "identity.enterprise_applications"
+    layout: { x: 0, y: 4320 }
 
-  - id: load_testing
+  - id: identity_entra_connect
     provider: azure
-    kind: load_testing
-    label: "load_testing"
-    layout: { x: 160, y: 3920 }
+    kind: identity.entra_connect
+    label: "identity.entra_connect"
+    layout: { x: 160, y: 4320 }
 
-  - id: local_network_gateways
+  - id: identity_entra_connect_health
     provider: azure
-    kind: local_network_gateways
-    label: "local_network_gateways"
-    layout: { x: 320, y: 3920 }
+    kind: identity.entra_connect_health
+    label: "identity.entra_connect_health"
+    layout: { x: 320, y: 4320 }
 
-  - id: local_network_gateways_1
+  - id: identity_entra_connect_sync
     provider: azure
-    kind: local_network_gateways_1
-    label: "local_network_gateways_1"
-    layout: { x: 480, y: 3920 }
+    kind: identity.entra_connect_sync
+    label: "identity.entra_connect_sync"
+    layout: { x: 480, y: 4320 }
 
-  - id: location
+  - id: identity_entra_domain_services
     provider: azure
-    kind: location
-    label: "location"
-    layout: { x: 640, y: 3920 }
+    kind: identity.entra_domain_services
+    label: "identity.entra_domain_services"
+    layout: { x: 640, y: 4320 }
 
-  - id: log_analytics_query_pack
+  - id: identity_entra_global_secure_access
     provider: azure
-    kind: log_analytics_query_pack
-    label: "log_analytics_query_pack"
-    layout: { x: 800, y: 3920 }
+    kind: identity.entra_global_secure_access
+    label: "identity.entra_global_secure_access"
+    layout: { x: 800, y: 4320 }
 
-  - id: log_analytics_workspaces
+  - id: identity_entra_id_protection
     provider: azure
-    kind: log_analytics_workspaces
-    label: "log_analytics_workspaces"
-    layout: { x: 960, y: 3920 }
+    kind: identity.entra_id_protection
+    label: "identity.entra_id_protection"
+    layout: { x: 960, y: 4320 }
 
-  - id: log_analytics_workspaces_1
+  - id: identity_entra_identity_custom_roles
     provider: azure
-    kind: log_analytics_workspaces_1
-    label: "log_analytics_workspaces_1"
-    layout: { x: 1120, y: 3920 }
+    kind: identity.entra_identity_custom_roles
+    label: "identity.entra_identity_custom_roles"
+    layout: { x: 1120, y: 4320 }
 
-  - id: log_analytics_workspaces_2
+  - id: identity_entra_identity_licenses
     provider: azure
-    kind: log_analytics_workspaces_2
-    label: "log_analytics_workspaces_2"
-    layout: { x: 1280, y: 3920 }
+    kind: identity.entra_identity_licenses
+    label: "identity.entra_identity_licenses"
+    layout: { x: 1280, y: 4320 }
 
-  - id: log_streaming
+  - id: identity_entra_identity_licenses_1
     provider: azure
-    kind: log_streaming
-    label: "log_streaming"
-    layout: { x: 1440, y: 3920 }
+    kind: identity.entra_identity_licenses_1
+    label: "identity.entra_identity_licenses_1"
+    layout: { x: 1440, y: 4320 }
 
-  - id: logic_apps
+  - id: identity_entra_identity_risky_signins
     provider: azure
-    kind: logic_apps
-    label: "logic_apps"
-    layout: { x: 1600, y: 3920 }
-
-  - id: logic_apps_1
-    provider: azure
-    kind: logic_apps_1
-    label: "logic_apps_1"
-    layout: { x: 1760, y: 3920 }
-
-  - id: logic_apps_custom_connector
-    provider: azure
-    kind: logic_apps_custom_connector
-    label: "logic_apps_custom_connector"
-    layout: { x: 1920, y: 3920 }
-
-  - id: machine_learning
-    provider: azure
-    kind: machine_learning
-    label: "machine_learning"
-    layout: { x: 2080, y: 3920 }
-
-  - id: machine_learning_studio_classic_web_services
-    provider: azure
-    kind: machine_learning_studio_classic_web_services
-    label: "machine_learning_studio_classic_web_services"
-    layout: { x: 2240, y: 3920 }
-
-  - id: machine_learning_studio_classic_web_services_1
-    provider: azure
-    kind: machine_learning_studio_classic_web_services_1
-    label: "machine_learning_studio_classic_web_services_1"
-    layout: { x: 0, y: 4060 }
-
-  - id: machine_learning_studio_web_service_plans
-    provider: azure
-    kind: machine_learning_studio_web_service_plans
-    label: "machine_learning_studio_web_service_plans"
-    layout: { x: 160, y: 4060 }
-
-  - id: machine_learning_studio_web_service_plans_1
-    provider: azure
-    kind: machine_learning_studio_web_service_plans_1
-    label: "machine_learning_studio_web_service_plans_1"
-    layout: { x: 320, y: 4060 }
-
-  - id: machine_learning_studio_workspaces
-    provider: azure
-    kind: machine_learning_studio_workspaces
-    label: "machine_learning_studio_workspaces"
-    layout: { x: 480, y: 4060 }
-
-  - id: machine_learning_studio_workspaces_1
-    provider: azure
-    kind: machine_learning_studio_workspaces_1
-    label: "machine_learning_studio_workspaces_1"
-    layout: { x: 640, y: 4060 }
-
-  - id: machinesazurearc
-    provider: azure
-    kind: machinesazurearc
-    label: "machinesazurearc"
-    layout: { x: 800, y: 4060 }
-
-  - id: maintenance_configuration
-    provider: azure
-    kind: maintenance_configuration
-    label: "maintenance_configuration"
-    layout: { x: 960, y: 4060 }
-
-  - id: managed_applications_center
-    provider: azure
-    kind: managed_applications_center
-    label: "managed_applications_center"
-    layout: { x: 1120, y: 4060 }
-
-  - id: managed_database
-    provider: azure
-    kind: managed_database
-    label: "managed_database"
-    layout: { x: 1280, y: 4060 }
-
-  - id: managed_desktop
-    provider: azure
-    kind: managed_desktop
-    label: "managed_desktop"
-    layout: { x: 1440, y: 4060 }
-
-  - id: managed_devops_pools
-    provider: azure
-    kind: managed_devops_pools
-    label: "managed_devops_pools"
-    layout: { x: 1600, y: 4060 }
-
-  - id: managed_file_shares
-    provider: azure
-    kind: managed_file_shares
-    label: "managed_file_shares"
-    layout: { x: 1760, y: 4060 }
-
-  - id: managed_identities
-    provider: azure
-    kind: managed_identities
-    label: "managed_identities"
-    layout: { x: 1920, y: 4060 }
-
-  - id: managed_instance_apache_cassandra
-    provider: azure
-    kind: managed_instance_apache_cassandra
-    label: "managed_instance_apache_cassandra"
-    layout: { x: 2080, y: 4060 }
-
-  - id: managed_service_fabric
-    provider: azure
-    kind: managed_service_fabric
-    label: "managed_service_fabric"
-    layout: { x: 2240, y: 4060 }
-
-  - id: management_groups
-    provider: azure
-    kind: management_groups
-    label: "management_groups"
-    layout: { x: 0, y: 4200 }
-
-  - id: management_portal
-    provider: azure
-    kind: management_portal
-    label: "management_portal"
-    layout: { x: 160, y: 4200 }
-
-  - id: marketplace
-    provider: azure
-    kind: marketplace
-    label: "marketplace"
-    layout: { x: 320, y: 4200 }
-
-  - id: marketplace_management
-    provider: azure
-    kind: marketplace_management
-    label: "marketplace_management"
-    layout: { x: 480, y: 4200 }
-
-  - id: medtech_service
-    provider: azure
-    kind: medtech_service
-    label: "medtech_service"
-    layout: { x: 640, y: 4200 }
-
-  - id: media
-    provider: azure
-    kind: media
-    label: "media"
-    layout: { x: 800, y: 4200 }
-
-  - id: media_file
-    provider: azure
-    kind: media_file
-    label: "media_file"
-    layout: { x: 960, y: 4200 }
-
-  - id: mesh_applications
-    provider: azure
-    kind: mesh_applications
-    label: "mesh_applications"
-    layout: { x: 1120, y: 4200 }
-
-  - id: metrics
-    provider: azure
-    kind: metrics
-    label: "metrics"
-    layout: { x: 1280, y: 4200 }
-
-  - id: metrics_1
-    provider: azure
-    kind: metrics_1
-    label: "metrics_1"
-    layout: { x: 1440, y: 4200 }
-
-  - id: metrics_advisor
-    provider: azure
-    kind: metrics_advisor
-    label: "metrics_advisor"
-    layout: { x: 1600, y: 4200 }
-
-  - id: metrics_advisor_1
-    provider: azure
-    kind: metrics_advisor_1
-    label: "metrics_advisor_1"
-    layout: { x: 1760, y: 4200 }
-
-  - id: microsoft_defender_easm
-    provider: azure
-    kind: microsoft_defender_easm
-    label: "microsoft_defender_easm"
-    layout: { x: 1920, y: 4200 }
-
-  - id: microsoft_defender_for_cloud
-    provider: azure
-    kind: microsoft_defender_for_cloud
-    label: "microsoft_defender_for_cloud"
-    layout: { x: 2080, y: 4200 }
-
-  - id: microsoft_defender_for_iot
-    provider: azure
-    kind: microsoft_defender_for_iot
-    label: "microsoft_defender_for_iot"
-    layout: { x: 2240, y: 4200 }
-
-  - id: microsoft_dev_box
-    provider: azure
-    kind: microsoft_dev_box
-    label: "microsoft_dev_box"
-    layout: { x: 0, y: 4340 }
-
-  - id: mindaro
-    provider: azure
-    kind: mindaro
-    label: "mindaro"
-    layout: { x: 160, y: 4340 }
-
-  - id: mission_landing_zone
-    provider: azure
-    kind: mission_landing_zone
-    label: "mission_landing_zone"
-    layout: { x: 320, y: 4340 }
-
-  - id: mobile
-    provider: azure
-    kind: mobile
-    label: "mobile"
-    layout: { x: 480, y: 4340 }
-
-  - id: mobile_engagement
-    provider: azure
-    kind: mobile_engagement
-    label: "mobile_engagement"
-    layout: { x: 640, y: 4340 }
-
-  - id: mobile_networks
-    provider: azure
-    kind: mobile_networks
-    label: "mobile_networks"
-    layout: { x: 800, y: 4340 }
-
-  - id: modular_data_center
-    provider: azure
-    kind: modular_data_center
-    label: "modular_data_center"
-    layout: { x: 960, y: 4340 }
-
-  - id: monitor
-    provider: azure
-    kind: monitor
-    label: "monitor"
-    layout: { x: 1120, y: 4340 }
-
-  - id: monitor_1
-    provider: azure
-    kind: monitor_1
-    label: "monitor_1"
-    layout: { x: 1280, y: 4340 }
-
-  - id: monitor_health_models
-    provider: azure
-    kind: monitor_health_models
-    label: "monitor_health_models"
-    layout: { x: 1440, y: 4340 }
-
-  - id: multi_factor_authentication
-    provider: azure
-    kind: multi_factor_authentication
-    label: "multi_factor_authentication"
-    layout: { x: 1600, y: 4340 }
-
-  - id: multi_tenancy
-    provider: azure
-    kind: multi_tenancy
-    label: "multi_tenancy"
-    layout: { x: 1760, y: 4340 }
-
-  - id: multifactor_authentication
-    provider: azure
-    kind: multifactor_authentication
-    label: "multifactor_authentication"
-    layout: { x: 1920, y: 4340 }
-
-  - id: my_customers
-    provider: azure
-    kind: my_customers
-    label: "my_customers"
-    layout: { x: 2080, y: 4340 }
-
-  - id: nat
-    provider: azure
-    kind: nat
-    label: "nat"
-    layout: { x: 2240, y: 4340 }
-
-  - id: network_interfaces
-    provider: azure
-    kind: network_interfaces
-    label: "network_interfaces"
+    kind: identity.entra_identity_risky_signins
+    label: "identity.entra_identity_risky_signins"
     layout: { x: 0, y: 4480 }
 
-  - id: network_managers
+  - id: identity_entra_identity_risky_users
     provider: azure
-    kind: network_managers
-    label: "network_managers"
+    kind: identity.entra_identity_risky_users
+    label: "identity.entra_identity_risky_users"
     layout: { x: 160, y: 4480 }
 
-  - id: network_security_groups
+  - id: identity_entra_identity_roles_and_administrators
     provider: azure
-    kind: network_security_groups
-    label: "network_security_groups"
+    kind: identity.entra_identity_roles_and_administrators
+    label: "identity.entra_identity_roles_and_administrators"
     layout: { x: 320, y: 4480 }
 
-  - id: network_security_perimeters
+  - id: identity_entra_identity_roles_and_administrators_1
     provider: azure
-    kind: network_security_perimeters
-    label: "network_security_perimeters"
+    kind: identity.entra_identity_roles_and_administrators_1
+    label: "identity.entra_identity_roles_and_administrators_1"
     layout: { x: 480, y: 4480 }
 
-  - id: network_watcher
+  - id: identity_entra_internet_access
     provider: azure
-    kind: network_watcher
-    label: "network_watcher"
+    kind: identity.entra_internet_access
+    label: "identity.entra_internet_access"
     layout: { x: 640, y: 4480 }
 
-  - id: network_watcher_1
+  - id: identity_entra_managed_identities
     provider: azure
-    kind: network_watcher_1
-    label: "network_watcher_1"
+    kind: identity.entra_managed_identities
+    label: "identity.entra_managed_identities"
     layout: { x: 800, y: 4480 }
 
-  - id: notification_hub_namespaces
+  - id: identity_entra_private_access
     provider: azure
-    kind: notification_hub_namespaces
-    label: "notification_hub_namespaces"
+    kind: identity.entra_private_access
+    label: "identity.entra_private_access"
     layout: { x: 960, y: 4480 }
 
-  - id: notification_hub_namespaces_1
+  - id: identity_entra_privleged_identity_management
     provider: azure
-    kind: notification_hub_namespaces_1
-    label: "notification_hub_namespaces_1"
+    kind: identity.entra_privleged_identity_management
+    label: "identity.entra_privleged_identity_management"
     layout: { x: 1120, y: 4480 }
 
-  - id: notification_hubs
+  - id: identity_entra_verified_id
     provider: azure
-    kind: notification_hubs
-    label: "notification_hubs"
+    kind: identity.entra_verified_id
+    label: "identity.entra_verified_id"
     layout: { x: 1280, y: 4480 }
 
-  - id: notification_hubs_1
+  - id: identity_external_id
     provider: azure
-    kind: notification_hubs_1
-    label: "notification_hubs_1"
+    kind: identity.external_id
+    label: "identity.external_id"
     layout: { x: 1440, y: 4480 }
 
-  - id: notification_hubs_2
+  - id: identity_external_id_modified
     provider: azure
-    kind: notification_hubs_2
-    label: "notification_hubs_2"
-    layout: { x: 1600, y: 4480 }
+    kind: identity.external_id_modified
+    label: "identity.external_id_modified"
+    layout: { x: 0, y: 4640 }
 
-  - id: os_images_classic
+  - id: identity_external_identities
     provider: azure
-    kind: os_images_classic
-    label: "os_images_classic"
-    layout: { x: 1760, y: 4480 }
+    kind: identity.external_identities
+    label: "identity.external_identities"
+    layout: { x: 160, y: 4640 }
 
-  - id: osconfig
+  - id: identity_groups
     provider: azure
-    kind: osconfig
-    label: "osconfig"
-    layout: { x: 1920, y: 4480 }
+    kind: identity.groups
+    label: "identity.groups"
+    layout: { x: 320, y: 4640 }
 
-  - id: offers
+  - id: identity_identity_governance
     provider: azure
-    kind: offers
-    label: "offers"
-    layout: { x: 2080, y: 4480 }
+    kind: identity.identity_governance
+    label: "identity.identity_governance"
+    layout: { x: 480, y: 4640 }
 
-  - id: on_premises_data_gateways
+  - id: identity_identity_secure_score
     provider: azure
-    kind: on_premises_data_gateways
-    label: "on_premises_data_gateways"
-    layout: { x: 2240, y: 4480 }
+    kind: identity.identity_secure_score
+    label: "identity.identity_secure_score"
+    layout: { x: 640, y: 4640 }
 
-  - id: open_supply_chain_platform
+  - id: identity_managed_identities
     provider: azure
-    kind: open_supply_chain_platform
-    label: "open_supply_chain_platform"
-    layout: { x: 0, y: 4620 }
+    kind: identity.managed_identities
+    label: "identity.managed_identities"
+    layout: { x: 800, y: 4640 }
 
-  - id: operation_log_classic
+  - id: identity_multi_factor_authentication
     provider: azure
-    kind: operation_log_classic
-    label: "operation_log_classic"
-    layout: { x: 160, y: 4620 }
+    kind: identity.multi_factor_authentication
+    label: "identity.multi_factor_authentication"
+    layout: { x: 960, y: 4640 }
 
-  - id: oracle_database
+  - id: identity_multifactor_authentication
     provider: azure
-    kind: oracle_database
-    label: "oracle_database"
-    layout: { x: 320, y: 4620 }
+    kind: identity.multifactor_authentication
+    label: "identity.multifactor_authentication"
+    layout: { x: 1120, y: 4640 }
 
-  - id: outbound_connection
+  - id: identity_tenant_properties
     provider: azure
-    kind: outbound_connection
-    label: "outbound_connection"
-    layout: { x: 480, y: 4620 }
+    kind: identity.tenant_properties
+    label: "identity.tenant_properties"
+    layout: { x: 1280, y: 4640 }
 
-  - id: partner_namespace
+  - id: identity_tenant_status
     provider: azure
-    kind: partner_namespace
-    label: "partner_namespace"
-    layout: { x: 640, y: 4620 }
+    kind: identity.tenant_status
+    label: "identity.tenant_status"
+    layout: { x: 1440, y: 4640 }
 
-  - id: partner_registration
+  - id: identity_users
     provider: azure
-    kind: partner_registration
-    label: "partner_registration"
-    layout: { x: 800, y: 4620 }
+    kind: identity.users
+    label: "identity.users"
+    layout: { x: 0, y: 4800 }
 
-  - id: partner_topic
+  - id: identity_verifiable_credentials
     provider: azure
-    kind: partner_topic
-    label: "partner_topic"
-    layout: { x: 960, y: 4620 }
+    kind: identity.verifiable_credentials
+    label: "identity.verifiable_credentials"
+    layout: { x: 160, y: 4800 }
 
-  - id: peering_service
+  - id: identity_verification_as_a_service
     provider: azure
-    kind: peering_service
-    label: "peering_service"
-    layout: { x: 1120, y: 4620 }
+    kind: identity.verification_as_a_service
+    label: "identity.verification_as_a_service"
+    layout: { x: 320, y: 4800 }
 
-  - id: peerings
+  - id: integration_app_configuration
     provider: azure
-    kind: peerings
-    label: "peerings"
-    layout: { x: 1280, y: 4620 }
+    kind: integration.app_configuration
+    label: "integration.app_configuration"
+    layout: { x: 480, y: 4800 }
 
-  - id: personalizers
+  - id: integration_azure_api_for_fhir
     provider: azure
-    kind: personalizers
-    label: "personalizers"
-    layout: { x: 1440, y: 4620 }
+    kind: integration.azure_api_for_fhir
+    label: "integration.azure_api_for_fhir"
+    layout: { x: 640, y: 4800 }
 
-  - id: plans
+  - id: integration_azure_service_bus
     provider: azure
-    kind: plans
-    label: "plans"
-    layout: { x: 1600, y: 4620 }
+    kind: integration.azure_service_bus
+    label: "integration.azure_service_bus"
+    layout: { x: 800, y: 4800 }
 
-  - id: policy
+  - id: integration_biz_talk
     provider: azure
-    kind: policy
-    label: "policy"
-    layout: { x: 1760, y: 4620 }
+    kind: integration.biz_talk
+    label: "integration.biz_talk"
+    layout: { x: 960, y: 4800 }
 
-  - id: power_bi_embedded
+  - id: integration_business_process_tracking
     provider: azure
-    kind: power_bi_embedded
-    label: "power_bi_embedded"
-    layout: { x: 1920, y: 4620 }
+    kind: integration.business_process_tracking
+    label: "integration.business_process_tracking"
+    layout: { x: 1120, y: 4800 }
 
-  - id: power_platform
+  - id: integration_collaborative_service
     provider: azure
-    kind: power_platform
-    label: "power_platform"
-    layout: { x: 2080, y: 4620 }
+    kind: integration.collaborative_service
+    label: "integration.collaborative_service"
+    layout: { x: 1280, y: 4800 }
 
-  - id: power_platform_1
+  - id: integration_event_grid_domains
     provider: azure
-    kind: power_platform_1
-    label: "power_platform_1"
-    layout: { x: 2240, y: 4620 }
+    kind: integration.event_grid_domains
+    label: "integration.event_grid_domains"
+    layout: { x: 1440, y: 4800 }
 
-  - id: power_platform_2
+  - id: integration_event_grid_subscriptions
     provider: azure
-    kind: power_platform_2
-    label: "power_platform_2"
-    layout: { x: 0, y: 4760 }
+    kind: integration.event_grid_subscriptions
+    label: "integration.event_grid_subscriptions"
+    layout: { x: 0, y: 4960 }
 
-  - id: power_platform_3
+  - id: integration_event_grid_subscriptions_1
     provider: azure
-    kind: power_platform_3
-    label: "power_platform_3"
-    layout: { x: 160, y: 4760 }
+    kind: integration.event_grid_subscriptions_1
+    label: "integration.event_grid_subscriptions_1"
+    layout: { x: 160, y: 4960 }
 
-  - id: private_endpoints
+  - id: integration_event_grid_topics
     provider: azure
-    kind: private_endpoints
-    label: "private_endpoints"
-    layout: { x: 320, y: 4760 }
+    kind: integration.event_grid_topics
+    label: "integration.event_grid_topics"
+    layout: { x: 320, y: 4960 }
 
-  - id: private_link
+  - id: integration_event_hub_clusters
     provider: azure
-    kind: private_link
-    label: "private_link"
-    layout: { x: 480, y: 4760 }
+    kind: integration.event_hub_clusters
+    label: "integration.event_hub_clusters"
+    layout: { x: 480, y: 4960 }
 
-  - id: private_link_service
+  - id: integration_event_hub_clusters_1
     provider: azure
-    kind: private_link_service
-    label: "private_link_service"
-    layout: { x: 640, y: 4760 }
+    kind: integration.event_hub_clusters_1
+    label: "integration.event_hub_clusters_1"
+    layout: { x: 640, y: 4960 }
 
-  - id: private_link_services
+  - id: integration_event_hubs
     provider: azure
-    kind: private_link_services
-    label: "private_link_services"
-    layout: { x: 800, y: 4760 }
+    kind: integration.event_hubs
+    label: "integration.event_hubs"
+    layout: { x: 800, y: 4960 }
 
-  - id: private_link_services_1
+  - id: integration_event_hubs_1
     provider: azure
-    kind: private_link_services_1
-    label: "private_link_services_1"
-    layout: { x: 960, y: 4760 }
+    kind: integration.event_hubs_1
+    label: "integration.event_hubs_1"
+    layout: { x: 960, y: 4960 }
 
-  - id: proximity_placement_groups
+  - id: integration_fhir_service
     provider: azure
-    kind: proximity_placement_groups
-    label: "proximity_placement_groups"
-    layout: { x: 1120, y: 4760 }
+    kind: integration.fhir_service
+    label: "integration.fhir_service"
+    layout: { x: 1120, y: 4960 }
 
-  - id: public_ip_addresses
+  - id: integration_integration_accounts
     provider: azure
-    kind: public_ip_addresses
-    label: "public_ip_addresses"
-    layout: { x: 1280, y: 4760 }
+    kind: integration.integration_accounts
+    label: "integration.integration_accounts"
+    layout: { x: 1280, y: 4960 }
 
-  - id: public_ip_addresses_classic
+  - id: integration_integration_environments
     provider: azure
-    kind: public_ip_addresses_classic
-    label: "public_ip_addresses_classic"
-    layout: { x: 1440, y: 4760 }
+    kind: integration.integration_environments
+    label: "integration.integration_environments"
+    layout: { x: 1440, y: 4960 }
 
-  - id: public_ip_prefixes
+  - id: integration_integration_service_environments
     provider: azure
-    kind: public_ip_prefixes
-    label: "public_ip_prefixes"
-    layout: { x: 1600, y: 4760 }
+    kind: integration.integration_service_environments
+    label: "integration.integration_service_environments"
+    layout: { x: 0, y: 5120 }
 
-  - id: qna_makers
+  - id: integration_logic_apps
     provider: azure
-    kind: qna_makers
-    label: "qna_makers"
-    layout: { x: 1760, y: 4760 }
+    kind: integration.logic_apps
+    label: "integration.logic_apps"
+    layout: { x: 160, y: 5120 }
 
-  - id: rtos
+  - id: integration_logic_apps_1
     provider: azure
-    kind: rtos
-    label: "rtos"
-    layout: { x: 1920, y: 4760 }
+    kind: integration.logic_apps_1
+    label: "integration.logic_apps_1"
+    layout: { x: 320, y: 5120 }
 
-  - id: recovery_services_vaults
+  - id: integration_logic_apps_custom_connector
     provider: azure
-    kind: recovery_services_vaults
-    label: "recovery_services_vaults"
-    layout: { x: 2080, y: 4760 }
+    kind: integration.logic_apps_custom_connector
+    label: "integration.logic_apps_custom_connector"
+    layout: { x: 480, y: 5120 }
 
-  - id: recovery_services_vaults_1
+  - id: integration_medtech_service
     provider: azure
-    kind: recovery_services_vaults_1
-    label: "recovery_services_vaults_1"
-    layout: { x: 2240, y: 4760 }
+    kind: integration.medtech_service
+    label: "integration.medtech_service"
+    layout: { x: 640, y: 5120 }
 
-  - id: recovery_services_vaults_2
+  - id: integration_open_supply_chain_platform
     provider: azure
-    kind: recovery_services_vaults_2
-    label: "recovery_services_vaults_2"
-    layout: { x: 0, y: 4900 }
+    kind: integration.open_supply_chain_platform
+    label: "integration.open_supply_chain_platform"
+    layout: { x: 800, y: 5120 }
 
-  - id: relays
+  - id: integration_partner_namespace
     provider: azure
-    kind: relays
-    label: "relays"
-    layout: { x: 160, y: 4900 }
+    kind: integration.partner_namespace
+    label: "integration.partner_namespace"
+    layout: { x: 960, y: 5120 }
 
-  - id: remote_rendering
+  - id: integration_partner_registration
     provider: azure
-    kind: remote_rendering
-    label: "remote_rendering"
-    layout: { x: 320, y: 4900 }
+    kind: integration.partner_registration
+    label: "integration.partner_registration"
+    layout: { x: 1120, y: 5120 }
 
-  - id: reserved_capacity
+  - id: integration_partner_topic
     provider: azure
-    kind: reserved_capacity
-    label: "reserved_capacity"
-    layout: { x: 480, y: 4900 }
+    kind: integration.partner_topic
+    label: "integration.partner_topic"
+    layout: { x: 1280, y: 5120 }
 
-  - id: reserved_ip_addresses_classic
+  - id: integration_sendgrid_accounts
     provider: azure
-    kind: reserved_ip_addresses_classic
-    label: "reserved_ip_addresses_classic"
-    layout: { x: 640, y: 4900 }
+    kind: integration.sendgrid_accounts
+    label: "integration.sendgrid_accounts"
+    layout: { x: 1440, y: 5120 }
 
-  - id: resource_graph_explorer
+  - id: integration_system_topic
     provider: azure
-    kind: resource_graph_explorer
-    label: "resource_graph_explorer"
-    layout: { x: 800, y: 4900 }
+    kind: integration.system_topic
+    label: "integration.system_topic"
+    layout: { x: 0, y: 5280 }
 
-  - id: resource_guard
+  - id: intune_client_apps
     provider: azure
-    kind: resource_guard
-    label: "resource_guard"
-    layout: { x: 960, y: 4900 }
+    kind: intune.client_apps
+    label: "intune.client_apps"
+    layout: { x: 160, y: 5280 }
 
-  - id: resource_management_private_link
+  - id: intune_device_compliance
     provider: azure
-    kind: resource_management_private_link
-    label: "resource_management_private_link"
-    layout: { x: 1120, y: 4900 }
+    kind: intune.device_compliance
+    label: "intune.device_compliance"
+    layout: { x: 320, y: 5280 }
 
-  - id: resource_mover
+  - id: intune_device_configuration
     provider: azure
-    kind: resource_mover
-    label: "resource_mover"
-    layout: { x: 1280, y: 4900 }
+    kind: intune.device_configuration
+    label: "intune.device_configuration"
+    layout: { x: 480, y: 5280 }
 
-  - id: resources_provider
+  - id: intune_device_enrollment
     provider: azure
-    kind: resources_provider
-    label: "resources_provider"
-    layout: { x: 1440, y: 4900 }
+    kind: intune.device_enrollment
+    label: "intune.device_enrollment"
+    layout: { x: 640, y: 5280 }
 
-  - id: restore_points
+  - id: intune_device_security_apple
     provider: azure
-    kind: restore_points
-    label: "restore_points"
-    layout: { x: 1600, y: 4900 }
+    kind: intune.device_security_apple
+    label: "intune.device_security_apple"
+    layout: { x: 800, y: 5280 }
 
-  - id: restore_points_collections
+  - id: intune_device_security_google
     provider: azure
-    kind: restore_points_collections
-    label: "restore_points_collections"
-    layout: { x: 1760, y: 4900 }
+    kind: intune.device_security_google
+    label: "intune.device_security_google"
+    layout: { x: 960, y: 5280 }
 
-  - id: route_filters
+  - id: intune_device_security_windows
     provider: azure
-    kind: route_filters
-    label: "route_filters"
-    layout: { x: 1920, y: 4900 }
+    kind: intune.device_security_windows
+    label: "intune.device_security_windows"
+    layout: { x: 1120, y: 5280 }
 
-  - id: route_tables
+  - id: intune_devices
     provider: azure
-    kind: route_tables
-    label: "route_tables"
-    layout: { x: 2080, y: 4900 }
+    kind: intune.devices
+    label: "intune.devices"
+    layout: { x: 1280, y: 5280 }
 
-  - id: scvmm_management_servers
+  - id: intune_ebooks
     provider: azure
-    kind: scvmm_management_servers
-    label: "scvmm_management_servers"
-    layout: { x: 2240, y: 4900 }
+    kind: intune.ebooks
+    label: "intune.ebooks"
+    layout: { x: 1440, y: 5280 }
 
-  - id: sql_data_warehouses
+  - id: intune_exchange_access
     provider: azure
-    kind: sql_data_warehouses
-    label: "sql_data_warehouses"
-    layout: { x: 0, y: 5040 }
+    kind: intune.exchange_access
+    label: "intune.exchange_access"
+    layout: { x: 0, y: 5440 }
 
-  - id: sql_data_warehouses_1
+  - id: intune_exchange_on_premises_access
     provider: azure
-    kind: sql_data_warehouses_1
-    label: "sql_data_warehouses_1"
-    layout: { x: 160, y: 5040 }
+    kind: intune.exchange_on_premises_access
+    label: "intune.exchange_on_premises_access"
+    layout: { x: 160, y: 5440 }
 
-  - id: sql_database
+  - id: intune_intune
     provider: azure
-    kind: sql_database
-    label: "sql_database"
-    layout: { x: 320, y: 5040 }
+    kind: intune.intune
+    label: "intune.intune"
+    layout: { x: 320, y: 5440 }
 
-  - id: sql_elastic_pools
+  - id: intune_intune_app_protection
     provider: azure
-    kind: sql_elastic_pools
-    label: "sql_elastic_pools"
-    layout: { x: 480, y: 5040 }
+    kind: intune.intune_app_protection
+    label: "intune.intune_app_protection"
+    layout: { x: 480, y: 5440 }
 
-  - id: sql_managed_instance
+  - id: intune_intune_for_education
     provider: azure
-    kind: sql_managed_instance
-    label: "sql_managed_instance"
-    layout: { x: 640, y: 5040 }
+    kind: intune.intune_for_education
+    label: "intune.intune_for_education"
+    layout: { x: 640, y: 5440 }
 
-  - id: sql_server
+  - id: intune_mindaro
     provider: azure
-    kind: sql_server
-    label: "sql_server"
-    layout: { x: 800, y: 5040 }
+    kind: intune.mindaro
+    label: "intune.mindaro"
+    layout: { x: 800, y: 5440 }
 
-  - id: sql_server_registries
+  - id: iot_azure_iot_operations
     provider: azure
-    kind: sql_server_registries
-    label: "sql_server_registries"
-    layout: { x: 960, y: 5040 }
+    kind: iot.azure_iot_operations
+    label: "iot.azure_iot_operations"
+    layout: { x: 960, y: 5440 }
 
-  - id: ssh_keys
+  - id: iot_azure_maps_accounts
     provider: azure
-    kind: ssh_keys
-    label: "ssh_keys"
-    layout: { x: 1120, y: 5040 }
+    kind: iot.azure_maps_accounts
+    label: "iot.azure_maps_accounts"
+    layout: { x: 1120, y: 5440 }
 
-  - id: ssis_lift_and_shift_ir
+  - id: iot_azure_orbital
     provider: azure
-    kind: ssis_lift_and_shift_ir
-    label: "ssis_lift_and_shift_ir"
-    layout: { x: 1280, y: 5040 }
+    kind: iot.azure_orbital
+    label: "iot.azure_orbital"
+    layout: { x: 1280, y: 5440 }
 
-  - id: savings_plans
+  - id: iot_azure_sphere
     provider: azure
-    kind: savings_plans
-    label: "savings_plans"
-    layout: { x: 1440, y: 5040 }
+    kind: iot.azure_sphere
+    label: "iot.azure_sphere"
+    layout: { x: 1440, y: 5440 }
 
-  - id: scheduler_job_collections
+  - id: iot_connected_vehicle_platform
     provider: azure
-    kind: scheduler_job_collections
-    label: "scheduler_job_collections"
-    layout: { x: 1600, y: 5040 }
-
-  - id: security
-    provider: azure
-    kind: security
-    label: "security"
-    layout: { x: 1760, y: 5040 }
-
-  - id: security_baselines
-    provider: azure
-    kind: security_baselines
-    label: "security_baselines"
-    layout: { x: 1920, y: 5040 }
-
-  - id: sendgrid_accounts
-    provider: azure
-    kind: sendgrid_accounts
-    label: "sendgrid_accounts"
-    layout: { x: 2080, y: 5040 }
-
-  - id: serverless_search
-    provider: azure
-    kind: serverless_search
-    label: "serverless_search"
-    layout: { x: 2240, y: 5040 }
-
-  - id: service_catalog_mad
-    provider: azure
-    kind: service_catalog_mad
-    label: "service_catalog_mad"
-    layout: { x: 0, y: 5180 }
-
-  - id: service_endpoint_policies
-    provider: azure
-    kind: service_endpoint_policies
-    label: "service_endpoint_policies"
-    layout: { x: 160, y: 5180 }
-
-  - id: service_fabric_clusters
-    provider: azure
-    kind: service_fabric_clusters
-    label: "service_fabric_clusters"
-    layout: { x: 320, y: 5180 }
-
-  - id: service_fabric_clusters_1
-    provider: azure
-    kind: service_fabric_clusters_1
-    label: "service_fabric_clusters_1"
-    layout: { x: 480, y: 5180 }
-
-  - id: service_providers
-    provider: azure
-    kind: service_providers
-    label: "service_providers"
-    layout: { x: 640, y: 5180 }
-
-  - id: shared_image_galleries
-    provider: azure
-    kind: shared_image_galleries
-    label: "shared_image_galleries"
-    layout: { x: 800, y: 5180 }
-
-  - id: signalr
-    provider: azure
-    kind: signalr
-    label: "signalr"
-    layout: { x: 960, y: 5180 }
-
-  - id: software_updates
-    provider: azure
-    kind: software_updates
-    label: "software_updates"
-    layout: { x: 1120, y: 5180 }
-
-  - id: software_as_a_service
-    provider: azure
-    kind: software_as_a_service
-    label: "software_as_a_service"
-    layout: { x: 1280, y: 5180 }
-
-  - id: solutions
-    provider: azure
-    kind: solutions
-    label: "solutions"
-    layout: { x: 1440, y: 5180 }
-
-  - id: sonic_dash
-    provider: azure
-    kind: sonic_dash
-    label: "sonic_dash"
-    layout: { x: 1600, y: 5180 }
-
-  - id: spatial_anchor_accounts
-    provider: azure
-    kind: spatial_anchor_accounts
-    label: "spatial_anchor_accounts"
-    layout: { x: 1760, y: 5180 }
-
-  - id: speech_services
-    provider: azure
-    kind: speech_services
-    label: "speech_services"
-    layout: { x: 1920, y: 5180 }
-
-  - id: spot_vm
-    provider: azure
-    kind: spot_vm
-    label: "spot_vm"
-    layout: { x: 2080, y: 5180 }
-
-  - id: spot_vmss
-    provider: azure
-    kind: spot_vmss
-    label: "spot_vmss"
-    layout: { x: 2240, y: 5180 }
-
-  - id: stack_hci_premium
-    provider: azure
-    kind: stack_hci_premium
-    label: "stack_hci_premium"
-    layout: { x: 0, y: 5320 }
-
-  - id: static_apps
-    provider: azure
-    kind: static_apps
-    label: "static_apps"
-    layout: { x: 160, y: 5320 }
-
-  - id: storsimple_data_managers
-    provider: azure
-    kind: storsimple_data_managers
-    label: "storsimple_data_managers"
-    layout: { x: 320, y: 5320 }
-
-  - id: storsimple_device_managers
-    provider: azure
-    kind: storsimple_device_managers
-    label: "storsimple_device_managers"
-    layout: { x: 480, y: 5320 }
-
-  - id: storsimple_device_managers_1
-    provider: azure
-    kind: storsimple_device_managers_1
-    label: "storsimple_device_managers_1"
-    layout: { x: 640, y: 5320 }
-
-  - id: storage_accounts
-    provider: azure
-    kind: storage_accounts
-    label: "storage_accounts"
-    layout: { x: 800, y: 5320 }
-
-  - id: storage_accounts_classic
-    provider: azure
-    kind: storage_accounts_classic
-    label: "storage_accounts_classic"
-    layout: { x: 960, y: 5320 }
-
-  - id: storage_actions
-    provider: azure
-    kind: storage_actions
-    label: "storage_actions"
-    layout: { x: 1120, y: 5320 }
-
-  - id: storage_explorer
-    provider: azure
-    kind: storage_explorer
-    label: "storage_explorer"
-    layout: { x: 1280, y: 5320 }
-
-  - id: storage_functions
-    provider: azure
-    kind: storage_functions
-    label: "storage_functions"
-    layout: { x: 1440, y: 5320 }
-
-  - id: storage_sync_services
-    provider: azure
-    kind: storage_sync_services
-    label: "storage_sync_services"
-    layout: { x: 1600, y: 5320 }
-
-  - id: stream_analytics_jobs
-    provider: azure
-    kind: stream_analytics_jobs
-    label: "stream_analytics_jobs"
-    layout: { x: 1760, y: 5320 }
-
-  - id: stream_analytics_jobs_1
-    provider: azure
-    kind: stream_analytics_jobs_1
-    label: "stream_analytics_jobs_1"
-    layout: { x: 1920, y: 5320 }
-
-  - id: subnet
-    provider: azure
-    kind: subnet
-    label: "subnet"
-    layout: { x: 2080, y: 5320 }
-
-  - id: system_topic
-    provider: azure
-    kind: system_topic
-    label: "system_topic"
-    layout: { x: 2240, y: 5320 }
-
-  - id: targets_management
-    provider: azure
-    kind: targets_management
-    label: "targets_management"
-    layout: { x: 0, y: 5460 }
-
-  - id: template_specs
-    provider: azure
-    kind: template_specs
-    label: "template_specs"
-    layout: { x: 160, y: 5460 }
-
-  - id: tenant_properties
-    provider: azure
-    kind: tenant_properties
-    label: "tenant_properties"
-    layout: { x: 320, y: 5460 }
-
-  - id: tenant_status
-    provider: azure
-    kind: tenant_status
-    label: "tenant_status"
-    layout: { x: 480, y: 5460 }
-
-  - id: test_base
-    provider: azure
-    kind: test_base
-    label: "test_base"
-    layout: { x: 640, y: 5460 }
-
-  - id: time_series_data_sets
-    provider: azure
-    kind: time_series_data_sets
-    label: "time_series_data_sets"
-    layout: { x: 800, y: 5460 }
-
-  - id: time_series_insights_access_policies
-    provider: azure
-    kind: time_series_insights_access_policies
-    label: "time_series_insights_access_policies"
-    layout: { x: 960, y: 5460 }
-
-  - id: time_series_insights_environments
-    provider: azure
-    kind: time_series_insights_environments
-    label: "time_series_insights_environments"
-    layout: { x: 1120, y: 5460 }
-
-  - id: time_series_insights_event_sources
-    provider: azure
-    kind: time_series_insights_event_sources
-    label: "time_series_insights_event_sources"
-    layout: { x: 1280, y: 5460 }
-
-  - id: toolchain_orchestrator
-    provider: azure
-    kind: toolchain_orchestrator
-    label: "toolchain_orchestrator"
-    layout: { x: 1440, y: 5460 }
-
-  - id: traffic_manager_profiles
-    provider: azure
-    kind: traffic_manager_profiles
-    label: "traffic_manager_profiles"
-    layout: { x: 1600, y: 5460 }
-
-  - id: translator_text
-    provider: azure
-    kind: translator_text
-    label: "translator_text"
-    layout: { x: 1760, y: 5460 }
-
-  - id: universal_print
-    provider: azure
-    kind: universal_print
-    label: "universal_print"
-    layout: { x: 1920, y: 5460 }
-
-  - id: update_management_center
-    provider: azure
-    kind: update_management_center
-    label: "update_management_center"
-    layout: { x: 2080, y: 5460 }
-
-  - id: updates
-    provider: azure
-    kind: updates
-    label: "updates"
-    layout: { x: 2240, y: 5460 }
-
-  - id: user_privacy
-    provider: azure
-    kind: user_privacy
-    label: "user_privacy"
+    kind: iot.connected_vehicle_platform
+    label: "iot.connected_vehicle_platform"
     layout: { x: 0, y: 5600 }
 
-  - id: user_settings
+  - id: iot_device_provisioning_services
     provider: azure
-    kind: user_settings
-    label: "user_settings"
+    kind: iot.device_provisioning_services
+    label: "iot.device_provisioning_services"
     layout: { x: 160, y: 5600 }
 
-  - id: user_subscriptions
+  - id: iot_device_update_iot_hub
     provider: azure
-    kind: user_subscriptions
-    label: "user_subscriptions"
+    kind: iot.device_update_iot_hub
+    label: "iot.device_update_iot_hub"
     layout: { x: 320, y: 5600 }
 
-  - id: users
+  - id: iot_digital_twins
     provider: azure
-    kind: users
-    label: "users"
+    kind: iot.digital_twins
+    label: "iot.digital_twins"
     layout: { x: 480, y: 5600 }
 
-  - id: vm_app_definitions
+  - id: iot_edge_actions
     provider: azure
-    kind: vm_app_definitions
-    label: "vm_app_definitions"
+    kind: iot.edge_actions
+    label: "iot.edge_actions"
     layout: { x: 640, y: 5600 }
 
-  - id: vm_app_versions
+  - id: iot_edge_management
     provider: azure
-    kind: vm_app_versions
-    label: "vm_app_versions"
+    kind: iot.edge_management
+    label: "iot.edge_management"
     layout: { x: 800, y: 5600 }
 
-  - id: vm_image_version
+  - id: iot_industrial_iot
     provider: azure
-    kind: vm_image_version
-    label: "vm_image_version"
+    kind: iot.industrial_iot
+    label: "iot.industrial_iot"
     layout: { x: 960, y: 5600 }
 
-  - id: vm_images_classic
+  - id: iot_iot_central_applications
     provider: azure
-    kind: vm_images_classic
-    label: "vm_images_classic"
+    kind: iot.iot_central_applications
+    label: "iot.iot_central_applications"
     layout: { x: 1120, y: 5600 }
 
-  - id: vm_scale_sets
+  - id: iot_iot_edge
     provider: azure
-    kind: vm_scale_sets
-    label: "vm_scale_sets"
+    kind: iot.iot_edge
+    label: "iot.iot_edge"
     layout: { x: 1280, y: 5600 }
 
-  - id: vpnclientwindows
+  - id: iot_iot_hub
     provider: azure
-    kind: vpnclientwindows
-    label: "vpnclientwindows"
+    kind: iot.iot_hub
+    label: "iot.iot_hub"
     layout: { x: 1440, y: 5600 }
 
-  - id: verifiable_credentials
+  - id: iot_rtos
     provider: azure
-    kind: verifiable_credentials
-    label: "verifiable_credentials"
-    layout: { x: 1600, y: 5600 }
+    kind: iot.rtos
+    label: "iot.rtos"
+    layout: { x: 0, y: 5760 }
 
-  - id: verification_as_a_service
+  - id: iot_stack_hci_premium
     provider: azure
-    kind: verification_as_a_service
-    label: "verification_as_a_service"
-    layout: { x: 1760, y: 5600 }
+    kind: iot.stack_hci_premium
+    label: "iot.stack_hci_premium"
+    layout: { x: 160, y: 5760 }
 
-  - id: video_analyzers
+  - id: iot_time_series_data_sets
     provider: azure
-    kind: video_analyzers
-    label: "video_analyzers"
-    layout: { x: 1920, y: 5600 }
+    kind: iot.time_series_data_sets
+    label: "iot.time_series_data_sets"
+    layout: { x: 320, y: 5760 }
 
-  - id: virtual_clusters
+  - id: iot_time_series_insights_access_policies
     provider: azure
-    kind: virtual_clusters
-    label: "virtual_clusters"
-    layout: { x: 2080, y: 5600 }
+    kind: iot.time_series_insights_access_policies
+    label: "iot.time_series_insights_access_policies"
+    layout: { x: 480, y: 5760 }
 
-  - id: virtual_enclaves
+  - id: iot_time_series_insights_environments
     provider: azure
-    kind: virtual_enclaves
-    label: "virtual_enclaves"
-    layout: { x: 2240, y: 5600 }
+    kind: iot.time_series_insights_environments
+    label: "iot.time_series_insights_environments"
+    layout: { x: 640, y: 5760 }
 
-  - id: virtual_instance_for_sap
+  - id: iot_time_series_insights_event_sources
     provider: azure
-    kind: virtual_instance_for_sap
-    label: "virtual_instance_for_sap"
-    layout: { x: 0, y: 5740 }
+    kind: iot.time_series_insights_event_sources
+    label: "iot.time_series_insights_event_sources"
+    layout: { x: 800, y: 5760 }
 
-  - id: virtual_machine
+  - id: management_governance_advisor
     provider: azure
-    kind: virtual_machine
-    label: "virtual_machine"
-    layout: { x: 160, y: 5740 }
+    kind: management_governance.advisor
+    label: "management_governance.advisor"
+    layout: { x: 960, y: 5760 }
 
-  - id: virtual_machines_classic
+  - id: management_governance_automation_accounts
     provider: azure
-    kind: virtual_machines_classic
-    label: "virtual_machines_classic"
-    layout: { x: 320, y: 5740 }
+    kind: management_governance.automation_accounts
+    label: "management_governance.automation_accounts"
+    layout: { x: 1120, y: 5760 }
 
-  - id: virtual_network_gateways
+  - id: management_governance_azure_center_for_sap
     provider: azure
-    kind: virtual_network_gateways
-    label: "virtual_network_gateways"
-    layout: { x: 480, y: 5740 }
+    kind: management_governance.azure_center_for_sap
+    label: "management_governance.azure_center_for_sap"
+    layout: { x: 1280, y: 5760 }
 
-  - id: virtual_networks
+  - id: management_governance_azure_lighthouse
     provider: azure
-    kind: virtual_networks
-    label: "virtual_networks"
-    layout: { x: 640, y: 5740 }
+    kind: management_governance.azure_lighthouse
+    label: "management_governance.azure_lighthouse"
+    layout: { x: 1440, y: 5760 }
 
-  - id: virtual_networks_classic
+  - id: management_governance_azure_migrate
     provider: azure
-    kind: virtual_networks_classic
-    label: "virtual_networks_classic"
-    layout: { x: 800, y: 5740 }
+    kind: management_governance.azure_migrate
+    label: "management_governance.azure_migrate"
+    layout: { x: 0, y: 5920 }
 
-  - id: virtual_router
+  - id: management_governance_azure_quotas
     provider: azure
-    kind: virtual_router
-    label: "virtual_router"
-    layout: { x: 960, y: 5740 }
+    kind: management_governance.azure_quotas
+    label: "management_governance.azure_quotas"
+    layout: { x: 160, y: 5920 }
 
-  - id: virtual_visits_builder
+  - id: management_governance_azure_support_center_blue
     provider: azure
-    kind: virtual_visits_builder
-    label: "virtual_visits_builder"
-    layout: { x: 1120, y: 5740 }
+    kind: management_governance.azure_support_center_blue
+    label: "management_governance.azure_support_center_blue"
+    layout: { x: 320, y: 5920 }
 
-  - id: virtual_wan_hub
+  - id: management_governance_azure_sustainability
     provider: azure
-    kind: virtual_wan_hub
-    label: "virtual_wan_hub"
-    layout: { x: 1280, y: 5740 }
+    kind: management_governance.azure_sustainability
+    label: "management_governance.azure_sustainability"
+    layout: { x: 480, y: 5920 }
 
-  - id: virtual_wans
+  - id: management_governance_blueprints
     provider: azure
-    kind: virtual_wans
-    label: "virtual_wans"
-    layout: { x: 1440, y: 5740 }
+    kind: management_governance.blueprints
+    label: "management_governance.blueprints"
+    layout: { x: 640, y: 5920 }
 
-  - id: wac
+  - id: management_governance_compliance
     provider: azure
-    kind: wac
-    label: "wac"
-    layout: { x: 1600, y: 5740 }
+    kind: management_governance.compliance
+    label: "management_governance.compliance"
+    layout: { x: 800, y: 5920 }
 
-  - id: wac_installer
+  - id: management_governance_compliance_center
     provider: azure
-    kind: wac_installer
-    label: "wac_installer"
-    layout: { x: 1760, y: 5740 }
+    kind: management_governance.compliance_center
+    label: "management_governance.compliance_center"
+    layout: { x: 960, y: 5920 }
 
-  - id: web_app_database
+  - id: management_governance_cost_alerts
     provider: azure
-    kind: web_app_database
-    label: "web_app_database"
-    layout: { x: 1920, y: 5740 }
+    kind: management_governance.cost_alerts
+    label: "management_governance.cost_alerts"
+    layout: { x: 1120, y: 5920 }
 
-  - id: web_application_firewall_policieswaf
+  - id: management_governance_cost_analysis
     provider: azure
-    kind: web_application_firewall_policieswaf
-    label: "web_application_firewall_policieswaf"
-    layout: { x: 2080, y: 5740 }
+    kind: management_governance.cost_analysis
+    label: "management_governance.cost_analysis"
+    layout: { x: 1280, y: 5920 }
 
-  - id: web_jobs
+  - id: management_governance_cost_budgets
     provider: azure
-    kind: web_jobs
-    label: "web_jobs"
-    layout: { x: 2240, y: 5740 }
+    kind: management_governance.cost_budgets
+    label: "management_governance.cost_budgets"
+    layout: { x: 1440, y: 5920 }
 
-  - id: windows_notification_services
+  - id: management_governance_cost_export
     provider: azure
-    kind: windows_notification_services
-    label: "windows_notification_services"
-    layout: { x: 0, y: 5880 }
+    kind: management_governance.cost_export
+    label: "management_governance.cost_export"
+    layout: { x: 0, y: 6080 }
 
-  - id: windows10_core_services
+  - id: management_governance_cost_management
     provider: azure
-    kind: windows10_core_services
-    label: "windows10_core_services"
-    layout: { x: 160, y: 5880 }
+    kind: management_governance.cost_management
+    label: "management_governance.cost_management"
+    layout: { x: 160, y: 6080 }
 
-  - id: worker_container_app
+  - id: management_governance_cost_management_and_billing
     provider: azure
-    kind: worker_container_app
-    label: "worker_container_app"
-    layout: { x: 320, y: 5880 }
+    kind: management_governance.cost_management_and_billing
+    label: "management_governance.cost_management_and_billing"
+    layout: { x: 320, y: 6080 }
 
-  - id: workspace_gateway
+  - id: management_governance_cost_management_and_billing_1
     provider: azure
-    kind: workspace_gateway
-    label: "workspace_gateway"
-    layout: { x: 480, y: 5880 }
+    kind: management_governance.cost_management_and_billing_1
+    label: "management_governance.cost_management_and_billing_1"
+    layout: { x: 480, y: 6080 }
 
-  - id: workspaces
+  - id: management_governance_cost_management_and_billing_2
     provider: azure
-    kind: workspaces
-    label: "workspaces"
-    layout: { x: 640, y: 5880 }
+    kind: management_governance.cost_management_and_billing_2
+    label: "management_governance.cost_management_and_billing_2"
+    layout: { x: 640, y: 6080 }
 
-  - id: ebooks
+  - id: management_governance_customer_lockbox_for_microsoft_azure
     provider: azure
-    kind: ebooks
-    label: "ebooks"
-    layout: { x: 800, y: 5880 }
+    kind: management_governance.customer_lockbox_for_microsoft_azure
+    label: "management_governance.customer_lockbox_for_microsoft_azure"
+    layout: { x: 800, y: 6080 }
 
+  - id: management_governance_education
+    provider: azure
+    kind: management_governance.education
+    label: "management_governance.education"
+    layout: { x: 960, y: 6080 }
+
+  - id: management_governance_free_services
+    provider: azure
+    kind: management_governance.free_services
+    label: "management_governance.free_services"
+    layout: { x: 1120, y: 6080 }
+
+  - id: management_governance_intune_trends
+    provider: azure
+    kind: management_governance.intune_trends
+    label: "management_governance.intune_trends"
+    layout: { x: 1280, y: 6080 }
+
+  - id: management_governance_landing_zone
+    provider: azure
+    kind: management_governance.landing_zone
+    label: "management_governance.landing_zone"
+    layout: { x: 1440, y: 6080 }
+
+  - id: management_governance_maintenance_configuration
+    provider: azure
+    kind: management_governance.maintenance_configuration
+    label: "management_governance.maintenance_configuration"
+    layout: { x: 0, y: 6240 }
+
+  - id: management_governance_managed_applications_center
+    provider: azure
+    kind: management_governance.managed_applications_center
+    label: "management_governance.managed_applications_center"
+    layout: { x: 160, y: 6240 }
+
+  - id: management_governance_managed_desktop
+    provider: azure
+    kind: management_governance.managed_desktop
+    label: "management_governance.managed_desktop"
+    layout: { x: 320, y: 6240 }
+
+  - id: management_governance_management_groups
+    provider: azure
+    kind: management_governance.management_groups
+    label: "management_governance.management_groups"
+    layout: { x: 480, y: 6240 }
+
+  - id: management_governance_management_portal
+    provider: azure
+    kind: management_governance.management_portal
+    label: "management_governance.management_portal"
+    layout: { x: 640, y: 6240 }
+
+  - id: management_governance_marketplace
+    provider: azure
+    kind: management_governance.marketplace
+    label: "management_governance.marketplace"
+    layout: { x: 800, y: 6240 }
+
+  - id: management_governance_marketplace_management
+    provider: azure
+    kind: management_governance.marketplace_management
+    label: "management_governance.marketplace_management"
+    layout: { x: 960, y: 6240 }
+
+  - id: management_governance_mission_landing_zone
+    provider: azure
+    kind: management_governance.mission_landing_zone
+    label: "management_governance.mission_landing_zone"
+    layout: { x: 1120, y: 6240 }
+
+  - id: management_governance_my_customers
+    provider: azure
+    kind: management_governance.my_customers
+    label: "management_governance.my_customers"
+    layout: { x: 1280, y: 6240 }
+
+  - id: management_governance_operation_log_classic
+    provider: azure
+    kind: management_governance.operation_log_classic
+    label: "management_governance.operation_log_classic"
+    layout: { x: 1440, y: 6240 }
+
+  - id: management_governance_osconfig
+    provider: azure
+    kind: management_governance.osconfig
+    label: "management_governance.osconfig"
+    layout: { x: 0, y: 6400 }
+
+  - id: management_governance_policy
+    provider: azure
+    kind: management_governance.policy
+    label: "management_governance.policy"
+    layout: { x: 160, y: 6400 }
+
+  - id: management_governance_recovery_services_vaults
+    provider: azure
+    kind: management_governance.recovery_services_vaults
+    label: "management_governance.recovery_services_vaults"
+    layout: { x: 320, y: 6400 }
+
+  - id: management_governance_recovery_services_vaults_1
+    provider: azure
+    kind: management_governance.recovery_services_vaults_1
+    label: "management_governance.recovery_services_vaults_1"
+    layout: { x: 480, y: 6400 }
+
+  - id: management_governance_recovery_services_vaults_2
+    provider: azure
+    kind: management_governance.recovery_services_vaults_2
+    label: "management_governance.recovery_services_vaults_2"
+    layout: { x: 640, y: 6400 }
+
+  - id: management_governance_reserved_capacity
+    provider: azure
+    kind: management_governance.reserved_capacity
+    label: "management_governance.reserved_capacity"
+    layout: { x: 800, y: 6400 }
+
+  - id: management_governance_resource_graph_explorer
+    provider: azure
+    kind: management_governance.resource_graph_explorer
+    label: "management_governance.resource_graph_explorer"
+    layout: { x: 960, y: 6400 }
+
+  - id: management_governance_resource_guard
+    provider: azure
+    kind: management_governance.resource_guard
+    label: "management_governance.resource_guard"
+    layout: { x: 1120, y: 6400 }
+
+  - id: management_governance_resource_management_private_link
+    provider: azure
+    kind: management_governance.resource_management_private_link
+    label: "management_governance.resource_management_private_link"
+    layout: { x: 1280, y: 6400 }
+
+  - id: management_governance_resource_mover
+    provider: azure
+    kind: management_governance.resource_mover
+    label: "management_governance.resource_mover"
+    layout: { x: 1440, y: 6400 }
+
+  - id: management_governance_savings_plans
+    provider: azure
+    kind: management_governance.savings_plans
+    label: "management_governance.savings_plans"
+    layout: { x: 0, y: 6560 }
+
+  - id: management_governance_scheduler_job_collections
+    provider: azure
+    kind: management_governance.scheduler_job_collections
+    label: "management_governance.scheduler_job_collections"
+    layout: { x: 160, y: 6560 }
+
+  - id: management_governance_service_catalog_mad
+    provider: azure
+    kind: management_governance.service_catalog_mad
+    label: "management_governance.service_catalog_mad"
+    layout: { x: 320, y: 6560 }
+
+  - id: management_governance_service_providers
+    provider: azure
+    kind: management_governance.service_providers
+    label: "management_governance.service_providers"
+    layout: { x: 480, y: 6560 }
+
+  - id: management_governance_software_updates
+    provider: azure
+    kind: management_governance.software_updates
+    label: "management_governance.software_updates"
+    layout: { x: 640, y: 6560 }
+
+  - id: management_governance_solutions
+    provider: azure
+    kind: management_governance.solutions
+    label: "management_governance.solutions"
+    layout: { x: 800, y: 6560 }
+
+  - id: management_governance_template_specs
+    provider: azure
+    kind: management_governance.template_specs
+    label: "management_governance.template_specs"
+    layout: { x: 960, y: 6560 }
+
+  - id: management_governance_universal_print
+    provider: azure
+    kind: management_governance.universal_print
+    label: "management_governance.universal_print"
+    layout: { x: 1120, y: 6560 }
+
+  - id: management_governance_update_management_center
+    provider: azure
+    kind: management_governance.update_management_center
+    label: "management_governance.update_management_center"
+    layout: { x: 1280, y: 6560 }
+
+  - id: management_governance_user_privacy
+    provider: azure
+    kind: management_governance.user_privacy
+    label: "management_governance.user_privacy"
+    layout: { x: 1440, y: 6560 }
+
+  - id: mixed_reality_azure_object_understanding
+    provider: azure
+    kind: mixed_reality.azure_object_understanding
+    label: "mixed_reality.azure_object_understanding"
+    layout: { x: 0, y: 6720 }
+
+  - id: mixed_reality_remote_rendering
+    provider: azure
+    kind: mixed_reality.remote_rendering
+    label: "mixed_reality.remote_rendering"
+    layout: { x: 160, y: 6720 }
+
+  - id: mixed_reality_spatial_anchor_accounts
+    provider: azure
+    kind: mixed_reality.spatial_anchor_accounts
+    label: "mixed_reality.spatial_anchor_accounts"
+    layout: { x: 320, y: 6720 }
+
+  - id: mobile_app_space
+    provider: azure
+    kind: mobile.app_space
+    label: "mobile.app_space"
+    layout: { x: 480, y: 6720 }
+
+  - id: mobile_app_space_component
+    provider: azure
+    kind: mobile.app_space_component
+    label: "mobile.app_space_component"
+    layout: { x: 640, y: 6720 }
+
+  - id: mobile_mobile
+    provider: azure
+    kind: mobile.mobile
+    label: "mobile.mobile"
+    layout: { x: 800, y: 6720 }
+
+  - id: mobile_mobile_engagement
+    provider: azure
+    kind: mobile.mobile_engagement
+    label: "mobile.mobile_engagement"
+    layout: { x: 960, y: 6720 }
+
+  - id: mobile_mobile_networks
+    provider: azure
+    kind: mobile.mobile_networks
+    label: "mobile.mobile_networks"
+    layout: { x: 1120, y: 6720 }
+
+  - id: monitor_activity_log
+    provider: azure
+    kind: monitor.activity_log
+    label: "monitor.activity_log"
+    layout: { x: 1280, y: 6720 }
+
+  - id: monitor_activity_log_1
+    provider: azure
+    kind: monitor.activity_log_1
+    label: "monitor.activity_log_1"
+    layout: { x: 1440, y: 6720 }
+
+  - id: monitor_alerts
+    provider: azure
+    kind: monitor.alerts
+    label: "monitor.alerts"
+    layout: { x: 0, y: 6880 }
+
+  - id: monitor_application_insights
+    provider: azure
+    kind: monitor.application_insights
+    label: "monitor.application_insights"
+    layout: { x: 160, y: 6880 }
+
+  - id: monitor_application_insights_1
+    provider: azure
+    kind: monitor.application_insights_1
+    label: "monitor.application_insights_1"
+    layout: { x: 320, y: 6880 }
+
+  - id: monitor_application_insights_2
+    provider: azure
+    kind: monitor.application_insights_2
+    label: "monitor.application_insights_2"
+    layout: { x: 480, y: 6880 }
+
+  - id: monitor_auto_scale
+    provider: azure
+    kind: monitor.auto_scale
+    label: "monitor.auto_scale"
+    layout: { x: 640, y: 6880 }
+
+  - id: monitor_azure_managed_grafana
+    provider: azure
+    kind: monitor.azure_managed_grafana
+    label: "monitor.azure_managed_grafana"
+    layout: { x: 800, y: 6880 }
+
+  - id: monitor_azure_monitor_dashboard
+    provider: azure
+    kind: monitor.azure_monitor_dashboard
+    label: "monitor.azure_monitor_dashboard"
+    layout: { x: 960, y: 6880 }
+
+  - id: monitor_azure_monitor_pipeline
+    provider: azure
+    kind: monitor.azure_monitor_pipeline
+    label: "monitor.azure_monitor_pipeline"
+    layout: { x: 1120, y: 6880 }
+
+  - id: monitor_azure_monitors_for_sap_solutions
+    provider: azure
+    kind: monitor.azure_monitors_for_sap_solutions
+    label: "monitor.azure_monitors_for_sap_solutions"
+    layout: { x: 1280, y: 6880 }
+
+  - id: monitor_azure_workbooks
+    provider: azure
+    kind: monitor.azure_workbooks
+    label: "monitor.azure_workbooks"
+    layout: { x: 1440, y: 6880 }
+
+  - id: monitor_azure_workbooks_1
+    provider: azure
+    kind: monitor.azure_workbooks_1
+    label: "monitor.azure_workbooks_1"
+    layout: { x: 0, y: 7040 }
+
+  - id: monitor_change_analysis
+    provider: azure
+    kind: monitor.change_analysis
+    label: "monitor.change_analysis"
+    layout: { x: 160, y: 7040 }
+
+  - id: monitor_change_analysis_1
+    provider: azure
+    kind: monitor.change_analysis_1
+    label: "monitor.change_analysis_1"
+    layout: { x: 320, y: 7040 }
+
+  - id: monitor_data_collection_rules
+    provider: azure
+    kind: monitor.data_collection_rules
+    label: "monitor.data_collection_rules"
+    layout: { x: 480, y: 7040 }
+
+  - id: monitor_diagnostics_settings
+    provider: azure
+    kind: monitor.diagnostics_settings
+    label: "monitor.diagnostics_settings"
+    layout: { x: 640, y: 7040 }
+
+  - id: monitor_diagnostics_settings_1
+    provider: azure
+    kind: monitor.diagnostics_settings_1
+    label: "monitor.diagnostics_settings_1"
+    layout: { x: 800, y: 7040 }
+
+  - id: monitor_log_analytics_query_pack
+    provider: azure
+    kind: monitor.log_analytics_query_pack
+    label: "monitor.log_analytics_query_pack"
+    layout: { x: 960, y: 7040 }
+
+  - id: monitor_log_analytics_workspaces
+    provider: azure
+    kind: monitor.log_analytics_workspaces
+    label: "monitor.log_analytics_workspaces"
+    layout: { x: 1120, y: 7040 }
+
+  - id: monitor_log_analytics_workspaces_1
+    provider: azure
+    kind: monitor.log_analytics_workspaces_1
+    label: "monitor.log_analytics_workspaces_1"
+    layout: { x: 1280, y: 7040 }
+
+  - id: monitor_log_analytics_workspaces_2
+    provider: azure
+    kind: monitor.log_analytics_workspaces_2
+    label: "monitor.log_analytics_workspaces_2"
+    layout: { x: 1440, y: 7040 }
+
+  - id: monitor_metrics
+    provider: azure
+    kind: monitor.metrics
+    label: "monitor.metrics"
+    layout: { x: 0, y: 7200 }
+
+  - id: monitor_metrics_1
+    provider: azure
+    kind: monitor.metrics_1
+    label: "monitor.metrics_1"
+    layout: { x: 160, y: 7200 }
+
+  - id: monitor_monitor
+    provider: azure
+    kind: monitor.monitor
+    label: "monitor.monitor"
+    layout: { x: 320, y: 7200 }
+
+  - id: monitor_monitor_1
+    provider: azure
+    kind: monitor.monitor_1
+    label: "monitor.monitor_1"
+    layout: { x: 480, y: 7200 }
+
+  - id: monitor_monitor_health_models
+    provider: azure
+    kind: monitor.monitor_health_models
+    label: "monitor.monitor_health_models"
+    layout: { x: 640, y: 7200 }
+
+  - id: monitor_network_watcher
+    provider: azure
+    kind: monitor.network_watcher
+    label: "monitor.network_watcher"
+    layout: { x: 800, y: 7200 }
+
+  - id: monitor_network_watcher_1
+    provider: azure
+    kind: monitor.network_watcher_1
+    label: "monitor.network_watcher_1"
+    layout: { x: 960, y: 7200 }
+
+  - id: networking_application_gateway_containers
+    provider: azure
+    kind: networking.application_gateway_containers
+    label: "networking.application_gateway_containers"
+    layout: { x: 1120, y: 7200 }
+
+  - id: networking_application_gateways
+    provider: azure
+    kind: networking.application_gateways
+    label: "networking.application_gateways"
+    layout: { x: 1280, y: 7200 }
+
+  - id: networking_atm_multistack
+    provider: azure
+    kind: networking.atm_multistack
+    label: "networking.atm_multistack"
+    layout: { x: 1440, y: 7200 }
+
+  - id: networking_azure_firewall_manager
+    provider: azure
+    kind: networking.azure_firewall_manager
+    label: "networking.azure_firewall_manager"
+    layout: { x: 0, y: 7360 }
+
+  - id: networking_azure_firewall_policy
+    provider: azure
+    kind: networking.azure_firewall_policy
+    label: "networking.azure_firewall_policy"
+    layout: { x: 160, y: 7360 }
+
+  - id: networking_azure_network_function_manager
+    provider: azure
+    kind: networking.azure_network_function_manager
+    label: "networking.azure_network_function_manager"
+    layout: { x: 320, y: 7360 }
+
+  - id: networking_azure_network_function_manager_functions
+    provider: azure
+    kind: networking.azure_network_function_manager_functions
+    label: "networking.azure_network_function_manager_functions"
+    layout: { x: 480, y: 7360 }
+
+  - id: networking_azure_operator_5g_core
+    provider: azure
+    kind: networking.azure_operator_5g_core
+    label: "networking.azure_operator_5g_core"
+    layout: { x: 640, y: 7360 }
+
+  - id: networking_azure_operator_insights
+    provider: azure
+    kind: networking.azure_operator_insights
+    label: "networking.azure_operator_insights"
+    layout: { x: 800, y: 7360 }
+
+  - id: networking_azure_operator_nexus
+    provider: azure
+    kind: networking.azure_operator_nexus
+    label: "networking.azure_operator_nexus"
+    layout: { x: 960, y: 7360 }
+
+  - id: networking_azure_operator_service_manager
+    provider: azure
+    kind: networking.azure_operator_service_manager
+    label: "networking.azure_operator_service_manager"
+    layout: { x: 1120, y: 7360 }
+
+  - id: networking_azure_programmable_connectivity
+    provider: azure
+    kind: networking.azure_programmable_connectivity
+    label: "networking.azure_programmable_connectivity"
+    layout: { x: 1280, y: 7360 }
+
+  - id: networking_bastions
+    provider: azure
+    kind: networking.bastions
+    label: "networking.bastions"
+    layout: { x: 1440, y: 7360 }
+
+  - id: networking_cdn_profiles
+    provider: azure
+    kind: networking.cdn_profiles
+    label: "networking.cdn_profiles"
+    layout: { x: 0, y: 7520 }
+
+  - id: networking_cdn_profiles_1
+    provider: azure
+    kind: networking.cdn_profiles_1
+    label: "networking.cdn_profiles_1"
+    layout: { x: 160, y: 7520 }
+
+  - id: networking_connected_cache
+    provider: azure
+    kind: networking.connected_cache
+    label: "networking.connected_cache"
+    layout: { x: 320, y: 7520 }
+
+  - id: networking_connections
+    provider: azure
+    kind: networking.connections
+    label: "networking.connections"
+    layout: { x: 480, y: 7520 }
+
+  - id: networking_custom_ip_prefix
+    provider: azure
+    kind: networking.custom_ip_prefix
+    label: "networking.custom_ip_prefix"
+    layout: { x: 640, y: 7520 }
+
+  - id: networking_ddos_protection_plans
+    provider: azure
+    kind: networking.ddos_protection_plans
+    label: "networking.ddos_protection_plans"
+    layout: { x: 800, y: 7520 }
+
+  - id: networking_dns_multistack
+    provider: azure
+    kind: networking.dns_multistack
+    label: "networking.dns_multistack"
+    layout: { x: 960, y: 7520 }
+
+  - id: networking_dns_private_resolver
+    provider: azure
+    kind: networking.dns_private_resolver
+    label: "networking.dns_private_resolver"
+    layout: { x: 1120, y: 7520 }
+
+  - id: networking_dns_security_policy
+    provider: azure
+    kind: networking.dns_security_policy
+    label: "networking.dns_security_policy"
+    layout: { x: 1280, y: 7520 }
+
+  - id: networking_dns_zones
+    provider: azure
+    kind: networking.dns_zones
+    label: "networking.dns_zones"
+    layout: { x: 1440, y: 7520 }
+
+  - id: networking_express_route_direct
+    provider: azure
+    kind: networking.express_route_direct
+    label: "networking.express_route_direct"
+    layout: { x: 0, y: 7680 }
+
+  - id: networking_express_route_traffic_collector
+    provider: azure
+    kind: networking.express_route_traffic_collector
+    label: "networking.express_route_traffic_collector"
+    layout: { x: 160, y: 7680 }
+
+  - id: networking_expressroute_circuits
+    provider: azure
+    kind: networking.expressroute_circuits
+    label: "networking.expressroute_circuits"
+    layout: { x: 320, y: 7680 }
+
+  - id: networking_firewalls
+    provider: azure
+    kind: networking.firewalls
+    label: "networking.firewalls"
+    layout: { x: 480, y: 7680 }
+
+  - id: networking_front_door_and_cdn_profiles
+    provider: azure
+    kind: networking.front_door_and_cdn_profiles
+    label: "networking.front_door_and_cdn_profiles"
+    layout: { x: 640, y: 7680 }
+
+  - id: networking_front_door_and_cdn_profiles_1
+    provider: azure
+    kind: networking.front_door_and_cdn_profiles_1
+    label: "networking.front_door_and_cdn_profiles_1"
+    layout: { x: 800, y: 7680 }
+
+  - id: networking_internet_analyzer_profiles
+    provider: azure
+    kind: networking.internet_analyzer_profiles
+    label: "networking.internet_analyzer_profiles"
+    layout: { x: 960, y: 7680 }
+
+  - id: networking_ip_address_manager
+    provider: azure
+    kind: networking.ip_address_manager
+    label: "networking.ip_address_manager"
+    layout: { x: 1120, y: 7680 }
+
+  - id: networking_ip_groups
+    provider: azure
+    kind: networking.ip_groups
+    label: "networking.ip_groups"
+    layout: { x: 1280, y: 7680 }
+
+  - id: networking_load_balancer_hub
+    provider: azure
+    kind: networking.load_balancer_hub
+    label: "networking.load_balancer_hub"
+    layout: { x: 1440, y: 7680 }
+
+  - id: networking_load_balancers
+    provider: azure
+    kind: networking.load_balancers
+    label: "networking.load_balancers"
+    layout: { x: 0, y: 7840 }
+
+  - id: networking_local_network_gateways
+    provider: azure
+    kind: networking.local_network_gateways
+    label: "networking.local_network_gateways"
+    layout: { x: 160, y: 7840 }
+
+  - id: networking_local_network_gateways_1
+    provider: azure
+    kind: networking.local_network_gateways_1
+    label: "networking.local_network_gateways_1"
+    layout: { x: 320, y: 7840 }
+
+  - id: networking_nat
+    provider: azure
+    kind: networking.nat
+    label: "networking.nat"
+    layout: { x: 480, y: 7840 }
+
+  - id: networking_network_interfaces
+    provider: azure
+    kind: networking.network_interfaces
+    label: "networking.network_interfaces"
+    layout: { x: 640, y: 7840 }
+
+  - id: networking_network_managers
+    provider: azure
+    kind: networking.network_managers
+    label: "networking.network_managers"
+    layout: { x: 800, y: 7840 }
+
+  - id: networking_network_security_groups
+    provider: azure
+    kind: networking.network_security_groups
+    label: "networking.network_security_groups"
+    layout: { x: 960, y: 7840 }
+
+  - id: networking_network_security_perimeters
+    provider: azure
+    kind: networking.network_security_perimeters
+    label: "networking.network_security_perimeters"
+    layout: { x: 1120, y: 7840 }
+
+  - id: networking_on_premises_data_gateways
+    provider: azure
+    kind: networking.on_premises_data_gateways
+    label: "networking.on_premises_data_gateways"
+    layout: { x: 1280, y: 7840 }
+
+  - id: networking_peering_service
+    provider: azure
+    kind: networking.peering_service
+    label: "networking.peering_service"
+    layout: { x: 1440, y: 7840 }
+
+  - id: networking_peerings
+    provider: azure
+    kind: networking.peerings
+    label: "networking.peerings"
+    layout: { x: 0, y: 8000 }
+
+  - id: networking_private_endpoints
+    provider: azure
+    kind: networking.private_endpoints
+    label: "networking.private_endpoints"
+    layout: { x: 160, y: 8000 }
+
+  - id: networking_private_link
+    provider: azure
+    kind: networking.private_link
+    label: "networking.private_link"
+    layout: { x: 320, y: 8000 }
+
+  - id: networking_private_link_service
+    provider: azure
+    kind: networking.private_link_service
+    label: "networking.private_link_service"
+    layout: { x: 480, y: 8000 }
+
+  - id: networking_private_link_services
+    provider: azure
+    kind: networking.private_link_services
+    label: "networking.private_link_services"
+    layout: { x: 640, y: 8000 }
+
+  - id: networking_private_link_services_1
+    provider: azure
+    kind: networking.private_link_services_1
+    label: "networking.private_link_services_1"
+    layout: { x: 800, y: 8000 }
+
+  - id: networking_public_ip_addresses
+    provider: azure
+    kind: networking.public_ip_addresses
+    label: "networking.public_ip_addresses"
+    layout: { x: 960, y: 8000 }
+
+  - id: networking_public_ip_addresses_classic
+    provider: azure
+    kind: networking.public_ip_addresses_classic
+    label: "networking.public_ip_addresses_classic"
+    layout: { x: 1120, y: 8000 }
+
+  - id: networking_public_ip_prefixes
+    provider: azure
+    kind: networking.public_ip_prefixes
+    label: "networking.public_ip_prefixes"
+    layout: { x: 1280, y: 8000 }
+
+  - id: networking_relays
+    provider: azure
+    kind: networking.relays
+    label: "networking.relays"
+    layout: { x: 1440, y: 8000 }
+
+  - id: networking_reserved_ip_addresses_classic
+    provider: azure
+    kind: networking.reserved_ip_addresses_classic
+    label: "networking.reserved_ip_addresses_classic"
+    layout: { x: 0, y: 8160 }
+
+  - id: networking_route_filters
+    provider: azure
+    kind: networking.route_filters
+    label: "networking.route_filters"
+    layout: { x: 160, y: 8160 }
+
+  - id: networking_route_tables
+    provider: azure
+    kind: networking.route_tables
+    label: "networking.route_tables"
+    layout: { x: 320, y: 8160 }
+
+  - id: networking_service_endpoint_policies
+    provider: azure
+    kind: networking.service_endpoint_policies
+    label: "networking.service_endpoint_policies"
+    layout: { x: 480, y: 8160 }
+
+  - id: networking_subnet
+    provider: azure
+    kind: networking.subnet
+    label: "networking.subnet"
+    layout: { x: 640, y: 8160 }
+
+  - id: networking_traffic_manager_profiles
+    provider: azure
+    kind: networking.traffic_manager_profiles
+    label: "networking.traffic_manager_profiles"
+    layout: { x: 800, y: 8160 }
+
+  - id: networking_virtual_network_gateways
+    provider: azure
+    kind: networking.virtual_network_gateways
+    label: "networking.virtual_network_gateways"
+    layout: { x: 960, y: 8160 }
+
+  - id: networking_virtual_networks
+    provider: azure
+    kind: networking.virtual_networks
+    label: "networking.virtual_networks"
+    layout: { x: 1120, y: 8160 }
+
+  - id: networking_virtual_networks_classic
+    provider: azure
+    kind: networking.virtual_networks_classic
+    label: "networking.virtual_networks_classic"
+    layout: { x: 1280, y: 8160 }
+
+  - id: networking_virtual_router
+    provider: azure
+    kind: networking.virtual_router
+    label: "networking.virtual_router"
+    layout: { x: 1440, y: 8160 }
+
+  - id: networking_virtual_wan_hub
+    provider: azure
+    kind: networking.virtual_wan_hub
+    label: "networking.virtual_wan_hub"
+    layout: { x: 0, y: 8320 }
+
+  - id: networking_virtual_wans
+    provider: azure
+    kind: networking.virtual_wans
+    label: "networking.virtual_wans"
+    layout: { x: 160, y: 8320 }
+
+  - id: networking_vpnclientwindows
+    provider: azure
+    kind: networking.vpnclientwindows
+    label: "networking.vpnclientwindows"
+    layout: { x: 320, y: 8320 }
+
+  - id: networking_web_application_firewall_policieswaf
+    provider: azure
+    kind: networking.web_application_firewall_policieswaf
+    label: "networking.web_application_firewall_policieswaf"
+    layout: { x: 480, y: 8320 }
+
+  - id: security_app_compliance_automation
+    provider: azure
+    kind: security.app_compliance_automation
+    label: "security.app_compliance_automation"
+    layout: { x: 640, y: 8320 }
+
+  - id: security_application_security_groups
+    provider: azure
+    kind: security.application_security_groups
+    label: "security.application_security_groups"
+    layout: { x: 800, y: 8320 }
+
+  - id: security_azure_attestation
+    provider: azure
+    kind: security.azure_attestation
+    label: "security.azure_attestation"
+    layout: { x: 960, y: 8320 }
+
+  - id: security_azure_information_protection
+    provider: azure
+    kind: security.azure_information_protection
+    label: "security.azure_information_protection"
+    layout: { x: 1120, y: 8320 }
+
+  - id: security_azure_information_protection_1
+    provider: azure
+    kind: security.azure_information_protection_1
+    label: "security.azure_information_protection_1"
+    layout: { x: 1280, y: 8320 }
+
+  - id: security_azure_sentinel
+    provider: azure
+    kind: security.azure_sentinel
+    label: "security.azure_sentinel"
+    layout: { x: 1440, y: 8320 }
+
+  - id: security_dedicated_hsm
+    provider: azure
+    kind: security.dedicated_hsm
+    label: "security.dedicated_hsm"
+    layout: { x: 0, y: 8480 }
+
+  - id: security_defender_cm_local_manager
+    provider: azure
+    kind: security.defender_cm_local_manager
+    label: "security.defender_cm_local_manager"
+    layout: { x: 160, y: 8480 }
+
+  - id: security_defender_dcs_controller
+    provider: azure
+    kind: security.defender_dcs_controller
+    label: "security.defender_dcs_controller"
+    layout: { x: 320, y: 8480 }
+
+  - id: security_defender_distributer_control_system
+    provider: azure
+    kind: security.defender_distributer_control_system
+    label: "security.defender_distributer_control_system"
+    layout: { x: 480, y: 8480 }
+
+  - id: security_defender_engineering_station
+    provider: azure
+    kind: security.defender_engineering_station
+    label: "security.defender_engineering_station"
+    layout: { x: 640, y: 8480 }
+
+  - id: security_defender_external_management
+    provider: azure
+    kind: security.defender_external_management
+    label: "security.defender_external_management"
+    layout: { x: 800, y: 8480 }
+
+  - id: security_defender_freezer_monitor
+    provider: azure
+    kind: security.defender_freezer_monitor
+    label: "security.defender_freezer_monitor"
+    layout: { x: 960, y: 8480 }
+
+  - id: security_defender_historian
+    provider: azure
+    kind: security.defender_historian
+    label: "security.defender_historian"
+    layout: { x: 1120, y: 8480 }
+
+  - id: security_defender_hmi
+    provider: azure
+    kind: security.defender_hmi
+    label: "security.defender_hmi"
+    layout: { x: 1280, y: 8480 }
+
+  - id: security_defender_industrial_packaging_system
+    provider: azure
+    kind: security.defender_industrial_packaging_system
+    label: "security.defender_industrial_packaging_system"
+    layout: { x: 1440, y: 8480 }
+
+  - id: security_defender_industrial_printer
+    provider: azure
+    kind: security.defender_industrial_printer
+    label: "security.defender_industrial_printer"
+    layout: { x: 0, y: 8640 }
+
+  - id: security_defender_industrial_robot
+    provider: azure
+    kind: security.defender_industrial_robot
+    label: "security.defender_industrial_robot"
+    layout: { x: 160, y: 8640 }
+
+  - id: security_defender_industrial_scale_system
+    provider: azure
+    kind: security.defender_industrial_scale_system
+    label: "security.defender_industrial_scale_system"
+    layout: { x: 320, y: 8640 }
+
+  - id: security_defender_marquee
+    provider: azure
+    kind: security.defender_marquee
+    label: "security.defender_marquee"
+    layout: { x: 480, y: 8640 }
+
+  - id: security_defender_meter
+    provider: azure
+    kind: security.defender_meter
+    label: "security.defender_meter"
+    layout: { x: 640, y: 8640 }
+
+  - id: security_defender_plc
+    provider: azure
+    kind: security.defender_plc
+    label: "security.defender_plc"
+    layout: { x: 800, y: 8640 }
+
+  - id: security_defender_pneumatic_device
+    provider: azure
+    kind: security.defender_pneumatic_device
+    label: "security.defender_pneumatic_device"
+    layout: { x: 960, y: 8640 }
+
+  - id: security_defender_programable_board
+    provider: azure
+    kind: security.defender_programable_board
+    label: "security.defender_programable_board"
+    layout: { x: 1120, y: 8640 }
+
+  - id: security_defender_relay
+    provider: azure
+    kind: security.defender_relay
+    label: "security.defender_relay"
+    layout: { x: 1280, y: 8640 }
+
+  - id: security_defender_robot_controller
+    provider: azure
+    kind: security.defender_robot_controller
+    label: "security.defender_robot_controller"
+    layout: { x: 1440, y: 8640 }
+
+  - id: security_defender_rtu
+    provider: azure
+    kind: security.defender_rtu
+    label: "security.defender_rtu"
+    layout: { x: 0, y: 8800 }
+
+  - id: security_defender_sensor
+    provider: azure
+    kind: security.defender_sensor
+    label: "security.defender_sensor"
+    layout: { x: 160, y: 8800 }
+
+  - id: security_defender_slot
+    provider: azure
+    kind: security.defender_slot
+    label: "security.defender_slot"
+    layout: { x: 320, y: 8800 }
+
+  - id: security_defender_web_guiding_system
+    provider: azure
+    kind: security.defender_web_guiding_system
+    label: "security.defender_web_guiding_system"
+    layout: { x: 480, y: 8800 }
+
+  - id: security_detonation
+    provider: azure
+    kind: security.detonation
+    label: "security.detonation"
+    layout: { x: 640, y: 8800 }
+
+  - id: security_extended_security_updates
+    provider: azure
+    kind: security.extended_security_updates
+    label: "security.extended_security_updates"
+    layout: { x: 800, y: 8800 }
+
+  - id: security_key_vaults
+    provider: azure
+    kind: security.key_vaults
+    label: "security.key_vaults"
+    layout: { x: 960, y: 8800 }
+
+  - id: security_keys
+    provider: azure
+    kind: security.keys
+    label: "security.keys"
+    layout: { x: 1120, y: 8800 }
+
+  - id: security_microsoft_defender_easm
+    provider: azure
+    kind: security.microsoft_defender_easm
+    label: "security.microsoft_defender_easm"
+    layout: { x: 1280, y: 8800 }
+
+  - id: security_microsoft_defender_for_cloud
+    provider: azure
+    kind: security.microsoft_defender_for_cloud
+    label: "security.microsoft_defender_for_cloud"
+    layout: { x: 1440, y: 8800 }
+
+  - id: security_microsoft_defender_for_iot
+    provider: azure
+    kind: security.microsoft_defender_for_iot
+    label: "security.microsoft_defender_for_iot"
+    layout: { x: 0, y: 8960 }
+
+  - id: security_security_baselines
+    provider: azure
+    kind: security.security_baselines
+    label: "security.security_baselines"
+    layout: { x: 160, y: 8960 }
+
+  - id: security_virtual_enclaves
+    provider: azure
+    kind: security.virtual_enclaves
+    label: "security.virtual_enclaves"
+    layout: { x: 320, y: 8960 }
+
+  - id: storage_azure_backup_center
+    provider: azure
+    kind: storage.azure_backup_center
+    label: "storage.azure_backup_center"
+    layout: { x: 480, y: 8960 }
+
+  - id: storage_azure_databox_gateway
+    provider: azure
+    kind: storage.azure_databox_gateway
+    label: "storage.azure_databox_gateway"
+    layout: { x: 640, y: 8960 }
+
+  - id: storage_azure_databox_gateway_1
+    provider: azure
+    kind: storage.azure_databox_gateway_1
+    label: "storage.azure_databox_gateway_1"
+    layout: { x: 800, y: 8960 }
+
+  - id: storage_azure_databox_gateway_2
+    provider: azure
+    kind: storage.azure_databox_gateway_2
+    label: "storage.azure_databox_gateway_2"
+    layout: { x: 960, y: 8960 }
+
+  - id: storage_azure_databox_gateway_3
+    provider: azure
+    kind: storage.azure_databox_gateway_3
+    label: "storage.azure_databox_gateway_3"
+    layout: { x: 1120, y: 8960 }
+
+  - id: storage_azure_fileshares
+    provider: azure
+    kind: storage.azure_fileshares
+    label: "storage.azure_fileshares"
+    layout: { x: 1280, y: 8960 }
+
+  - id: storage_azure_hcp_cache
+    provider: azure
+    kind: storage.azure_hcp_cache
+    label: "storage.azure_hcp_cache"
+    layout: { x: 1440, y: 8960 }
+
+  - id: storage_azure_managed_redis
+    provider: azure
+    kind: storage.azure_managed_redis
+    label: "storage.azure_managed_redis"
+    layout: { x: 0, y: 9120 }
+
+  - id: storage_azure_netapp_files
+    provider: azure
+    kind: storage.azure_netapp_files
+    label: "storage.azure_netapp_files"
+    layout: { x: 160, y: 9120 }
+
+  - id: storage_azure_storage_mover
+    provider: azure
+    kind: storage.azure_storage_mover
+    label: "storage.azure_storage_mover"
+    layout: { x: 320, y: 9120 }
+
+  - id: storage_azurite
+    provider: azure
+    kind: storage.azurite
+    label: "storage.azurite"
+    layout: { x: 480, y: 9120 }
+
+  - id: storage_backup_vault
+    provider: azure
+    kind: storage.backup_vault
+    label: "storage.backup_vault"
+    layout: { x: 640, y: 9120 }
+
+  - id: storage_blob_block
+    provider: azure
+    kind: storage.blob_block
+    label: "storage.blob_block"
+    layout: { x: 800, y: 9120 }
+
+  - id: storage_blob_page
+    provider: azure
+    kind: storage.blob_page
+    label: "storage.blob_page"
+    layout: { x: 960, y: 9120 }
+
+  - id: storage_cache
+    provider: azure
+    kind: storage.cache
+    label: "storage.cache"
+    layout: { x: 1120, y: 9120 }
+
+  - id: storage_cache_redis
+    provider: azure
+    kind: storage.cache_redis
+    label: "storage.cache_redis"
+    layout: { x: 1280, y: 9120 }
+
+  - id: storage_data_box
+    provider: azure
+    kind: storage.data_box
+    label: "storage.data_box"
+    layout: { x: 1440, y: 9120 }
+
+  - id: storage_data_box_1
+    provider: azure
+    kind: storage.data_box_1
+    label: "storage.data_box_1"
+    layout: { x: 0, y: 9280 }
+
+  - id: storage_disk_encryption_sets
+    provider: azure
+    kind: storage.disk_encryption_sets
+    label: "storage.disk_encryption_sets"
+    layout: { x: 160, y: 9280 }
+
+  - id: storage_disk_pool
+    provider: azure
+    kind: storage.disk_pool
+    label: "storage.disk_pool"
+    layout: { x: 320, y: 9280 }
+
+  - id: storage_edge_storage_accelerator
+    provider: azure
+    kind: storage.edge_storage_accelerator
+    label: "storage.edge_storage_accelerator"
+    layout: { x: 480, y: 9280 }
+
+  - id: storage_elastic_san
+    provider: azure
+    kind: storage.elastic_san
+    label: "storage.elastic_san"
+    layout: { x: 640, y: 9280 }
+
+  - id: storage_file
+    provider: azure
+    kind: storage.file
+    label: "storage.file"
+    layout: { x: 800, y: 9280 }
+
+  - id: storage_files
+    provider: azure
+    kind: storage.files
+    label: "storage.files"
+    layout: { x: 960, y: 9280 }
+
+  - id: storage_import_export_jobs
+    provider: azure
+    kind: storage.import_export_jobs
+    label: "storage.import_export_jobs"
+    layout: { x: 1120, y: 9280 }
+
+  - id: storage_managed_file_shares
+    provider: azure
+    kind: storage.managed_file_shares
+    label: "storage.managed_file_shares"
+    layout: { x: 1280, y: 9280 }
+
+  - id: storage_storage_accounts
+    provider: azure
+    kind: storage.storage_accounts
+    label: "storage.storage_accounts"
+    layout: { x: 1440, y: 9280 }
+
+  - id: storage_storage_accounts_classic
+    provider: azure
+    kind: storage.storage_accounts_classic
+    label: "storage.storage_accounts_classic"
+    layout: { x: 0, y: 9440 }
+
+  - id: storage_storage_actions
+    provider: azure
+    kind: storage.storage_actions
+    label: "storage.storage_actions"
+    layout: { x: 160, y: 9440 }
+
+  - id: storage_storage_explorer
+    provider: azure
+    kind: storage.storage_explorer
+    label: "storage.storage_explorer"
+    layout: { x: 320, y: 9440 }
+
+  - id: storage_storage_functions
+    provider: azure
+    kind: storage.storage_functions
+    label: "storage.storage_functions"
+    layout: { x: 480, y: 9440 }
+
+  - id: storage_storage_sync_services
+    provider: azure
+    kind: storage.storage_sync_services
+    label: "storage.storage_sync_services"
+    layout: { x: 640, y: 9440 }
+
+  - id: storage_storsimple_data_managers
+    provider: azure
+    kind: storage.storsimple_data_managers
+    label: "storage.storsimple_data_managers"
+    layout: { x: 800, y: 9440 }
+
+  - id: storage_storsimple_device_managers
+    provider: azure
+    kind: storage.storsimple_device_managers
+    label: "storage.storsimple_device_managers"
+    layout: { x: 960, y: 9440 }
+
+  - id: storage_storsimple_device_managers_1
+    provider: azure
+    kind: storage.storsimple_device_managers_1
+    label: "storage.storsimple_device_managers_1"
+    layout: { x: 1120, y: 9440 }
+
+  - id: web_api_center
+    provider: azure
+    kind: web.api_center
+    label: "web.api_center"
+    layout: { x: 1280, y: 9440 }
+
+  - id: web_api_connections
+    provider: azure
+    kind: web.api_connections
+    label: "web.api_connections"
+    layout: { x: 1440, y: 9440 }
+
+  - id: web_api_connections_1
+    provider: azure
+    kind: web.api_connections_1
+    label: "web.api_connections_1"
+    layout: { x: 0, y: 9600 }
+
+  - id: web_api_connections_2
+    provider: azure
+    kind: web.api_connections_2
+    label: "web.api_connections_2"
+    layout: { x: 160, y: 9600 }
+
+  - id: web_api_management_services
+    provider: azure
+    kind: web.api_management_services
+    label: "web.api_management_services"
+    layout: { x: 320, y: 9600 }
+
+  - id: web_api_management_services_1
+    provider: azure
+    kind: web.api_management_services_1
+    label: "web.api_management_services_1"
+    layout: { x: 480, y: 9600 }
+
+  - id: web_api_management_services_2
+    provider: azure
+    kind: web.api_management_services_2
+    label: "web.api_management_services_2"
+    layout: { x: 640, y: 9600 }
+
+  - id: web_api_proxy
+    provider: azure
+    kind: web.api_proxy
+    label: "web.api_proxy"
+    layout: { x: 800, y: 9600 }
+
+  - id: web_app_service_certificates
+    provider: azure
+    kind: web.app_service_certificates
+    label: "web.app_service_certificates"
+    layout: { x: 960, y: 9600 }
+
+  - id: web_app_service_certificates_1
+    provider: azure
+    kind: web.app_service_certificates_1
+    label: "web.app_service_certificates_1"
+    layout: { x: 1120, y: 9600 }
+
+  - id: web_app_service_domains
+    provider: azure
+    kind: web.app_service_domains
+    label: "web.app_service_domains"
+    layout: { x: 1280, y: 9600 }
+
+  - id: web_app_service_domains_1
+    provider: azure
+    kind: web.app_service_domains_1
+    label: "web.app_service_domains_1"
+    layout: { x: 1440, y: 9600 }
+
+  - id: web_app_service_environments
+    provider: azure
+    kind: web.app_service_environments
+    label: "web.app_service_environments"
+    layout: { x: 0, y: 9760 }
+
+  - id: web_app_service_environments_1
+    provider: azure
+    kind: web.app_service_environments_1
+    label: "web.app_service_environments_1"
+    layout: { x: 160, y: 9760 }
+
+  - id: web_app_service_plans
+    provider: azure
+    kind: web.app_service_plans
+    label: "web.app_service_plans"
+    layout: { x: 320, y: 9760 }
+
+  - id: web_app_service_plans_1
+    provider: azure
+    kind: web.app_service_plans_1
+    label: "web.app_service_plans_1"
+    layout: { x: 480, y: 9760 }
+
+  - id: web_app_services
+    provider: azure
+    kind: web.app_services
+    label: "web.app_services"
+    layout: { x: 640, y: 9760 }
+
+  - id: web_app_services_1
+    provider: azure
+    kind: web.app_services_1
+    label: "web.app_services_1"
+    layout: { x: 800, y: 9760 }
+
+  - id: web_app_services_2
+    provider: azure
+    kind: web.app_services_2
+    label: "web.app_services_2"
+    layout: { x: 960, y: 9760 }
+
+  - id: web_app_services_3
+    provider: azure
+    kind: web.app_services_3
+    label: "web.app_services_3"
+    layout: { x: 1120, y: 9760 }
+
+  - id: web_app_services_4
+    provider: azure
+    kind: web.app_services_4
+    label: "web.app_services_4"
+    layout: { x: 1280, y: 9760 }
+
+  - id: web_azure_communication_services
+    provider: azure
+    kind: web.azure_communication_services
+    label: "web.azure_communication_services"
+    layout: { x: 1440, y: 9760 }
+
+  - id: web_azure_communications_gateway
+    provider: azure
+    kind: web.azure_communications_gateway
+    label: "web.azure_communications_gateway"
+    layout: { x: 0, y: 9920 }
+
+  - id: web_azure_media_service
+    provider: azure
+    kind: web.azure_media_service
+    label: "web.azure_media_service"
+    layout: { x: 160, y: 9920 }
+
+  - id: web_azure_spring_apps
+    provider: azure
+    kind: web.azure_spring_apps
+    label: "web.azure_spring_apps"
+    layout: { x: 320, y: 9920 }
+
+  - id: web_azure_spring_apps_1
+    provider: azure
+    kind: web.azure_spring_apps_1
+    label: "web.azure_spring_apps_1"
+    layout: { x: 480, y: 9920 }
+
+  - id: web_function_apps
+    provider: azure
+    kind: web.function_apps
+    label: "web.function_apps"
+    layout: { x: 640, y: 9920 }
+
+  - id: web_function_apps_1
+    provider: azure
+    kind: web.function_apps_1
+    label: "web.function_apps_1"
+    layout: { x: 800, y: 9920 }
+
+  - id: web_notification_hub_namespaces
+    provider: azure
+    kind: web.notification_hub_namespaces
+    label: "web.notification_hub_namespaces"
+    layout: { x: 960, y: 9920 }
+
+  - id: web_notification_hub_namespaces_1
+    provider: azure
+    kind: web.notification_hub_namespaces_1
+    label: "web.notification_hub_namespaces_1"
+    layout: { x: 1120, y: 9920 }
+
+  - id: web_notification_hubs
+    provider: azure
+    kind: web.notification_hubs
+    label: "web.notification_hubs"
+    layout: { x: 1280, y: 9920 }
+
+  - id: web_notification_hubs_1
+    provider: azure
+    kind: web.notification_hubs_1
+    label: "web.notification_hubs_1"
+    layout: { x: 1440, y: 9920 }
+
+  - id: web_notification_hubs_2
+    provider: azure
+    kind: web.notification_hubs_2
+    label: "web.notification_hubs_2"
+    layout: { x: 0, y: 10080 }
+
+  - id: web_signalr
+    provider: azure
+    kind: web.signalr
+    label: "web.signalr"
+    layout: { x: 160, y: 10080 }
+
+  - id: web_static_apps
+    provider: azure
+    kind: web.static_apps
+    label: "web.static_apps"
+    layout: { x: 320, y: 10080 }
+
+  - id: web_virtual_visits_builder
+    provider: azure
+    kind: web.virtual_visits_builder
+    label: "web.virtual_visits_builder"
+    layout: { x: 480, y: 10080 }
+
+  - id: web_web_app_database
+    provider: azure
+    kind: web.web_app_database
+    label: "web.web_app_database"
+    layout: { x: 640, y: 10080 }
+
+  - id: web_web_jobs
+    provider: azure
+    kind: web.web_jobs
+    label: "web.web_jobs"
+    layout: { x: 800, y: 10080 }
 
