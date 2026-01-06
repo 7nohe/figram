@@ -10,12 +10,12 @@ Figramは **1,725種類のクラウドサービスアイコン** を3つの主�
 | プロバイダー | アイコン数 | 説明 |
 |-------------|----------|------|
 | [AWS](./icons-aws/) | 873 | カテゴリ別に整理されたAmazon Web Servicesアイコン |
-| [Azure](./icons-azure/) | 636 | Microsoft Azureサービスアイコン |
+| [Azure](./icons-azure/) | 636 | カテゴリ別に整理されたMicrosoft Azureサービスアイコン |
 | [GCP](./icons-gcp/) | 216 | カテゴリ別に整理されたGoogle Cloud Platformアイコン |
 
 ## 使い方
 
-YAMLで `provider` と `kind` の値を指定してアイコンを使用します：
+YAMLで `provider` と `kind` の値を指定してアイコンを使用します。
 
 ```yaml
 nodes:
@@ -35,25 +35,23 @@ nodes:
 
 ## アイコン命名規則
 
-### AWS & GCP
-カテゴリを含む階層的な命名：
+すべてのプロバイダーでカテゴリを含む階層的な命名を使用しています。
+
 ```
-category.service
-category.service.variant
+category.service_name
 ```
 
-例：
+### AWS の例
 - `compute.ec2` - Amazon EC2
 - `database.rds` - Amazon RDS
-- `container.gke` - Google Kubernetes Engine
+- `networking.vpc` - Amazon VPC
 
-### Azure
-カテゴリプレフィックスなしのフラットな命名：
-```
-service_name
-```
+### Azure の例
+- `compute.virtual_machine` - 仮想マシン
+- `storage.storage_accounts` - ストレージアカウント
+- `web.app_services` - App Service
 
-例：
-- `virtual_machine` - 仮想マシン
-- `storage_account` - ストレージアカウント
-- `app_service` - App Service
+### GCP の例
+- `compute.compute_engine` - Compute Engine
+- `databases.cloud_sql` - Cloud SQL
+- `networking.cloud_dns` - Cloud DNS
