@@ -45,7 +45,7 @@ bun run packages/cli/src/index.ts <command>
 
 ## Architecture
 
-Three-package monorepo using Bun workspaces:
+Four-package monorepo using Bun workspaces:
 
 ### @figram/core (packages/core/)
 Dependency-free library for DSL processing:
@@ -68,6 +68,14 @@ FigJam plugin with two threads:
 - `ui.ts` - UI iframe (WebSocket client)
 
 Communication: CLI ↔ WebSocket ↔ Plugin UI ↔ postMessage ↔ Plugin Main
+
+### figram-vscode (packages/vscode/)
+VS Code extension for editing diagrams:
+- `src/extension.ts` - Extension entry point, command registration
+- `src/completion/` - Autocomplete providers for `provider:` and `kind:`
+- `src/diagnostics/` - Real-time YAML validation with error highlighting
+- `src/ops/` - CLI detection, server management with status bar
+- `snippets/figram.json` - YAML snippets for quick scaffolding
 
 ## Key Patterns
 
@@ -123,6 +131,9 @@ When modifying the following files, **automatically update related documentation
 | `packages/cli/src/commands/*.ts` | `CLAUDE.md` (Commands), `docs/*/installation.md` |
 | `packages/plugin/src/code.ts` | `.claude/skills/figjam-plugin/`, `CLAUDE.md` (Plugin Constraints) |
 | `packages/plugin/src/ui.ts` | `.claude/skills/figjam-plugin/`, `.claude/skills/debug-connection/` |
+| `packages/vscode/src/*.ts` | `.claude/skills/vscode-extension/`, `docs/*/vscode-extension.md` |
+| `packages/vscode/package.json` | `docs/*/vscode-extension.md` (Commands, Configuration) |
+| `packages/vscode/snippets/figram.json` | `docs/*/vscode-extension.md` (Snippets table) |
 
 ### Sync Checklist
 

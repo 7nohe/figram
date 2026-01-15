@@ -210,6 +210,104 @@ Start the server with the icons file:
 npx figram serve diagram.yaml --icons figram-icons.yaml
 ```
 
+## Development
+
+### VS Code Extension Debugging
+
+To debug the VS Code extension, follow these steps:
+
+#### 1. Debug Configuration
+
+Create `.vscode/launch.json` at the project root with the following configuration:
+
+```json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Extension",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/packages/vscode/dist/**/*.js"
+      ],
+      "preLaunchTask": "build:dev"
+    },
+    {
+      "name": "Extension Tests",
+      "type": "extensionHost",
+      "request": "launch",
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}/packages/vscode",
+        "--extensionTestsPath=${workspaceFolder}/packages/vscode/dist/test"
+      ],
+      "outFiles": [
+        "${workspaceFolder}/packages/vscode/dist/**/*.js"
+      ],
+      "preLaunchTask": "build:dev"
+    }
+  ]
+}
+```
+
+Create `.vscode/tasks.json` for the build task:
+
+```json
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build:dev",
+      "type": "shell",
+      "command": "bun",
+      "args": ["run", "build:dev"],
+      "options": {
+        "cwd": "${workspaceFolder}/packages/vscode"
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
+```
+
+#### 2. Start Debugging
+
+1. Press **F5** or select "Run Extension" from the debug panel (Cmd+Shift+D)
+2. A new "Extension Development Host" window will open
+3. The extension will run in this window
+
+#### 3. Setting Breakpoints
+
+- Set breakpoints in source files like `packages/vscode/src/extension.ts`
+- When you execute extension commands, execution will stop at breakpoints
+
+#### 4. Viewing Logs
+
+- **Debug Console**: Inspect variable values
+- **Output Panel**: View logs in the "figram" channel
+- **Command Palette**: Run "figram: Show Output" to display output
+
+#### 5. Watch Mode for Development
+
+Run the following in a separate terminal to enable automatic builds on file changes:
+
+```bash
+cd packages/vscode
+bun run dev
+```
+
+#### Available Debug Configurations
+
+- **Run Extension**: Run the extension in debug mode
+- **Extension Tests**: Run tests
+
 ## Documentation
 
 - [YAML Specification](docs/en/yaml-specs.md)
