@@ -183,6 +183,25 @@ You can download official cloud provider icons from:
 
 Icons support hierarchical matching. For example, if you define an icon for `compute.ec2`, it will also be used for `compute.ec2.t3` or `compute.ec2.custom` unless more specific icons are defined.
 
+## Claude Code Plugin
+
+If you use [Claude Code](https://claude.ai/code), you can install the Figram plugin to get AI-assisted diagram authoring with YAML syntax help and troubleshooting guidance.
+
+### Installation
+
+```bash
+/plugin install 7nohe/figram
+```
+
+### Available Skills
+
+| Skill | Description |
+|-------|-------------|
+| `getting-started` | Setup guide, workflow, plugin connection |
+| `yaml-authoring` | YAML syntax, providers, patterns, troubleshooting |
+
+Once installed, Claude will automatically reference these skills when you work with Figram YAML files.
+
 ## Remote Access
 
 By default, the server binds to `127.0.0.1` (localhost only). To allow connections from other machines:

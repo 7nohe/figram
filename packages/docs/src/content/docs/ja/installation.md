@@ -183,6 +183,25 @@ npx figram serve diagram.yaml --icons path/to/my-icons.yaml
 
 アイコンは階層的なマッチングをサポートします。例えば、`compute.ec2`のアイコンを定義すると、より具体的なアイコンが定義されていない限り、`compute.ec2.t3`や`compute.ec2.custom`にも使用されます。
 
+## Claude Code プラグイン
+
+[Claude Code](https://claude.ai/code)を使用している場合、FigramプラグインをインストールすることでYAML構文のヘルプやトラブルシューティングガイドなど、AIによるダイアグラム作成支援を受けられます。
+
+### インストール
+
+```bash
+/plugin install 7nohe/figram
+```
+
+### 利用可能なスキル
+
+| スキル | 説明 |
+|--------|------|
+| `getting-started` | セットアップガイド、ワークフロー、プラグイン接続 |
+| `yaml-authoring` | YAML構文、プロバイダー、パターン、トラブルシューティング |
+
+インストール後、Figram YAMLファイルで作業する際にClaudeが自動的にこれらのスキルを参照します。
+
 ## リモートアクセス
 
 デフォルトでは、サーバーは`127.0.0.1`（localhost のみ）にバインドされます。他のマシンからの接続を許可するには:
