@@ -9,14 +9,5 @@
     "type": "git",
     "url": "https://github.com/7nohe/figram"
   },
-  "keywords": [
-    "figram",
-    "figjam",
-    "architecture",
-    "diagrams",
-    "yaml",
-    "aws",
-    "gcp",
-    "azure"
-  ]
+  "keywords": ["figram", "figjam", "architecture", "diagrams", "yaml", "aws", "gcp", "azure"]
 }
