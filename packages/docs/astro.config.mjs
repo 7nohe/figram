@@ -47,6 +47,11 @@ export default defineConfig({
               translations: { ja: "インストール" },
               slug: "installation",
             },
+            {
+              label: "VS Code Extension",
+              translations: { ja: "VS Code 拡張機能" },
+              slug: "vscode-extension",
+            },
           ],
         },
         {

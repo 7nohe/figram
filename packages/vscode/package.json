@@ -1,0 +1,158 @@
+{
+  "name": "figram-vscode",
+  "displayName": "figram",
+  "description": "VS Code extension for figram - YAML-driven architecture diagrams for FigJam",
+  "version": "0.1.0",
+  "publisher": "figram",
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#1a1a2e",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/7nohe/figram",
+  "bugs": {
+    "url": "https://github.com/7nohe/figram/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7nohe/figram.git",
+    "directory": "packages/vscode"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other",
+    "Snippets"
+  ],
+  "keywords": [
+    "figma",
+    "figjam",
+    "diagram",
+    "architecture",
+    "yaml",
+    "aws",
+    "gcp",
+    "azure"
+  ],
+  "activationEvents": [
+    "onLanguage:yaml"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "figram.init",
+        "title": "figram: Init diagram.yaml"
+      },
+      {
+        "command": "figram.build",
+        "title": "figram: Build JSON (current file)"
+      },
+      {
+        "command": "figram.serve.start",
+        "title": "figram: Start Serve"
+      },
+      {
+        "command": "figram.serve.stop",
+        "title": "figram: Stop Serve"
+      },
+      {
+        "command": "figram.serve.restart",
+        "title": "figram: Restart Serve"
+      },
+      {
+        "command": "figram.serve.quickPick",
+        "title": "figram: Serve Actions"
+      },
+      {
+        "command": "figram.showOutput",
+        "title": "figram: Show Output"
+      },
+      {
+        "command": "figram.refreshDiagnostics",
+        "title": "figram: Refresh Diagnostics"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "yaml",
+        "path": "./snippets/figram.json"
+      }
+    ],
+    "configuration": {
+      "title": "figram",
+      "properties": {
+        "figram.cli.command": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": null,
+          "description": "Custom command to run figram CLI. Default: npx figram@latest (e.g., [\"bunx\", \"figram\"] or [\"npx\", \"figram\"])"
+        },
+        "figram.serve.host": {
+          "type": "string",
+          "default": "127.0.0.1",
+          "description": "Host for figram serve command"
+        },
+        "figram.serve.port": {
+          "type": "number",
+          "default": 3456,
+          "description": "Port for figram serve command"
+        },
+        "figram.serve.allowRemote": {
+          "type": "boolean",
+          "default": false,
+          "description": "Allow remote connections to the server"
+        },
+        "figram.serve.secret": {
+          "type": "string",
+          "default": "",
+          "description": "Secret for authentication handshake"
+        },
+        "figram.serve.noWatch": {
+          "type": "boolean",
+          "default": false,
+          "description": "Disable file watching"
+        },
+        "figram.serve.iconsPath": {
+          "type": "string",
+          "default": "",
+          "description": "Path to custom icons file (figram-icons.yaml)"
+        },
+        "figram.diagnostics.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable diagnostics for figram YAML files"
+        },
+        "figram.diagnostics.debounceMs": {
+          "type": "number",
+          "default": 300,
+          "description": "Debounce time in milliseconds for diagnostics"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "generate:icons": "bun run scripts/generate-icons-data.ts",
+    "build": "bun run generate:icons && esbuild ./src/extension.ts --bundle --outfile=dist/extension.js --external:vscode --format=cjs --platform=node --minify --keep-names",
+    "build:dev": "bun run generate:icons && esbuild ./src/extension.ts --bundle --outfile=dist/extension.js --external:vscode --format=cjs --platform=node --sourcemap",
+    "package": "bun run build && vsce package --no-dependencies",
+    "dev": "bun run build:dev --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint src",
+    "test": "bun test src"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.14",
+    "@types/node": "^22.10.0",
+    "@types/vscode": "^1.85.0",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "yaml": "^2.8.2"
+  }
+}

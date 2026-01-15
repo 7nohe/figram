@@ -1,0 +1,6908 @@
+{
+  "aws": {
+    "ai.bedrock": {
+      "label": "Bedrock",
+      "category": "AI"
+    },
+    "ai.comprehend": {
+      "label": "Comprehend",
+      "category": "AI"
+    },
+    "ai.comprehend.medical": {
+      "label": "Comprehend Medical",
+      "category": "AI"
+    },
+    "ai.deepcomposer": {
+      "label": "Deepcomposer",
+      "category": "AI"
+    },
+    "ai.deeplens": {
+      "label": "Deeplens",
+      "category": "AI"
+    },
+    "ai.deepracer": {
+      "label": "Deepracer",
+      "category": "AI"
+    },
+    "ai.forecast": {
+      "label": "Forecast",
+      "category": "AI"
+    },
+    "ai.fraud_detector": {
+      "label": "Fraud Detector",
+      "category": "AI"
+    },
+    "ai.kendra": {
+      "label": "Kendra",
+      "category": "AI"
+    },
+    "ai.lex": {
+      "label": "Lex",
+      "category": "AI"
+    },
+    "ai.lex.v1": {
+      "label": "Lex V1",
+      "category": "AI"
+    },
+    "ai.lex.v2": {
+      "label": "Lex V2",
+      "category": "AI"
+    },
+    "ai.nova": {
+      "label": "Nova",
+      "category": "AI"
+    },
+    "ai.panorama": {
+      "label": "Panorama",
+      "category": "AI"
+    },
+    "ai.personalize": {
+      "label": "Personalize",
+      "category": "AI"
+    },
+    "ai.polly": {
+      "label": "Polly",
+      "category": "AI"
+    },
+    "ai.q": {
+      "label": "Q",
+      "category": "AI"
+    },
+    "ai.q.business": {
+      "label": "Q Business",
+      "category": "AI"
+    },
+    "ai.q.developer": {
+      "label": "Q Developer",
+      "category": "AI"
+    },
+    "ai.rekognition": {
+      "label": "Rekognition",
+      "category": "AI"
+    },
+    "ai.rekognition.image": {
+      "label": "Rekognition Image",
+      "category": "AI"
+    },
+    "ai.rekognition.video": {
+      "label": "Rekognition Video",
+      "category": "AI"
+    },
+    "ai.textract": {
+      "label": "Textract",
+      "category": "AI"
+    },
+    "ai.transcribe": {
+      "label": "Transcribe",
+      "category": "AI"
+    },
+    "ai.translate": {
+      "label": "Translate",
+      "category": "AI"
+    },
+    "analytics.athena": {
+      "label": "Athena",
+      "category": "Analytics"
+    },
+    "analytics.cleanrooms": {
+      "label": "Cleanrooms",
+      "category": "Analytics"
+    },
+    "analytics.cloudsearch": {
+      "label": "Cloudsearch",
+      "category": "Analytics"
+    },
+    "analytics.cloudsearch.documents": {
+      "label": "Cloudsearch Documents",
+      "category": "Analytics"
+    },
+    "analytics.cloudsearch.index": {
+      "label": "Cloudsearch Index",
+      "category": "Analytics"
+    },
+    "analytics.cluster": {
+      "label": "Cluster",
+      "category": "Analytics"
+    },
+    "analytics.cluster.admin_node": {
+      "label": "Cluster Admin Node",
+      "category": "Analytics"
+    },
+    "analytics.cluster.data_node": {
+      "label": "Cluster Data Node",
+      "category": "Analytics"
+    },
+    "analytics.cluster.dense_compute": {
+      "label": "Cluster Dense Compute",
+      "category": "Analytics"
+    },
+    "analytics.cluster.dense_storage": {
+      "label": "Cluster Dense Storage",
+      "category": "Analytics"
+    },
+    "analytics.data_lake": {
+      "label": "Data Lake",
+      "category": "Analytics"
+    },
+    "analytics.dataexchange": {
+      "label": "Dataexchange",
+      "category": "Analytics"
+    },
+    "analytics.dataexchange.apis": {
+      "label": "Dataexchange APIs",
+      "category": "Analytics"
+    },
+    "analytics.datazone": {
+      "label": "Datazone",
+      "category": "Analytics"
+    },
+    "analytics.datazone.catalog": {
+      "label": "Datazone Catalog",
+      "category": "Analytics"
+    },
+    "analytics.datazone.connectors": {
+      "label": "Datazone Connectors",
+      "category": "Analytics"
+    },
+    "analytics.datazone.governance": {
+      "label": "Datazone Governance",
+      "category": "Analytics"
+    },
+    "analytics.datazone.portal": {
+      "label": "Datazone Portal",
+      "category": "Analytics"
+    },
+    "analytics.datazone.projects": {
+      "label": "Datazone Projects",
+      "category": "Analytics"
+    },
+    "analytics.emr": {
+      "label": "EMR",
+      "category": "Analytics"
+    },
+    "analytics.emr.engine": {
+      "label": "EMR Engine",
+      "category": "Analytics"
+    },
+    "analytics.emr.hdfs_cluster": {
+      "label": "EMR HDFS Cluster",
+      "category": "Analytics"
+    },
+    "analytics.entity_resolution": {
+      "label": "Entity Resolution",
+      "category": "Analytics"
+    },
+    "analytics.finspace": {
+      "label": "Finspace",
+      "category": "Analytics"
+    },
+    "analytics.firehose": {
+      "label": "Firehose",
+      "category": "Analytics"
+    },
+    "analytics.flink": {
+      "label": "Flink",
+      "category": "Analytics"
+    },
+    "analytics.glue": {
+      "label": "Glue",
+      "category": "Analytics"
+    },
+    "analytics.glue.crawler": {
+      "label": "Glue Crawler",
+      "category": "Analytics"
+    },
+    "analytics.glue.data_catalog": {
+      "label": "Glue Data Catalog",
+      "category": "Analytics"
+    },
+    "analytics.glue.data_quality": {
+      "label": "Glue Data Quality",
+      "category": "Analytics"
+    },
+    "analytics.glue.databrew": {
+      "label": "Glue Databrew",
+      "category": "Analytics"
+    },
+    "analytics.glue.ray": {
+      "label": "Glue Ray",
+      "category": "Analytics"
+    },
+    "analytics.kinesis": {
+      "label": "Kinesis",
+      "category": "Analytics"
+    },
+    "analytics.kinesis.data_streams": {
+      "label": "Kinesis Data Streams",
+      "category": "Analytics"
+    },
+    "analytics.kinesis.video_streams": {
+      "label": "Kinesis Video Streams",
+      "category": "Analytics"
+    },
+    "analytics.lakeformation": {
+      "label": "Lakeformation",
+      "category": "Analytics"
+    },
+    "analytics.msk": {
+      "label": "MSK",
+      "category": "Analytics"
+    },
+    "analytics.msk.connect": {
+      "label": "MSK Connect",
+      "category": "Analytics"
+    },
+    "analytics.opensearch": {
+      "label": "Opensearch",
+      "category": "Analytics"
+    },
+    "analytics.opensearch.dashboards": {
+      "label": "Opensearch Dashboards",
+      "category": "Analytics"
+    },
+    "analytics.opensearch.ingestion": {
+      "label": "Opensearch Ingestion",
+      "category": "Analytics"
+    },
+    "analytics.opensearch.observability": {
+      "label": "Opensearch Observability",
+      "category": "Analytics"
+    },
+    "analytics.opensearch.traces": {
+      "label": "Opensearch Traces",
+      "category": "Analytics"
+    },
+    "analytics.opensearch.ultrawarm": {
+      "label": "Opensearch Ultrawarm",
+      "category": "Analytics"
+    },
+    "analytics.quicksight": {
+      "label": "Quicksight",
+      "category": "Analytics"
+    },
+    "analytics.quicksight.paginated_reports": {
+      "label": "Quicksight Paginated Reports",
+      "category": "Analytics"
+    },
+    "blockchain.generic": {
+      "label": "Generic",
+      "category": "Blockchain"
+    },
+    "blockchain.managed_blockchain": {
+      "label": "Managed Blockchain",
+      "category": "Blockchain"
+    },
+    "blockchain.managedblockchain": {
+      "label": "Managedblockchain",
+      "category": "Blockchain"
+    },
+    "blockchain.qldb": {
+      "label": "Qldb",
+      "category": "Blockchain"
+    },
+    "business.alexa": {
+      "label": "Alexa",
+      "category": "Business Applications"
+    },
+    "business.appfabric": {
+      "label": "Appfabric",
+      "category": "Business Applications"
+    },
+    "business.chime": {
+      "label": "Chime",
+      "category": "Business Applications"
+    },
+    "business.chime.sdk": {
+      "label": "Chime SDK",
+      "category": "Business Applications"
+    },
+    "business.connect": {
+      "label": "Connect",
+      "category": "Business Applications"
+    },
+    "business.end_user_messaging": {
+      "label": "End User Messaging",
+      "category": "Business Applications"
+    },
+    "business.pinpoint": {
+      "label": "Pinpoint",
+      "category": "Business Applications"
+    },
+    "business.pinpoint.apis": {
+      "label": "Pinpoint APIs",
+      "category": "Business Applications"
+    },
+    "business.pinpoint.journey": {
+      "label": "Pinpoint Journey",
+      "category": "Business Applications"
+    },
+    "business.ses": {
+      "label": "Ses",
+      "category": "Business Applications"
+    },
+    "business.ses.email": {
+      "label": "Ses Email",
+      "category": "Business Applications"
+    },
+    "business.supply_chain": {
+      "label": "Supply Chain",
+      "category": "Business Applications"
+    },
+    "business.wickr": {
+      "label": "Wickr",
+      "category": "Business Applications"
+    },
+    "business.workdocs": {
+      "label": "Workdocs",
+      "category": "Business Applications"
+    },
+    "business.workdocs.sdk": {
+      "label": "Workdocs SDK",
+      "category": "Business Applications"
+    },
+    "business.workmail": {
+      "label": "Workmail",
+      "category": "Business Applications"
+    },
+    "category.iot": {
+      "label": "IoT",
+      "category": "Category"
+    },
+    "category.management_governance": {
+      "label": "Management Governance",
+      "category": "Category"
+    },
+    "compute.apprunner": {
+      "label": "Apprunner",
+      "category": "Compute"
+    },
+    "compute.autoscaling": {
+      "label": "Autoscaling",
+      "category": "Compute"
+    },
+    "compute.batch": {
+      "label": "Batch",
+      "category": "Compute"
+    },
+    "compute.beanstalk": {
+      "label": "Beanstalk",
+      "category": "Compute"
+    },
+    "compute.beanstalk.application": {
+      "label": "Beanstalk Application",
+      "category": "Compute"
+    },
+    "compute.beanstalk.deployment": {
+      "label": "Beanstalk Deployment",
+      "category": "Compute"
+    },
+    "compute.bottlerocket": {
+      "label": "Bottlerocket",
+      "category": "Compute"
+    },
+    "compute.compute_optimizer": {
+      "label": "Compute Optimizer",
+      "category": "Compute"
+    },
+    "compute.container": {
+      "label": "Container",
+      "category": "Compute"
+    },
+    "compute.container.copilot_cli": {
+      "label": "Container Copilot CLI",
+      "category": "Compute"
+    },
+    "compute.container.ecr": {
+      "label": "Container Ecr",
+      "category": "Compute"
+    },
+    "compute.container.ecr.image": {
+      "label": "Container Ecr Image",
+      "category": "Compute"
+    },
+    "compute.container.ecr.registry": {
+      "label": "Container Ecr Registry",
+      "category": "Compute"
+    },
+    "compute.container.ecs": {
+      "label": "Container ECS",
+      "category": "Compute"
+    },
+    "compute.container.ecs.anywhere": {
+      "label": "Container ECS Anywhere",
+      "category": "Compute"
+    },
+    "compute.container.ecs.service": {
+      "label": "Container ECS Service",
+      "category": "Compute"
+    },
+    "compute.container.ecs.service_connect": {
+      "label": "Container ECS Service Connect",
+      "category": "Compute"
+    },
+    "compute.container.ecs.task": {
+      "label": "Container ECS Task",
+      "category": "Compute"
+    },
+    "compute.container.ecs_service": {
+      "label": "Container ECS Service",
+      "category": "Compute"
+    },
+    "compute.container.ecs_task": {
+      "label": "Container ECS Task",
+      "category": "Compute"
+    },
+    "compute.container.eks": {
+      "label": "Container EKS",
+      "category": "Compute"
+    },
+    "compute.container.eks.anywhere": {
+      "label": "Container EKS Anywhere",
+      "category": "Compute"
+    },
+    "compute.container.eks.cloud": {
+      "label": "Container EKS Cloud",
+      "category": "Compute"
+    },
+    "compute.container.eks.distro": {
+      "label": "Container EKS Distro",
+      "category": "Compute"
+    },
+    "compute.container.eks.outposts": {
+      "label": "Container EKS Outposts",
+      "category": "Compute"
+    },
+    "compute.container.fargate": {
+      "label": "Container Fargate",
+      "category": "Compute"
+    },
+    "compute.container.generic1": {
+      "label": "Container Generic1",
+      "category": "Compute"
+    },
+    "compute.container.generic2": {
+      "label": "Container Generic2",
+      "category": "Compute"
+    },
+    "compute.container.generic3": {
+      "label": "Container Generic3",
+      "category": "Compute"
+    },
+    "compute.container.openshift": {
+      "label": "Container Openshift",
+      "category": "Compute"
+    },
+    "compute.dcv": {
+      "label": "Dcv",
+      "category": "Compute"
+    },
+    "compute.ec2": {
+      "label": "EC2",
+      "category": "Compute"
+    },
+    "compute.ec2.ami": {
+      "label": "EC2 Ami",
+      "category": "Compute"
+    },
+    "compute.ec2.autoscaling": {
+      "label": "EC2 Autoscaling",
+      "category": "Compute"
+    },
+    "compute.ec2.db_instance": {
+      "label": "EC2 Db Instance",
+      "category": "Compute"
+    },
+    "compute.ec2.elastic_fabric_adapter": {
+      "label": "EC2 Elastic Fabric Adapter",
+      "category": "Compute"
+    },
+    "compute.ec2.elastic_ip": {
+      "label": "EC2 Elastic Ip",
+      "category": "Compute"
+    },
+    "compute.ec2.image_builder": {
+      "label": "EC2 Image Builder",
+      "category": "Compute"
+    },
+    "compute.ec2.instance": {
+      "label": "EC2 Instance",
+      "category": "Compute"
+    },
+    "compute.ec2.instance_cloudwatch": {
+      "label": "EC2 Instance Cloudwatch",
+      "category": "Compute"
+    },
+    "compute.ec2.instances": {
+      "label": "EC2 Instances",
+      "category": "Compute"
+    },
+    "compute.ec2.rescue": {
+      "label": "EC2 Rescue",
+      "category": "Compute"
+    },
+    "compute.ec2.spot_instance": {
+      "label": "EC2 Spot Instance",
+      "category": "Compute"
+    },
+    "compute.elastic_beanstalk": {
+      "label": "Elastic Beanstalk",
+      "category": "Compute"
+    },
+    "compute.enginframe": {
+      "label": "Enginframe",
+      "category": "Compute"
+    },
+    "compute.graviton": {
+      "label": "Graviton",
+      "category": "Compute"
+    },
+    "compute.lambda": {
+      "label": "Lambda",
+      "category": "Compute"
+    },
+    "compute.lambda.function": {
+      "label": "Lambda Function",
+      "category": "Compute"
+    },
+    "compute.lb": {
+      "label": "Lb",
+      "category": "Compute"
+    },
+    "compute.lb.alb": {
+      "label": "Lb ALB",
+      "category": "Compute"
+    },
+    "compute.lb.clb": {
+      "label": "Lb Clb",
+      "category": "Compute"
+    },
+    "compute.lb.gwlb": {
+      "label": "Lb Gwlb",
+      "category": "Compute"
+    },
+    "compute.lb.nlb": {
+      "label": "Lb NLB",
+      "category": "Compute"
+    },
+    "compute.lightsail": {
+      "label": "Lightsail",
+      "category": "Compute"
+    },
+    "compute.lightsail.research": {
+      "label": "Lightsail Research",
+      "category": "Compute"
+    },
+    "compute.local_zones": {
+      "label": "Local Zones",
+      "category": "Compute"
+    },
+    "compute.microservice_extractor": {
+      "label": "Microservice Extractor",
+      "category": "Compute"
+    },
+    "compute.nitro_enclaves": {
+      "label": "Nitro Enclaves",
+      "category": "Compute"
+    },
+    "compute.outposts": {
+      "label": "Outposts",
+      "category": "Compute"
+    },
+    "compute.outposts.rack": {
+      "label": "Outposts Rack",
+      "category": "Compute"
+    },
+    "compute.outposts.servers": {
+      "label": "Outposts Servers",
+      "category": "Compute"
+    },
+    "compute.parallel_cluster": {
+      "label": "Parallel Cluster",
+      "category": "Compute"
+    },
+    "compute.parallel_computing_service": {
+      "label": "Parallel Computing Service",
+      "category": "Compute"
+    },
+    "compute.serverless_app_repo": {
+      "label": "Serverless App Repo",
+      "category": "Compute"
+    },
+    "compute.serverless_repo": {
+      "label": "Serverless Repo",
+      "category": "Compute"
+    },
+    "compute.simspace_weaver": {
+      "label": "Simspace Weaver",
+      "category": "Compute"
+    },
+    "compute.virtual_machine": {
+      "label": "Virtual Machine",
+      "category": "Compute"
+    },
+    "compute.virtual_machine_monitor": {
+      "label": "Virtual Machine Monitor",
+      "category": "Compute"
+    },
+    "compute.wavelength": {
+      "label": "Wavelength",
+      "category": "Compute"
+    },
+    "container.ecr": {
+      "label": "Ecr",
+      "category": "Containers"
+    },
+    "cost.billing_conductor": {
+      "label": "Billing Conductor",
+      "category": "Cost Management"
+    },
+    "cost.budgets": {
+      "label": "Budgets",
+      "category": "Cost Management"
+    },
+    "cost.explorer": {
+      "label": "Explorer",
+      "category": "Cost Management"
+    },
+    "cost.reserved_instance_reporting": {
+      "label": "Reserved Instance Reporting",
+      "category": "Cost Management"
+    },
+    "cost.savings_plans": {
+      "label": "Savings Plans",
+      "category": "Cost Management"
+    },
+    "cost.usage_report": {
+      "label": "Usage Report",
+      "category": "Cost Management"
+    },
+    "database.aurora": {
+      "label": "Aurora",
+      "category": "Database"
+    },
+    "database.aurora.instance_alt": {
+      "label": "Aurora Instance Alt",
+      "category": "Database"
+    },
+    "database.aurora.postgresql": {
+      "label": "Aurora Postgresql",
+      "category": "Database"
+    },
+    "database.aurora.serverless": {
+      "label": "Aurora Serverless",
+      "category": "Database"
+    },
+    "database.dms": {
+      "label": "Dms",
+      "category": "Database"
+    },
+    "database.dms.workflow": {
+      "label": "Dms Workflow",
+      "category": "Database"
+    },
+    "database.documentdb": {
+      "label": "Documentdb",
+      "category": "Database"
+    },
+    "database.documentdb.elastic": {
+      "label": "Documentdb Elastic",
+      "category": "Database"
+    },
+    "database.dynamodb": {
+      "label": "Dynamodb",
+      "category": "Database"
+    },
+    "database.dynamodb.attribute": {
+      "label": "Dynamodb Attribute",
+      "category": "Database"
+    },
+    "database.dynamodb.attributes": {
+      "label": "Dynamodb Attributes",
+      "category": "Database"
+    },
+    "database.dynamodb.dax": {
+      "label": "Dynamodb Dax",
+      "category": "Database"
+    },
+    "database.dynamodb.global_tables": {
+      "label": "Dynamodb Global Tables",
+      "category": "Database"
+    },
+    "database.dynamodb.gsi": {
+      "label": "Dynamodb Gsi",
+      "category": "Database"
+    },
+    "database.dynamodb.item": {
+      "label": "Dynamodb Item",
+      "category": "Database"
+    },
+    "database.dynamodb.items": {
+      "label": "Dynamodb Items",
+      "category": "Database"
+    },
+    "database.dynamodb.standard": {
+      "label": "Dynamodb Standard",
+      "category": "Database"
+    },
+    "database.dynamodb.standard_ia": {
+      "label": "Dynamodb Standard Ia",
+      "category": "Database"
+    },
+    "database.dynamodb.stream": {
+      "label": "Dynamodb Stream",
+      "category": "Database"
+    },
+    "database.dynamodb.table": {
+      "label": "Dynamodb Table",
+      "category": "Database"
+    },
+    "database.elasticache": {
+      "label": "Elasticache",
+      "category": "Database"
+    },
+    "database.elasticache.memcached": {
+      "label": "Elasticache Memcached",
+      "category": "Database"
+    },
+    "database.elasticache.node": {
+      "label": "Elasticache Node",
+      "category": "Database"
+    },
+    "database.elasticache.redis": {
+      "label": "Elasticache Redis",
+      "category": "Database"
+    },
+    "database.elasticache.valkey": {
+      "label": "Elasticache Valkey",
+      "category": "Database"
+    },
+    "database.keyspaces": {
+      "label": "Keyspaces",
+      "category": "Database"
+    },
+    "database.memorydb": {
+      "label": "Memorydb",
+      "category": "Database"
+    },
+    "database.neptune": {
+      "label": "Neptune",
+      "category": "Database"
+    },
+    "database.neptune.analytics": {
+      "label": "Neptune Analytics",
+      "category": "Database"
+    },
+    "database.rds": {
+      "label": "RDS",
+      "category": "Database"
+    },
+    "database.rds.blue_green": {
+      "label": "RDS Blue Green",
+      "category": "Database"
+    },
+    "database.rds.instance": {
+      "label": "RDS Instance",
+      "category": "Database"
+    },
+    "database.rds.instance_alt": {
+      "label": "RDS Instance Alt",
+      "category": "Database"
+    },
+    "database.rds.mariadb": {
+      "label": "RDS Mariadb",
+      "category": "Database"
+    },
+    "database.rds.mariadb_alt": {
+      "label": "RDS Mariadb Alt",
+      "category": "Database"
+    },
+    "database.rds.multi_az": {
+      "label": "RDS Multi Az",
+      "category": "Database"
+    },
+    "database.rds.multi_az_cluster": {
+      "label": "RDS Multi Az Cluster",
+      "category": "Database"
+    },
+    "database.rds.mysql": {
+      "label": "RDS Mysql",
+      "category": "Database"
+    },
+    "database.rds.mysql_alt": {
+      "label": "RDS Mysql Alt",
+      "category": "Database"
+    },
+    "database.rds.optimized_writes": {
+      "label": "RDS Optimized Writes",
+      "category": "Database"
+    },
+    "database.rds.oracle": {
+      "label": "RDS Oracle",
+      "category": "Database"
+    },
+    "database.rds.oracle_alt": {
+      "label": "RDS Oracle Alt",
+      "category": "Database"
+    },
+    "database.rds.oracle_dedicated": {
+      "label": "RDS Oracle Dedicated",
+      "category": "Database"
+    },
+    "database.rds.piops": {
+      "label": "RDS Piops",
+      "category": "Database"
+    },
+    "database.rds.postgresql": {
+      "label": "RDS Postgresql",
+      "category": "Database"
+    },
+    "database.rds.postgresql_alt": {
+      "label": "RDS Postgresql Alt",
+      "category": "Database"
+    },
+    "database.rds.postgresql_tle": {
+      "label": "RDS Postgresql Tle",
+      "category": "Database"
+    },
+    "database.rds.proxy": {
+      "label": "RDS Proxy",
+      "category": "Database"
+    },
+    "database.rds.proxy_alt": {
+      "label": "RDS Proxy Alt",
+      "category": "Database"
+    },
+    "database.rds.sqlserver": {
+      "label": "RDS Sqlserver",
+      "category": "Database"
+    },
+    "database.rds.sqlserver_alt": {
+      "label": "RDS Sqlserver Alt",
+      "category": "Database"
+    },
+    "database.redshift": {
+      "label": "Redshift",
+      "category": "Database"
+    },
+    "database.redshift.ml": {
+      "label": "Redshift Ml",
+      "category": "Database"
+    },
+    "database.redshift.query_editor": {
+      "label": "Redshift Query Editor",
+      "category": "Database"
+    },
+    "database.redshift.ra3": {
+      "label": "Redshift Ra3",
+      "category": "Database"
+    },
+    "database.redshift.streaming_ingestion": {
+      "label": "Redshift Streaming Ingestion",
+      "category": "Database"
+    },
+    "database.timestream": {
+      "label": "Timestream",
+      "category": "Database"
+    },
+    "database.timestream.influxdb": {
+      "label": "Timestream Influxdb",
+      "category": "Database"
+    },
+    "database.timestream.liveanalytics": {
+      "label": "Timestream Liveanalytics",
+      "category": "Database"
+    },
+    "developer.cdk": {
+      "label": "Cdk",
+      "category": "Developer Tools"
+    },
+    "developer.cli": {
+      "label": "CLI",
+      "category": "Developer Tools"
+    },
+    "developer.cloud9": {
+      "label": "Cloud9",
+      "category": "Developer Tools"
+    },
+    "developer.cloud9_resource": {
+      "label": "Cloud9 Resource",
+      "category": "Developer Tools"
+    },
+    "developer.cloud_control_api": {
+      "label": "Cloud Control API",
+      "category": "Developer Tools"
+    },
+    "developer.cloudshell": {
+      "label": "Cloudshell",
+      "category": "Developer Tools"
+    },
+    "developer.codeartifact": {
+      "label": "Codeartifact",
+      "category": "Developer Tools"
+    },
+    "developer.codebuild": {
+      "label": "Codebuild",
+      "category": "Developer Tools"
+    },
+    "developer.codecatalyst": {
+      "label": "Codecatalyst",
+      "category": "Developer Tools"
+    },
+    "developer.codecommit": {
+      "label": "Codecommit",
+      "category": "Developer Tools"
+    },
+    "developer.codedeploy": {
+      "label": "Codedeploy",
+      "category": "Developer Tools"
+    },
+    "developer.codepipeline": {
+      "label": "Codepipeline",
+      "category": "Developer Tools"
+    },
+    "developer.corretto": {
+      "label": "Corretto",
+      "category": "Developer Tools"
+    },
+    "developer.device_farm": {
+      "label": "Device Farm",
+      "category": "Developer Tools"
+    },
+    "developer.fault_injection": {
+      "label": "Fault Injection",
+      "category": "Developer Tools"
+    },
+    "developer.infrastructure_composer": {
+      "label": "Infrastructure Composer",
+      "category": "Developer Tools"
+    },
+    "developer.tools_sdks": {
+      "label": "Tools SDKs",
+      "category": "Developer Tools"
+    },
+    "developer.xray": {
+      "label": "Xray",
+      "category": "Developer Tools"
+    },
+    "devtools.cdk": {
+      "label": "Cdk",
+      "category": "Developer Tools"
+    },
+    "devtools.cli": {
+      "label": "CLI",
+      "category": "Developer Tools"
+    },
+    "devtools.cloud9": {
+      "label": "Cloud9",
+      "category": "Developer Tools"
+    },
+    "devtools.cloudshell": {
+      "label": "Cloudshell",
+      "category": "Developer Tools"
+    },
+    "devtools.codeartifact": {
+      "label": "Codeartifact",
+      "category": "Developer Tools"
+    },
+    "devtools.codebuild": {
+      "label": "Codebuild",
+      "category": "Developer Tools"
+    },
+    "devtools.codecatalyst": {
+      "label": "Codecatalyst",
+      "category": "Developer Tools"
+    },
+    "devtools.codecommit": {
+      "label": "Codecommit",
+      "category": "Developer Tools"
+    },
+    "devtools.codedeploy": {
+      "label": "Codedeploy",
+      "category": "Developer Tools"
+    },
+    "devtools.codeguru": {
+      "label": "Codeguru",
+      "category": "Developer Tools"
+    },
+    "devtools.codeguru.profiler": {
+      "label": "Codeguru Profiler",
+      "category": "Developer Tools"
+    },
+    "devtools.codeguru.reviewer": {
+      "label": "Codeguru Reviewer",
+      "category": "Developer Tools"
+    },
+    "devtools.codepipeline": {
+      "label": "Codepipeline",
+      "category": "Developer Tools"
+    },
+    "devtools.codewhisperer": {
+      "label": "Codewhisperer",
+      "category": "Developer Tools"
+    },
+    "devtools.corretto": {
+      "label": "Corretto",
+      "category": "Developer Tools"
+    },
+    "devtools.device_farm": {
+      "label": "Device Farm",
+      "category": "Developer Tools"
+    },
+    "devtools.proton": {
+      "label": "Proton",
+      "category": "Developer Tools"
+    },
+    "enablement.activate": {
+      "label": "Activate",
+      "category": "Enablement"
+    },
+    "enablement.iq": {
+      "label": "Iq",
+      "category": "Enablement"
+    },
+    "enablement.managed_services": {
+      "label": "Managed Services",
+      "category": "Enablement"
+    },
+    "enablement.professional_services": {
+      "label": "Professional Services",
+      "category": "Enablement"
+    },
+    "enablement.repost": {
+      "label": "Repost",
+      "category": "Enablement"
+    },
+    "enablement.repost_private": {
+      "label": "Repost Private",
+      "category": "Enablement"
+    },
+    "enablement.support": {
+      "label": "Support",
+      "category": "Enablement"
+    },
+    "enablement.training": {
+      "label": "Training",
+      "category": "Enablement"
+    },
+    "end_user.appstream": {
+      "label": "Appstream",
+      "category": "End User Computing"
+    },
+    "end_user.workspaces": {
+      "label": "Workspaces",
+      "category": "End User Computing"
+    },
+    "end_user.workspaces_core": {
+      "label": "Workspaces Core",
+      "category": "End User Computing"
+    },
+    "end_user.workspaces_family": {
+      "label": "Workspaces Family",
+      "category": "End User Computing"
+    },
+    "end_user.workspaces_secure_browser": {
+      "label": "Workspaces Secure Browser",
+      "category": "End User Computing"
+    },
+    "enduser.appstream": {
+      "label": "Appstream",
+      "category": "End User Computing"
+    },
+    "enduser.workspaces": {
+      "label": "Workspaces",
+      "category": "End User Computing"
+    },
+    "frontend.amplify": {
+      "label": "Amplify",
+      "category": "Front-End Web & Mobile"
+    },
+    "frontend.amplify_studio": {
+      "label": "Amplify Studio",
+      "category": "Front-End Web & Mobile"
+    },
+    "frontend.location": {
+      "label": "Location",
+      "category": "Front-End Web & Mobile"
+    },
+    "frontend.location.geofence": {
+      "label": "Location Geofence",
+      "category": "Front-End Web & Mobile"
+    },
+    "frontend.location.map": {
+      "label": "Location Map",
+      "category": "Front-End Web & Mobile"
+    },
+    "frontend.location.place": {
+      "label": "Location Place",
+      "category": "Front-End Web & Mobile"
+    },
+    "frontend.location.routes": {
+      "label": "Location Routes",
+      "category": "Front-End Web & Mobile"
+    },
+    "frontend.location.track": {
+      "label": "Location Track",
+      "category": "Front-End Web & Mobile"
+    },
+    "games.gamelift": {
+      "label": "Gamelift",
+      "category": "Game Tech"
+    },
+    "games.o3de": {
+      "label": "O3de",
+      "category": "Game Tech"
+    },
+    "generic.alert": {
+      "label": "Alert",
+      "category": "General"
+    },
+    "generic.application": {
+      "label": "Application",
+      "category": "General"
+    },
+    "generic.authenticated_user": {
+      "label": "Authenticated User",
+      "category": "General"
+    },
+    "generic.camera": {
+      "label": "Camera",
+      "category": "General"
+    },
+    "generic.chat": {
+      "label": "Chat",
+      "category": "General"
+    },
+    "generic.client": {
+      "label": "CLIent",
+      "category": "General"
+    },
+    "generic.cold_storage": {
+      "label": "Cold Storage",
+      "category": "General"
+    },
+    "generic.credentials": {
+      "label": "Credentials",
+      "category": "General"
+    },
+    "generic.data_stream": {
+      "label": "Data Stream",
+      "category": "General"
+    },
+    "generic.data_table": {
+      "label": "Data Table",
+      "category": "General"
+    },
+    "generic.database": {
+      "label": "Database",
+      "category": "General"
+    },
+    "generic.disk": {
+      "label": "Disk",
+      "category": "General"
+    },
+    "generic.document": {
+      "label": "Document",
+      "category": "General"
+    },
+    "generic.documents": {
+      "label": "Documents",
+      "category": "General"
+    },
+    "generic.email": {
+      "label": "Email",
+      "category": "General"
+    },
+    "generic.firewall": {
+      "label": "Firewall",
+      "category": "General"
+    },
+    "generic.folder": {
+      "label": "Folder",
+      "category": "General"
+    },
+    "generic.folders": {
+      "label": "Folders",
+      "category": "General"
+    },
+    "generic.forums": {
+      "label": "Forums",
+      "category": "General"
+    },
+    "generic.gear": {
+      "label": "Gear",
+      "category": "General"
+    },
+    "generic.git_repository": {
+      "label": "Git Repository",
+      "category": "General"
+    },
+    "generic.globe": {
+      "label": "Globe",
+      "category": "General"
+    },
+    "generic.internet": {
+      "label": "Internet",
+      "category": "General"
+    },
+    "generic.internet_alt1": {
+      "label": "Internet Alt1",
+      "category": "General"
+    },
+    "generic.internet_alt2": {
+      "label": "Internet Alt2",
+      "category": "General"
+    },
+    "generic.json_script": {
+      "label": "Json Script",
+      "category": "General"
+    },
+    "generic.logs": {
+      "label": "Logs",
+      "category": "General"
+    },
+    "generic.magnifying_glass": {
+      "label": "Magnifying Glass",
+      "category": "General"
+    },
+    "generic.management_console": {
+      "label": "Management Console",
+      "category": "General"
+    },
+    "generic.marketplace": {
+      "label": "Marketplace",
+      "category": "General"
+    },
+    "generic.metrics": {
+      "label": "Metrics",
+      "category": "General"
+    },
+    "generic.mobile_client": {
+      "label": "Mobile CLIent",
+      "category": "General"
+    },
+    "generic.multimedia": {
+      "label": "Multimedia",
+      "category": "General"
+    },
+    "generic.office_building": {
+      "label": "Office Building",
+      "category": "General"
+    },
+    "generic.programming_language": {
+      "label": "Programming Language",
+      "category": "General"
+    },
+    "generic.question": {
+      "label": "Question",
+      "category": "General"
+    },
+    "generic.recover": {
+      "label": "Recover",
+      "category": "General"
+    },
+    "generic.saml_token": {
+      "label": "Saml Token",
+      "category": "General"
+    },
+    "generic.sdk": {
+      "label": "SDK",
+      "category": "General"
+    },
+    "generic.server": {
+      "label": "Server",
+      "category": "General"
+    },
+    "generic.servers": {
+      "label": "Servers",
+      "category": "General"
+    },
+    "generic.shield": {
+      "label": "Shield",
+      "category": "General"
+    },
+    "generic.source_code": {
+      "label": "Source Code",
+      "category": "General"
+    },
+    "generic.ssl_padlock": {
+      "label": "Ssl Padlock",
+      "category": "General"
+    },
+    "generic.tape_storage": {
+      "label": "Tape Storage",
+      "category": "General"
+    },
+    "generic.toolkit": {
+      "label": "Toolkit",
+      "category": "General"
+    },
+    "generic.user": {
+      "label": "User",
+      "category": "General"
+    },
+    "generic.users": {
+      "label": "Users",
+      "category": "General"
+    },
+    "integration.appflow": {
+      "label": "Appflow",
+      "category": "Application Integration"
+    },
+    "integration.appsync": {
+      "label": "Appsync",
+      "category": "Application Integration"
+    },
+    "integration.b2b_data_interchange": {
+      "label": "B2b Data Interchange",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge": {
+      "label": "Eventbridge",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.custom_bus": {
+      "label": "Eventbridge Custom Bus",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.default_bus": {
+      "label": "Eventbridge Default Bus",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.event": {
+      "label": "Eventbridge Event",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.pipes": {
+      "label": "Eventbridge Pipes",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.rule": {
+      "label": "Eventbridge Rule",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.saas_partner": {
+      "label": "Eventbridge Saas Partner",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.scheduler": {
+      "label": "Eventbridge Scheduler",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.schema": {
+      "label": "Eventbridge Schema",
+      "category": "Application Integration"
+    },
+    "integration.eventbridge.schema_registry": {
+      "label": "Eventbridge Schema Registry",
+      "category": "Application Integration"
+    },
+    "integration.mq": {
+      "label": "Mq",
+      "category": "Application Integration"
+    },
+    "integration.mq.broker": {
+      "label": "Mq Broker",
+      "category": "Application Integration"
+    },
+    "integration.mwaa": {
+      "label": "Mwaa",
+      "category": "Application Integration"
+    },
+    "integration.sns": {
+      "label": "SNS",
+      "category": "Application Integration"
+    },
+    "integration.sns.email": {
+      "label": "SNS Email",
+      "category": "Application Integration"
+    },
+    "integration.sns.http": {
+      "label": "SNS Http",
+      "category": "Application Integration"
+    },
+    "integration.sns.topic": {
+      "label": "SNS Topic",
+      "category": "Application Integration"
+    },
+    "integration.sqs": {
+      "label": "SQS",
+      "category": "Application Integration"
+    },
+    "integration.sqs.message": {
+      "label": "SQS Message",
+      "category": "Application Integration"
+    },
+    "integration.sqs.queue": {
+      "label": "SQS Queue",
+      "category": "Application Integration"
+    },
+    "integration.stepfunctions": {
+      "label": "Stepfunctions",
+      "category": "Application Integration"
+    },
+    "integration.stepfunctions.express": {
+      "label": "Stepfunctions Express",
+      "category": "Application Integration"
+    },
+    "iot.action": {
+      "label": "Action",
+      "category": "IoT"
+    },
+    "iot.actuator": {
+      "label": "Actuator",
+      "category": "IoT"
+    },
+    "iot.alexa.echo": {
+      "label": "Alexa Echo",
+      "category": "IoT"
+    },
+    "iot.alexa.enabled_device": {
+      "label": "Alexa Enabled Device",
+      "category": "IoT"
+    },
+    "iot.alexa.fire_tv": {
+      "label": "Alexa Fire Tv",
+      "category": "IoT"
+    },
+    "iot.alexa.fire_tv_stick": {
+      "label": "Alexa Fire Tv Stick",
+      "category": "IoT"
+    },
+    "iot.alexa.skill": {
+      "label": "Alexa Skill",
+      "category": "IoT"
+    },
+    "iot.alexa.voice_service": {
+      "label": "Alexa Voice Service",
+      "category": "IoT"
+    },
+    "iot.analytics": {
+      "label": "Analytics",
+      "category": "IoT"
+    },
+    "iot.analytics.channel": {
+      "label": "Analytics Channel",
+      "category": "IoT"
+    },
+    "iot.analytics.data_protection": {
+      "label": "Analytics Data Protection",
+      "category": "IoT"
+    },
+    "iot.analytics.data_store": {
+      "label": "Analytics Data Store",
+      "category": "IoT"
+    },
+    "iot.analytics.dataset": {
+      "label": "Analytics Dataset",
+      "category": "IoT"
+    },
+    "iot.button": {
+      "label": "Button",
+      "category": "IoT"
+    },
+    "iot.certificate": {
+      "label": "Certificate",
+      "category": "IoT"
+    },
+    "iot.core": {
+      "label": "Core",
+      "category": "IoT"
+    },
+    "iot.desired_state": {
+      "label": "Desired State",
+      "category": "IoT"
+    },
+    "iot.device_advisor": {
+      "label": "Device Advisor",
+      "category": "IoT"
+    },
+    "iot.device_defender": {
+      "label": "Device Defender",
+      "category": "IoT"
+    },
+    "iot.device_gateway": {
+      "label": "Device Gateway",
+      "category": "IoT"
+    },
+    "iot.device_jobs": {
+      "label": "Device Jobs",
+      "category": "IoT"
+    },
+    "iot.device_location": {
+      "label": "Device Location",
+      "category": "IoT"
+    },
+    "iot.device_management": {
+      "label": "Device Management",
+      "category": "IoT"
+    },
+    "iot.device_tester": {
+      "label": "Device Tester",
+      "category": "IoT"
+    },
+    "iot.events": {
+      "label": "Events",
+      "category": "IoT"
+    },
+    "iot.expresslink": {
+      "label": "Expresslink",
+      "category": "IoT"
+    },
+    "iot.fleet_hub": {
+      "label": "Fleet Hub",
+      "category": "IoT"
+    },
+    "iot.fleetwise": {
+      "label": "Fleetwise",
+      "category": "IoT"
+    },
+    "iot.freertos": {
+      "label": "Freertos",
+      "category": "IoT"
+    },
+    "iot.greengrass": {
+      "label": "Greengrass",
+      "category": "IoT"
+    },
+    "iot.greengrass.component": {
+      "label": "Greengrass Component",
+      "category": "IoT"
+    },
+    "iot.greengrass.component.ml": {
+      "label": "Greengrass Component Ml",
+      "category": "IoT"
+    },
+    "iot.greengrass.component.nucleus": {
+      "label": "Greengrass Component Nucleus",
+      "category": "IoT"
+    },
+    "iot.greengrass.component.private": {
+      "label": "Greengrass Component Private",
+      "category": "IoT"
+    },
+    "iot.greengrass.component.public": {
+      "label": "Greengrass Component Public",
+      "category": "IoT"
+    },
+    "iot.greengrass.connector": {
+      "label": "Greengrass Connector",
+      "category": "IoT"
+    },
+    "iot.greengrass.interprocess_communication": {
+      "label": "Greengrass Interprocess Communication",
+      "category": "IoT"
+    },
+    "iot.hardware.board": {
+      "label": "Hardware Board",
+      "category": "IoT"
+    },
+    "iot.lambda": {
+      "label": "Lambda",
+      "category": "IoT"
+    },
+    "iot.over_air_update": {
+      "label": "Over Air Update",
+      "category": "IoT"
+    },
+    "iot.policy": {
+      "label": "Policy",
+      "category": "IoT"
+    },
+    "iot.protocol.http": {
+      "label": "Protocol Http",
+      "category": "IoT"
+    },
+    "iot.protocol.http2": {
+      "label": "Protocol Http2",
+      "category": "IoT"
+    },
+    "iot.protocol.lorawan": {
+      "label": "Protocol Lorawan",
+      "category": "IoT"
+    },
+    "iot.protocol.mqtt": {
+      "label": "Protocol Mqtt",
+      "category": "IoT"
+    },
+    "iot.reported_state": {
+      "label": "Reported State",
+      "category": "IoT"
+    },
+    "iot.rule": {
+      "label": "Rule",
+      "category": "IoT"
+    },
+    "iot.sensor": {
+      "label": "Sensor",
+      "category": "IoT"
+    },
+    "iot.servo": {
+      "label": "Servo",
+      "category": "IoT"
+    },
+    "iot.shadow": {
+      "label": "Shadow",
+      "category": "IoT"
+    },
+    "iot.simulator": {
+      "label": "Simulator",
+      "category": "IoT"
+    },
+    "iot.sitewise": {
+      "label": "Sitewise",
+      "category": "IoT"
+    },
+    "iot.sitewise.asset": {
+      "label": "Sitewise Asset",
+      "category": "IoT"
+    },
+    "iot.sitewise.asset_hierarchy": {
+      "label": "Sitewise Asset Hierarchy",
+      "category": "IoT"
+    },
+    "iot.sitewise.asset_model": {
+      "label": "Sitewise Asset Model",
+      "category": "IoT"
+    },
+    "iot.sitewise.asset_properties": {
+      "label": "Sitewise Asset Properties",
+      "category": "IoT"
+    },
+    "iot.sitewise.data_store": {
+      "label": "Sitewise Data Store",
+      "category": "IoT"
+    },
+    "iot.thing.bank": {
+      "label": "Thing Bank",
+      "category": "IoT"
+    },
+    "iot.thing.bicycle": {
+      "label": "Thing Bicycle",
+      "category": "IoT"
+    },
+    "iot.thing.camera": {
+      "label": "Thing Camera",
+      "category": "IoT"
+    },
+    "iot.thing.car": {
+      "label": "Thing Car",
+      "category": "IoT"
+    },
+    "iot.thing.cart": {
+      "label": "Thing Cart",
+      "category": "IoT"
+    },
+    "iot.thing.coffee_pot": {
+      "label": "Thing Coffee Pot",
+      "category": "IoT"
+    },
+    "iot.thing.door_lock": {
+      "label": "Thing Door Lock",
+      "category": "IoT"
+    },
+    "iot.thing.factory": {
+      "label": "Thing Factory",
+      "category": "IoT"
+    },
+    "iot.thing.freertos_device": {
+      "label": "Thing Freertos Device",
+      "category": "IoT"
+    },
+    "iot.thing.generic": {
+      "label": "Thing Generic",
+      "category": "IoT"
+    },
+    "iot.thing.house": {
+      "label": "Thing House",
+      "category": "IoT"
+    },
+    "iot.thing.humidity_sensor": {
+      "label": "Thing Humidity Sensor",
+      "category": "IoT"
+    },
+    "iot.thing.industrial_pc": {
+      "label": "Thing Industrial Pc",
+      "category": "IoT"
+    },
+    "iot.thing.lightbulb": {
+      "label": "Thing Lightbulb",
+      "category": "IoT"
+    },
+    "iot.thing.medical_emergency": {
+      "label": "Thing Medical Emergency",
+      "category": "IoT"
+    },
+    "iot.thing.plc": {
+      "label": "Thing Plc",
+      "category": "IoT"
+    },
+    "iot.thing.police_emergency": {
+      "label": "Thing Police Emergency",
+      "category": "IoT"
+    },
+    "iot.thing.relay": {
+      "label": "Thing Relay",
+      "category": "IoT"
+    },
+    "iot.thing.sailboat": {
+      "label": "Thing Sailboat",
+      "category": "IoT"
+    },
+    "iot.thing.stacklight": {
+      "label": "Thing Stacklight",
+      "category": "IoT"
+    },
+    "iot.thing.temperature_humidity_sensor": {
+      "label": "Thing Temperature Humidity Sensor",
+      "category": "IoT"
+    },
+    "iot.thing.temperature_sensor": {
+      "label": "Thing Temperature Sensor",
+      "category": "IoT"
+    },
+    "iot.thing.temperature_vibration_sensor": {
+      "label": "Thing Temperature Vibration Sensor",
+      "category": "IoT"
+    },
+    "iot.thing.thermostat": {
+      "label": "Thing Thermostat",
+      "category": "IoT"
+    },
+    "iot.thing.travel": {
+      "label": "Thing Travel",
+      "category": "IoT"
+    },
+    "iot.thing.utility": {
+      "label": "Thing Utility",
+      "category": "IoT"
+    },
+    "iot.thing.vibration_sensor": {
+      "label": "Thing Vibration Sensor",
+      "category": "IoT"
+    },
+    "iot.thing.windfarm": {
+      "label": "Thing Windfarm",
+      "category": "IoT"
+    },
+    "iot.topic": {
+      "label": "Topic",
+      "category": "IoT"
+    },
+    "iot.twinmaker": {
+      "label": "Twinmaker",
+      "category": "IoT"
+    },
+    "management.account": {
+      "label": "Account",
+      "category": "Management & Governance"
+    },
+    "management.app_auto_scaling": {
+      "label": "App Auto Scaling",
+      "category": "Management & Governance"
+    },
+    "management.appconfig": {
+      "label": "Appconfig",
+      "category": "Management & Governance"
+    },
+    "management.artifact": {
+      "label": "Artifact",
+      "category": "Management & Governance"
+    },
+    "management.auto_scaling": {
+      "label": "Auto Scaling",
+      "category": "Management & Governance"
+    },
+    "management.backint_agent": {
+      "label": "Backint Agent",
+      "category": "Management & Governance"
+    },
+    "management.chatbot": {
+      "label": "Chatbot",
+      "category": "Management & Governance"
+    },
+    "management.cloudformation": {
+      "label": "Cloudformation",
+      "category": "Management & Governance"
+    },
+    "management.cloudformation.changeset": {
+      "label": "Cloudformation Changeset",
+      "category": "Management & Governance"
+    },
+    "management.cloudformation.stack": {
+      "label": "Cloudformation Stack",
+      "category": "Management & Governance"
+    },
+    "management.cloudtrail": {
+      "label": "Cloudtrail",
+      "category": "Management & Governance"
+    },
+    "management.cloudtrail.lake": {
+      "label": "Cloudtrail Lake",
+      "category": "Management & Governance"
+    },
+    "management.cloudwatch": {
+      "label": "Cloudwatch",
+      "category": "Management & Governance"
+    },
+    "management.cloudwatch.evidently": {
+      "label": "Cloudwatch Evidently",
+      "category": "Management & Governance"
+    },
+    "management.cloudwatch.internet_monitor": {
+      "label": "Cloudwatch Internet Monitor",
+      "category": "Management & Governance"
+    },
+    "management.cloudwatch.logs": {
+      "label": "Cloudwatch Logs",
+      "category": "Management & Governance"
+    },
+    "management.cloudwatch.rum": {
+      "label": "Cloudwatch Rum",
+      "category": "Management & Governance"
+    },
+    "management.cloudwatch.synthetics": {
+      "label": "Cloudwatch Synthetics",
+      "category": "Management & Governance"
+    },
+    "management.compute_optimizer": {
+      "label": "Compute Optimizer",
+      "category": "Management & Governance"
+    },
+    "management.config": {
+      "label": "Config",
+      "category": "Management & Governance"
+    },
+    "management.console": {
+      "label": "Console",
+      "category": "Management & Governance"
+    },
+    "management.console_mobile": {
+      "label": "Console Mobile",
+      "category": "Management & Governance"
+    },
+    "management.control_tower": {
+      "label": "Control Tower",
+      "category": "Management & Governance"
+    },
+    "management.controltower": {
+      "label": "Controltower",
+      "category": "Management & Governance"
+    },
+    "management.health": {
+      "label": "Health",
+      "category": "Management & Governance"
+    },
+    "management.health_dashboard": {
+      "label": "Health Dashboard",
+      "category": "Management & Governance"
+    },
+    "management.launch_wizard": {
+      "label": "Launch Wizard",
+      "category": "Management & Governance"
+    },
+    "management.license_blending": {
+      "label": "License Blending",
+      "category": "Management & Governance"
+    },
+    "management.license_manager": {
+      "label": "License Manager",
+      "category": "Management & Governance"
+    },
+    "management.management_account": {
+      "label": "Management Account",
+      "category": "Management & Governance"
+    },
+    "management.organizational_unit": {
+      "label": "Organizational Unit",
+      "category": "Management & Governance"
+    },
+    "management.organizations": {
+      "label": "Organizations",
+      "category": "Management & Governance"
+    },
+    "management.otel": {
+      "label": "Otel",
+      "category": "Management & Governance"
+    },
+    "management.proton": {
+      "label": "Proton",
+      "category": "Management & Governance"
+    },
+    "management.resilience_hub": {
+      "label": "Resilience Hub",
+      "category": "Management & Governance"
+    },
+    "management.resource_explorer": {
+      "label": "Resource Explorer",
+      "category": "Management & Governance"
+    },
+    "management.service_catalog": {
+      "label": "Service Catalog",
+      "category": "Management & Governance"
+    },
+    "management.service_mgmt_connector": {
+      "label": "Service Mgmt Connector",
+      "category": "Management & Governance"
+    },
+    "management.servicecatalog": {
+      "label": "Servicecatalog",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager": {
+      "label": "Systems Manager",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.application_discovery": {
+      "label": "Systems Manager Application Discovery",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.application_manager": {
+      "label": "Systems Manager Application Manager",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.automation": {
+      "label": "Systems Manager Automation",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.change_calendar": {
+      "label": "Systems Manager Change Calendar",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.change_manager": {
+      "label": "Systems Manager Change Manager",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.compliance": {
+      "label": "Systems Manager Compliance",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.distributor": {
+      "label": "Systems Manager Distributor",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.documents": {
+      "label": "Systems Manager Documents",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.incident_manager": {
+      "label": "Systems Manager Incident Manager",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.inventory": {
+      "label": "Systems Manager Inventory",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.maintenance_windows": {
+      "label": "Systems Manager Maintenance Windows",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.opscenter": {
+      "label": "Systems Manager Opscenter",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.parameter_store": {
+      "label": "Systems Manager Parameter Store",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.patch_manager": {
+      "label": "Systems Manager Patch Manager",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.run_command": {
+      "label": "Systems Manager Run Command",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.session_manager": {
+      "label": "Systems Manager Session Manager",
+      "category": "Management & Governance"
+    },
+    "management.systems_manager.state_manager": {
+      "label": "Systems Manager State Manager",
+      "category": "Management & Governance"
+    },
+    "management.systemsmanager": {
+      "label": "Systemsmanager",
+      "category": "Management & Governance"
+    },
+    "management.telco_network_builder": {
+      "label": "Telco Network Builder",
+      "category": "Management & Governance"
+    },
+    "management.trusted_advisor": {
+      "label": "Trusted Advisor",
+      "category": "Management & Governance"
+    },
+    "management.trusted_advisor.checklist": {
+      "label": "Trusted Advisor Checklist",
+      "category": "Management & Governance"
+    },
+    "management.trusted_advisor.checklist.cost": {
+      "label": "Trusted Advisor Checklist Cost",
+      "category": "Management & Governance"
+    },
+    "management.trusted_advisor.checklist.fault_tolerant": {
+      "label": "Trusted Advisor Checklist Fault Tolerant",
+      "category": "Management & Governance"
+    },
+    "management.trusted_advisor.checklist.performance": {
+      "label": "Trusted Advisor Checklist Performance",
+      "category": "Management & Governance"
+    },
+    "management.trusted_advisor.checklist.security": {
+      "label": "Trusted Advisor Checklist Security",
+      "category": "Management & Governance"
+    },
+    "management.trustedadvisor": {
+      "label": "Trustedadvisor",
+      "category": "Management & Governance"
+    },
+    "management.user_notifications": {
+      "label": "User Notifications",
+      "category": "Management & Governance"
+    },
+    "management.well_architected": {
+      "label": "Well Architected",
+      "category": "Management & Governance"
+    },
+    "management.well_architected_tool": {
+      "label": "Well Architected Tool",
+      "category": "Management & Governance"
+    },
+    "media.deadline_cloud": {
+      "label": "Deadline Cloud",
+      "category": "Media Services"
+    },
+    "media.elastic_transcoder": {
+      "label": "Elastic Transcoder",
+      "category": "Media Services"
+    },
+    "media.elemental.appliances": {
+      "label": "Elemental Appliances",
+      "category": "Media Services"
+    },
+    "media.elemental.conductor": {
+      "label": "Elemental Conductor",
+      "category": "Media Services"
+    },
+    "media.elemental.delta": {
+      "label": "Elemental Delta",
+      "category": "Media Services"
+    },
+    "media.elemental.link": {
+      "label": "Elemental Link",
+      "category": "Media Services"
+    },
+    "media.elemental.live": {
+      "label": "Elemental Live",
+      "category": "Media Services"
+    },
+    "media.elemental.mediaconnect": {
+      "label": "Elemental Mediaconnect",
+      "category": "Media Services"
+    },
+    "media.elemental.mediaconnect.gateway": {
+      "label": "Elemental Mediaconnect Gateway",
+      "category": "Media Services"
+    },
+    "media.elemental.mediaconvert": {
+      "label": "Elemental Mediaconvert",
+      "category": "Media Services"
+    },
+    "media.elemental.medialive": {
+      "label": "Elemental Medialive",
+      "category": "Media Services"
+    },
+    "media.elemental.mediapackage": {
+      "label": "Elemental Mediapackage",
+      "category": "Media Services"
+    },
+    "media.elemental.mediastore": {
+      "label": "Elemental Mediastore",
+      "category": "Media Services"
+    },
+    "media.elemental.mediatailor": {
+      "label": "Elemental Mediatailor",
+      "category": "Media Services"
+    },
+    "media.elemental.server": {
+      "label": "Elemental Server",
+      "category": "Media Services"
+    },
+    "media.interactive_video_service": {
+      "label": "Interactive Video Service",
+      "category": "Media Services"
+    },
+    "media.ivs": {
+      "label": "Ivs",
+      "category": "Media Services"
+    },
+    "media.kinesis_video_streams": {
+      "label": "Kinesis Video Streams",
+      "category": "Media Services"
+    },
+    "media.mediaconvert": {
+      "label": "Mediaconvert",
+      "category": "Media Services"
+    },
+    "media.medialive": {
+      "label": "Medialive",
+      "category": "Media Services"
+    },
+    "media.thinkbox.deadline": {
+      "label": "Thinkbox Deadline",
+      "category": "Media Services"
+    },
+    "media.thinkbox.frost": {
+      "label": "Thinkbox Frost",
+      "category": "Media Services"
+    },
+    "media.thinkbox.krakatoa": {
+      "label": "Thinkbox Krakatoa",
+      "category": "Media Services"
+    },
+    "media.thinkbox.sequoia": {
+      "label": "Thinkbox Sequoia",
+      "category": "Media Services"
+    },
+    "media.thinkbox.stoke": {
+      "label": "Thinkbox Stoke",
+      "category": "Media Services"
+    },
+    "media.thinkbox.xmesh": {
+      "label": "Thinkbox Xmesh",
+      "category": "Media Services"
+    },
+    "media.transcoder": {
+      "label": "Transcoder",
+      "category": "Media Services"
+    },
+    "migration.agent": {
+      "label": "Agent",
+      "category": "Migration & Transfer"
+    },
+    "migration.app_migration_service": {
+      "label": "App Migration Service",
+      "category": "Migration & Transfer"
+    },
+    "migration.application_discovery": {
+      "label": "Application Discovery",
+      "category": "Migration & Transfer"
+    },
+    "migration.cloud_digital_interface": {
+      "label": "Cloud Digital Interface",
+      "category": "Migration & Transfer"
+    },
+    "migration.data_transfer_terminal": {
+      "label": "Data Transfer Terminal",
+      "category": "Migration & Transfer"
+    },
+    "migration.datasync": {
+      "label": "Datasync",
+      "category": "Migration & Transfer"
+    },
+    "migration.datasync.hybrid_nfs_linked_datasets": {
+      "label": "Datasync Hybrid Nfs Linked Datasets",
+      "category": "Migration & Transfer"
+    },
+    "migration.datasync.on_premises_nfs_linked_datasets": {
+      "label": "Datasync On Premises Nfs Linked Datasets",
+      "category": "Migration & Transfer"
+    },
+    "migration.datasync.s3_linked_datasets": {
+      "label": "Datasync S3 Linked Datasets",
+      "category": "Migration & Transfer"
+    },
+    "migration.discovery": {
+      "label": "Discovery",
+      "category": "Migration & Transfer"
+    },
+    "migration.discovery.agent": {
+      "label": "Discovery Agent",
+      "category": "Migration & Transfer"
+    },
+    "migration.discovery.agentless_collector": {
+      "label": "Discovery Agentless Collector",
+      "category": "Migration & Transfer"
+    },
+    "migration.elastic_disaster_recovery": {
+      "label": "Elastic Disaster Recovery",
+      "category": "Migration & Transfer"
+    },
+    "migration.elastic_vmware_service": {
+      "label": "Elastic Vmware Service",
+      "category": "Migration & Transfer"
+    },
+    "migration.evaluator.collector": {
+      "label": "Evaluator Collector",
+      "category": "Migration & Transfer"
+    },
+    "migration.mainframe_modernization": {
+      "label": "Mainframe Modernization",
+      "category": "Migration & Transfer"
+    },
+    "migration.mainframe_modernization.analyzer": {
+      "label": "Mainframe Modernization Analyzer",
+      "category": "Migration & Transfer"
+    },
+    "migration.mainframe_modernization.compiler": {
+      "label": "Mainframe Modernization Compiler",
+      "category": "Migration & Transfer"
+    },
+    "migration.mainframe_modernization.converter": {
+      "label": "Mainframe Modernization Converter",
+      "category": "Migration & Transfer"
+    },
+    "migration.mainframe_modernization.developer": {
+      "label": "Mainframe Modernization Developer",
+      "category": "Migration & Transfer"
+    },
+    "migration.mainframe_modernization.runtime": {
+      "label": "Mainframe Modernization Runtime",
+      "category": "Migration & Transfer"
+    },
+    "migration.migration_evaluator": {
+      "label": "Migration Evaluator",
+      "category": "Migration & Transfer"
+    },
+    "migration.migration_hub": {
+      "label": "Migration Hub",
+      "category": "Migration & Transfer"
+    },
+    "migration.refactor_spaces.applications": {
+      "label": "Refactor Spaces Applications",
+      "category": "Migration & Transfer"
+    },
+    "migration.refactor_spaces.environments": {
+      "label": "Refactor Spaces Environments",
+      "category": "Migration & Transfer"
+    },
+    "migration.refactor_spaces.services": {
+      "label": "Refactor Spaces Services",
+      "category": "Migration & Transfer"
+    },
+    "migration.snowball": {
+      "label": "Snowball",
+      "category": "Migration & Transfer"
+    },
+    "migration.snowball.edge": {
+      "label": "Snowball Edge",
+      "category": "Migration & Transfer"
+    },
+    "migration.snowball.import_export": {
+      "label": "Snowball Import Export",
+      "category": "Migration & Transfer"
+    },
+    "migration.transfer.as2": {
+      "label": "Transfer As2",
+      "category": "Migration & Transfer"
+    },
+    "migration.transfer.ftp": {
+      "label": "Transfer Ftp",
+      "category": "Migration & Transfer"
+    },
+    "migration.transfer.ftps": {
+      "label": "Transfer Ftps",
+      "category": "Migration & Transfer"
+    },
+    "migration.transfer.sftp": {
+      "label": "Transfer Sftp",
+      "category": "Migration & Transfer"
+    },
+    "migration.transfer_family": {
+      "label": "Transfer Family",
+      "category": "Migration & Transfer"
+    },
+    "ml.app_studio": {
+      "label": "App Studio",
+      "category": "Machine Learning"
+    },
+    "ml.augmented_ai": {
+      "label": "Augmented Ai",
+      "category": "Machine Learning"
+    },
+    "ml.bedrock": {
+      "label": "Bedrock",
+      "category": "Machine Learning"
+    },
+    "ml.codeguru": {
+      "label": "Codeguru",
+      "category": "Machine Learning"
+    },
+    "ml.codewhisperer": {
+      "label": "Codewhisperer",
+      "category": "Machine Learning"
+    },
+    "ml.comprehend": {
+      "label": "Comprehend",
+      "category": "Machine Learning"
+    },
+    "ml.comprehend_medical": {
+      "label": "Comprehend Medical",
+      "category": "Machine Learning"
+    },
+    "ml.deep_learning_amis": {
+      "label": "Deep Learning Amis",
+      "category": "Machine Learning"
+    },
+    "ml.deep_learning_containers": {
+      "label": "Deep Learning Containers",
+      "category": "Machine Learning"
+    },
+    "ml.deepcomposer": {
+      "label": "Deepcomposer",
+      "category": "Machine Learning"
+    },
+    "ml.deeplens": {
+      "label": "Deeplens",
+      "category": "Machine Learning"
+    },
+    "ml.deepracer": {
+      "label": "Deepracer",
+      "category": "Machine Learning"
+    },
+    "ml.devops_guru": {
+      "label": "Devops Guru",
+      "category": "Machine Learning"
+    },
+    "ml.elastic_inference": {
+      "label": "Elastic Inference",
+      "category": "Machine Learning"
+    },
+    "ml.forecast": {
+      "label": "Forecast",
+      "category": "Machine Learning"
+    },
+    "ml.fraud_detector": {
+      "label": "Fraud Detector",
+      "category": "Machine Learning"
+    },
+    "ml.healthimaging": {
+      "label": "Healthimaging",
+      "category": "Machine Learning"
+    },
+    "ml.healthlake": {
+      "label": "Healthlake",
+      "category": "Machine Learning"
+    },
+    "ml.healthomics": {
+      "label": "Healthomics",
+      "category": "Machine Learning"
+    },
+    "ml.healthscribe": {
+      "label": "Healthscribe",
+      "category": "Machine Learning"
+    },
+    "ml.kendra": {
+      "label": "Kendra",
+      "category": "Machine Learning"
+    },
+    "ml.lex": {
+      "label": "Lex",
+      "category": "Machine Learning"
+    },
+    "ml.lookout_equipment": {
+      "label": "Lookout Equipment",
+      "category": "Machine Learning"
+    },
+    "ml.lookout_metrics": {
+      "label": "Lookout Metrics",
+      "category": "Machine Learning"
+    },
+    "ml.lookout_vision": {
+      "label": "Lookout Vision",
+      "category": "Machine Learning"
+    },
+    "ml.monitron": {
+      "label": "Monitron",
+      "category": "Machine Learning"
+    },
+    "ml.mxnet": {
+      "label": "Mxnet",
+      "category": "Machine Learning"
+    },
+    "ml.neuron": {
+      "label": "Neuron",
+      "category": "Machine Learning"
+    },
+    "ml.nova": {
+      "label": "Nova",
+      "category": "Machine Learning"
+    },
+    "ml.panorama": {
+      "label": "Panorama",
+      "category": "Machine Learning"
+    },
+    "ml.personalize": {
+      "label": "Personalize",
+      "category": "Machine Learning"
+    },
+    "ml.polly": {
+      "label": "Polly",
+      "category": "Machine Learning"
+    },
+    "ml.pytorch": {
+      "label": "Pytorch",
+      "category": "Machine Learning"
+    },
+    "ml.q": {
+      "label": "Q",
+      "category": "Machine Learning"
+    },
+    "ml.rekognition": {
+      "label": "Rekognition",
+      "category": "Machine Learning"
+    },
+    "ml.rekognition.image": {
+      "label": "Rekognition Image",
+      "category": "Machine Learning"
+    },
+    "ml.rekognition.video": {
+      "label": "Rekognition Video",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker": {
+      "label": "Sagemaker",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.canvas": {
+      "label": "Sagemaker Canvas",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.geospatial": {
+      "label": "Sagemaker Geospatial",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.ground_truth": {
+      "label": "Sagemaker Ground Truth",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.insights": {
+      "label": "Sagemaker Insights",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.model": {
+      "label": "Sagemaker Model",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.notebook": {
+      "label": "Sagemaker Notebook",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.shadow_testing": {
+      "label": "Sagemaker Shadow Testing",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.studio_lab": {
+      "label": "Sagemaker Studio Lab",
+      "category": "Machine Learning"
+    },
+    "ml.sagemaker.train": {
+      "label": "Sagemaker Train",
+      "category": "Machine Learning"
+    },
+    "ml.tensorflow": {
+      "label": "Tensorflow",
+      "category": "Machine Learning"
+    },
+    "ml.textract": {
+      "label": "Textract",
+      "category": "Machine Learning"
+    },
+    "ml.textract.analyze_lending": {
+      "label": "Textract Analyze Lending",
+      "category": "Machine Learning"
+    },
+    "ml.transcribe": {
+      "label": "Transcribe",
+      "category": "Machine Learning"
+    },
+    "ml.translate": {
+      "label": "Translate",
+      "category": "Machine Learning"
+    },
+    "monitoring.cloudwatch": {
+      "label": "Cloudwatch",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.alarm": {
+      "label": "Cloudwatch Alarm",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.cross_account": {
+      "label": "Cloudwatch Cross Account",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.event.event_based": {
+      "label": "Cloudwatch Event Event Based",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.event.time_based": {
+      "label": "Cloudwatch Event Time Based",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.evidently": {
+      "label": "Cloudwatch Evidently",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.logs": {
+      "label": "Cloudwatch Logs",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.metrics_insights": {
+      "label": "Cloudwatch Metrics Insights",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.rule": {
+      "label": "Cloudwatch Rule",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.rum": {
+      "label": "Cloudwatch Rum",
+      "category": "Monitoring"
+    },
+    "monitoring.cloudwatch.synthetics": {
+      "label": "Cloudwatch Synthetics",
+      "category": "Monitoring"
+    },
+    "monitoring.grafana": {
+      "label": "Grafana",
+      "category": "Monitoring"
+    },
+    "monitoring.prometheus": {
+      "label": "Prometheus",
+      "category": "Monitoring"
+    },
+    "network.api_gateway": {
+      "label": "API Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.apigateway": {
+      "label": "APIgateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_mesh": {
+      "label": "App Mesh",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_mesh.mesh": {
+      "label": "App Mesh Mesh",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_mesh.virtual_gateway": {
+      "label": "App Mesh Virtual Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_mesh.virtual_node": {
+      "label": "App Mesh Virtual Node",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_mesh.virtual_router": {
+      "label": "App Mesh Virtual Router",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_mesh.virtual_service": {
+      "label": "App Mesh Virtual Service",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_recovery_controller": {
+      "label": "App Recovery Controller",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_recovery_controller.readiness_checks": {
+      "label": "App Recovery Controller Readiness Checks",
+      "category": "Networking & Content Delivery"
+    },
+    "network.app_recovery_controller.routing_controls": {
+      "label": "App Recovery Controller Routing Controls",
+      "category": "Networking & Content Delivery"
+    },
+    "network.appmesh": {
+      "label": "Appmesh",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloud_map": {
+      "label": "Cloud Map",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloud_map.namespace": {
+      "label": "Cloud Map Namespace",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloud_map.service": {
+      "label": "Cloud Map Service",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloud_wan": {
+      "label": "Cloud Wan",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloud_wan.core_network_edge": {
+      "label": "Cloud Wan Core Network Edge",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloud_wan.segment_network": {
+      "label": "Cloud Wan Segment Network",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloudfront": {
+      "label": "Cloudfront",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloudfront.download_distribution": {
+      "label": "Cloudfront Download Distribution",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloudfront.edge_location": {
+      "label": "Cloudfront Edge Location",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloudfront.functions": {
+      "label": "Cloudfront Functions",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloudfront.streaming_distribution": {
+      "label": "Cloudfront Streaming Distribution",
+      "category": "Networking & Content Delivery"
+    },
+    "network.cloudmap": {
+      "label": "Cloudmap",
+      "category": "Networking & Content Delivery"
+    },
+    "network.direct_connect": {
+      "label": "Direct Connect",
+      "category": "Networking & Content Delivery"
+    },
+    "network.direct_connect.gateway": {
+      "label": "Direct Connect Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.directconnect": {
+      "label": "Directconnect",
+      "category": "Networking & Content Delivery"
+    },
+    "network.elastic_network_adapter": {
+      "label": "Elastic Network Adapter",
+      "category": "Networking & Content Delivery"
+    },
+    "network.elastic_network_interface": {
+      "label": "Elastic Network Interface",
+      "category": "Networking & Content Delivery"
+    },
+    "network.elb": {
+      "label": "ELB",
+      "category": "Networking & Content Delivery"
+    },
+    "network.elb.application": {
+      "label": "ELB Application",
+      "category": "Networking & Content Delivery"
+    },
+    "network.elb.classic": {
+      "label": "ELB Classic",
+      "category": "Networking & Content Delivery"
+    },
+    "network.elb.gateway": {
+      "label": "ELB Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.elb.network": {
+      "label": "ELB Network",
+      "category": "Networking & Content Delivery"
+    },
+    "network.global_accelerator": {
+      "label": "Global Accelerator",
+      "category": "Networking & Content Delivery"
+    },
+    "network.globalaccelerator": {
+      "label": "Globalaccelerator",
+      "category": "Networking & Content Delivery"
+    },
+    "network.igw": {
+      "label": "Igw",
+      "category": "Networking & Content Delivery"
+    },
+    "network.lattice": {
+      "label": "Lattice",
+      "category": "Networking & Content Delivery"
+    },
+    "network.natgateway": {
+      "label": "NATgateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.private_5g": {
+      "label": "Private 5g",
+      "category": "Networking & Content Delivery"
+    },
+    "network.privatelink": {
+      "label": "Privatelink",
+      "category": "Networking & Content Delivery"
+    },
+    "network.resource": {
+      "label": "Resource",
+      "category": "Networking & Content Delivery"
+    },
+    "network.route53": {
+      "label": "Route53",
+      "category": "Networking & Content Delivery"
+    },
+    "network.route53.hosted_zone": {
+      "label": "Route53 Hosted Zone",
+      "category": "Networking & Content Delivery"
+    },
+    "network.route53.resolver": {
+      "label": "Route53 Resolver",
+      "category": "Networking & Content Delivery"
+    },
+    "network.route53.resolver.dns_firewall": {
+      "label": "Route53 Resolver DNS Firewall",
+      "category": "Networking & Content Delivery"
+    },
+    "network.route53.resolver.query_logging": {
+      "label": "Route53 Resolver Query Logging",
+      "category": "Networking & Content Delivery"
+    },
+    "network.transit_gateway": {
+      "label": "Transit Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.transit_gateway.attachment": {
+      "label": "Transit Gateway Attachment",
+      "category": "Networking & Content Delivery"
+    },
+    "network.transit_gateway.route_table_attachment": {
+      "label": "Transit Gateway Route Table Attachment",
+      "category": "Networking & Content Delivery"
+    },
+    "network.transitgateway": {
+      "label": "Transitgateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.verified_access": {
+      "label": "Verified Access",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc": {
+      "label": "VPC",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.carrier_gateway": {
+      "label": "VPC Carrier Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.customer_gateway": {
+      "label": "VPC Customer Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.endpoint": {
+      "label": "VPC Endpoint",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.endpoints": {
+      "label": "VPC Endpoints",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.flow_logs": {
+      "label": "VPC Flow Logs",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.internet_gateway": {
+      "label": "VPC Internet Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.nat_gateway": {
+      "label": "VPC NAT Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.network_access_analyzer": {
+      "label": "VPC Network Access Analyzer",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.network_acl": {
+      "label": "VPC Network Acl",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.peering_connection": {
+      "label": "VPC Peering Connection",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.reachability_analyzer": {
+      "label": "VPC Reachability Analyzer",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.route_table": {
+      "label": "VPC Route Table",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.traffic_mirroring": {
+      "label": "VPC Traffic Mirroring",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpc.virtual_private_cloud": {
+      "label": "VPC Virtual Private Cloud",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpn.client": {
+      "label": "VPN CLIent",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpn.connection": {
+      "label": "VPN Connection",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpn.gateway": {
+      "label": "VPN Gateway",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpn.site_to_site": {
+      "label": "VPN Site To Site",
+      "category": "Networking & Content Delivery"
+    },
+    "network.vpngateway": {
+      "label": "VPNgateway",
+      "category": "Networking & Content Delivery"
+    },
+    "quantum.braket": {
+      "label": "Braket",
+      "category": "Quantum Technologies"
+    },
+    "quantum.braket.chip": {
+      "label": "Braket Chip",
+      "category": "Quantum Technologies"
+    },
+    "quantum.braket.qpu": {
+      "label": "Braket Qpu",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulation": {
+      "label": "Simulation",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator": {
+      "label": "Simulator",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.chandelier": {
+      "label": "Simulator Chandelier",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.instance1": {
+      "label": "Simulator Instance1",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.instance2": {
+      "label": "Simulator Instance2",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.instance3": {
+      "label": "Simulator Instance3",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.instance4": {
+      "label": "Simulator Instance4",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.noise": {
+      "label": "Simulator Noise",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.state_vector": {
+      "label": "Simulator State Vector",
+      "category": "Quantum Technologies"
+    },
+    "quantum.simulator.tensor_network": {
+      "label": "Simulator Tensor Network",
+      "category": "Quantum Technologies"
+    },
+    "robotics.robomaker": {
+      "label": "Robomaker",
+      "category": "Robotics"
+    },
+    "robotics.robomaker.cloud_extensions_ros": {
+      "label": "Robomaker Cloud Extensions Ros",
+      "category": "Robotics"
+    },
+    "robotics.robomaker.development_environment": {
+      "label": "Robomaker Development Environment",
+      "category": "Robotics"
+    },
+    "robotics.robomaker.embedded_simulator": {
+      "label": "Robomaker Embedded Simulator",
+      "category": "Robotics"
+    },
+    "robotics.robomaker.fleet_management": {
+      "label": "Robomaker Fleet Management",
+      "category": "Robotics"
+    },
+    "robotics.robomaker.simulation": {
+      "label": "Robomaker Simulation",
+      "category": "Robotics"
+    },
+    "satellite.ground_station": {
+      "label": "Ground Station",
+      "category": "Satellite"
+    },
+    "security.acm": {
+      "label": "ACM",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.agent": {
+      "label": "Agent",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.artifact": {
+      "label": "Artifact",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.audit_manager": {
+      "label": "Audit Manager",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.certificate_manager": {
+      "label": "Certificate Manager",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.cloud_directory": {
+      "label": "Cloud Directory",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.cloudhsm": {
+      "label": "Cloudhsm",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.cognito": {
+      "label": "Cognito",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.compliance_reporting": {
+      "label": "Compliance Reporting",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.detective": {
+      "label": "Detective",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.directory_service": {
+      "label": "Directory Service",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.directory_service.ad_connector": {
+      "label": "Directory Service Ad Connector",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.directory_service.managed_microsoft_ad": {
+      "label": "Directory Service Managed Microsoft Ad",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.directory_service.simple_ad": {
+      "label": "Directory Service Simple Ad",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.endpoints": {
+      "label": "Endpoints",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.finding": {
+      "label": "Finding",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.firewall_manager": {
+      "label": "Firewall Manager",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.firewallmanager": {
+      "label": "Firewallmanager",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.guardduty": {
+      "label": "Guardduty",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam": {
+      "label": "IAM",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.access_analyzer": {
+      "label": "IAM Access Analyzer",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.identity_center": {
+      "label": "IAM Identity Center",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.long_term_credential": {
+      "label": "IAM Long Term Credential",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.mfa_token": {
+      "label": "IAM Mfa Token",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.permissions": {
+      "label": "IAM Permissions",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.role": {
+      "label": "IAM Role",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.roles_anywhere": {
+      "label": "IAM Roles Anywhere",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.iam.temporary_credential": {
+      "label": "IAM Temporary Credential",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.incident_response": {
+      "label": "Incident Response",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.inspector": {
+      "label": "Inspector",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.kms": {
+      "label": "KMS",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.kms.data_encryption_key": {
+      "label": "KMS Data Encryption Key",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.kms.encrypted_data": {
+      "label": "KMS Encrypted Data",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.kms.external_key_store": {
+      "label": "KMS External Key Store",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.macie": {
+      "label": "Macie",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.network_firewall": {
+      "label": "Network Firewall",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.payment_cryptography": {
+      "label": "Payment Cryptography",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.private_ca": {
+      "label": "Private Ca",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.private_ca.certificate_authority": {
+      "label": "Private Ca Certificate Authority",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.private_ca.template": {
+      "label": "Private Ca Template",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.resource_access_manager": {
+      "label": "Resource Access Manager",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.secrets_manager": {
+      "label": "Secrets Manager",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.secretsmanager": {
+      "label": "Secretsmanager",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.security_hub": {
+      "label": "Security Hub",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.security_lake": {
+      "label": "Security Lake",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.securityhub": {
+      "label": "Securityhub",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.shield": {
+      "label": "Shield",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.shield.advanced": {
+      "label": "Shield Advanced",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.signer": {
+      "label": "Signer",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.sts": {
+      "label": "Sts",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.sts.alternate": {
+      "label": "Sts Alternate",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.verified_permissions": {
+      "label": "Verified Permissions",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf": {
+      "label": "WAF",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf.bad_bot": {
+      "label": "WAF Bad Bot",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf.bot": {
+      "label": "WAF Bot",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf.bot_control": {
+      "label": "WAF Bot Control",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf.filtering_rule": {
+      "label": "WAF Filtering Rule",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf.labels": {
+      "label": "WAF Labels",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf.managed_rule": {
+      "label": "WAF Managed Rule",
+      "category": "Security, Identity & Compliance"
+    },
+    "security.waf.rule": {
+      "label": "WAF Rule",
+      "category": "Security, Identity & Compliance"
+    },
+    "storage.backup": {
+      "label": "Backup",
+      "category": "Storage"
+    },
+    "storage.backup.auto_copy": {
+      "label": "Backup Auto Copy",
+      "category": "Storage"
+    },
+    "storage.backup.cloudformation": {
+      "label": "Backup Cloudformation",
+      "category": "Storage"
+    },
+    "storage.backup.fsx_ontap": {
+      "label": "Backup Fsx Ontap",
+      "category": "Storage"
+    },
+    "storage.backup.legal_hold": {
+      "label": "Backup Legal Hold",
+      "category": "Storage"
+    },
+    "storage.backup.plan": {
+      "label": "Backup Plan",
+      "category": "Storage"
+    },
+    "storage.backup.recovery_point_objective": {
+      "label": "Backup Recovery Point Objective",
+      "category": "Storage"
+    },
+    "storage.backup.recovery_time_objective": {
+      "label": "Backup Recovery Time Objective",
+      "category": "Storage"
+    },
+    "storage.backup.restore": {
+      "label": "Backup Restore",
+      "category": "Storage"
+    },
+    "storage.backup.s3": {
+      "label": "Backup S3",
+      "category": "Storage"
+    },
+    "storage.backup.vault": {
+      "label": "Backup Vault",
+      "category": "Storage"
+    },
+    "storage.backup.vault_lock": {
+      "label": "Backup Vault Lock",
+      "category": "Storage"
+    },
+    "storage.backup.vmware": {
+      "label": "Backup Vmware",
+      "category": "Storage"
+    },
+    "storage.data_lifecycle_manager": {
+      "label": "Data Lifecycle Manager",
+      "category": "Storage"
+    },
+    "storage.ebs": {
+      "label": "Ebs",
+      "category": "Storage"
+    },
+    "storage.ebs.snapshots": {
+      "label": "Ebs Snapshots",
+      "category": "Storage"
+    },
+    "storage.ebs.snapshots_archive": {
+      "label": "Ebs Snapshots Archive",
+      "category": "Storage"
+    },
+    "storage.ebs.volume_gp3": {
+      "label": "Ebs Volume Gp3",
+      "category": "Storage"
+    },
+    "storage.ebs.volumes": {
+      "label": "Ebs Volumes",
+      "category": "Storage"
+    },
+    "storage.efs": {
+      "label": "Efs",
+      "category": "Storage"
+    },
+    "storage.efs.elastic_throughput": {
+      "label": "Efs Elastic Throughput",
+      "category": "Storage"
+    },
+    "storage.efs.intelligent_tiering": {
+      "label": "Efs Intelligent Tiering",
+      "category": "Storage"
+    },
+    "storage.efs.one_zone": {
+      "label": "Efs One Zone",
+      "category": "Storage"
+    },
+    "storage.efs.one_zone_ia": {
+      "label": "Efs One Zone Ia",
+      "category": "Storage"
+    },
+    "storage.efs.standard": {
+      "label": "Efs Standard",
+      "category": "Storage"
+    },
+    "storage.efs.standard_ia": {
+      "label": "Efs Standard Ia",
+      "category": "Storage"
+    },
+    "storage.file_cache": {
+      "label": "File Cache",
+      "category": "Storage"
+    },
+    "storage.file_system": {
+      "label": "File System",
+      "category": "Storage"
+    },
+    "storage.fsx": {
+      "label": "Fsx",
+      "category": "Storage"
+    },
+    "storage.fsx.file_gateway": {
+      "label": "Fsx File Gateway",
+      "category": "Storage"
+    },
+    "storage.fsx.lustre": {
+      "label": "Fsx Lustre",
+      "category": "Storage"
+    },
+    "storage.fsx.netapp_ontap": {
+      "label": "Fsx Netapp Ontap",
+      "category": "Storage"
+    },
+    "storage.fsx.openzfs": {
+      "label": "Fsx Openzfs",
+      "category": "Storage"
+    },
+    "storage.fsx.wfs": {
+      "label": "Fsx Wfs",
+      "category": "Storage"
+    },
+    "storage.gateway": {
+      "label": "Gateway",
+      "category": "Storage"
+    },
+    "storage.gateway.volume": {
+      "label": "Gateway Volume",
+      "category": "Storage"
+    },
+    "storage.glacier": {
+      "label": "Glacier",
+      "category": "Storage"
+    },
+    "storage.glacier.archive": {
+      "label": "Glacier Archive",
+      "category": "Storage"
+    },
+    "storage.glacier.vault": {
+      "label": "Glacier Vault",
+      "category": "Storage"
+    },
+    "storage.multiple_volumes": {
+      "label": "Multiple Volumes",
+      "category": "Storage"
+    },
+    "storage.s3": {
+      "label": "S3",
+      "category": "Storage"
+    },
+    "storage.s3.batch_operations": {
+      "label": "S3 Batch Operations",
+      "category": "Storage"
+    },
+    "storage.s3.bucket": {
+      "label": "S3 Bucket",
+      "category": "Storage"
+    },
+    "storage.s3.bucket_with_objects": {
+      "label": "S3 Bucket With Objects",
+      "category": "Storage"
+    },
+    "storage.s3.directory_bucket": {
+      "label": "S3 Directory Bucket",
+      "category": "Storage"
+    },
+    "storage.s3.express_one_zone": {
+      "label": "S3 Express One Zone",
+      "category": "Storage"
+    },
+    "storage.s3.file_gateway": {
+      "label": "S3 File Gateway",
+      "category": "Storage"
+    },
+    "storage.s3.general_access_points": {
+      "label": "S3 General Access Points",
+      "category": "Storage"
+    },
+    "storage.s3.glacier.deep_archive": {
+      "label": "S3 Glacier Deep Archive",
+      "category": "Storage"
+    },
+    "storage.s3.glacier.flexible_retrieval": {
+      "label": "S3 Glacier Flexible Retrieval",
+      "category": "Storage"
+    },
+    "storage.s3.glacier.instant_retrieval": {
+      "label": "S3 Glacier Instant Retrieval",
+      "category": "Storage"
+    },
+    "storage.s3.glacier_flexible": {
+      "label": "S3 Glacier Flexible",
+      "category": "Storage"
+    },
+    "storage.s3.glacier_instant": {
+      "label": "S3 Glacier Instant",
+      "category": "Storage"
+    },
+    "storage.s3.intelligent_tiering": {
+      "label": "S3 Intelligent Tiering",
+      "category": "Storage"
+    },
+    "storage.s3.multi_region_access_points": {
+      "label": "S3 Multi Region Access Points",
+      "category": "Storage"
+    },
+    "storage.s3.object": {
+      "label": "S3 Object",
+      "category": "Storage"
+    },
+    "storage.s3.object_lambda": {
+      "label": "S3 Object Lambda",
+      "category": "Storage"
+    },
+    "storage.s3.object_lambda_access_points": {
+      "label": "S3 Object Lambda Access Points",
+      "category": "Storage"
+    },
+    "storage.s3.object_lock": {
+      "label": "S3 Object Lock",
+      "category": "Storage"
+    },
+    "storage.s3.on_outposts": {
+      "label": "S3 On Outposts",
+      "category": "Storage"
+    },
+    "storage.s3.one_zone_ia": {
+      "label": "S3 One Zone Ia",
+      "category": "Storage"
+    },
+    "storage.s3.outposts": {
+      "label": "S3 Outposts",
+      "category": "Storage"
+    },
+    "storage.s3.replication": {
+      "label": "S3 Replication",
+      "category": "Storage"
+    },
+    "storage.s3.replication_time_control": {
+      "label": "S3 Replication Time Control",
+      "category": "Storage"
+    },
+    "storage.s3.select": {
+      "label": "S3 Select",
+      "category": "Storage"
+    },
+    "storage.s3.standard": {
+      "label": "S3 Standard",
+      "category": "Storage"
+    },
+    "storage.s3.standard_ia": {
+      "label": "S3 Standard Ia",
+      "category": "Storage"
+    },
+    "storage.s3.storage_lens": {
+      "label": "S3 Storage Lens",
+      "category": "Storage"
+    },
+    "storage.s3.tables": {
+      "label": "S3 Tables",
+      "category": "Storage"
+    },
+    "storage.s3.vpc_access_points": {
+      "label": "S3 VPC Access Points",
+      "category": "Storage"
+    },
+    "storage.snapshot": {
+      "label": "Snapshot",
+      "category": "Storage"
+    },
+    "storage.storage_gateway.cached_volume": {
+      "label": "Storage Gateway Cached Volume",
+      "category": "Storage"
+    },
+    "storage.storage_gateway.file_gateway": {
+      "label": "Storage Gateway File Gateway",
+      "category": "Storage"
+    },
+    "storage.storage_gateway.noncached_volume": {
+      "label": "Storage Gateway Noncached Volume",
+      "category": "Storage"
+    },
+    "storage.storage_gateway.tape_gateway": {
+      "label": "Storage Gateway Tape Gateway",
+      "category": "Storage"
+    },
+    "storage.storage_gateway.virtual_tape_library": {
+      "label": "Storage Gateway Virtual Tape Library",
+      "category": "Storage"
+    },
+    "storage.storage_gateway.volume_gateway": {
+      "label": "Storage Gateway Volume Gateway",
+      "category": "Storage"
+    },
+    "storage.volume": {
+      "label": "Volume",
+      "category": "Storage"
+    }
+  },
+  "azure": {
+    "compute.application_group": {
+      "label": "Application Group",
+      "category": "Compute"
+    },
+    "compute.automanaged_vm": {
+      "label": "Automanaged VM",
+      "category": "Compute"
+    },
+    "compute.availability_sets": {
+      "label": "Availability Sets",
+      "category": "Compute"
+    },
+    "compute.avs_vm": {
+      "label": "Avs VM",
+      "category": "Compute"
+    },
+    "compute.azure_compute_galleries": {
+      "label": "Azure Compute Galleries",
+      "category": "Compute"
+    },
+    "compute.azure_compute_galleries_1": {
+      "label": "Azure Compute Galleries 1",
+      "category": "Compute"
+    },
+    "compute.azure_hpc_workbenches": {
+      "label": "Azure HPC Workbenches",
+      "category": "Compute"
+    },
+    "compute.azure_virtual_desktop": {
+      "label": "Azure Virtual Desktop",
+      "category": "Compute"
+    },
+    "compute.azure_vmware_solution": {
+      "label": "Azure Vmware Solution",
+      "category": "Compute"
+    },
+    "compute.bare_metal_infrastructure": {
+      "label": "Bare Metal Infrastructure",
+      "category": "Compute"
+    },
+    "compute.batch_accounts": {
+      "label": "Batch Accounts",
+      "category": "Compute"
+    },
+    "compute.batch_accounts_1": {
+      "label": "Batch Accounts 1",
+      "category": "Compute"
+    },
+    "compute.batch_ai": {
+      "label": "Batch AI",
+      "category": "Compute"
+    },
+    "compute.breeze": {
+      "label": "Breeze",
+      "category": "Compute"
+    },
+    "compute.capacity_reservation_groups": {
+      "label": "Capacity Reservation Groups",
+      "category": "Compute"
+    },
+    "compute.central_service_instance_for_sap": {
+      "label": "Central Service Instance For SAP",
+      "category": "Compute"
+    },
+    "compute.cloud_services_classic": {
+      "label": "Cloud Services Classic",
+      "category": "Compute"
+    },
+    "compute.cloud_services_extended_support": {
+      "label": "Cloud Services Extended Support",
+      "category": "Compute"
+    },
+    "compute.community_images": {
+      "label": "Community Images",
+      "category": "Compute"
+    },
+    "compute.compute_fleet": {
+      "label": "Compute Fleet",
+      "category": "Compute"
+    },
+    "compute.disks": {
+      "label": "Disks",
+      "category": "Compute"
+    },
+    "compute.disks_classic": {
+      "label": "Disks Classic",
+      "category": "Compute"
+    },
+    "compute.disks_snapshots": {
+      "label": "Disks Snapshots",
+      "category": "Compute"
+    },
+    "compute.host_groups": {
+      "label": "Host Groups",
+      "category": "Compute"
+    },
+    "compute.host_pools": {
+      "label": "Host Pools",
+      "category": "Compute"
+    },
+    "compute.hosts": {
+      "label": "Hosts",
+      "category": "Compute"
+    },
+    "compute.image": {
+      "label": "Image",
+      "category": "Compute"
+    },
+    "compute.image_definitions": {
+      "label": "Image Definitions",
+      "category": "Compute"
+    },
+    "compute.image_templates": {
+      "label": "Image Templates",
+      "category": "Compute"
+    },
+    "compute.image_versions": {
+      "label": "Image Versions",
+      "category": "Compute"
+    },
+    "compute.images": {
+      "label": "Images",
+      "category": "Compute"
+    },
+    "compute.managed_service_fabric": {
+      "label": "Managed Service Fabric",
+      "category": "Compute"
+    },
+    "compute.mesh_applications": {
+      "label": "Mesh Applications",
+      "category": "Compute"
+    },
+    "compute.modular_data_center": {
+      "label": "Modular Data Center",
+      "category": "Compute"
+    },
+    "compute.os_images_classic": {
+      "label": "Os Images Classic",
+      "category": "Compute"
+    },
+    "compute.proximity_placement_groups": {
+      "label": "Proximity Placement Groups",
+      "category": "Compute"
+    },
+    "compute.service_fabric_clusters": {
+      "label": "Service Fabric Clusters",
+      "category": "Compute"
+    },
+    "compute.service_fabric_clusters_1": {
+      "label": "Service Fabric Clusters 1",
+      "category": "Compute"
+    },
+    "compute.shared_image_galleries": {
+      "label": "Shared Image Galleries",
+      "category": "Compute"
+    },
+    "compute.spot_vm": {
+      "label": "Spot VM",
+      "category": "Compute"
+    },
+    "compute.spot_vmss": {
+      "label": "Spot Vmss",
+      "category": "Compute"
+    },
+    "compute.virtual_instance_for_sap": {
+      "label": "Virtual Instance For SAP",
+      "category": "Compute"
+    },
+    "compute.virtual_machine": {
+      "label": "Virtual Machine",
+      "category": "Compute"
+    },
+    "compute.virtual_machines_classic": {
+      "label": "Virtual Machines Classic",
+      "category": "Compute"
+    },
+    "compute.vm_app_definitions": {
+      "label": "VM App Definitions",
+      "category": "Compute"
+    },
+    "compute.vm_app_versions": {
+      "label": "VM App Versions",
+      "category": "Compute"
+    },
+    "compute.vm_image_version": {
+      "label": "VM Image Version",
+      "category": "Compute"
+    },
+    "compute.vm_images_classic": {
+      "label": "VM Images Classic",
+      "category": "Compute"
+    },
+    "compute.vm_scale_sets": {
+      "label": "VM Scale Sets",
+      "category": "Compute"
+    },
+    "containers.aks_automatic": {
+      "label": "Aks Automatic",
+      "category": "Containers"
+    },
+    "containers.aks_istio": {
+      "label": "Aks Istio",
+      "category": "Containers"
+    },
+    "containers.azure_red_hat_openshift": {
+      "label": "Azure Red Hat Openshift",
+      "category": "Containers"
+    },
+    "containers.container_apps_environments": {
+      "label": "Container Apps Environments",
+      "category": "Containers"
+    },
+    "containers.container_instances": {
+      "label": "Container Instances",
+      "category": "Containers"
+    },
+    "containers.container_instances_1": {
+      "label": "Container Instances 1",
+      "category": "Containers"
+    },
+    "containers.container_registries": {
+      "label": "Container Registries",
+      "category": "Containers"
+    },
+    "containers.container_services_deprecated": {
+      "label": "Container Services Deprecated",
+      "category": "Containers"
+    },
+    "containers.kubernetes_fleet_manager": {
+      "label": "Kubernetes Fleet Manager",
+      "category": "Containers"
+    },
+    "containers.kubernetes_services": {
+      "label": "Kubernetes Services",
+      "category": "Containers"
+    },
+    "containers.kubernetes_services_1": {
+      "label": "Kubernetes Services 1",
+      "category": "Containers"
+    },
+    "containers.worker_container_app": {
+      "label": "Worker Container App",
+      "category": "Containers"
+    },
+    "databases.azure_cosmos_db": {
+      "label": "Azure Cosmos Db",
+      "category": "Databases"
+    },
+    "databases.azure_cosmos_db_1": {
+      "label": "Azure Cosmos Db 1",
+      "category": "Databases"
+    },
+    "databases.azure_data_catalog": {
+      "label": "Azure Data Catalog",
+      "category": "Databases"
+    },
+    "databases.azure_data_explorer_clusters": {
+      "label": "Azure Data Explorer Clusters",
+      "category": "Databases"
+    },
+    "databases.azure_data_explorer_clusters_1": {
+      "label": "Azure Data Explorer Clusters 1",
+      "category": "Databases"
+    },
+    "databases.azure_database_mariadb_server": {
+      "label": "Azure Database Mariadb Server",
+      "category": "Databases"
+    },
+    "databases.azure_database_migration_services": {
+      "label": "Azure Database Migration Services",
+      "category": "Databases"
+    },
+    "databases.azure_database_migration_services_1": {
+      "label": "Azure Database Migration Services 1",
+      "category": "Databases"
+    },
+    "databases.azure_database_mysql_server": {
+      "label": "Azure Database Mysql Server",
+      "category": "Databases"
+    },
+    "databases.azure_database_postgresql_server": {
+      "label": "Azure Database Postgresql Server",
+      "category": "Databases"
+    },
+    "databases.azure_database_postgresql_server_group": {
+      "label": "Azure Database Postgresql Server Group",
+      "category": "Databases"
+    },
+    "databases.azure_purview_accounts": {
+      "label": "Azure Purview Accounts",
+      "category": "Databases"
+    },
+    "databases.azure_sql": {
+      "label": "Azure SQL",
+      "category": "Databases"
+    },
+    "databases.azure_sql_edge": {
+      "label": "Azure SQL Edge",
+      "category": "Databases"
+    },
+    "databases.azure_sql_server_stretch_databases": {
+      "label": "Azure SQL Server Stretch Databases",
+      "category": "Databases"
+    },
+    "databases.azure_sql_server_stretch_databases_1": {
+      "label": "Azure SQL Server Stretch Databases 1",
+      "category": "Databases"
+    },
+    "databases.azure_sql_vm": {
+      "label": "Azure SQL VM",
+      "category": "Databases"
+    },
+    "databases.data_factories": {
+      "label": "Data Factories",
+      "category": "Databases"
+    },
+    "databases.data_factories_1": {
+      "label": "Data Factories 1",
+      "category": "Databases"
+    },
+    "databases.data_factories_2": {
+      "label": "Data Factories 2",
+      "category": "Databases"
+    },
+    "databases.data_lake_analytics": {
+      "label": "Data Lake Analytics",
+      "category": "Databases"
+    },
+    "databases.data_lake_storage_gen1": {
+      "label": "Data Lake Storage Gen1",
+      "category": "Databases"
+    },
+    "databases.data_lake_store_gen1": {
+      "label": "Data Lake Store Gen1",
+      "category": "Databases"
+    },
+    "databases.database_instance_for_sap": {
+      "label": "Database Instance For SAP",
+      "category": "Databases"
+    },
+    "databases.elastic_job_agents": {
+      "label": "Elastic Job Agents",
+      "category": "Databases"
+    },
+    "databases.instance_pools": {
+      "label": "Instance Pools",
+      "category": "Databases"
+    },
+    "databases.instance_pools_1": {
+      "label": "Instance Pools 1",
+      "category": "Databases"
+    },
+    "databases.managed_database": {
+      "label": "Managed Database",
+      "category": "Databases"
+    },
+    "databases.managed_instance_apache_cassandra": {
+      "label": "Managed Instance Apache Cassandra",
+      "category": "Databases"
+    },
+    "databases.oracle_database": {
+      "label": "Oracle Database",
+      "category": "Databases"
+    },
+    "databases.serverless_search": {
+      "label": "Serverless Search",
+      "category": "Databases"
+    },
+    "databases.sql_data_warehouses": {
+      "label": "SQL Data Warehouses",
+      "category": "Databases"
+    },
+    "databases.sql_data_warehouses_1": {
+      "label": "SQL Data Warehouses 1",
+      "category": "Databases"
+    },
+    "databases.sql_database": {
+      "label": "SQL Database",
+      "category": "Databases"
+    },
+    "databases.sql_elastic_pools": {
+      "label": "SQL Elastic Pools",
+      "category": "Databases"
+    },
+    "databases.sql_managed_instance": {
+      "label": "SQL Managed Instance",
+      "category": "Databases"
+    },
+    "databases.sql_server": {
+      "label": "SQL Server",
+      "category": "Databases"
+    },
+    "databases.sql_server_registries": {
+      "label": "SQL Server Registries",
+      "category": "Databases"
+    },
+    "databases.ssis_lift_and_shift_ir": {
+      "label": "Ssis Lift And Shift Ir",
+      "category": "Databases"
+    },
+    "databases.virtual_clusters": {
+      "label": "Virtual Clusters",
+      "category": "Databases"
+    },
+    "networking.application_gateway_containers": {
+      "label": "Application Gateway Containers",
+      "category": "Networking"
+    },
+    "networking.application_gateways": {
+      "label": "Application Gateways",
+      "category": "Networking"
+    },
+    "networking.atm_multistack": {
+      "label": "Atm Multistack",
+      "category": "Networking"
+    },
+    "networking.azure_firewall_manager": {
+      "label": "Azure Firewall Manager",
+      "category": "Networking"
+    },
+    "networking.azure_firewall_policy": {
+      "label": "Azure Firewall Policy",
+      "category": "Networking"
+    },
+    "networking.azure_network_function_manager": {
+      "label": "Azure Network Function Manager",
+      "category": "Networking"
+    },
+    "networking.azure_network_function_manager_functions": {
+      "label": "Azure Network Function Manager Functions",
+      "category": "Networking"
+    },
+    "networking.azure_operator_5g_core": {
+      "label": "Azure Operator 5g Core",
+      "category": "Networking"
+    },
+    "networking.azure_operator_insights": {
+      "label": "Azure Operator Insights",
+      "category": "Networking"
+    },
+    "networking.azure_operator_nexus": {
+      "label": "Azure Operator Nexus",
+      "category": "Networking"
+    },
+    "networking.azure_operator_service_manager": {
+      "label": "Azure Operator Service Manager",
+      "category": "Networking"
+    },
+    "networking.azure_programmable_connectivity": {
+      "label": "Azure Programmable Connectivity",
+      "category": "Networking"
+    },
+    "networking.bastions": {
+      "label": "Bastions",
+      "category": "Networking"
+    },
+    "networking.cdn_profiles": {
+      "label": "CDN Profiles",
+      "category": "Networking"
+    },
+    "networking.cdn_profiles_1": {
+      "label": "CDN Profiles 1",
+      "category": "Networking"
+    },
+    "networking.connected_cache": {
+      "label": "Connected Cache",
+      "category": "Networking"
+    },
+    "networking.connections": {
+      "label": "Connections",
+      "category": "Networking"
+    },
+    "networking.custom_ip_prefix": {
+      "label": "Custom IP Prefix",
+      "category": "Networking"
+    },
+    "networking.ddos_protection_plans": {
+      "label": "Ddos Protection Plans",
+      "category": "Networking"
+    },
+    "networking.dns_multistack": {
+      "label": "DNS Multistack",
+      "category": "Networking"
+    },
+    "networking.dns_private_resolver": {
+      "label": "DNS Private Resolver",
+      "category": "Networking"
+    },
+    "networking.dns_security_policy": {
+      "label": "DNS Security Policy",
+      "category": "Networking"
+    },
+    "networking.dns_zones": {
+      "label": "DNS Zones",
+      "category": "Networking"
+    },
+    "networking.express_route_direct": {
+      "label": "Express Route Direct",
+      "category": "Networking"
+    },
+    "networking.express_route_traffic_collector": {
+      "label": "Express Route Traffic Collector",
+      "category": "Networking"
+    },
+    "networking.expressroute_circuits": {
+      "label": "Expressroute Circuits",
+      "category": "Networking"
+    },
+    "networking.firewalls": {
+      "label": "Firewalls",
+      "category": "Networking"
+    },
+    "networking.front_door_and_cdn_profiles": {
+      "label": "Front Door And CDN Profiles",
+      "category": "Networking"
+    },
+    "networking.front_door_and_cdn_profiles_1": {
+      "label": "Front Door And CDN Profiles 1",
+      "category": "Networking"
+    },
+    "networking.internet_analyzer_profiles": {
+      "label": "Internet Analyzer Profiles",
+      "category": "Networking"
+    },
+    "networking.ip_address_manager": {
+      "label": "IP Address Manager",
+      "category": "Networking"
+    },
+    "networking.ip_groups": {
+      "label": "IP Groups",
+      "category": "Networking"
+    },
+    "networking.load_balancer_hub": {
+      "label": "Load Balancer Hub",
+      "category": "Networking"
+    },
+    "networking.load_balancers": {
+      "label": "Load Balancers",
+      "category": "Networking"
+    },
+    "networking.local_network_gateways": {
+      "label": "Local Network Gateways",
+      "category": "Networking"
+    },
+    "networking.local_network_gateways_1": {
+      "label": "Local Network Gateways 1",
+      "category": "Networking"
+    },
+    "networking.nat": {
+      "label": "Nat",
+      "category": "Networking"
+    },
+    "networking.network_interfaces": {
+      "label": "Network Interfaces",
+      "category": "Networking"
+    },
+    "networking.network_managers": {
+      "label": "Network Managers",
+      "category": "Networking"
+    },
+    "networking.network_security_groups": {
+      "label": "Network Security Groups",
+      "category": "Networking"
+    },
+    "networking.network_security_perimeters": {
+      "label": "Network Security Perimeters",
+      "category": "Networking"
+    },
+    "networking.on_premises_data_gateways": {
+      "label": "On Premises Data Gateways",
+      "category": "Networking"
+    },
+    "networking.peering_service": {
+      "label": "Peering Service",
+      "category": "Networking"
+    },
+    "networking.peerings": {
+      "label": "Peerings",
+      "category": "Networking"
+    },
+    "networking.private_endpoints": {
+      "label": "Private Endpoints",
+      "category": "Networking"
+    },
+    "networking.private_link": {
+      "label": "Private Link",
+      "category": "Networking"
+    },
+    "networking.private_link_service": {
+      "label": "Private Link Service",
+      "category": "Networking"
+    },
+    "networking.private_link_services": {
+      "label": "Private Link Services",
+      "category": "Networking"
+    },
+    "networking.private_link_services_1": {
+      "label": "Private Link Services 1",
+      "category": "Networking"
+    },
+    "networking.public_ip_addresses": {
+      "label": "Public IP Addresses",
+      "category": "Networking"
+    },
+    "networking.public_ip_addresses_classic": {
+      "label": "Public IP Addresses Classic",
+      "category": "Networking"
+    },
+    "networking.public_ip_prefixes": {
+      "label": "Public IP Prefixes",
+      "category": "Networking"
+    },
+    "networking.relays": {
+      "label": "Relays",
+      "category": "Networking"
+    },
+    "networking.reserved_ip_addresses_classic": {
+      "label": "Reserved IP Addresses Classic",
+      "category": "Networking"
+    },
+    "networking.route_filters": {
+      "label": "Route Filters",
+      "category": "Networking"
+    },
+    "networking.route_tables": {
+      "label": "Route Tables",
+      "category": "Networking"
+    },
+    "networking.service_endpoint_policies": {
+      "label": "Service Endpoint Policies",
+      "category": "Networking"
+    },
+    "networking.subnet": {
+      "label": "Subnet",
+      "category": "Networking"
+    },
+    "networking.traffic_manager_profiles": {
+      "label": "Traffic Manager Profiles",
+      "category": "Networking"
+    },
+    "networking.virtual_network_gateways": {
+      "label": "Virtual Network Gateways",
+      "category": "Networking"
+    },
+    "networking.virtual_networks": {
+      "label": "Virtual Networks",
+      "category": "Networking"
+    },
+    "networking.virtual_networks_classic": {
+      "label": "Virtual Networks Classic",
+      "category": "Networking"
+    },
+    "networking.virtual_router": {
+      "label": "Virtual Router",
+      "category": "Networking"
+    },
+    "networking.virtual_wan_hub": {
+      "label": "Virtual Wan Hub",
+      "category": "Networking"
+    },
+    "networking.virtual_wans": {
+      "label": "Virtual Wans",
+      "category": "Networking"
+    },
+    "networking.vpnclientwindows": {
+      "label": "Vpnclientwindows",
+      "category": "Networking"
+    },
+    "networking.web_application_firewall_policieswaf": {
+      "label": "Web Application Firewall Policieswaf",
+      "category": "Networking"
+    },
+    "storage.azure_backup_center": {
+      "label": "Azure Backup Center",
+      "category": "Storage"
+    },
+    "storage.azure_databox_gateway": {
+      "label": "Azure Databox Gateway",
+      "category": "Storage"
+    },
+    "storage.azure_databox_gateway_1": {
+      "label": "Azure Databox Gateway 1",
+      "category": "Storage"
+    },
+    "storage.azure_databox_gateway_2": {
+      "label": "Azure Databox Gateway 2",
+      "category": "Storage"
+    },
+    "storage.azure_databox_gateway_3": {
+      "label": "Azure Databox Gateway 3",
+      "category": "Storage"
+    },
+    "storage.azure_fileshares": {
+      "label": "Azure Fileshares",
+      "category": "Storage"
+    },
+    "storage.azure_hcp_cache": {
+      "label": "Azure Hcp Cache",
+      "category": "Storage"
+    },
+    "storage.azure_managed_redis": {
+      "label": "Azure Managed Redis",
+      "category": "Storage"
+    },
+    "storage.azure_netapp_files": {
+      "label": "Azure Netapp Files",
+      "category": "Storage"
+    },
+    "storage.azure_storage_mover": {
+      "label": "Azure Storage Mover",
+      "category": "Storage"
+    },
+    "storage.azurite": {
+      "label": "Azurite",
+      "category": "Storage"
+    },
+    "storage.backup_vault": {
+      "label": "Backup Vault",
+      "category": "Storage"
+    },
+    "storage.blob_block": {
+      "label": "Blob Block",
+      "category": "Storage"
+    },
+    "storage.blob_page": {
+      "label": "Blob Page",
+      "category": "Storage"
+    },
+    "storage.cache": {
+      "label": "Cache",
+      "category": "Storage"
+    },
+    "storage.cache_redis": {
+      "label": "Cache Redis",
+      "category": "Storage"
+    },
+    "storage.data_box": {
+      "label": "Data Box",
+      "category": "Storage"
+    },
+    "storage.data_box_1": {
+      "label": "Data Box 1",
+      "category": "Storage"
+    },
+    "storage.disk_encryption_sets": {
+      "label": "Disk Encryption Sets",
+      "category": "Storage"
+    },
+    "storage.disk_pool": {
+      "label": "Disk Pool",
+      "category": "Storage"
+    },
+    "storage.edge_storage_accelerator": {
+      "label": "Edge Storage Accelerator",
+      "category": "Storage"
+    },
+    "storage.elastic_san": {
+      "label": "Elastic San",
+      "category": "Storage"
+    },
+    "storage.file": {
+      "label": "File",
+      "category": "Storage"
+    },
+    "storage.files": {
+      "label": "Files",
+      "category": "Storage"
+    },
+    "storage.import_export_jobs": {
+      "label": "Import Export Jobs",
+      "category": "Storage"
+    },
+    "storage.managed_file_shares": {
+      "label": "Managed File Shares",
+      "category": "Storage"
+    },
+    "storage.storage_accounts": {
+      "label": "Storage Accounts",
+      "category": "Storage"
+    },
+    "storage.storage_accounts_classic": {
+      "label": "Storage Accounts Classic",
+      "category": "Storage"
+    },
+    "storage.storage_actions": {
+      "label": "Storage Actions",
+      "category": "Storage"
+    },
+    "storage.storage_explorer": {
+      "label": "Storage Explorer",
+      "category": "Storage"
+    },
+    "storage.storage_functions": {
+      "label": "Storage Functions",
+      "category": "Storage"
+    },
+    "storage.storage_sync_services": {
+      "label": "Storage Sync Services",
+      "category": "Storage"
+    },
+    "storage.storsimple_data_managers": {
+      "label": "Storsimple Data Managers",
+      "category": "Storage"
+    },
+    "storage.storsimple_device_managers": {
+      "label": "Storsimple Device Managers",
+      "category": "Storage"
+    },
+    "storage.storsimple_device_managers_1": {
+      "label": "Storsimple Device Managers 1",
+      "category": "Storage"
+    },
+    "security.app_compliance_automation": {
+      "label": "App Compliance Automation",
+      "category": "Security"
+    },
+    "security.application_security_groups": {
+      "label": "Application Security Groups",
+      "category": "Security"
+    },
+    "security.azure_attestation": {
+      "label": "Azure Attestation",
+      "category": "Security"
+    },
+    "security.azure_information_protection": {
+      "label": "Azure Information Protection",
+      "category": "Security"
+    },
+    "security.azure_information_protection_1": {
+      "label": "Azure Information Protection 1",
+      "category": "Security"
+    },
+    "security.azure_sentinel": {
+      "label": "Azure Sentinel",
+      "category": "Security"
+    },
+    "security.dedicated_hsm": {
+      "label": "Dedicated HSM",
+      "category": "Security"
+    },
+    "security.defender_cm_local_manager": {
+      "label": "Defender Cm Local Manager",
+      "category": "Security"
+    },
+    "security.defender_dcs_controller": {
+      "label": "Defender Dcs Controller",
+      "category": "Security"
+    },
+    "security.defender_distributer_control_system": {
+      "label": "Defender Distributer Control System",
+      "category": "Security"
+    },
+    "security.defender_engineering_station": {
+      "label": "Defender Engineering Station",
+      "category": "Security"
+    },
+    "security.defender_external_management": {
+      "label": "Defender External Management",
+      "category": "Security"
+    },
+    "security.defender_freezer_monitor": {
+      "label": "Defender Freezer Monitor",
+      "category": "Security"
+    },
+    "security.defender_historian": {
+      "label": "Defender Historian",
+      "category": "Security"
+    },
+    "security.defender_hmi": {
+      "label": "Defender Hmi",
+      "category": "Security"
+    },
+    "security.defender_industrial_packaging_system": {
+      "label": "Defender Industrial Packaging System",
+      "category": "Security"
+    },
+    "security.defender_industrial_printer": {
+      "label": "Defender Industrial Printer",
+      "category": "Security"
+    },
+    "security.defender_industrial_robot": {
+      "label": "Defender Industrial Robot",
+      "category": "Security"
+    },
+    "security.defender_industrial_scale_system": {
+      "label": "Defender Industrial Scale System",
+      "category": "Security"
+    },
+    "security.defender_marquee": {
+      "label": "Defender Marquee",
+      "category": "Security"
+    },
+    "security.defender_meter": {
+      "label": "Defender Meter",
+      "category": "Security"
+    },
+    "security.defender_plc": {
+      "label": "Defender Plc",
+      "category": "Security"
+    },
+    "security.defender_pneumatic_device": {
+      "label": "Defender Pneumatic Device",
+      "category": "Security"
+    },
+    "security.defender_programable_board": {
+      "label": "Defender Programable Board",
+      "category": "Security"
+    },
+    "security.defender_relay": {
+      "label": "Defender Relay",
+      "category": "Security"
+    },
+    "security.defender_robot_controller": {
+      "label": "Defender Robot Controller",
+      "category": "Security"
+    },
+    "security.defender_rtu": {
+      "label": "Defender Rtu",
+      "category": "Security"
+    },
+    "security.defender_sensor": {
+      "label": "Defender Sensor",
+      "category": "Security"
+    },
+    "security.defender_slot": {
+      "label": "Defender Slot",
+      "category": "Security"
+    },
+    "security.defender_web_guiding_system": {
+      "label": "Defender Web Guiding System",
+      "category": "Security"
+    },
+    "security.detonation": {
+      "label": "Detonation",
+      "category": "Security"
+    },
+    "security.extended_security_updates": {
+      "label": "Extended Security Updates",
+      "category": "Security"
+    },
+    "security.key_vaults": {
+      "label": "Key Vaults",
+      "category": "Security"
+    },
+    "security.keys": {
+      "label": "Keys",
+      "category": "Security"
+    },
+    "security.microsoft_defender_easm": {
+      "label": "Microsoft Defender Easm",
+      "category": "Security"
+    },
+    "security.microsoft_defender_for_cloud": {
+      "label": "Microsoft Defender For Cloud",
+      "category": "Security"
+    },
+    "security.microsoft_defender_for_iot": {
+      "label": "Microsoft Defender For IOT",
+      "category": "Security"
+    },
+    "security.security_baselines": {
+      "label": "Security Baselines",
+      "category": "Security"
+    },
+    "security.virtual_enclaves": {
+      "label": "Virtual Enclaves",
+      "category": "Security"
+    },
+    "ai_machine_learning.ai_at_edge": {
+      "label": "AI At Edge",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.ai_studio": {
+      "label": "AI Studio",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.anomaly_detector": {
+      "label": "Anomaly Detector",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.aquila": {
+      "label": "Aquila",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.azure_applied_ai_services": {
+      "label": "Azure Applied AI Services",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.azure_openai": {
+      "label": "Azure Openai",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.azure_video_indexer": {
+      "label": "Azure Video Indexer",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.bonsai": {
+      "label": "Bonsai",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.bot_services": {
+      "label": "Bot Services",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.ceres": {
+      "label": "Ceres",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.cognitive_search": {
+      "label": "Cognitive Search",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.cognitive_search_1": {
+      "label": "Cognitive Search 1",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.cognitive_search_2": {
+      "label": "Cognitive Search 2",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.cognitive_services": {
+      "label": "Cognitive Services",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.cognitive_services_1": {
+      "label": "Cognitive Services 1",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.cognitive_services_decisions": {
+      "label": "Cognitive Services Decisions",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.computer_vision": {
+      "label": "Computer Vision",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.content_moderators": {
+      "label": "Content Moderators",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.content_safety": {
+      "label": "Content Safety",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.custom_vision": {
+      "label": "Custom Vision",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.face_apis": {
+      "label": "Face Apis",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.fiji": {
+      "label": "Fiji",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.form_recognizers": {
+      "label": "Form Recognizers",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.genomics": {
+      "label": "Genomics",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.genomics_accounts": {
+      "label": "Genomics Accounts",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.immersive_readers": {
+      "label": "Immersive Readers",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.language": {
+      "label": "Language",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.language_understanding": {
+      "label": "Language Understanding",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.machine_learning": {
+      "label": "Machine Learning",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.machine_learning_studio_classic_web_services": {
+      "label": "Machine Learning Studio Classic Web Services",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.machine_learning_studio_classic_web_services_1": {
+      "label": "Machine Learning Studio Classic Web Services 1",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.machine_learning_studio_web_service_plans": {
+      "label": "Machine Learning Studio Web Service Plans",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.machine_learning_studio_web_service_plans_1": {
+      "label": "Machine Learning Studio Web Service Plans 1",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.machine_learning_studio_workspaces": {
+      "label": "Machine Learning Studio Workspaces",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.machine_learning_studio_workspaces_1": {
+      "label": "Machine Learning Studio Workspaces 1",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.metrics_advisor": {
+      "label": "Metrics Advisor",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.metrics_advisor_1": {
+      "label": "Metrics Advisor 1",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.personalizers": {
+      "label": "Personalizers",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.qna_makers": {
+      "label": "Qna Makers",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.speech_services": {
+      "label": "Speech Services",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.translator_text": {
+      "label": "Translator Text",
+      "category": "AI & Machine Learning"
+    },
+    "ai_machine_learning.video_analyzers": {
+      "label": "Video Analyzers",
+      "category": "AI & Machine Learning"
+    },
+    "analytics.analysis_services": {
+      "label": "Analysis Services",
+      "category": "Analytics"
+    },
+    "analytics.azure_databricks": {
+      "label": "Azure Databricks",
+      "category": "Analytics"
+    },
+    "analytics.azure_experimentation_studio": {
+      "label": "Azure Experimentation Studio",
+      "category": "Analytics"
+    },
+    "analytics.azure_synapse_analytics": {
+      "label": "Azure Synapse Analytics",
+      "category": "Analytics"
+    },
+    "analytics.azure_synapse_analytics_1": {
+      "label": "Azure Synapse Analytics 1",
+      "category": "Analytics"
+    },
+    "analytics.data_share_invitations": {
+      "label": "Data Share Invitations",
+      "category": "Analytics"
+    },
+    "analytics.data_shares": {
+      "label": "Data Shares",
+      "category": "Analytics"
+    },
+    "analytics.endpoint_analytics": {
+      "label": "Endpoint Analytics",
+      "category": "Analytics"
+    },
+    "analytics.hd_insight_clusters": {
+      "label": "Hd Insight Clusters",
+      "category": "Analytics"
+    },
+    "analytics.hdi_aks_cluster": {
+      "label": "Hdi Aks Cluster",
+      "category": "Analytics"
+    },
+    "analytics.power_bi_embedded": {
+      "label": "Power Bi Embedded",
+      "category": "Analytics"
+    },
+    "analytics.stream_analytics_jobs": {
+      "label": "Stream Analytics Jobs",
+      "category": "Analytics"
+    },
+    "analytics.stream_analytics_jobs_1": {
+      "label": "Stream Analytics Jobs 1",
+      "category": "Analytics"
+    },
+    "iot.azure_iot_operations": {
+      "label": "Azure IOT Operations",
+      "category": "IoT"
+    },
+    "iot.azure_maps_accounts": {
+      "label": "Azure Maps Accounts",
+      "category": "IoT"
+    },
+    "iot.azure_orbital": {
+      "label": "Azure Orbital",
+      "category": "IoT"
+    },
+    "iot.azure_sphere": {
+      "label": "Azure Sphere",
+      "category": "IoT"
+    },
+    "iot.connected_vehicle_platform": {
+      "label": "Connected Vehicle Platform",
+      "category": "IoT"
+    },
+    "iot.device_provisioning_services": {
+      "label": "Device Provisioning Services",
+      "category": "IoT"
+    },
+    "iot.device_update_iot_hub": {
+      "label": "Device Update IOT Hub",
+      "category": "IoT"
+    },
+    "iot.digital_twins": {
+      "label": "Digital Twins",
+      "category": "IoT"
+    },
+    "iot.edge_actions": {
+      "label": "Edge Actions",
+      "category": "IoT"
+    },
+    "iot.edge_management": {
+      "label": "Edge Management",
+      "category": "IoT"
+    },
+    "iot.industrial_iot": {
+      "label": "Industrial IOT",
+      "category": "IoT"
+    },
+    "iot.iot_central_applications": {
+      "label": "IOT Central Applications",
+      "category": "IoT"
+    },
+    "iot.iot_edge": {
+      "label": "IOT Edge",
+      "category": "IoT"
+    },
+    "iot.iot_hub": {
+      "label": "IOT Hub",
+      "category": "IoT"
+    },
+    "iot.rtos": {
+      "label": "RTOS",
+      "category": "IoT"
+    },
+    "iot.stack_hci_premium": {
+      "label": "Stack Hci Premium",
+      "category": "IoT"
+    },
+    "iot.time_series_data_sets": {
+      "label": "Time Series Data Sets",
+      "category": "IoT"
+    },
+    "iot.time_series_insights_access_policies": {
+      "label": "Time Series Insights Access Policies",
+      "category": "IoT"
+    },
+    "iot.time_series_insights_environments": {
+      "label": "Time Series Insights Environments",
+      "category": "IoT"
+    },
+    "iot.time_series_insights_event_sources": {
+      "label": "Time Series Insights Event Sources",
+      "category": "IoT"
+    },
+    "integration.app_configuration": {
+      "label": "App Configuration",
+      "category": "Integration"
+    },
+    "integration.azure_api_for_fhir": {
+      "label": "Azure API For FHIR",
+      "category": "Integration"
+    },
+    "integration.azure_service_bus": {
+      "label": "Azure Service Bus",
+      "category": "Integration"
+    },
+    "integration.biz_talk": {
+      "label": "Biz Talk",
+      "category": "Integration"
+    },
+    "integration.business_process_tracking": {
+      "label": "Business Process Tracking",
+      "category": "Integration"
+    },
+    "integration.collaborative_service": {
+      "label": "Collaborative Service",
+      "category": "Integration"
+    },
+    "integration.event_grid_domains": {
+      "label": "Event Grid Domains",
+      "category": "Integration"
+    },
+    "integration.event_grid_subscriptions": {
+      "label": "Event Grid Subscriptions",
+      "category": "Integration"
+    },
+    "integration.event_grid_subscriptions_1": {
+      "label": "Event Grid Subscriptions 1",
+      "category": "Integration"
+    },
+    "integration.event_grid_topics": {
+      "label": "Event Grid Topics",
+      "category": "Integration"
+    },
+    "integration.event_hub_clusters": {
+      "label": "Event Hub Clusters",
+      "category": "Integration"
+    },
+    "integration.event_hub_clusters_1": {
+      "label": "Event Hub Clusters 1",
+      "category": "Integration"
+    },
+    "integration.event_hubs": {
+      "label": "Event Hubs",
+      "category": "Integration"
+    },
+    "integration.event_hubs_1": {
+      "label": "Event Hubs 1",
+      "category": "Integration"
+    },
+    "integration.fhir_service": {
+      "label": "FHIR Service",
+      "category": "Integration"
+    },
+    "integration.integration_accounts": {
+      "label": "Integration Accounts",
+      "category": "Integration"
+    },
+    "integration.integration_environments": {
+      "label": "Integration Environments",
+      "category": "Integration"
+    },
+    "integration.integration_service_environments": {
+      "label": "Integration Service Environments",
+      "category": "Integration"
+    },
+    "integration.logic_apps": {
+      "label": "Logic Apps",
+      "category": "Integration"
+    },
+    "integration.logic_apps_1": {
+      "label": "Logic Apps 1",
+      "category": "Integration"
+    },
+    "integration.logic_apps_custom_connector": {
+      "label": "Logic Apps Custom Connector",
+      "category": "Integration"
+    },
+    "integration.medtech_service": {
+      "label": "Medtech Service",
+      "category": "Integration"
+    },
+    "integration.open_supply_chain_platform": {
+      "label": "Open Supply Chain Platform",
+      "category": "Integration"
+    },
+    "integration.partner_namespace": {
+      "label": "Partner Namespace",
+      "category": "Integration"
+    },
+    "integration.partner_registration": {
+      "label": "Partner Registration",
+      "category": "Integration"
+    },
+    "integration.partner_topic": {
+      "label": "Partner Topic",
+      "category": "Integration"
+    },
+    "integration.sendgrid_accounts": {
+      "label": "Sendgrid Accounts",
+      "category": "Integration"
+    },
+    "integration.system_topic": {
+      "label": "System Topic",
+      "category": "Integration"
+    },
+    "identity.active_directory_connect_health": {
+      "label": "Active Directory Connect Health",
+      "category": "Identity"
+    },
+    "identity.administrative_units": {
+      "label": "Administrative Units",
+      "category": "Identity"
+    },
+    "identity.app_registrations": {
+      "label": "App Registrations",
+      "category": "Identity"
+    },
+    "identity.app_registrations_1": {
+      "label": "App Registrations 1",
+      "category": "Identity"
+    },
+    "identity.azure_ad_b2c": {
+      "label": "Azure Ad B2c",
+      "category": "Identity"
+    },
+    "identity.conditional_access": {
+      "label": "Conditional Access",
+      "category": "Identity"
+    },
+    "identity.enterprise_applications": {
+      "label": "Enterprise Applications",
+      "category": "Identity"
+    },
+    "identity.entra_connect": {
+      "label": "Entra Connect",
+      "category": "Identity"
+    },
+    "identity.entra_connect_health": {
+      "label": "Entra Connect Health",
+      "category": "Identity"
+    },
+    "identity.entra_connect_sync": {
+      "label": "Entra Connect Sync",
+      "category": "Identity"
+    },
+    "identity.entra_domain_services": {
+      "label": "Entra Domain Services",
+      "category": "Identity"
+    },
+    "identity.entra_global_secure_access": {
+      "label": "Entra Global Secure Access",
+      "category": "Identity"
+    },
+    "identity.entra_id_protection": {
+      "label": "Entra Id Protection",
+      "category": "Identity"
+    },
+    "identity.entra_identity_custom_roles": {
+      "label": "Entra Identity Custom Roles",
+      "category": "Identity"
+    },
+    "identity.entra_identity_licenses": {
+      "label": "Entra Identity Licenses",
+      "category": "Identity"
+    },
+    "identity.entra_identity_licenses_1": {
+      "label": "Entra Identity Licenses 1",
+      "category": "Identity"
+    },
+    "identity.entra_identity_risky_signins": {
+      "label": "Entra Identity Risky Signins",
+      "category": "Identity"
+    },
+    "identity.entra_identity_risky_users": {
+      "label": "Entra Identity Risky Users",
+      "category": "Identity"
+    },
+    "identity.entra_identity_roles_and_administrators": {
+      "label": "Entra Identity Roles And Administrators",
+      "category": "Identity"
+    },
+    "identity.entra_identity_roles_and_administrators_1": {
+      "label": "Entra Identity Roles And Administrators 1",
+      "category": "Identity"
+    },
+    "identity.entra_internet_access": {
+      "label": "Entra Internet Access",
+      "category": "Identity"
+    },
+    "identity.entra_managed_identities": {
+      "label": "Entra Managed Identities",
+      "category": "Identity"
+    },
+    "identity.entra_private_access": {
+      "label": "Entra Private Access",
+      "category": "Identity"
+    },
+    "identity.entra_privleged_identity_management": {
+      "label": "Entra Privleged Identity Management",
+      "category": "Identity"
+    },
+    "identity.entra_verified_id": {
+      "label": "Entra Verified Id",
+      "category": "Identity"
+    },
+    "identity.external_id": {
+      "label": "External Id",
+      "category": "Identity"
+    },
+    "identity.external_id_modified": {
+      "label": "External Id Modified",
+      "category": "Identity"
+    },
+    "identity.external_identities": {
+      "label": "External Identities",
+      "category": "Identity"
+    },
+    "identity.groups": {
+      "label": "Groups",
+      "category": "Identity"
+    },
+    "identity.identity_governance": {
+      "label": "Identity Governance",
+      "category": "Identity"
+    },
+    "identity.identity_secure_score": {
+      "label": "Identity Secure Score",
+      "category": "Identity"
+    },
+    "identity.managed_identities": {
+      "label": "Managed Identities",
+      "category": "Identity"
+    },
+    "identity.multi_factor_authentication": {
+      "label": "Multi Factor Authentication",
+      "category": "Identity"
+    },
+    "identity.multifactor_authentication": {
+      "label": "Multifactor Authentication",
+      "category": "Identity"
+    },
+    "identity.tenant_properties": {
+      "label": "Tenant Properties",
+      "category": "Identity"
+    },
+    "identity.tenant_status": {
+      "label": "Tenant Status",
+      "category": "Identity"
+    },
+    "identity.users": {
+      "label": "Users",
+      "category": "Identity"
+    },
+    "identity.verifiable_credentials": {
+      "label": "Verifiable Credentials",
+      "category": "Identity"
+    },
+    "identity.verification_as_a_service": {
+      "label": "Verification As A Service",
+      "category": "Identity"
+    },
+    "devops.applens": {
+      "label": "Applens",
+      "category": "DevOps"
+    },
+    "devops.azure_chaos_studio": {
+      "label": "Azure Chaos Studio",
+      "category": "DevOps"
+    },
+    "devops.azure_cloud_shell": {
+      "label": "Azure Cloud Shell",
+      "category": "DevOps"
+    },
+    "devops.azure_deployment_environments": {
+      "label": "Azure Deployment Environments",
+      "category": "DevOps"
+    },
+    "devops.azure_dev_tunnels": {
+      "label": "Azure Dev Tunnels",
+      "category": "DevOps"
+    },
+    "devops.azure_devops": {
+      "label": "Azure Devops",
+      "category": "DevOps"
+    },
+    "devops.azure_load_testing": {
+      "label": "Azure Load Testing",
+      "category": "DevOps"
+    },
+    "devops.cloudtest": {
+      "label": "Cloudtest",
+      "category": "DevOps"
+    },
+    "devops.code": {
+      "label": "Code",
+      "category": "DevOps"
+    },
+    "devops.code_optimization": {
+      "label": "Code Optimization",
+      "category": "DevOps"
+    },
+    "devops.dev_console": {
+      "label": "Dev Console",
+      "category": "DevOps"
+    },
+    "devops.devops_starter": {
+      "label": "Devops Starter",
+      "category": "DevOps"
+    },
+    "devops.devtest_labs": {
+      "label": "Devtest Labs",
+      "category": "DevOps"
+    },
+    "devops.lab_accounts": {
+      "label": "Lab Accounts",
+      "category": "DevOps"
+    },
+    "devops.lab_services": {
+      "label": "Lab Services",
+      "category": "DevOps"
+    },
+    "devops.load_test": {
+      "label": "Load Test",
+      "category": "DevOps"
+    },
+    "devops.load_testing": {
+      "label": "Load Testing",
+      "category": "DevOps"
+    },
+    "devops.managed_devops_pools": {
+      "label": "Managed Devops Pools",
+      "category": "DevOps"
+    },
+    "devops.microsoft_dev_box": {
+      "label": "Microsoft Dev Box",
+      "category": "DevOps"
+    },
+    "devops.test_base": {
+      "label": "Test Base",
+      "category": "DevOps"
+    },
+    "devops.toolchain_orchestrator": {
+      "label": "Toolchain Orchestrator",
+      "category": "DevOps"
+    },
+    "devops.workspace_gateway": {
+      "label": "Workspace Gateway",
+      "category": "DevOps"
+    },
+    "monitor.activity_log": {
+      "label": "Activity Log",
+      "category": "Monitor"
+    },
+    "monitor.activity_log_1": {
+      "label": "Activity Log 1",
+      "category": "Monitor"
+    },
+    "monitor.alerts": {
+      "label": "Alerts",
+      "category": "Monitor"
+    },
+    "monitor.application_insights": {
+      "label": "Application Insights",
+      "category": "Monitor"
+    },
+    "monitor.application_insights_1": {
+      "label": "Application Insights 1",
+      "category": "Monitor"
+    },
+    "monitor.application_insights_2": {
+      "label": "Application Insights 2",
+      "category": "Monitor"
+    },
+    "monitor.auto_scale": {
+      "label": "Auto Scale",
+      "category": "Monitor"
+    },
+    "monitor.azure_managed_grafana": {
+      "label": "Azure Managed Grafana",
+      "category": "Monitor"
+    },
+    "monitor.azure_monitor_dashboard": {
+      "label": "Azure Monitor Dashboard",
+      "category": "Monitor"
+    },
+    "monitor.azure_monitor_pipeline": {
+      "label": "Azure Monitor Pipeline",
+      "category": "Monitor"
+    },
+    "monitor.azure_monitors_for_sap_solutions": {
+      "label": "Azure Monitors For SAP Solutions",
+      "category": "Monitor"
+    },
+    "monitor.azure_workbooks": {
+      "label": "Azure Workbooks",
+      "category": "Monitor"
+    },
+    "monitor.azure_workbooks_1": {
+      "label": "Azure Workbooks 1",
+      "category": "Monitor"
+    },
+    "monitor.change_analysis": {
+      "label": "Change Analysis",
+      "category": "Monitor"
+    },
+    "monitor.change_analysis_1": {
+      "label": "Change Analysis 1",
+      "category": "Monitor"
+    },
+    "monitor.data_collection_rules": {
+      "label": "Data Collection Rules",
+      "category": "Monitor"
+    },
+    "monitor.diagnostics_settings": {
+      "label": "Diagnostics Settings",
+      "category": "Monitor"
+    },
+    "monitor.diagnostics_settings_1": {
+      "label": "Diagnostics Settings 1",
+      "category": "Monitor"
+    },
+    "monitor.log_analytics_query_pack": {
+      "label": "Log Analytics Query Pack",
+      "category": "Monitor"
+    },
+    "monitor.log_analytics_workspaces": {
+      "label": "Log Analytics Workspaces",
+      "category": "Monitor"
+    },
+    "monitor.log_analytics_workspaces_1": {
+      "label": "Log Analytics Workspaces 1",
+      "category": "Monitor"
+    },
+    "monitor.log_analytics_workspaces_2": {
+      "label": "Log Analytics Workspaces 2",
+      "category": "Monitor"
+    },
+    "monitor.metrics": {
+      "label": "Metrics",
+      "category": "Monitor"
+    },
+    "monitor.metrics_1": {
+      "label": "Metrics 1",
+      "category": "Monitor"
+    },
+    "monitor.monitor": {
+      "label": "Monitor",
+      "category": "Monitor"
+    },
+    "monitor.monitor_1": {
+      "label": "Monitor 1",
+      "category": "Monitor"
+    },
+    "monitor.monitor_health_models": {
+      "label": "Monitor Health Models",
+      "category": "Monitor"
+    },
+    "monitor.network_watcher": {
+      "label": "Network Watcher",
+      "category": "Monitor"
+    },
+    "monitor.network_watcher_1": {
+      "label": "Network Watcher 1",
+      "category": "Monitor"
+    },
+    "management_governance.advisor": {
+      "label": "Advisor",
+      "category": "Management & Governance"
+    },
+    "management_governance.automation_accounts": {
+      "label": "Automation Accounts",
+      "category": "Management & Governance"
+    },
+    "management_governance.azure_center_for_sap": {
+      "label": "Azure Center For SAP",
+      "category": "Management & Governance"
+    },
+    "management_governance.azure_lighthouse": {
+      "label": "Azure Lighthouse",
+      "category": "Management & Governance"
+    },
+    "management_governance.azure_migrate": {
+      "label": "Azure Migrate",
+      "category": "Management & Governance"
+    },
+    "management_governance.azure_quotas": {
+      "label": "Azure Quotas",
+      "category": "Management & Governance"
+    },
+    "management_governance.azure_support_center_blue": {
+      "label": "Azure Support Center Blue",
+      "category": "Management & Governance"
+    },
+    "management_governance.azure_sustainability": {
+      "label": "Azure Sustainability",
+      "category": "Management & Governance"
+    },
+    "management_governance.blueprints": {
+      "label": "Blueprints",
+      "category": "Management & Governance"
+    },
+    "management_governance.compliance": {
+      "label": "Compliance",
+      "category": "Management & Governance"
+    },
+    "management_governance.compliance_center": {
+      "label": "Compliance Center",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_alerts": {
+      "label": "Cost Alerts",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_analysis": {
+      "label": "Cost Analysis",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_budgets": {
+      "label": "Cost Budgets",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_export": {
+      "label": "Cost Export",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_management": {
+      "label": "Cost Management",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_management_and_billing": {
+      "label": "Cost Management And Billing",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_management_and_billing_1": {
+      "label": "Cost Management And Billing 1",
+      "category": "Management & Governance"
+    },
+    "management_governance.cost_management_and_billing_2": {
+      "label": "Cost Management And Billing 2",
+      "category": "Management & Governance"
+    },
+    "management_governance.customer_lockbox_for_microsoft_azure": {
+      "label": "Customer Lockbox For Microsoft Azure",
+      "category": "Management & Governance"
+    },
+    "management_governance.education": {
+      "label": "Education",
+      "category": "Management & Governance"
+    },
+    "management_governance.free_services": {
+      "label": "Free Services",
+      "category": "Management & Governance"
+    },
+    "management_governance.intune_trends": {
+      "label": "Intune Trends",
+      "category": "Management & Governance"
+    },
+    "management_governance.landing_zone": {
+      "label": "Landing Zone",
+      "category": "Management & Governance"
+    },
+    "management_governance.maintenance_configuration": {
+      "label": "Maintenance Configuration",
+      "category": "Management & Governance"
+    },
+    "management_governance.managed_applications_center": {
+      "label": "Managed Applications Center",
+      "category": "Management & Governance"
+    },
+    "management_governance.managed_desktop": {
+      "label": "Managed Desktop",
+      "category": "Management & Governance"
+    },
+    "management_governance.management_groups": {
+      "label": "Management Groups",
+      "category": "Management & Governance"
+    },
+    "management_governance.management_portal": {
+      "label": "Management Portal",
+      "category": "Management & Governance"
+    },
+    "management_governance.marketplace": {
+      "label": "Marketplace",
+      "category": "Management & Governance"
+    },
+    "management_governance.marketplace_management": {
+      "label": "Marketplace Management",
+      "category": "Management & Governance"
+    },
+    "management_governance.mission_landing_zone": {
+      "label": "Mission Landing Zone",
+      "category": "Management & Governance"
+    },
+    "management_governance.my_customers": {
+      "label": "My Customers",
+      "category": "Management & Governance"
+    },
+    "management_governance.operation_log_classic": {
+      "label": "Operation Log Classic",
+      "category": "Management & Governance"
+    },
+    "management_governance.osconfig": {
+      "label": "Osconfig",
+      "category": "Management & Governance"
+    },
+    "management_governance.policy": {
+      "label": "Policy",
+      "category": "Management & Governance"
+    },
+    "management_governance.recovery_services_vaults": {
+      "label": "Recovery Services Vaults",
+      "category": "Management & Governance"
+    },
+    "management_governance.recovery_services_vaults_1": {
+      "label": "Recovery Services Vaults 1",
+      "category": "Management & Governance"
+    },
+    "management_governance.recovery_services_vaults_2": {
+      "label": "Recovery Services Vaults 2",
+      "category": "Management & Governance"
+    },
+    "management_governance.reserved_capacity": {
+      "label": "Reserved Capacity",
+      "category": "Management & Governance"
+    },
+    "management_governance.resource_graph_explorer": {
+      "label": "Resource Graph Explorer",
+      "category": "Management & Governance"
+    },
+    "management_governance.resource_guard": {
+      "label": "Resource Guard",
+      "category": "Management & Governance"
+    },
+    "management_governance.resource_management_private_link": {
+      "label": "Resource Management Private Link",
+      "category": "Management & Governance"
+    },
+    "management_governance.resource_mover": {
+      "label": "Resource Mover",
+      "category": "Management & Governance"
+    },
+    "management_governance.savings_plans": {
+      "label": "Savings Plans",
+      "category": "Management & Governance"
+    },
+    "management_governance.scheduler_job_collections": {
+      "label": "Scheduler Job Collections",
+      "category": "Management & Governance"
+    },
+    "management_governance.service_catalog_mad": {
+      "label": "Service Catalog Mad",
+      "category": "Management & Governance"
+    },
+    "management_governance.service_providers": {
+      "label": "Service Providers",
+      "category": "Management & Governance"
+    },
+    "management_governance.software_updates": {
+      "label": "Software Updates",
+      "category": "Management & Governance"
+    },
+    "management_governance.solutions": {
+      "label": "Solutions",
+      "category": "Management & Governance"
+    },
+    "management_governance.template_specs": {
+      "label": "Template Specs",
+      "category": "Management & Governance"
+    },
+    "management_governance.universal_print": {
+      "label": "Universal Print",
+      "category": "Management & Governance"
+    },
+    "management_governance.update_management_center": {
+      "label": "Update Management Center",
+      "category": "Management & Governance"
+    },
+    "management_governance.user_privacy": {
+      "label": "User Privacy",
+      "category": "Management & Governance"
+    },
+    "web.api_center": {
+      "label": "API Center",
+      "category": "Web"
+    },
+    "web.api_connections": {
+      "label": "API Connections",
+      "category": "Web"
+    },
+    "web.api_connections_1": {
+      "label": "API Connections 1",
+      "category": "Web"
+    },
+    "web.api_connections_2": {
+      "label": "API Connections 2",
+      "category": "Web"
+    },
+    "web.api_management_services": {
+      "label": "API Management Services",
+      "category": "Web"
+    },
+    "web.api_management_services_1": {
+      "label": "API Management Services 1",
+      "category": "Web"
+    },
+    "web.api_management_services_2": {
+      "label": "API Management Services 2",
+      "category": "Web"
+    },
+    "web.api_proxy": {
+      "label": "API Proxy",
+      "category": "Web"
+    },
+    "web.app_service_certificates": {
+      "label": "App Service Certificates",
+      "category": "Web"
+    },
+    "web.app_service_certificates_1": {
+      "label": "App Service Certificates 1",
+      "category": "Web"
+    },
+    "web.app_service_domains": {
+      "label": "App Service Domains",
+      "category": "Web"
+    },
+    "web.app_service_domains_1": {
+      "label": "App Service Domains 1",
+      "category": "Web"
+    },
+    "web.app_service_environments": {
+      "label": "App Service Environments",
+      "category": "Web"
+    },
+    "web.app_service_environments_1": {
+      "label": "App Service Environments 1",
+      "category": "Web"
+    },
+    "web.app_service_plans": {
+      "label": "App Service Plans",
+      "category": "Web"
+    },
+    "web.app_service_plans_1": {
+      "label": "App Service Plans 1",
+      "category": "Web"
+    },
+    "web.app_services": {
+      "label": "App Services",
+      "category": "Web"
+    },
+    "web.app_services_1": {
+      "label": "App Services 1",
+      "category": "Web"
+    },
+    "web.app_services_2": {
+      "label": "App Services 2",
+      "category": "Web"
+    },
+    "web.app_services_3": {
+      "label": "App Services 3",
+      "category": "Web"
+    },
+    "web.app_services_4": {
+      "label": "App Services 4",
+      "category": "Web"
+    },
+    "web.azure_communication_services": {
+      "label": "Azure Communication Services",
+      "category": "Web"
+    },
+    "web.azure_communications_gateway": {
+      "label": "Azure Communications Gateway",
+      "category": "Web"
+    },
+    "web.azure_media_service": {
+      "label": "Azure Media Service",
+      "category": "Web"
+    },
+    "web.azure_spring_apps": {
+      "label": "Azure Spring Apps",
+      "category": "Web"
+    },
+    "web.azure_spring_apps_1": {
+      "label": "Azure Spring Apps 1",
+      "category": "Web"
+    },
+    "web.function_apps": {
+      "label": "Function Apps",
+      "category": "Web"
+    },
+    "web.function_apps_1": {
+      "label": "Function Apps 1",
+      "category": "Web"
+    },
+    "web.notification_hub_namespaces": {
+      "label": "Notification Hub Namespaces",
+      "category": "Web"
+    },
+    "web.notification_hub_namespaces_1": {
+      "label": "Notification Hub Namespaces 1",
+      "category": "Web"
+    },
+    "web.notification_hubs": {
+      "label": "Notification Hubs",
+      "category": "Web"
+    },
+    "web.notification_hubs_1": {
+      "label": "Notification Hubs 1",
+      "category": "Web"
+    },
+    "web.notification_hubs_2": {
+      "label": "Notification Hubs 2",
+      "category": "Web"
+    },
+    "web.signalr": {
+      "label": "Signalr",
+      "category": "Web"
+    },
+    "web.static_apps": {
+      "label": "Static Apps",
+      "category": "Web"
+    },
+    "web.virtual_visits_builder": {
+      "label": "Virtual Visits Builder",
+      "category": "Web"
+    },
+    "web.web_app_database": {
+      "label": "Web App Database",
+      "category": "Web"
+    },
+    "web.web_jobs": {
+      "label": "Web Jobs",
+      "category": "Web"
+    },
+    "mobile.app_space": {
+      "label": "App Space",
+      "category": "Mobile"
+    },
+    "mobile.app_space_component": {
+      "label": "App Space Component",
+      "category": "Mobile"
+    },
+    "mobile.mobile": {
+      "label": "Mobile",
+      "category": "Mobile"
+    },
+    "mobile.mobile_engagement": {
+      "label": "Mobile Engagement",
+      "category": "Mobile"
+    },
+    "mobile.mobile_networks": {
+      "label": "Mobile Networks",
+      "category": "Mobile"
+    },
+    "blockchain.abs_member": {
+      "label": "Abs Member",
+      "category": "Blockchain"
+    },
+    "blockchain.azure_blockchain_service": {
+      "label": "Azure Blockchain Service",
+      "category": "Blockchain"
+    },
+    "blockchain.azure_token_service": {
+      "label": "Azure Token Service",
+      "category": "Blockchain"
+    },
+    "blockchain.blockchain_applications": {
+      "label": "Blockchain Applications",
+      "category": "Blockchain"
+    },
+    "blockchain.confidential_ledgers": {
+      "label": "Confidential Ledgers",
+      "category": "Blockchain"
+    },
+    "blockchain.consortium": {
+      "label": "Consortium",
+      "category": "Blockchain"
+    },
+    "mixed_reality.azure_object_understanding": {
+      "label": "Azure Object Understanding",
+      "category": "Mixed Reality"
+    },
+    "mixed_reality.remote_rendering": {
+      "label": "Remote Rendering",
+      "category": "Mixed Reality"
+    },
+    "mixed_reality.spatial_anchor_accounts": {
+      "label": "Spatial Anchor Accounts",
+      "category": "Mixed Reality"
+    },
+    "hybrid_multicloud.arc_data_services": {
+      "label": "Arc Data Services",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.arc_kubernetes": {
+      "label": "Arc Kubernetes",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.arc_machines": {
+      "label": "Arc Machines",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.arc_postgresql": {
+      "label": "Arc Postgresql",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.arc_sql_managed_instance": {
+      "label": "Arc SQL Managed Instance",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.arc_sql_server": {
+      "label": "Arc SQL Server",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_arc": {
+      "label": "Azure Arc",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_edge_hardware_center": {
+      "label": "Azure Edge Hardware Center",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_hybrid_center": {
+      "label": "Azure Hybrid Center",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_stack": {
+      "label": "Azure Stack",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_stack_edge": {
+      "label": "Azure Stack Edge",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_stack_edge_1": {
+      "label": "Azure Stack Edge 1",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_stack_edge_2": {
+      "label": "Azure Stack Edge 2",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.azure_stack_hci_sizer": {
+      "label": "Azure Stack Hci Sizer",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.capacity": {
+      "label": "Capacity",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.infrastructure_backup": {
+      "label": "Infrastructure Backup",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.machinesazurearc": {
+      "label": "Machinesazurearc",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.multi_tenancy": {
+      "label": "Multi Tenancy",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.scvmm_management_servers": {
+      "label": "Scvmm Management Servers",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "hybrid_multicloud.user_subscriptions": {
+      "label": "User Subscriptions",
+      "category": "Hybrid & Multi-cloud"
+    },
+    "intune.client_apps": {
+      "label": "Client Apps",
+      "category": "Intune"
+    },
+    "intune.device_compliance": {
+      "label": "Device Compliance",
+      "category": "Intune"
+    },
+    "intune.device_configuration": {
+      "label": "Device Configuration",
+      "category": "Intune"
+    },
+    "intune.device_enrollment": {
+      "label": "Device Enrollment",
+      "category": "Intune"
+    },
+    "intune.device_security_apple": {
+      "label": "Device Security Apple",
+      "category": "Intune"
+    },
+    "intune.device_security_google": {
+      "label": "Device Security Google",
+      "category": "Intune"
+    },
+    "intune.device_security_windows": {
+      "label": "Device Security Windows",
+      "category": "Intune"
+    },
+    "intune.devices": {
+      "label": "Devices",
+      "category": "Intune"
+    },
+    "intune.ebooks": {
+      "label": "Ebooks",
+      "category": "Intune"
+    },
+    "intune.exchange_access": {
+      "label": "Exchange Access",
+      "category": "Intune"
+    },
+    "intune.exchange_on_premises_access": {
+      "label": "Exchange On Premises Access",
+      "category": "Intune"
+    },
+    "intune.intune": {
+      "label": "Intune",
+      "category": "Intune"
+    },
+    "intune.intune_app_protection": {
+      "label": "Intune App Protection",
+      "category": "Intune"
+    },
+    "intune.intune_for_education": {
+      "label": "Intune For Education",
+      "category": "Intune"
+    },
+    "intune.mindaro": {
+      "label": "Mindaro",
+      "category": "Intune"
+    },
+    "general.all_resources": {
+      "label": "All Resources",
+      "category": "General"
+    },
+    "general.azure_a": {
+      "label": "Azure A",
+      "category": "General"
+    },
+    "general.backlog": {
+      "label": "Backlog",
+      "category": "General"
+    },
+    "general.branch": {
+      "label": "Branch",
+      "category": "General"
+    },
+    "general.browser": {
+      "label": "Browser",
+      "category": "General"
+    },
+    "general.bug": {
+      "label": "Bug",
+      "category": "General"
+    },
+    "general.builds": {
+      "label": "Builds",
+      "category": "General"
+    },
+    "general.commit": {
+      "label": "Commit",
+      "category": "General"
+    },
+    "general.controls": {
+      "label": "Controls",
+      "category": "General"
+    },
+    "general.controls_horizontal": {
+      "label": "Controls Horizontal",
+      "category": "General"
+    },
+    "general.counter": {
+      "label": "Counter",
+      "category": "General"
+    },
+    "general.cubes": {
+      "label": "Cubes",
+      "category": "General"
+    },
+    "general.dashboard": {
+      "label": "Dashboard",
+      "category": "General"
+    },
+    "general.dashboard_hub": {
+      "label": "Dashboard Hub",
+      "category": "General"
+    },
+    "general.download": {
+      "label": "Download",
+      "category": "General"
+    },
+    "general.error": {
+      "label": "Error",
+      "category": "General"
+    },
+    "general.extensions": {
+      "label": "Extensions",
+      "category": "General"
+    },
+    "general.feature_previews": {
+      "label": "Feature Previews",
+      "category": "General"
+    },
+    "general.folder_blank": {
+      "label": "Folder Blank",
+      "category": "General"
+    },
+    "general.folder_website": {
+      "label": "Folder Website",
+      "category": "General"
+    },
+    "general.ftp": {
+      "label": "Ftp",
+      "category": "General"
+    },
+    "general.gear": {
+      "label": "Gear",
+      "category": "General"
+    },
+    "general.globe_error": {
+      "label": "Globe Error",
+      "category": "General"
+    },
+    "general.globe_success": {
+      "label": "Globe Success",
+      "category": "General"
+    },
+    "general.globe_warning": {
+      "label": "Globe Warning",
+      "category": "General"
+    },
+    "general.guide": {
+      "label": "Guide",
+      "category": "General"
+    },
+    "general.heart": {
+      "label": "Heart",
+      "category": "General"
+    },
+    "general.help_and_support": {
+      "label": "Help And Support",
+      "category": "General"
+    },
+    "general.icm_troubleshooting": {
+      "label": "Icm Troubleshooting",
+      "category": "General"
+    },
+    "general.information": {
+      "label": "Information",
+      "category": "General"
+    },
+    "general.input_output": {
+      "label": "Input Output",
+      "category": "General"
+    },
+    "general.journey_hub": {
+      "label": "Journey Hub",
+      "category": "General"
+    },
+    "general.launch_portal": {
+      "label": "Launch Portal",
+      "category": "General"
+    },
+    "general.learn": {
+      "label": "Learn",
+      "category": "General"
+    },
+    "general.location": {
+      "label": "Location",
+      "category": "General"
+    },
+    "general.log_streaming": {
+      "label": "Log Streaming",
+      "category": "General"
+    },
+    "general.media": {
+      "label": "Media",
+      "category": "General"
+    },
+    "general.media_file": {
+      "label": "Media File",
+      "category": "General"
+    },
+    "general.offers": {
+      "label": "Offers",
+      "category": "General"
+    },
+    "general.outbound_connection": {
+      "label": "Outbound Connection",
+      "category": "General"
+    },
+    "general.plans": {
+      "label": "Plans",
+      "category": "General"
+    },
+    "general.power_platform": {
+      "label": "Power Platform",
+      "category": "General"
+    },
+    "general.power_platform_1": {
+      "label": "Power Platform 1",
+      "category": "General"
+    },
+    "general.power_platform_2": {
+      "label": "Power Platform 2",
+      "category": "General"
+    },
+    "general.power_platform_3": {
+      "label": "Power Platform 3",
+      "category": "General"
+    },
+    "general.resources_provider": {
+      "label": "Resources Provider",
+      "category": "General"
+    },
+    "general.restore_points": {
+      "label": "Restore Points",
+      "category": "General"
+    },
+    "general.restore_points_collections": {
+      "label": "Restore Points Collections",
+      "category": "General"
+    },
+    "general.security": {
+      "label": "Security",
+      "category": "General"
+    },
+    "general.software_as_a_service": {
+      "label": "Software As A Service",
+      "category": "General"
+    },
+    "general.sonic_dash": {
+      "label": "Sonic Dash",
+      "category": "General"
+    },
+    "general.ssh_keys": {
+      "label": "Ssh Keys",
+      "category": "General"
+    },
+    "general.targets_management": {
+      "label": "Targets Management",
+      "category": "General"
+    },
+    "general.updates": {
+      "label": "Updates",
+      "category": "General"
+    },
+    "general.user_settings": {
+      "label": "User Settings",
+      "category": "General"
+    },
+    "general.wac": {
+      "label": "Wac",
+      "category": "General"
+    },
+    "general.wac_installer": {
+      "label": "Wac Installer",
+      "category": "General"
+    },
+    "general.windows10_core_services": {
+      "label": "Windows10 Core Services",
+      "category": "General"
+    },
+    "general.windows_notification_services": {
+      "label": "Windows Notification Services",
+      "category": "General"
+    },
+    "general.workspaces": {
+      "label": "Workspaces",
+      "category": "General"
+    }
+  },
+  "gcp": {
+    "ai.advanced_agent_modeling": {
+      "label": "Advanced Agent Modeling",
+      "category": "AI & Machine Learning"
+    },
+    "ai.advanced_solutions_lab": {
+      "label": "Advanced Solutions Lab",
+      "category": "AI & Machine Learning"
+    },
+    "ai.agent_assist": {
+      "label": "Agent Assist",
+      "category": "AI & Machine Learning"
+    },
+    "ai.automl": {
+      "label": "Automl",
+      "category": "AI & Machine Learning"
+    },
+    "ai.automl.natural_language": {
+      "label": "Automl Natural Language",
+      "category": "AI & Machine Learning"
+    },
+    "ai.automl.tables": {
+      "label": "Automl Tables",
+      "category": "AI & Machine Learning"
+    },
+    "ai.automl.translation": {
+      "label": "Automl Translation",
+      "category": "AI & Machine Learning"
+    },
+    "ai.automl.video_intelligence": {
+      "label": "Automl Video Intelligence",
+      "category": "AI & Machine Learning"
+    },
+    "ai.automl.vision": {
+      "label": "Automl Vision",
+      "category": "AI & Machine Learning"
+    },
+    "ai.contact_center": {
+      "label": "Contact Center",
+      "category": "AI & Machine Learning"
+    },
+    "ai.dialogflow": {
+      "label": "Dialogflow",
+      "category": "AI & Machine Learning"
+    },
+    "ai.dialogflow.cx": {
+      "label": "Dialogflow Cx",
+      "category": "AI & Machine Learning"
+    },
+    "ai.dialogflow.insights": {
+      "label": "Dialogflow Insights",
+      "category": "AI & Machine Learning"
+    },
+    "ai.document": {
+      "label": "Document",
+      "category": "AI & Machine Learning"
+    },
+    "ai.healthcare_nlp": {
+      "label": "Healthcare Nlp",
+      "category": "AI & Machine Learning"
+    },
+    "ai.hub": {
+      "label": "Hub",
+      "category": "AI & Machine Learning"
+    },
+    "ai.inference": {
+      "label": "Inference",
+      "category": "AI & Machine Learning"
+    },
+    "ai.jobs": {
+      "label": "Jobs",
+      "category": "AI & Machine Learning"
+    },
+    "ai.natural_language": {
+      "label": "Natural Language",
+      "category": "AI & Machine Learning"
+    },
+    "ai.optimization": {
+      "label": "Optimization",
+      "category": "AI & Machine Learning"
+    },
+    "ai.optimization.fleet_routing": {
+      "label": "Optimization Fleet Routing",
+      "category": "AI & Machine Learning"
+    },
+    "ai.platform": {
+      "label": "Platform",
+      "category": "AI & Machine Learning"
+    },
+    "ai.platform_unified": {
+      "label": "Platform Unified",
+      "category": "AI & Machine Learning"
+    },
+    "ai.recommendations": {
+      "label": "Recommendations",
+      "category": "AI & Machine Learning"
+    },
+    "ai.retail": {
+      "label": "Retail",
+      "category": "AI & Machine Learning"
+    },
+    "ai.retail_alt": {
+      "label": "Retail Alt",
+      "category": "AI & Machine Learning"
+    },
+    "ai.speech_to_text": {
+      "label": "Speech To Text",
+      "category": "AI & Machine Learning"
+    },
+    "ai.tensorflow_enterprise": {
+      "label": "Tensorflow Enterprise",
+      "category": "AI & Machine Learning"
+    },
+    "ai.text_to_speech": {
+      "label": "Text To Speech",
+      "category": "AI & Machine Learning"
+    },
+    "ai.translation": {
+      "label": "Translation",
+      "category": "AI & Machine Learning"
+    },
+    "ai.vertex": {
+      "label": "Vertex",
+      "category": "AI & Machine Learning"
+    },
+    "ai.video_intelligence": {
+      "label": "Video Intelligence",
+      "category": "AI & Machine Learning"
+    },
+    "ai.vision": {
+      "label": "Vision",
+      "category": "AI & Machine Learning"
+    },
+    "ai.visual_inspection": {
+      "label": "Visual Inspection",
+      "category": "AI & Machine Learning"
+    },
+    "analytics.bigquery": {
+      "label": "Bigquery",
+      "category": "Analytics"
+    },
+    "analytics.bigtable": {
+      "label": "Bigtable",
+      "category": "Analytics"
+    },
+    "analytics.data_catalog": {
+      "label": "Data Catalog",
+      "category": "Analytics"
+    },
+    "analytics.data_fusion": {
+      "label": "Data Fusion",
+      "category": "Analytics"
+    },
+    "analytics.data_labeling": {
+      "label": "Data Labeling",
+      "category": "Analytics"
+    },
+    "analytics.data_layers": {
+      "label": "Data Layers",
+      "category": "Analytics"
+    },
+    "analytics.data_studio": {
+      "label": "Data Studio",
+      "category": "Analytics"
+    },
+    "analytics.dataflow": {
+      "label": "Dataflow",
+      "category": "Analytics"
+    },
+    "analytics.datalab": {
+      "label": "Datalab",
+      "category": "Analytics"
+    },
+    "analytics.dataplex": {
+      "label": "Dataplex",
+      "category": "Analytics"
+    },
+    "analytics.datapol": {
+      "label": "Datapol",
+      "category": "Analytics"
+    },
+    "analytics.dataprep": {
+      "label": "Dataprep",
+      "category": "Analytics"
+    },
+    "analytics.dataproc": {
+      "label": "Dataproc",
+      "category": "Analytics"
+    },
+    "analytics.dataproc.metastore": {
+      "label": "Dataproc Metastore",
+      "category": "Analytics"
+    },
+    "analytics.datashare": {
+      "label": "Datashare",
+      "category": "Analytics"
+    },
+    "analytics.datastream": {
+      "label": "Datastream",
+      "category": "Analytics"
+    },
+    "analytics.hub": {
+      "label": "Hub",
+      "category": "Analytics"
+    },
+    "analytics.looker": {
+      "label": "Looker",
+      "category": "Analytics"
+    },
+    "analytics.pubsub": {
+      "label": "Pubsub",
+      "category": "Analytics"
+    },
+    "analytics.real_world_insights": {
+      "label": "Real World Insights",
+      "category": "Analytics"
+    },
+    "analytics.stream_suite": {
+      "label": "Stream Suite",
+      "category": "Analytics"
+    },
+    "api.analytics": {
+      "label": "Analytics",
+      "category": "API Platform"
+    },
+    "api.api": {
+      "label": "API",
+      "category": "API Platform"
+    },
+    "api.apigee": {
+      "label": "APIgee",
+      "category": "API Platform"
+    },
+    "api.apigee_alt": {
+      "label": "APIgee Alt",
+      "category": "API Platform"
+    },
+    "api.apigee_sense": {
+      "label": "APIgee Sense",
+      "category": "API Platform"
+    },
+    "api.apis": {
+      "label": "APIs",
+      "category": "API Platform"
+    },
+    "api.endpoints": {
+      "label": "Endpoints",
+      "category": "API Platform"
+    },
+    "api.gateway": {
+      "label": "Gateway",
+      "category": "API Platform"
+    },
+    "api.monetization": {
+      "label": "Monetization",
+      "category": "API Platform"
+    },
+    "compute.app_engine": {
+      "label": "App Engine",
+      "category": "Compute"
+    },
+    "compute.bare_metal": {
+      "label": "Bare Metal",
+      "category": "Compute"
+    },
+    "compute.batch": {
+      "label": "Batch",
+      "category": "Compute"
+    },
+    "compute.engine": {
+      "label": "Engine",
+      "category": "Compute"
+    },
+    "compute.functions": {
+      "label": "Functions",
+      "category": "Compute"
+    },
+    "compute.gce_systems_management": {
+      "label": "GCE Systems Management",
+      "category": "Compute"
+    },
+    "compute.gpu": {
+      "label": "GPU",
+      "category": "Compute"
+    },
+    "compute.local_ssd": {
+      "label": "Local Ssd",
+      "category": "Compute"
+    },
+    "compute.persistent_disk": {
+      "label": "Persistent Disk",
+      "category": "Compute"
+    },
+    "compute.run": {
+      "label": "Run",
+      "category": "Compute"
+    },
+    "compute.run_for_anthos": {
+      "label": "Run For Anthos",
+      "category": "Compute"
+    },
+    "compute.tpu": {
+      "label": "TPU",
+      "category": "Compute"
+    },
+    "compute.vmware_engine": {
+      "label": "Vmware Engine",
+      "category": "Compute"
+    },
+    "container.anthos": {
+      "label": "Anthos",
+      "category": "Containers"
+    },
+    "container.anthos.config_management": {
+      "label": "Anthos Config Management",
+      "category": "Containers"
+    },
+    "container.anthos.service_mesh": {
+      "label": "Anthos Service Mesh",
+      "category": "Containers"
+    },
+    "container.artifact_registry": {
+      "label": "Artifact Registry",
+      "category": "Containers"
+    },
+    "container.container_optimized_os": {
+      "label": "Container Optimized Os",
+      "category": "Containers"
+    },
+    "container.container_registry": {
+      "label": "Container Registry",
+      "category": "Containers"
+    },
+    "container.gke": {
+      "label": "GKE",
+      "category": "Containers"
+    },
+    "container.gke_onprem": {
+      "label": "GKE Onprem",
+      "category": "Containers"
+    },
+    "container.kuberun": {
+      "label": "Kuberun",
+      "category": "Containers"
+    },
+    "database.datastore": {
+      "label": "Datastore",
+      "category": "Databases"
+    },
+    "database.filestore": {
+      "label": "Filestore",
+      "category": "Databases"
+    },
+    "database.firestore": {
+      "label": "Firestore",
+      "category": "Databases"
+    },
+    "database.memorystore": {
+      "label": "Memorystore",
+      "category": "Databases"
+    },
+    "database.migration_service": {
+      "label": "Migration Service",
+      "category": "Databases"
+    },
+    "database.spanner": {
+      "label": "Spanner",
+      "category": "Databases"
+    },
+    "database.sql": {
+      "label": "SQL",
+      "category": "Databases"
+    },
+    "devtools.build": {
+      "label": "Build",
+      "category": "Developer Tools"
+    },
+    "devtools.code": {
+      "label": "Code",
+      "category": "Developer Tools"
+    },
+    "devtools.composer": {
+      "label": "Composer",
+      "category": "Developer Tools"
+    },
+    "devtools.connectors": {
+      "label": "Connectors",
+      "category": "Developer Tools"
+    },
+    "devtools.debugger": {
+      "label": "Debugger",
+      "category": "Developer Tools"
+    },
+    "devtools.deploy": {
+      "label": "Deploy",
+      "category": "Developer Tools"
+    },
+    "devtools.deployment_manager": {
+      "label": "Deployment Manager",
+      "category": "Developer Tools"
+    },
+    "devtools.error_reporting": {
+      "label": "Error Reporting",
+      "category": "Developer Tools"
+    },
+    "devtools.eventarc": {
+      "label": "Eventarc",
+      "category": "Developer Tools"
+    },
+    "devtools.profiler": {
+      "label": "Profiler",
+      "category": "Developer Tools"
+    },
+    "devtools.scheduler": {
+      "label": "Scheduler",
+      "category": "Developer Tools"
+    },
+    "devtools.shell": {
+      "label": "Shell",
+      "category": "Developer Tools"
+    },
+    "devtools.tasks": {
+      "label": "Tasks",
+      "category": "Developer Tools"
+    },
+    "devtools.test_lab": {
+      "label": "Test Lab",
+      "category": "Developer Tools"
+    },
+    "devtools.tools_for_powershell": {
+      "label": "Tools For Powershell",
+      "category": "Developer Tools"
+    },
+    "devtools.trace": {
+      "label": "Trace",
+      "category": "Developer Tools"
+    },
+    "devtools.workflows": {
+      "label": "Workflows",
+      "category": "Developer Tools"
+    },
+    "healthcare.api": {
+      "label": "API",
+      "category": "Healthcare"
+    },
+    "healthcare.marketplace": {
+      "label": "Marketplace",
+      "category": "Healthcare"
+    },
+    "iot.core": {
+      "label": "Core",
+      "category": "IoT"
+    },
+    "iot.edge": {
+      "label": "Edge",
+      "category": "IoT"
+    },
+    "iot.fleet_engine": {
+      "label": "Fleet Engine",
+      "category": "IoT"
+    },
+    "management.administration": {
+      "label": "Administration",
+      "category": "Management"
+    },
+    "management.asset_inventory": {
+      "label": "Asset Inventory",
+      "category": "Management"
+    },
+    "management.billing": {
+      "label": "Billing",
+      "category": "Management"
+    },
+    "management.catalog": {
+      "label": "Catalog",
+      "category": "Management"
+    },
+    "management.config_management": {
+      "label": "Config Management",
+      "category": "Management"
+    },
+    "management.early_access_center": {
+      "label": "Early Access Center",
+      "category": "Management"
+    },
+    "management.home": {
+      "label": "Home",
+      "category": "Management"
+    },
+    "management.launcher": {
+      "label": "Launcher",
+      "category": "Management"
+    },
+    "management.logging": {
+      "label": "Logging",
+      "category": "Management"
+    },
+    "management.monitoring": {
+      "label": "Monitoring",
+      "category": "Management"
+    },
+    "management.onboarding": {
+      "label": "Onboarding",
+      "category": "Management"
+    },
+    "management.ops": {
+      "label": "Ops",
+      "category": "Management"
+    },
+    "management.os_config": {
+      "label": "Os Config",
+      "category": "Management"
+    },
+    "management.os_inventory": {
+      "label": "Os Inventory",
+      "category": "Management"
+    },
+    "management.os_patch": {
+      "label": "Os Patch",
+      "category": "Management"
+    },
+    "management.permissions": {
+      "label": "Permissions",
+      "category": "Management"
+    },
+    "management.project": {
+      "label": "Project",
+      "category": "Management"
+    },
+    "management.quotas": {
+      "label": "Quotas",
+      "category": "Management"
+    },
+    "management.release_notes": {
+      "label": "Release Notes",
+      "category": "Management"
+    },
+    "management.runtime_config": {
+      "label": "Runtime Config",
+      "category": "Management"
+    },
+    "management.stackdriver": {
+      "label": "Stackdriver",
+      "category": "Management"
+    },
+    "management.support": {
+      "label": "Support",
+      "category": "Management"
+    },
+    "management.user_preferences": {
+      "label": "User Preferences",
+      "category": "Management"
+    },
+    "marketplace.developer_portal": {
+      "label": "Developer Portal",
+      "category": "Marketplace"
+    },
+    "marketplace.financial_services": {
+      "label": "Financial Services",
+      "category": "Marketplace"
+    },
+    "marketplace.for_marketing": {
+      "label": "For Marketing",
+      "category": "Marketplace"
+    },
+    "marketplace.marketplace": {
+      "label": "Marketplace",
+      "category": "Marketplace"
+    },
+    "marketplace.partner_portal": {
+      "label": "Partner Portal",
+      "category": "Marketplace"
+    },
+    "marketplace.producer_portal": {
+      "label": "Producer Portal",
+      "category": "Marketplace"
+    },
+    "migration.data_transfer": {
+      "label": "Data Transfer",
+      "category": "Migration"
+    },
+    "migration.migrate_for_anthos": {
+      "label": "Migrate For Anthos",
+      "category": "Migration"
+    },
+    "migration.migrate_for_compute_engine": {
+      "label": "Migrate For Compute Engine",
+      "category": "Migration"
+    },
+    "migration.transfer": {
+      "label": "Transfer",
+      "category": "Migration"
+    },
+    "migration.transfer_appliance": {
+      "label": "Transfer Appliance",
+      "category": "Migration"
+    },
+    "network.cdn": {
+      "label": "CDN",
+      "category": "Networking"
+    },
+    "network.connectivity_center": {
+      "label": "Connectivity Center",
+      "category": "Networking"
+    },
+    "network.connectivity_test": {
+      "label": "Connectivity Test",
+      "category": "Networking"
+    },
+    "network.dns": {
+      "label": "DNS",
+      "category": "Networking"
+    },
+    "network.domains": {
+      "label": "Domains",
+      "category": "Networking"
+    },
+    "network.external_ip": {
+      "label": "External Ip",
+      "category": "Networking"
+    },
+    "network.firewall_rules": {
+      "label": "Firewall Rules",
+      "category": "Networking"
+    },
+    "network.intelligence_center": {
+      "label": "Intelligence Center",
+      "category": "Networking"
+    },
+    "network.interconnect": {
+      "label": "Interconnect",
+      "category": "Networking"
+    },
+    "network.load_balancing": {
+      "label": "Load Balancing",
+      "category": "Networking"
+    },
+    "network.media_edge": {
+      "label": "Media Edge",
+      "category": "Networking"
+    },
+    "network.nat": {
+      "label": "Nat",
+      "category": "Networking"
+    },
+    "network.network": {
+      "label": "Network",
+      "category": "Networking"
+    },
+    "network.network_security": {
+      "label": "Network Security",
+      "category": "Networking"
+    },
+    "network.partner_interconnect": {
+      "label": "Partner Interconnect",
+      "category": "Networking"
+    },
+    "network.performance_dashboard": {
+      "label": "Performance Dashboard",
+      "category": "Networking"
+    },
+    "network.premium_tier": {
+      "label": "Premium Tier",
+      "category": "Networking"
+    },
+    "network.private_connectivity": {
+      "label": "Private Connectivity",
+      "category": "Networking"
+    },
+    "network.private_service_connect": {
+      "label": "Private Service Connect",
+      "category": "Networking"
+    },
+    "network.router": {
+      "label": "Router",
+      "category": "Networking"
+    },
+    "network.routes": {
+      "label": "Routes",
+      "category": "Networking"
+    },
+    "network.standard_tier": {
+      "label": "Standard Tier",
+      "category": "Networking"
+    },
+    "network.tiers": {
+      "label": "Tiers",
+      "category": "Networking"
+    },
+    "network.topology": {
+      "label": "Topology",
+      "category": "Networking"
+    },
+    "network.traffic_director": {
+      "label": "Traffic Director",
+      "category": "Networking"
+    },
+    "network.vpc": {
+      "label": "VPC",
+      "category": "Networking"
+    },
+    "network.vpn": {
+      "label": "VPN",
+      "category": "Networking"
+    },
+    "other.free_trial": {
+      "label": "Free Trial",
+      "category": "Other"
+    },
+    "other.game_servers": {
+      "label": "Game Servers",
+      "category": "Other"
+    },
+    "other.generic": {
+      "label": "Generic",
+      "category": "Other"
+    },
+    "other.genomics": {
+      "label": "Genomics",
+      "category": "Other"
+    },
+    "other.maps_platform": {
+      "label": "Maps Platform",
+      "category": "Other"
+    },
+    "other.my_cloud": {
+      "label": "My Cloud",
+      "category": "Other"
+    },
+    "other.quantum_engine": {
+      "label": "Quantum Engine",
+      "category": "Other"
+    },
+    "other.service_discovery": {
+      "label": "Service Discovery",
+      "category": "Other"
+    },
+    "security.access_context_manager": {
+      "label": "Access Context Manager",
+      "category": "Security"
+    },
+    "security.armor": {
+      "label": "Armor",
+      "category": "Security"
+    },
+    "security.asset_inventory": {
+      "label": "Asset Inventory",
+      "category": "Security"
+    },
+    "security.assured_workloads": {
+      "label": "Assured Workloads",
+      "category": "Security"
+    },
+    "security.audit_logs": {
+      "label": "Audit Logs",
+      "category": "Security"
+    },
+    "security.beyondcorp": {
+      "label": "Beyondcorp",
+      "category": "Security"
+    },
+    "security.binary_authorization": {
+      "label": "Binary Authorization",
+      "category": "Security"
+    },
+    "security.certificate_authority": {
+      "label": "Certificate Authority",
+      "category": "Security"
+    },
+    "security.certificate_manager": {
+      "label": "Certificate Manager",
+      "category": "Security"
+    },
+    "security.data_loss_prevention": {
+      "label": "Data Loss Prevention",
+      "category": "Security"
+    },
+    "security.ekm": {
+      "label": "Ekm",
+      "category": "Security"
+    },
+    "security.hsm": {
+      "label": "Hsm",
+      "category": "Security"
+    },
+    "security.iam": {
+      "label": "IAM",
+      "category": "Security"
+    },
+    "security.identity_aware_proxy": {
+      "label": "Identity Aware Proxy",
+      "category": "Security"
+    },
+    "security.identity_platform": {
+      "label": "Identity Platform",
+      "category": "Security"
+    },
+    "security.ids": {
+      "label": "Ids",
+      "category": "Security"
+    },
+    "security.key_access_justifications": {
+      "label": "Key Access Justifications",
+      "category": "Security"
+    },
+    "security.kms": {
+      "label": "KMS",
+      "category": "Security"
+    },
+    "security.managed_ad": {
+      "label": "Managed Ad",
+      "category": "Security"
+    },
+    "security.phishing_protection": {
+      "label": "Phishing Protection",
+      "category": "Security"
+    },
+    "security.policy_analyzer": {
+      "label": "Policy Analyzer",
+      "category": "Security"
+    },
+    "security.risk_manager": {
+      "label": "Risk Manager",
+      "category": "Security"
+    },
+    "security.secret_manager": {
+      "label": "Secret Manager",
+      "category": "Security"
+    },
+    "security.security": {
+      "label": "Security",
+      "category": "Security"
+    },
+    "security.security_command_center": {
+      "label": "Security Command Center",
+      "category": "Security"
+    },
+    "security.security_health_advisor": {
+      "label": "Security Health Advisor",
+      "category": "Security"
+    },
+    "security.security_key_enforcement": {
+      "label": "Security Key Enforcement",
+      "category": "Security"
+    },
+    "security.security_scanner": {
+      "label": "Security Scanner",
+      "category": "Security"
+    },
+    "security.web_risk": {
+      "label": "Web Risk",
+      "category": "Security"
+    },
+    "security.web_security_scanner": {
+      "label": "Web Security Scanner",
+      "category": "Security"
+    },
+    "security.workload_identity_pool": {
+      "label": "Workload Identity Pool",
+      "category": "Security"
+    },
+    "storage.gcs": {
+      "label": "Gcs",
+      "category": "Storage"
+    }
+  }
+}

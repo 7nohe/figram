@@ -1,0 +1,195 @@
+{
+  "figram: Diagram Template": {
+    "prefix": ["figram-diagram", "diagram"],
+    "body": [
+      "version: 1",
+      "docId: \"${1:my-diagram}\"",
+      "title: \"${2:Architecture Diagram}\"",
+      "",
+      "nodes:",
+      "  - id: ${3:node1}",
+      "    provider: ${4|aws,gcp,azure|}",
+      "    kind: ${5:compute.ec2}",
+      "    label: \"${6:My Service}\"",
+      "    layout: { x: 0, y: 0 }",
+      "",
+      "$0"
+    ],
+    "description": "Basic figram diagram template"
+  },
+  "figram: AWS VPC Template": {
+    "prefix": ["figram-vpc", "aws-vpc"],
+    "body": [
+      "version: 1",
+      "docId: \"${1:aws-architecture}\"",
+      "title: \"${2:AWS Architecture}\"",
+      "",
+      "nodes:",
+      "  - id: vpc",
+      "    provider: aws",
+      "    kind: network.vpc",
+      "    label: \"VPC 10.0.0.0/16\"",
+      "    layout: { x: 0, y: 0, w: 800, h: 500 }",
+      "",
+      "  - id: ${3:service}",
+      "    provider: aws",
+      "    kind: ${4:compute.ec2}",
+      "    label: \"${5:My Service}\"",
+      "    parent: vpc",
+      "    layout: { x: 100, y: 100 }",
+      "",
+      "$0"
+    ],
+    "description": "AWS VPC architecture template"
+  },
+  "figram: Node (AWS)": {
+    "prefix": ["figram-node-aws", "node-aws"],
+    "body": [
+      "- id: ${1:node_id}",
+      "  provider: aws",
+      "  kind: ${2|compute.ec2,compute.lambda,compute.lb.alb,compute.lb.nlb,compute.container.ecs,compute.container.ecs_service,compute.container.eks,database.rds,database.aurora,database.dynamodb,storage.s3,storage.efs,network.vpc,network.subnet,network.route53,network.cloudfront,network.api_gateway|}",
+      "  label: \"${3:Label}\"",
+      "  layout: { x: ${4:0}, y: ${5:0} }"
+    ],
+    "description": "AWS node definition"
+  },
+  "figram: Node (GCP)": {
+    "prefix": ["figram-node-gcp", "node-gcp"],
+    "body": [
+      "- id: ${1:node_id}",
+      "  provider: gcp",
+      "  kind: ${2|compute.gce,compute.functions,compute.cloudrun,compute.container.gke,database.cloudsql,database.firestore,database.spanner,storage.gcs,network.vpc|}",
+      "  label: \"${3:Label}\"",
+      "  layout: { x: ${4:0}, y: ${5:0} }"
+    ],
+    "description": "GCP node definition"
+  },
+  "figram: Node (Azure)": {
+    "prefix": ["figram-node-azure", "node-azure"],
+    "body": [
+      "- id: ${1:node_id}",
+      "  provider: azure",
+      "  kind: ${2|compute.vm,compute.functions,compute.appservice,compute.container.aks,compute.container.aci,database.sql,database.cosmosdb,storage.blob,storage.files,network.vnet|}",
+      "  label: \"${3:Label}\"",
+      "  layout: { x: ${4:0}, y: ${5:0} }"
+    ],
+    "description": "Azure node definition"
+  },
+  "figram: Node (Container/Section)": {
+    "prefix": ["figram-container", "figram-section"],
+    "body": [
+      "- id: ${1:container_id}",
+      "  provider: ${2|aws,gcp,azure|}",
+      "  kind: ${3|network.vpc,network.subnet,network.vnet|}",
+      "  label: \"${4:Container Label}\"",
+      "  layout: { x: ${5:0}, y: ${6:0}, w: ${7:600}, h: ${8:400} }"
+    ],
+    "description": "Container/Section node with width and height"
+  },
+  "figram: Node with Parent": {
+    "prefix": ["figram-node-parent", "node-child"],
+    "body": [
+      "- id: ${1:node_id}",
+      "  provider: ${2|aws,gcp,azure|}",
+      "  kind: ${3:compute.ec2}",
+      "  label: \"${4:Label}\"",
+      "  parent: ${5:parent_id}",
+      "  layout: { x: ${6:0}, y: ${7:0} }"
+    ],
+    "description": "Node inside a container (with parent)"
+  },
+  "figram: Edge": {
+    "prefix": ["figram-edge", "edge"],
+    "body": [
+      "- id: ${1:edge_id}",
+      "  from: ${2:source_node}",
+      "  to: ${3:target_node}",
+      "  label: \"${4:connection}\""
+    ],
+    "description": "Edge connecting two nodes"
+  },
+  "figram: Edge (Simple)": {
+    "prefix": ["figram-edge-simple", "edge-simple"],
+    "body": ["- id: ${1:edge_id}", "  from: ${2:source_node}", "  to: ${3:target_node}"],
+    "description": "Simple edge without label"
+  },
+  "figram: Edges Section": {
+    "prefix": ["figram-edges", "edges"],
+    "body": [
+      "edges:",
+      "  - id: ${1:edge1}",
+      "    from: ${2:node1}",
+      "    to: ${3:node2}",
+      "    label: \"${4:connection}\"",
+      "$0"
+    ],
+    "description": "Edges section with one edge"
+  },
+  "figram: Icons Section": {
+    "prefix": ["figram-icons", "icons"],
+    "body": ["icons:", "  ${1:custom-icon}:", "    path: \"${2:./icons/custom.png}\"", "$0"],
+    "description": "Custom icons section"
+  },
+  "figram: Icons File": {
+    "prefix": ["figram-icons-file", "icons-file"],
+    "body": [
+      "version: 1",
+      "icons:",
+      "  ${1:my-service}:",
+      "    path: \"${2:./icons/my-service.png}\"",
+      "  ${3:another-service}:",
+      "    path: \"${4:./icons/another.png}\"",
+      "$0"
+    ],
+    "description": "figram-icons.yaml file template"
+  },
+  "figram: Three-Tier Architecture": {
+    "prefix": ["figram-three-tier", "three-tier"],
+    "body": [
+      "version: 1",
+      "docId: \"${1:three-tier}\"",
+      "title: \"${2:Three-Tier Architecture}\"",
+      "",
+      "nodes:",
+      "  - id: vpc",
+      "    provider: aws",
+      "    kind: network.vpc",
+      "    label: \"VPC\"",
+      "    layout: { x: 0, y: 0, w: 900, h: 600 }",
+      "",
+      "  - id: alb",
+      "    provider: aws",
+      "    kind: compute.lb.alb",
+      "    label: \"ALB\"",
+      "    parent: vpc",
+      "    layout: { x: 350, y: 50 }",
+      "",
+      "  - id: app",
+      "    provider: aws",
+      "    kind: compute.container.ecs_service",
+      "    label: \"App Server\"",
+      "    parent: vpc",
+      "    layout: { x: 350, y: 200 }",
+      "",
+      "  - id: db",
+      "    provider: aws",
+      "    kind: database.rds",
+      "    label: \"Database\"",
+      "    parent: vpc",
+      "    layout: { x: 350, y: 400 }",
+      "",
+      "edges:",
+      "  - id: alb_to_app",
+      "    from: alb",
+      "    to: app",
+      "    label: \"HTTP\"",
+      "",
+      "  - id: app_to_db",
+      "    from: app",
+      "    to: db",
+      "    label: \"SQL\"",
+      "$0"
+    ],
+    "description": "Three-tier architecture template"
+  }
+}
