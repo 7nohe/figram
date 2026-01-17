@@ -10,7 +10,6 @@
       "description": "Claude Code skills for Figram - YAML-driven architecture diagrams for FigJam",
       "source": "./",
       "skills": [
-        "./.claude-plugin/skills/getting-started",
         "./.claude-plugin/skills/yaml-authoring"
       ]
     }
