@@ -78,32 +78,19 @@ function registerInitCommand(): vscode.Disposable {
     const workspaceFolder = vscode.workspace.workspaceFolders?.[0];
     const cliResult = await detectCli(workspaceFolder);
 
-    const filename = await vscode.window.showInputBox({
-      prompt: "Enter filename for the new diagram file",
-      value: "diagram.yaml",
-      validateInput: (value) => {
-        if (!value.endsWith(".yaml") && !value.endsWith(".yml")) {
-          return "Filename must end with .yaml or .yml";
-        }
-        return null;
-      },
-    });
-
-    if (!filename) return;
-
     outputChannel.appendLine(`\n[figram] Running init...`);
 
     try {
       await runCli(cliResult, {
-        args: ["init", "-o", filename],
+        args: ["init"],
         cwd: workspaceFolder?.uri.fsPath,
         ...createCliHandlers(outputChannel),
         onExit: async (code) => {
           if (code === 0) {
-            vscode.window.showInformationMessage(`Created ${filename}`);
+            vscode.window.showInformationMessage("Created diagram.yaml");
             const filePath = workspaceFolder
-              ? vscode.Uri.joinPath(workspaceFolder.uri, filename)
-              : vscode.Uri.file(filename);
+              ? vscode.Uri.joinPath(workspaceFolder.uri, "diagram.yaml")
+              : vscode.Uri.file("diagram.yaml");
             const doc = await vscode.workspace.openTextDocument(filePath);
             await vscode.window.showTextDocument(doc);
           } else {
