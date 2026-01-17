@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "figram",
-      "source": "..",
+      "source": ".",
       "description": "Claude Code skills for Figram - YAML-driven architecture diagrams for FigJam",
       "version": "1.1.0",
       "author": {
