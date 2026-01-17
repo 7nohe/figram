@@ -190,7 +190,11 @@ If you use [Claude Code](https://claude.ai/code), you can install the Figram plu
 ### Installation
 
 ```bash
-/plugin install 7nohe/figram
+# Add the marketplace
+/plugin marketplace add 7nohe/figram
+
+# Install the plugin
+/plugin install figram
 ```
 
 ### Available Skills

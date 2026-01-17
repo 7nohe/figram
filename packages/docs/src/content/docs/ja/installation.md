@@ -190,7 +190,11 @@ npx figram serve diagram.yaml --icons path/to/my-icons.yaml
 ### インストール
 
 ```bash
-/plugin install 7nohe/figram
+# マーケットプレイスを追加
+/plugin marketplace add 7nohe/figram
+
+# プラグインをインストール
+/plugin install figram
 ```
 
 ### 利用可能なスキル
