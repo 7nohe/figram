@@ -7,6 +7,18 @@ const YAML_EXTENSIONS = [".yaml", ".yml"];
 const FIGRAM_FILE_PATTERNS = ["diagram.yaml", "diagram.yml", ".figram.yaml", ".figram.yml"];
 const FIGRAM_ICONS_PATTERNS = ["figram-icons.yaml", "figram-icons.yml"];
 
+// Special kinds that render as sections (containers) without icons
+// These are valid kinds supported by the plugin but don't have icon entries
+const SECTION_KINDS = new Set([
+  // VPC kinds
+  "network.vpc",
+  "virtual_networks",
+  "virtual_networks_classic",
+  // Subnet kinds
+  "network.subnet",
+  "subnet",
+]);
+
 function hasExtension(fileName: string, extensions: string[]): boolean {
   return extensions.some((ext) => fileName.endsWith(ext));
 }
@@ -141,7 +153,9 @@ export function analyzeDocument(document: vscode.TextDocument): AnalysisResult {
         // Validate kind (only if provider is valid)
         if (node.provider && node.kind && supportedProviders.includes(node.provider)) {
           const providerIcons = iconsData[node.provider];
-          if (providerIcons && !providerIcons[node.kind]) {
+          // Allow section kinds (VPC/Subnet) even without icon entries
+          const isValidKind = providerIcons?.[node.kind] || SECTION_KINDS.has(node.kind);
+          if (!isValidKind) {
             const lineInfo = findFieldLine(lines, node.id, "kind", node.kind);
             issues.push({
               severity: "warning",
