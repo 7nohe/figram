@@ -2,7 +2,7 @@
   "name": "figram-vscode",
   "displayName": "figram",
   "description": "VS Code extension for figram - YAML-driven architecture diagrams for FigJam",
-  "version": "0.1.0",
+  "version": "1.1.1",
   "publisher": "figram",
   "icon": "images/icon.png",
   "galleryBanner": {
