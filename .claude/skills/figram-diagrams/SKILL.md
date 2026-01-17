@@ -1,9 +1,9 @@
 ---
-name: yaml-authoring
+name: figram-diagrams
 description: Create and validate YAML diagram files for Figram (AWS/GCP/Azure architecture diagrams). Use when users want to create new architecture diagrams, add/modify nodes or edges, troubleshoot YAML validation errors, convert text descriptions to Figram YAML, or work with cloud infrastructure visualizations.
 ---
 
-# YAML Diagram Authoring
+# Figram Diagram Authoring
 
 ## Structure
 

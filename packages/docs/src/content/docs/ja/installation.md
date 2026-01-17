@@ -201,8 +201,7 @@ npx figram serve diagram.yaml --icons path/to/my-icons.yaml
 
 | スキル | 説明 |
 |--------|------|
-| `getting-started` | セットアップガイド、ワークフロー、プラグイン接続 |
-| `yaml-authoring` | YAML構文、プロバイダー、パターン、トラブルシューティング |
+| `figram-diagrams` | YAML構文、プロバイダー、パターン、トラブルシューティング |
 
 インストール後、Figram YAMLファイルで作業する際にClaudeが自動的にこれらのスキルを参照します。
 

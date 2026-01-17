@@ -201,8 +201,7 @@ If you use [Claude Code](https://claude.ai/code), you can install the Figram plu
 
 | Skill | Description |
 |-------|-------------|
-| `getting-started` | Setup guide, workflow, plugin connection |
-| `yaml-authoring` | YAML syntax, providers, patterns, troubleshooting |
+| `figram-diagrams` | YAML syntax, providers, patterns, troubleshooting |
 
 Once installed, Claude will automatically reference these skills when you work with Figram YAML files.
 

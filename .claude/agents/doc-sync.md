@@ -20,7 +20,7 @@ Updates needed:
 - `docs/ja/yaml-specs.md` - Japanese translation
 - `docs/en/api-reference.md` - Type definitions
 - `docs/ja/api-reference.md` - Japanese translation
-- `.claude/skills/yaml-authoring/SKILL.md` - Node types table
+- `.claude/skills/figram-diagrams/SKILL.md` - Node types table
 - `.claude/skills/core-development/SKILL.md` - Type hierarchy
 
 ### Validation Logic (`packages/core/src/validate.ts`)
@@ -28,7 +28,7 @@ Updates needed:
 Updates needed:
 - `docs/en/yaml-specs.md` - Validation rules section
 - `docs/ja/yaml-specs.md` - Japanese translation
-- `.claude/skills/yaml-authoring/SKILL.md` - Common errors section
+- `.claude/skills/figram-diagrams/SKILL.md` - Common errors section
 
 ### CLI Commands (`packages/cli/src/commands/*.ts`)
 
@@ -102,7 +102,7 @@ docs/
 │   ├── core-development/   # Core package patterns
 │   ├── debug-connection/   # WebSocket debugging
 │   ├── figjam-plugin/      # Plugin development
-│   └── yaml-authoring/     # YAML writing guide
+│   └── figram-diagrams/    # YAML writing guide
 ├── commands/
 │   ├── ci.md
 │   └── new-node-type.md
@@ -128,7 +128,7 @@ CLAUDE.md                    # Main Claude Code instructions
 2. `docs/ja/yaml-specs.md`
    - Added "kinesis" to Supported Kinds table (Japanese)
 
-3. `.claude/skills/yaml-authoring/SKILL.md`
+3. `.claude/skills/figram-diagram/SKILL.md`
    - Added "kinesis" to Node Types table
 
 ### Verification

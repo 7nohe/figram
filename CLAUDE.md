@@ -126,8 +126,8 @@ When modifying the following files, **automatically update related documentation
 
 | Source File | Documentation to Update |
 |-------------|------------------------|
-| `packages/core/src/types.ts` | `docs/*/yaml-specs.md`, `docs/*/api-reference.md`, `.claude/skills/yaml-authoring/`, `.claude/skills/core-development/` |
-| `packages/core/src/validate.ts` | `docs/*/yaml-specs.md` (Validation Rules), `.claude/skills/yaml-authoring/` |
+| `packages/core/src/types.ts` | `docs/*/yaml-specs.md`, `docs/*/api-reference.md`, `.claude/skills/figram-diagrams/`, `.claude/skills/core-development/` |
+| `packages/core/src/validate.ts` | `docs/*/yaml-specs.md` (Validation Rules), `.claude/skills/figram-diagrams/` |
 | `packages/cli/src/commands/*.ts` | `CLAUDE.md` (Commands), `docs/*/installation.md` |
 | `packages/plugin/src/code.ts` | `.claude/skills/figjam-plugin/`, `CLAUDE.md` (Plugin Constraints) |
 | `packages/plugin/src/ui.ts` | `.claude/skills/figjam-plugin/`, `.claude/skills/debug-connection/` |
