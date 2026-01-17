@@ -2,12 +2,11 @@
   "name": "figram",
   "version": "1.1.0",
   "description": "Claude Code skills for Figram - YAML-driven architecture diagrams for FigJam",
-  "author": "7nohe",
+  "author": {
+    "name": "7nohe"
+  },
   "license": "MIT",
   "homepage": "https://figram.7nohe.dev",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/7nohe/figram"
-  },
+  "repository": "https://github.com/7nohe/figram",
   "keywords": ["figram", "figjam", "architecture", "diagrams", "yaml", "aws", "gcp", "azure"]
 }
