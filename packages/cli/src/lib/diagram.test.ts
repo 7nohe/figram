@@ -55,6 +55,24 @@ describe("diagram utilities", () => {
     });
   });
 
+  it("derives docId from awsdac filename without extension", async () => {
+    await withTempDir(async (dir) => {
+      const filePath = join(dir, "vpc.yaml");
+      const awsdacYaml = [
+        "Diagram:",
+        "  Resources:",
+        "    VPC:",
+        "      Type: AWS::EC2::VPC",
+        "",
+      ].join("\n");
+      await writeFile(filePath, awsdacYaml);
+
+      const { ir } = await loadIRFromYamlFile(filePath);
+      expect(ir.docId).toBe("vpc");
+      expect(ir.title).toBe("vpc");
+    });
+  });
+
   it("returns error result for invalid YAML", async () => {
     await withTempDir(async (dir) => {
       const filePath = join(dir, "diagram.yaml");

@@ -14,6 +14,7 @@ YAML-driven architecture diagrams for FigJam. Define your infrastructure as code
 - **Incremental Updates**: Only changed elements are updated (preserves manual adjustments)
 - **Containers**: VPC/Subnet/VNet as nested frames
 - **Custom Icons**: Bring your own icon sets
+- **awsdac Compatibility (experimental)**: Load AWS Diagram-as-Code YAML files
 
 ## Quick Start
 
@@ -101,6 +102,20 @@ edges:
     to: rds
     label: "TCP:5432"
 ```
+
+## awsdac YAML (experimental)
+
+You can load [AWS Diagram-as-Code (awsdac)](https://github.com/awslabs/diagram-as-code) YAML files directly:
+
+```bash
+npx figram path/to/awsdac.yaml
+```
+
+Notes:
+- Doc ID is derived from the filename (e.g., `vpc.yaml` -> `vpc`).
+- Layout/stack direction and link styling are not preserved.
+- Go template expansion is not supported (preprocess with `awsdac -t`).
+- Unknown resource types fall back to a generic icon.
 
 ## CLI Commands
 

@@ -58,6 +58,20 @@ WebSocket server started on ws://127.0.0.1:3456
 Watching diagram.yaml for changes...
 ```
 
+## Import awsdac YAML (experimental)
+
+If you already have an [AWS Diagram-as-Code (awsdac)](https://github.com/awslabs/diagram-as-code) YAML file, you can load it directly:
+
+```bash
+npx figram path/to/awsdac.yaml
+```
+
+Notes:
+- Doc ID is derived from the filename (e.g., `vpc.yaml` -> `vpc`).
+- Layout/stack direction and link styling are not preserved.
+- Go template expansion is not supported (preprocess with `awsdac -t`).
+- Unknown resource types fall back to a generic icon.
+
 ## 3. Connect FigJam Plugin
 
 1. Open FigJam in Figma Desktop

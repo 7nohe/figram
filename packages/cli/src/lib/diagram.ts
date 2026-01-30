@@ -6,10 +6,54 @@
 
 import { existsSync } from "node:fs";
 import { readFile } from "node:fs/promises";
+import { basename } from "node:path";
 import type { DSLDocument, IRDocument } from "@figram/core";
 import { normalize, validate } from "@figram/core";
-import { parse as parseYaml } from "yaml";
+import { type CollectionTag, parse as parseYaml, type ScalarTag } from "yaml";
 import { FileNotFoundError, ValidationError, YamlParseError } from "../errors";
+import { convertAwsdacToDsl } from "./awsdac";
+
+const CFN_TAG_NAMES = [
+  "!Ref",
+  "!Sub",
+  "!GetAtt",
+  "!Join",
+  "!FindInMap",
+  "!Select",
+  "!Split",
+  "!ImportValue",
+  "!Base64",
+  "!Cidr",
+  "!GetAZs",
+  "!If",
+  "!Equals",
+  "!Not",
+  "!And",
+  "!Or",
+  "!Condition",
+  "!Transform",
+];
+
+function createScalarTag(tag: string): ScalarTag {
+  return {
+    tag,
+    resolve: (value) => value,
+  };
+}
+
+function createCollectionTag(tag: string, collection: "map" | "seq"): CollectionTag {
+  return {
+    tag,
+    collection,
+    resolve: (value) => value,
+  };
+}
+
+const CFN_CUSTOM_TAGS: Array<ScalarTag | CollectionTag> = CFN_TAG_NAMES.flatMap((tag) => [
+  createScalarTag(tag),
+  createCollectionTag(tag, "seq"),
+  createCollectionTag(tag, "map"),
+]);
 
 /**
  * Result of loading a diagram file
@@ -40,7 +84,7 @@ export async function readDiagramFile(path: string): Promise<string> {
  */
 export function parseDiagramYaml(content: string): unknown {
   try {
-    return parseYaml(content);
+    return parseYaml(content, { customTags: CFN_CUSTOM_TAGS });
   } catch (err) {
     throw new YamlParseError((err as Error).message);
   }
@@ -65,6 +109,30 @@ export function toIR(dsl: DSLDocument): IRDocument {
   return normalize(dsl);
 }
 
+function deriveDocIdFromPath(inputFile: string): string {
+  const base = basename(inputFile);
+  const name = base.replace(/\.ya?ml$/i, "");
+  return name.trim() ? name : "diagram";
+}
+
+/**
+ * Attempt to convert parsed content to DSL, trying Figram format first, then AWSDAC
+ */
+function parseToDsl(parsed: unknown, inputFile: string): DSLDocument {
+  const validationResult = validate(parsed);
+  if (validationResult.ok) {
+    return validationResult.document;
+  }
+
+  const docId = deriveDocIdFromPath(inputFile);
+  const converted = convertAwsdacToDsl(parsed, { docId });
+  if (converted) {
+    return converted;
+  }
+
+  throw new ValidationError(validationResult.errors);
+}
+
 /**
  * Load YAML file and convert to IR in one step
  * @throws FileNotFoundError if file doesn't exist
@@ -75,7 +143,7 @@ export async function loadIRFromYamlFile(inputFile: string): Promise<DiagramLoad
   ensureFileExists(inputFile);
   const content = await readDiagramFile(inputFile);
   const parsed = parseDiagramYaml(content);
-  const dsl = validateDiagram(parsed);
+  const dsl = parseToDsl(parsed, inputFile);
   const ir = toIR(dsl);
   return { ir };
 }

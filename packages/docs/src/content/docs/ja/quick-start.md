@@ -58,6 +58,20 @@ WebSocket server started on ws://127.0.0.1:3456
 Watching diagram.yaml for changes...
 ```
 
+## awsdac YAML の読み込み（実験的）
+
+[AWS Diagram-as-Code (awsdac)](https://github.com/awslabs/diagram-as-code) の YAML を直接読み込めます：
+
+```bash
+npx figram path/to/awsdac.yaml
+```
+
+注意:
+- Doc ID はファイル名から自動生成（例: `vpc.yaml` -> `vpc`）
+- レイアウト/スタック方向/リンク装飾は保持されません
+- Go テンプレートは未対応（`awsdac -t` で事前展開）
+- 未対応リソースは汎用アイコンにフォールバック
+
 ## 3. FigJamプラグインに接続
 
 1. Figma DesktopでFigJamを開く
