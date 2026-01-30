@@ -16,6 +16,7 @@ bun add -g figram
 figram init
 figram build diagram.yaml
 figram serve diagram.yaml
+figram serve path/to/awsdac.yaml
 ```
 
 ## Commands
@@ -37,3 +38,7 @@ figram serve diagram.yaml
 
 This CLI syncs diagrams to the FigJam plugin over a local WebSocket. See the project
 README for plugin setup and the YAML reference.
+
+awsdac YAML files from [AWS Diagram-as-Code](https://github.com/awslabs/diagram-as-code) are supported on a best-effort basis. Doc ID is derived from the
+filename, layout/stack direction is not preserved, and unknown resource types fall
+back to a generic icon.
