@@ -99,7 +99,10 @@ function normalizeBorderChildren(value: unknown): string[] {
     if (item && typeof item === "object") {
       const obj = item as Record<string, unknown>;
       const candidate =
-        asString(obj.Resource) ?? asString(obj.ResourceId) ?? asString(obj.ResourceName) ?? asString(obj.Name);
+        asString(obj.Resource) ??
+        asString(obj.ResourceId) ??
+        asString(obj.ResourceName) ??
+        asString(obj.Name);
       if (candidate) result.push(candidate);
     }
   }
@@ -109,59 +112,59 @@ function normalizeBorderChildren(value: unknown): string[] {
 function mapTypeToKind(type: string | undefined, resource: AwsdacResource): string {
   if (!type) return DEFAULT_KIND;
 
-  if (TYPE_KIND_MAP[type]) {
-    return TYPE_KIND_MAP[type];
-  }
+  const mappedKind = TYPE_KIND_MAP[type];
+  if (mappedKind) return mappedKind;
 
   if (type.startsWith("AWS::Diagram::")) {
-    if (type === "AWS::Diagram::Cloud") {
-      return "network.vpc";
-    }
-    if (DIAGRAM_CONTAINER_TYPES.has(type)) {
-      return "network.subnet";
-    }
+    if (type === "AWS::Diagram::Cloud") return "network.vpc";
+    if (DIAGRAM_CONTAINER_TYPES.has(type)) return "network.subnet";
     if (type === "AWS::Diagram::Resource") {
       const hasChildren = normalizeChildren(resource.Children).length > 0;
       return hasChildren ? "network.subnet" : DEFAULT_KIND;
     }
   }
 
+  return inferKindFromAwsType(type);
+}
+
+const SERVICE_KIND_MAP: Record<string, string> = {
+  S3: "storage.s3",
+  RDS: "database.rds",
+  DynamoDB: "database.dynamodb",
+  Lambda: "compute.lambda",
+  ECS: "compute.container.ecs",
+  EKS: "compute.container.eks",
+  SNS: "integration.sns",
+  SQS: "integration.sqs",
+  CloudFront: "network.cloudfront",
+  Route53: "network.route53",
+  APIGateway: "network.api_gateway",
+  APIGatewayV2: "network.api_gateway",
+  ElasticLoadBalancingV2: "compute.lb.alb",
+  ElasticLoadBalancing: "compute.lb.clb",
+};
+
+function inferKindFromAwsType(type: string): string {
   const parts = type.split("::");
-  if (parts.length === 3 && parts[0] === "AWS") {
-    const service = parts[1];
-    const resourceName = parts[2];
+  if (parts.length !== 3 || parts[0] !== "AWS") return DEFAULT_KIND;
 
-    if (service === "EC2") {
-      if (resourceName.includes("VPC")) return "network.vpc";
-      if (resourceName.includes("Subnet")) return "network.subnet";
-      if (resourceName.includes("InternetGateway")) return "network.vpc.internet_gateway";
-      if (resourceName.includes("NatGateway")) return "network.vpc.nat_gateway";
-      if (resourceName.includes("RouteTable")) return "network.vpc.route_table";
-      return "compute.ec2";
-    }
+  const [, service, resourceName] = parts;
 
-    if (service === "S3") return "storage.s3";
-    if (service === "RDS") return "database.rds";
-    if (service === "DynamoDB") return "database.dynamodb";
-    if (service === "Lambda") return "compute.lambda";
-    if (service === "ECS") return "compute.container.ecs";
-    if (service === "EKS") return "compute.container.eks";
-    if (service === "SNS") return "integration.sns";
-    if (service === "SQS") return "integration.sqs";
-    if (service === "CloudFront") return "network.cloudfront";
-    if (service === "Route53") return "network.route53";
-    if (service === "APIGateway" || service === "APIGatewayV2") return "network.api_gateway";
-    if (service === "ElasticLoadBalancingV2") return "compute.lb.alb";
-    if (service === "ElasticLoadBalancing") return "compute.lb.clb";
+  if (service === "EC2") {
+    if (resourceName.includes("VPC")) return "network.vpc";
+    if (resourceName.includes("Subnet")) return "network.subnet";
+    if (resourceName.includes("InternetGateway")) return "network.vpc.internet_gateway";
+    if (resourceName.includes("NatGateway")) return "network.vpc.nat_gateway";
+    if (resourceName.includes("RouteTable")) return "network.vpc.route_table";
+    return "compute.ec2";
   }
 
-  return DEFAULT_KIND;
+  return SERVICE_KIND_MAP[service] ?? DEFAULT_KIND;
 }
 
 function extractLabel(resourceId: string, resource: AwsdacResource): string {
-  const title = asString(resource.Title);
-  if (title && title.trim()) return title.trim();
-  return resourceId;
+  const title = asString(resource.Title)?.trim();
+  return title || resourceId;
 }
 
 function extractRefCandidate(value: unknown): string | null {
@@ -180,11 +183,7 @@ function extractRefCandidate(value: unknown): string | null {
   return null;
 }
 
-function collectResourceRefs(
-  value: unknown,
-  resourceIds: Set<string>,
-  refs: Set<string>,
-): void {
+function collectResourceRefs(value: unknown, resourceIds: Set<string>, refs: Set<string>): void {
   if (typeof value === "string") {
     if (resourceIds.has(value)) refs.add(value);
     return;
@@ -216,7 +215,6 @@ function isSubnetResource(resource: AwsdacResource | undefined): boolean {
 }
 
 function inferParentFromProperties(
-  resourceId: string,
   resource: AwsdacResource,
   resources: Record<string, AwsdacResource>,
   resourceIds: Set<string>,
@@ -251,9 +249,7 @@ function computeVpcSize(subnetCount: number): { w: number; h: number } | null {
   const cols = Math.min(subnetCount, SUBNET_LAYOUT.COLS);
   const rows = Math.ceil(subnetCount / cols);
   const w =
-    SUBNET_LAYOUT.PADDING * 2 +
-    cols * SUBNET_LAYOUT.DEFAULT_WIDTH +
-    (cols - 1) * SUBNET_LAYOUT.GAP;
+    SUBNET_LAYOUT.PADDING * 2 + cols * SUBNET_LAYOUT.DEFAULT_WIDTH + (cols - 1) * SUBNET_LAYOUT.GAP;
   const h =
     SUBNET_LAYOUT.PADDING * 2 +
     rows * SUBNET_LAYOUT.DEFAULT_HEIGHT +
@@ -265,23 +261,25 @@ function computeVpcSize(subnetCount: number): { w: number; h: number } | null {
   };
 }
 
+const LINK_LABEL_KEYS = [
+  "AutoRight",
+  "AutoLeft",
+  "SourceLeft",
+  "SourceRight",
+  "TargetLeft",
+  "TargetRight",
+] as const;
+
 function extractLinkLabel(link: AwsdacLink): string | undefined {
   const labels = link.Labels;
   if (!labels || typeof labels !== "object") return undefined;
+
   const obj = labels as Record<string, unknown>;
-  const keys = [
-    "AutoRight",
-    "AutoLeft",
-    "SourceLeft",
-    "SourceRight",
-    "TargetLeft",
-    "TargetRight",
-  ];
-  for (const key of keys) {
+  for (const key of LINK_LABEL_KEYS) {
     const entry = obj[key];
     if (entry && typeof entry === "object") {
       const title = asString((entry as Record<string, unknown>).Title);
-      if (title && title.trim()) return title.trim();
+      if (title?.trim()) return title.trim();
     }
   }
   return undefined;
@@ -325,7 +323,7 @@ export function convertAwsdacToDsl(
   for (const [id, resource] of Object.entries(resources)) {
     if (childToParent.has(id)) continue;
     if (resource.Type && SKIP_TYPES.has(resource.Type)) continue;
-    const inferred = inferParentFromProperties(id, resource, resources, resourceIds);
+    const inferred = inferParentFromProperties(resource, resources, resourceIds);
     if (inferred && inferred !== id) {
       childToParent.set(id, inferred);
     }
